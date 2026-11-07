@@ -5,11 +5,11 @@
 - **Autoras:** Cláudia Fernanda Sotoma (10) e Yasmin Sotoma Muzilli (10).
 - **Carrossel:** 12 cards e prompt completo por card, 240 prompts em total.
 - **Vídeos:** 20 scripts-base e 4 variações (30/60/90/120s) por pauta; rascunhos não gravados.
-- **Planilha operacional:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534
-- **Prompt de cada card:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762
-- **Artigos estruturais:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166
-- **Legendas:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656
-- **Roteiros 4 durações:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1555500162
+- **Planilha operacional:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1761944534
+- **Prompt de cada card:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1916538762
+- **Artigos estruturais:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=717275166
+- **Legendas:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1151642656
+- **Roteiros 4 durações:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1555500162
 
 | ID | Autora | Funil | Consciência | Tema |
 | --- | --- | --- | --- | --- |
