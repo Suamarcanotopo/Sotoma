@@ -36,3 +36,9 @@ Responsável legal/controlador de dados; contratos com profissionais; custos de 
 Link dos commits/PRs, hashes, revisão do conteúdo, evidência de testes, logs sanitizados, lista de versões, captura de funcionamento em staging e URL verificável de cada entrega. Links de portais futuros não são prova de disponibilidade.
 ## Reversão
 Reverter commits documentais por novo commit; staging isolado. Produção permanece intocada nesta fase.
+
+## Adendo editorial — SOT-EDITORIAL-504010-20261107
+O responsável definiu 50% topo / 40% meio / 10% fundo, com cinco níveis de consciência, para Cláudia Fernanda Sotoma e Yasmin Sotoma Muzilli (novos autores só após credenciamento interno). 20 pautas iniciais criadas, com 10/8/2 e distribuição 10 por autora.
+**Dependência:** [SOTOMA Editorial](../dependencies/sotoma-editorial/README.md).
+**Planilha nativa real:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit — 12 abas. Leitura de volta confirmou `PAINEL`, `PAUTAS_20` e `CARDS_240`; contém 20 pautas, 20 briefings estruturais de artigo, 20 legendas, 20 roteiros de ~60s, 80 roteiros por durações 30/60/90/120 e 240 prompts individuais de cards. Dados ainda **em rascunho** e não homologados. Planilha movida para pasta ChatGPT do Drive.
+**IMPORTANTE:** Não há 20 artigos finais, imagens prontas, vídeos gravados, publicação nem sincronismo automático GitHub/Drive/WordPress; não fabricar provas. Para retomada, ler [Mission Lock editorial](../dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md), [Contrato Sheets](../dependencies/sotoma-editorial/CONTRATO-SHEETS.md), [prompts](../dependencies/sotoma-editorial/PROMPTS-MESTRES.md) e quadro de `APROVACOES`. Não enviar dados de paciente ou CRM ao Drive. Próximo trabalho: validar qualificações/escopo e uma pauta-piloto por autora com fontes, produzir artigos completos em Docs, solicitar autorização, então publicar.
