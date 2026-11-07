@@ -70,3 +70,8 @@ Impressões agregadas, leituras, tráfego para artigos por canal, engajamento n�
 - [ ] CTA adequado ao nível
 - [ ] diretora aprova publicação
 - [ ] URL publicada verificável e relatório editorial agregado.
+## Adendo obrigatório IET + Brand + Evidência (07/11/2026)
+- **Informação/TOPO (50%)**, **Educação/MEIO (40%)**, **Transformação/FUNDO (10%)**, no sentido de decisão informada sem promessa de resultado de saúde. Ler [FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md](FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md).
+- Materiais gráficos devem obedecer [IDENTIDADE-VISUAL-MARCA.md](IDENTIDADE-VISUAL-MARCA.md). Fonte global Poppins; cores observadas #22524A, #2E2E2E, #54595F, #8BA146, #91AFA1 e branco. **Nunca** importar paleta marfim/terracota de outro projeto nem pedir à IA que redesenhe logomarca.
+- **Pesquisar antes de afirmar**: [PESQUISAS-ESTUDOS-GOVERNANCA.md](PESQUISAS-ESTUDOS-GOVERNANCA.md) e [ESTUDOS-PUBMED-10.json](dados/ESTUDOS-PUBMED-10.json). Estudo real não é autorização para conclusão mais forte que seus resultados.
+- **Estado de arte**: 720 prompts específicos receberam tokens de marca no texto, mas as imagens ainda não foram geradas ou homologadas. 60 artigos seguem bloqueados para publicação enquanto houver QA editorial pendente.
