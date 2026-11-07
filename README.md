@@ -23,14 +23,14 @@ Projeto da SOTOMA Saúde Psicointegrada. Estado: **planejamento e fundação doc
 | --- | --- | --- |
 | Missão, escopo, ética e 50/40/10 | [Mission Lock editorial](dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [PAINEL](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2008109360) |
 | Catálogo de 20 pautas, autora e consciência | [CATALOGO-20.md](dependencies/sotoma-editorial/CATALOGO-20.md) | [PAUTAS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534) |
-| Artigos, SEO e fontes | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [ARTIGOS_BRIEF](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166) |
+| Artigos, SEO e fontes | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [ARTIGOS_BRIEF](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166) / [ARTIGOS_PILOTO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=298731141) |
 | Scripts de post e legendas | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [POSTS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656) |
 | Carrosséis com **12 prompts completos por pauta** | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [CARDS_240](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762) |
 | Scripts de vídeo 30, 60, 90 e 120 s | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [VIDEOS_80](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1555500162) |
 | Contrato, status e integração | [CONTRATO-SHEETS.md](dependencies/sotoma-editorial/CONTRATO-SHEETS.md) | [APROVACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1457553522) / [PUBLICACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=358903051) |
 | QA adversarial antes de publicar | [COLISEUM-EDITORIAL-QA.md](dependencies/sotoma-editorial/COLISEUM-EDITORIAL-QA.md) | [GUIA](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2053797448) |
 
-**Importante:** planilha e rascunhos existem; **não existem ainda 20 artigos finais revisados, imagens/vídeos gerados, publicações verificadas ou automação de sincronização**. Nunca adicionar dados de pacientes ao editorial. A primeira publicação depende da autorização individual de cada autora e da direção.
+**Importante:** planilha e rascunhos existem; **existem dois artigos-piloto completos em rascunho, mas não existem ainda 20 artigos finais revisados, imagens/vídeos gerados, publicações verificadas ou automação de sincronização**. Nunca adicionar dados de pacientes ao editorial. A primeira publicação depende da autorização individual de cada autora e da direção.
 
 ## Ambientes
 - **Website institucional existente:** https://sotomasaudepsicointegrada.com.br/
@@ -39,7 +39,7 @@ Projeto da SOTOMA Saúde Psicointegrada. Estado: **planejamento e fundação doc
 ## Status operacional
 - Website existente: não modificado neste bootstrap.
 - Plugin/painéis: **NÃO IMPLEMENTADOS**.
-- Google Sheets editorial nativo: **CRIADO E CONFERIDO** (12 abas; 20 pautas, 20 legendas, 20 briefings, 80 roteiros de vídeo e 240 prompts individuais de cards). **Integração automática GitHub/WordPress NÃO IMPLEMENTADA**.
+- Google Sheets editorial nativo: **CRIADO E CONFERIDO** (13 abas; 20 pautas, 20 legendas, 20 briefings, 2 artigos-piloto completos em rascunho, 80 roteiros de vídeo e 240 prompts individuais de cards). **Integração automática GitHub/WordPress NÃO IMPLEMENTADA**.
 - Dados de pacientes: **NÃO presentes** e nunca permitidos no GitHub.
 ## Normas de trabalho
 Não inventar disponibilidade, aprovações, publicação, coleta de eventos, pacientes nem indicadores reais. Toda feature deve produzir teste automatizado ou evidência verificável. Production freeze até gates de segurança e aceite formal. Mudanças em branch, revisão e PR sempre que afetarem runtime.
