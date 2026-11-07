@@ -1,0 +1,413 @@
+{
+  "version": "SOTOMA-EDITORIAL-58-KERNELS",
+  "date": "2026-11-07",
+  "purpose": "Distinct substantive editorial argument per article; no clinical approval",
+  "items": [
+    {
+      "id": "SOT-ED-002",
+      "angle": "Cansaço acumulado não se reconhece apenas pela quantidade de tarefas: interrupções, cuidado de familiares e insegurança econômica podem ocupar a atenção mesmo depois do expediente.",
+      "distinction": "Uma pessoa pode manter todas as entregas e ainda assim perceber que dormir, conversar ou decidir tornou-se difícil; produtividade aparente não mede bem-estar.",
+      "trap": "Explicar isso apenas por falta de disciplina invisibiliza as condições de trabalho e a necessidade de avaliação quando os efeitos são persistentes.",
+      "action": "Propor um registro não clínico de demandas e intervalos reais antes de procurar soluções universais."
+    },
+    {
+      "id": "SOT-ED-003",
+      "angle": "Um recomeço envolve ao menos duas histórias: o que se deseja construir e aquilo de que a pessoa se despede, inclusive expectativas nunca realizadas.",
+      "distinction": "A ambivalência não é incoerência; entusiasmo e tristeza podem responder a aspectos diferentes da mesma mudança.",
+      "trap": "Omitir perdas para produzir um discurso motivacional cria a obrigação de estar feliz justamente quando seria legítimo elaborar dúvidas.",
+      "action": "Nomear separadamente ganho esperado, vínculo preservado e incerteza ainda aberta."
+    },
+    {
+      "id": "SOT-ED-004",
+      "angle": "Pertencer não significa escolher entre a cultura de origem e a de acolhimento; identidades podem ser reconstruídas em vínculos múltiplos.",
+      "distinction": "Ter trabalho, residência e domínio de rotinas práticas não equivale necessariamente a sentir reconhecimento social.",
+      "trap": "Uma narrativa de adaptação em três passos ignora língua, racismo, condições econômicas e redes locais.",
+      "action": "Investigar onde a pessoa é escutada, além de contar quantos contatos acumulou."
+    },
+    {
+      "id": "SOT-ED-005",
+      "angle": "No Japão, entender como funcionam transporte, serviços e horários convive com uma mudança de códigos de comunicação e expectativas de convivência.",
+      "distinction": "Recursos oficiais japoneses de apoio à saúde mental e ao trabalho existem, mas elegibilidade, idioma e cobertura variam e precisam ser conferidos.",
+      "trap": "Evitar atribuir sentimentos de um brasileiro ao comportamento de todo um país e não transformar diferenças culturais em estereótipos.",
+      "action": "Separar dúvidas práticas, idioma e necessidade de apoio, consultando os portais MHLW e NCNP."
+    },
+    {
+      "id": "SOT-ED-006",
+      "angle": "O nome Psicoterapia Positiva pode se referir a escolas e modelos diferentes: é necessário identificar a filiação teórica efetiva da profissional.",
+      "distinction": "Estudos de intervenções de psicoterapia positiva não validam automaticamente uma prática que compartilha apenas o mesmo nome.",
+      "trap": "O argumento de que uma abordagem funciona para todos, sem explicar método, contraindicações e formação, é inadequado.",
+      "action": "Pedir a descrição exata da formação, dos objetivos, do papel da pessoa atendida e das evidências pertinentes ao método declarado."
+    },
+    {
+      "id": "SOT-ED-007",
+      "angle": "O V.I.A. deve ser explicado como proposta institucional, com escopo, etapas, público e limitações que a Cláudia realmente reconheça.",
+      "distinction": "A pesquisa internacional sobre adaptação migratória ajuda a formular perguntas, mas não mede resultados deste programa.",
+      "trap": "Usar a OMS para afirmar que V.I.A. trata ou previne problemas seria inferência não autorizada.",
+      "action": "Validar com a direção cada componente oferecido e elaborar perguntas sobre expectativas, vínculos e rotina de quem mora fora."
+    },
+    {
+      "id": "SOT-ED-008",
+      "angle": "O M.I.R.A. exige atenção particular à experiência de brasileiros no Japão, sem transformar todos os processos migratórios numa única sequência.",
+      "distinction": "Uma pessoa recém-chegada pode precisar de informação sobre serviços japoneses enquanto outra procura um espaço de conversa e pertencimento.",
+      "trap": "Não confundir suporte emocional com assessoria de vistos, tradução jurídica ou tratamento médico automaticamente oferecido.",
+      "action": "Conferir estrutura real do programa e explicar como identificar canais japoneses adequados de apoio."
+    },
+    {
+      "id": "SOT-ED-009",
+      "angle": "Escolher acompanhamento passa por competência, segurança, afinidade com o formato, clareza contratual e possibilidade de fazer perguntas.",
+      "distinction": "Uma recomendação em rede social não substitui a verificação de título profissional, sigilo e enquadramento adequado.",
+      "trap": "Comparações entre profissionais com nota e promessa de resultado transformariam a relação de cuidado em ranking comercial.",
+      "action": "Oferecer checklist de apresentação, privacidade e decisões compartilhadas sem pressão."
+    },
+    {
+      "id": "SOT-ED-010",
+      "angle": "O primeiro contato administrativo não é entrevista clínica e não deveria exigir que alguém explique sua história íntima por um aplicativo.",
+      "distinction": "Informar modalidade, disponibilidade, qualificação e como ocorrerá o acolhimento torna o próximo passo previsível.",
+      "trap": "Uma mensagem automática que pareça agendamento confirmado antes da verificação produziria expectativa falsa.",
+      "action": "Explicar quais dados mínimos são necessários e onde perguntas sobre sigilo podem ser encaminhadas."
+    },
+    {
+      "id": "SOT-ED-012",
+      "angle": "Mudanças durante a adolescência envolvem autonomia, grupos de referência, transformações corporais e expectativas escolares em ritmos diferentes.",
+      "distinction": "O próprio adolescente é uma fonte de informação sobre o que vive; tratá-lo apenas como objeto de observação adulta limita a escuta.",
+      "trap": "Atribuir toda mudança a hormônios ou a telas é atalho inadequado e pode obscurecer sofrimento persistente.",
+      "action": "Separar variação cotidiana de sinais que pedem avaliação individual, considerando duração e impacto."
+    },
+    {
+      "id": "SOT-ED-013",
+      "angle": "Trocar de escola interrompe costumes pequenos que sustentam pertencimento, como saber onde sentar, com quem conversar e a quem pedir ajuda.",
+      "distinction": "As dificuldades podem ser temporárias e coexistir com interesse pelo novo ambiente; não se deve impor uma reação desejada.",
+      "trap": "Descrever cada retraimento como trauma escolar é tão problemático quanto ignorar dificuldades de adaptação.",
+      "action": "Criar perguntas concretas sobre recreio, colegas, deslocamento e novos apoios sem interrogatório."
+    },
+    {
+      "id": "SOT-ED-014",
+      "angle": "Quando nasce um irmão ou mudam as atenções da casa, uma criança pode perceber diferença de disponibilidade, não necessariamente falta de amor.",
+      "distinction": "Ciúme é palavra cotidiana útil para conversa, mas não determina caráter, doença ou intenção da criança.",
+      "trap": "Comparar quem é mais maduro ou exigir afeto imediato pode dificultar uma conversa sobre necessidades distintas.",
+      "action": "Propor momentos de escuta separada e explicar rotinas sem transformar irmãos em concorrentes."
+    },
+    {
+      "id": "SOT-ED-015",
+      "angle": "A cobrança escolar inclui provas, notas, expectativas familiares, comparação com colegas e projetos de futuro que nem sempre são escolhidos pelo adolescente.",
+      "distinction": "Pressão não pode ser avaliada apenas por média de notas; é preciso escutar o custo emocional da rotina e o apoio disponível.",
+      "trap": "Usar médias europeias para diagnosticar a realidade de uma escola brasileira seria extrapolação indevida.",
+      "action": "Perguntar sobre sono, tempo livre, diálogo com docentes e alternativas realistas de organização."
+    },
+    {
+      "id": "SOT-ED-016",
+      "angle": "Na escuta clínica infantil, as formas de comunicação variam com a idade e a abordagem declarada; brincadeira não é teste automático de significado secreto.",
+      "distinction": "Uma família pode perguntar como o profissional trabalha, como estabelece o vínculo e quando oferece devolutivas sem pedir transcrição de sessões.",
+      "trap": "Divulgar regras genéricas de psicanálise como se fossem procedimento universal ignora diferenças de formação e responsabilidade.",
+      "action": "Conferir com Yasmin seu método efetivo, limites, titulação e condições de atendimento."
+    },
+    {
+      "id": "SOT-ED-017",
+      "angle": "A presença familiar pode ser importante sem apagar o espaço privado da criança, e essa fronteira depende de desenvolvimento e regras profissionais.",
+      "distinction": "Participar não é vigiar o conteúdo integral da sessão; responsáveis também podem receber orientações sobre combinados e comunicação.",
+      "trap": "Prometer relatórios completos de tudo que a criança contou comprometeria a previsibilidade de confidencialidade.",
+      "action": "Diferenciar comunicação administrativa, devolutiva profissional e conteúdo protegido."
+    },
+    {
+      "id": "SOT-ED-018",
+      "angle": "Uma alteração de comportamento isolada ganha sentido apenas depois de conhecer seu tempo de duração, intensidade, repercussão e contexto.",
+      "distinction": "A escola pode observar um padrão em sala que não aparece em casa, enquanto a família nota situações diferentes; os relatos são complementares.",
+      "trap": "Listas de sintomas virais geram diagnósticos precipitados quando desconsideram idade e desenvolvimento.",
+      "action": "Ajudar responsáveis a registrar fatos e dúvidas em vez de rótulos."
+    },
+    {
+      "id": "SOT-ED-019",
+      "angle": "Antes do atendimento infantojuvenil, é legítimo compreender quem autoriza, quem participa, como ocorrem encontros e quais informações circulam.",
+      "distinction": "A família precisa de orientações práticas, mas o adolescente também merece saber como sua voz e privacidade serão consideradas.",
+      "trap": "Transformar uma FAQ de atendimento em promessa de que a criança ficará melhor rapidamente é publicidade imprópria.",
+      "action": "Pedir explicação documentada das etapas, do sigilo e de eventuais encaminhamentos."
+    },
+    {
+      "id": "SOT-ED-020",
+      "angle": "O primeiro contato com a SOTOMA sobre criança ou adolescente deve organizar condições administrativas e não recolher um relato clínico por comentário público.",
+      "distinction": "Detalhes sobre idade atendida, documentos necessários e participação do responsável dependem da oferta real e precisam ser confirmados.",
+      "trap": "Não se deve dar impressão de diagnóstico ou triagem conclusiva pelo botão de WhatsApp.",
+      "action": "Orientar sobre canal seguro, resposta esperada e próximos passos sem pressionar."
+    },
+    {
+      "id": "SOT-ED-021",
+      "angle": "Comparar marcos de carreira, família e renda presume que pessoas partiram das mesmas condições, o que raramente é verdade.",
+      "distinction": "A sensação de atraso pode surgir após uma conversa inocente, mas também após exposição repetida a padrões idealizados nas redes.",
+      "trap": "Comparação social não é, por si só, transtorno nem precisa ser tratada como falha moral.",
+      "action": "Trocar a régua de metas alheias por perguntas sobre prioridades e oportunidades reais."
+    },
+    {
+      "id": "SOT-ED-022",
+      "angle": "Uma transição profissional altera rotina, reconhecimento social e relações; nenhuma dessas mudanças cabe apenas no campo do salário.",
+      "distinction": "Quem deixa um cargo pode sentir alívio e perda de identidade ao mesmo tempo, mesmo quando a decisão foi voluntária.",
+      "trap": "O discurso de reinventar-se imediatamente pode invisibilizar o custo financeiro e emocional de uma mudança.",
+      "action": "Mapear competências transferíveis, vínculos e condições materiais para a próxima etapa."
+    },
+    {
+      "id": "SOT-ED-023",
+      "angle": "A saudade do país de origem pode aparecer num cheiro, numa notícia ou no horário de uma chamada familiar, sem invalidar a escolha de emigrar.",
+      "distinction": "Vínculos antigos e novos não precisam disputar lugar; a pessoa pode construir pertencimento em múltiplas comunidades.",
+      "trap": "Não usar a saudade como prova de inadaptação patológica nem idealizar o país de origem como imutável.",
+      "action": "Propor conversas sobre rituais que mantêm vínculos sem impedir novas relações."
+    },
+    {
+      "id": "SOT-ED-024",
+      "angle": "Há perdas de planos que nunca chegaram a existir concretamente: uma profissão imaginada, um endereço, um projeto de família.",
+      "distinction": "Dar nome a essa diferença entre expectativa e trajetória ajuda a discutir escolhas sem declarar fracasso.",
+      "trap": "O conteúdo não deve comparar perda simbólica com um diagnóstico de luto, nem banalizar perdas reais de outras pessoas.",
+      "action": "Perguntar quais partes do plano antigo ainda são relevantes hoje."
+    },
+    {
+      "id": "SOT-ED-025",
+      "angle": "Notificações depois do expediente fragmentam a transição entre trabalho e descanso, mas a possibilidade de desligar depende também da organização.",
+      "distinction": "Uma pessoa com cargo precário pode não conseguir simplesmente silenciar o telefone sem repercussões; limites devem considerar poder de negociação.",
+      "trap": "Receitas de produtividade que culpam o trabalhador não substituem acordos profissionais e proteção institucional.",
+      "action": "Investigar combinados de horário, urgência real e recurso de apoio quando surgem conflitos."
+    },
+    {
+      "id": "SOT-ED-026",
+      "angle": "Dizer não não é só formular uma frase: pode envolver receio de afetar vínculos, perder oportunidades ou parecer pouco disponível.",
+      "distinction": "Um limite bem comunicado pode incluir prazo, alternativa e explicação proporcional, sem justificar integralmente a vida privada.",
+      "trap": "Sugerir que todo pedido deve ser recusado promove isolamento em vez de autonomia responsável.",
+      "action": "Ensaiar uma resposta breve e observar as consequências concretas antes de concluir que houve rejeição."
+    },
+    {
+      "id": "SOT-ED-027",
+      "angle": "Expectativas familiares podem expressar afeto, história ou preocupação, mas também produzir pressão sobre decisões de adultos.",
+      "distinction": "É possível ouvir o motivo de uma recomendação sem adotar automaticamente a decisão de outra pessoa.",
+      "trap": "Classificar familiares como tóxicos a partir de uma discordância é simplificação pouco responsável.",
+      "action": "Separar fatos, interesses individuais e limites do diálogo antes de uma escolha."
+    },
+    {
+      "id": "SOT-ED-028",
+      "angle": "Ter muitos contatos digitais num país novo não garante vínculos em que se possa contar com alguém em situações comuns.",
+      "distinction": "Algumas redes oferecem dicas práticas, outras acolhem conversas pessoais; reconhecer as diferenças ajuda a pedir apoio adequado.",
+      "trap": "Solidão não se corrige apenas recomendando que alguém saia mais ou faça amigos imediatamente.",
+      "action": "Identificar espaços de convivência em que haja reciprocidade, segurança e continuidade."
+    },
+    {
+      "id": "SOT-ED-029",
+      "angle": "Uma data comemorativa longe do Brasil pode evocar tradições, perdas e curiosidade por novos costumes simultaneamente.",
+      "distinction": "Celebrar de outra maneira não apaga a memória familiar; manter tudo idêntico também não é obrigação.",
+      "trap": "Mensagens motivacionais sobre gratidão não devem invalidar tristeza ou ambivalência legítimas.",
+      "action": "Escolher um pequeno ritual que conecte duas etapas da vida sem criar mais cobrança."
+    },
+    {
+      "id": "SOT-ED-030",
+      "angle": "Falar em outro idioma envolve exposição ao erro e pode afetar situações práticas de trabalho, saúde ou escola.",
+      "distinction": "Pedir que a pessoa repita, usar material traduzido ou procurar apoio qualificado pode ajudar em assuntos de maior consequência.",
+      "trap": "Não tratar sotaque ou dificuldade linguística como defeito de caráter, nem apresentar estereótipos sobre japoneses.",
+      "action": "Mapear situações em que uma tradução oficial é essencial e outras em que a conversa informal é suficiente."
+    },
+    {
+      "id": "SOT-ED-031",
+      "angle": "Nem toda dificuldade cultural significa sofrimento clínico; ainda assim, algumas situações persistentes merecem avaliação por profissional habilitado.",
+      "distinction": "O tipo de obstáculo importa: idioma, discriminação, isolamento e segurança material não são intercambiáveis.",
+      "trap": "Reduzir tudo a choque cultural invisibiliza necessidades concretas e pode atrasar encaminhamentos.",
+      "action": "Apresentar perguntas que distinguem barreira prática, expectativa e impacto na vida."
+    },
+    {
+      "id": "SOT-ED-032",
+      "angle": "Atendimento remoto em outro país envolve mais que conexão estável: há jurisdição, registro profissional, privacidade e fuso horário.",
+      "distinction": "Uma pessoa pode falar português e ainda precisar de serviços locais; continuidade de cuidado transfronteiriça requer responsabilidade explícita.",
+      "trap": "Não anunciar possibilidade irrestrita de atendimento internacional sem verificar regras aplicáveis em ambos os locais.",
+      "action": "Incluir checklist sobre habilitação, contrato, proteção de dados, local de emergência e modalidade."
+    },
+    {
+      "id": "SOT-ED-033",
+      "angle": "Ninguém precisa organizar uma biografia completa antes do primeiro contato com um profissional de cuidado emocional.",
+      "distinction": "É útil diferenciar uma pergunta administrativa sobre horário da conversa clínica, onde expectativas e dúvidas podem ser aprofundadas com privacidade.",
+      "trap": "Oferecer roteiro de fala rígido pode levar alguém a achar que precisa se apresentar corretamente para ser acolhido.",
+      "action": "Sugerir três perguntas sobre sigilo, formato e objetivos, mantendo liberdade para não responder detalhes íntimos por chat."
+    },
+    {
+      "id": "SOT-ED-034",
+      "angle": "Cuidado integrativo é expressão ampla; cada componente precisa de nome, formação, finalidade e limites verificáveis.",
+      "distinction": "Uma prática de bem-estar e uma intervenção clínica não têm automaticamente o mesmo tipo de evidência científica ou atribuição profissional.",
+      "trap": "Não legitimar uma técnica só porque aparece ao lado de uma abordagem reconhecida por instituto de pesquisa.",
+      "action": "Criar tabela de questões sobre método, benefícios alegados, contraindicações e prova correspondente."
+    },
+    {
+      "id": "SOT-ED-035",
+      "angle": "Uma rede de apoio migratória pode incluir familiares distantes, vizinhos, colegas, associações comunitárias e serviços públicos do país de residência.",
+      "distinction": "É importante diferenciar orientação prática, apoio social e atendimento profissional; nenhuma dessas funções substitui todas as outras.",
+      "trap": "Um grupo de mensagens pode ajudar numa urgência logística e falhar quando se precisa de assistência especializada.",
+      "action": "Mapear recursos oficiais e pessoas confiáveis com critérios de acesso, idioma e privacidade."
+    },
+    {
+      "id": "SOT-ED-036",
+      "angle": "Famílias multiculturais podem divergir sobre alimentação, idioma, datas ou educação dos filhos sem que uma cultura seja automaticamente o problema.",
+      "distinction": "Negociar escolhas exige considerar história individual, pertencimento e equilíbrio de responsabilidades.",
+      "trap": "Descrever culturas inteiras como rígidas ou acolhedoras reforça estereótipos e impede compreensão das pessoas.",
+      "action": "Perguntar que valores cada pessoa quer preservar e quais decisões admitem mais de uma solução."
+    },
+    {
+      "id": "SOT-ED-037",
+      "angle": "Antes de emigrar, os preparativos costumam listar documentos e moradia, mas também existem mudanças nos vínculos e na autonomia cotidiana.",
+      "distinction": "O V.I.A. pode ser apresentado como espaço de reflexão somente depois que a direção confirmar os elementos realmente ofertados.",
+      "trap": "Uma diretriz internacional sobre migrantes não prova que um programa privado evita sofrimento.",
+      "action": "Separar plano logístico, expectativas afetivas e recursos de suporte que ainda precisam ser construídos."
+    },
+    {
+      "id": "SOT-ED-038",
+      "angle": "Nos primeiros dias no Japão, conseguir cumprir tarefas não significa estar emocionalmente adaptado, assim como sentir saudade não indica fracasso.",
+      "distinction": "O M.I.R.A. deve ser descrito conforme suas etapas reais, sem transformar experiências pessoais em fórmula para todo brasileiro que chega.",
+      "trap": "Não apresentar o programa como tradutor, consultoria migratória ou substituto de instituições japonesas.",
+      "action": "Organizar perguntas sobre rotina, vínculos, comunicação e acesso a informações oficiais locais."
+    },
+    {
+      "id": "SOT-ED-039",
+      "angle": "Uma pessoa no exterior pode querer saber se será atendida em português, em que horário e quais regras valem para a modalidade remota.",
+      "distinction": "Essas dúvidas são anteriores à escolha de profissional e podem ser esclarecidas sem narrar situações íntimas por WhatsApp.",
+      "trap": "Não sugerir que qualquer terapeuta pode atender legalmente em todo país apenas por ter acesso a vídeo.",
+      "action": "Registrar informações a conferir: jurisdição, habilitação, política de privacidade e canal local de suporte."
+    },
+    {
+      "id": "SOT-ED-040",
+      "angle": "Os programas V.I.A. e M.I.R.A. têm nomes distintos; a escolha depende da proposta real, não de um diagnóstico produzido num teste online.",
+      "distinction": "Um material institucional útil deve esclarecer o que já está publicado, o que exige conversa e qual público foi previsto.",
+      "trap": "Não inventar etapas, número de sessões, resultados ou disponibilidade antes da confirmação da Cláudia.",
+      "action": "Preparar uma tabela factual que só seja preenchida com respostas aprovadas pela direção."
+    },
+    {
+      "id": "SOT-ED-041",
+      "angle": "Uma criança que erra ao montar brinquedo pode precisar de tempo, orientação ou simplesmente de uma nova tentativa, não de um rótulo.",
+      "distinction": "A reação do adulto diante do erro comunica expectativas e pode influenciar a disposição para tentar novamente.",
+      "trap": "Não atribuir medo de errar a uma causa emocional única sem escutar a criança e conhecer sua rotina.",
+      "action": "Observar se o adulto ajuda a compreender o erro ou apenas cobra rapidez."
+    },
+    {
+      "id": "SOT-ED-042",
+      "angle": "Ao mudar de casa, uma criança pode perder rotas, amigos e hábitos mesmo quando a nova moradia oferece vantagens concretas.",
+      "distinction": "Explicar etapas possíveis e preservar alguns objetos familiares pode tornar o cotidiano mais previsível, sem garantia de reação.",
+      "trap": "Não comparar a adaptação de irmãos nem exigir entusiasmo por uma decisão dos adultos.",
+      "action": "Perguntar quais referências da casa anterior a criança gostaria de manter."
+    },
+    {
+      "id": "SOT-ED-043",
+      "angle": "Um relato de exclusão no recreio exige escuta, mas pode descrever situações muito diferentes: conflito ocasional, rejeição persistente ou violência.",
+      "distinction": "Registrar frequência, pessoas envolvidas e resposta da escola ajuda a compreender o que precisa de proteção.",
+      "trap": "Não chamar todo desentendimento de bullying nem ignorar sinais de repetição e desigualdade de poder.",
+      "action": "Propor diálogo com a escola com fatos e medidas protetivas, sem expor o aluno publicamente."
+    },
+    {
+      "id": "SOT-ED-044",
+      "angle": "Quando há tensão entre adultos, a criança pode perceber mudanças de tom ou rotina sem ter informações suficientes para compreender o conflito.",
+      "distinction": "Explicações breves e apropriadas à idade podem deixar claro que decisões adultas não são responsabilidade da criança.",
+      "trap": "Evitar usar a criança como mensageira, mediadora ou testemunha de disputas familiares.",
+      "action": "Identificar o que o adulto pode explicar sem dividir confidências que pertencem aos adultos."
+    },
+    {
+      "id": "SOT-ED-045",
+      "angle": "Privacidade de adolescente não é ausência de cuidado: supervisão e confiança mudam conforme idade, riscos e capacidade de diálogo.",
+      "distinction": "Ver mensagens secretamente pode proteger em situações de perigo real, mas monitoramento indiscriminado pode afetar a relação e precisa de justificativa.",
+      "trap": "Não propor uma regra universal de acesso a celulares, ignorando segurança, desenvolvimento e autonomia.",
+      "action": "Combinar antes os riscos que exigem ajuda imediata e o que pode permanecer reservado."
+    },
+    {
+      "id": "SOT-ED-046",
+      "angle": "Uma semana infantil com muitas atividades pode ter fontes diferentes de pressão: necessidade familiar, oportunidade educacional e falta de tempo livre.",
+      "distinction": "Uma criança pode gostar de algumas tarefas e desejar reduzir outras; sua voz deve entrar na conversa sobre prioridades.",
+      "trap": "Não culpar responsáveis que dependem de redes de cuidado ou têm pouca margem para alterar horários.",
+      "action": "Perguntar que parte da rotina é negociável sem deixar de atender necessidades concretas."
+    },
+    {
+      "id": "SOT-ED-047",
+      "angle": "Mudanças de sono na adolescência têm relação com rotina, escola, uso de dispositivos e diferenças individuais; não são diagnóstico por si sós.",
+      "distinction": "Observar horários de dormir, despertar e compromissos por alguns dias pode ajudar a formular perguntas relevantes a profissionais.",
+      "trap": "Culpar somente o celular ou interpretar toda irritabilidade como problema clínico reduz a compreensão.",
+      "action": "Explorar ajustes possíveis e procurar avaliação quando o prejuízo for persistente ou importante."
+    },
+    {
+      "id": "SOT-ED-048",
+      "angle": "Brincar pode ser forma de explorar possibilidades e comunicar interesses, mas o conteúdo da brincadeira não tem uma interpretação fixa e universal.",
+      "distinction": "A mesma história inventada pode ser criatividade, repetição de algo visto ou modo de experimentar papéis sem um significado clínico direto.",
+      "trap": "Evitar manual de símbolos que declare o que bonecos ou desenhos revelam sobre a criança.",
+      "action": "Oferecer tempo e escuta para a brincadeira, sem transformar cada gesto em laudo."
+    },
+    {
+      "id": "SOT-ED-049",
+      "angle": "Uma regra pensada para um adolescente pode não ser adequada a uma criança menor; diferença não precisa significar injustiça.",
+      "distinction": "Explicar por que horários e responsabilidades mudam por idade ajuda a preservar a percepção de respeito.",
+      "trap": "Não usar o irmão mais velho como parâmetro permanente nem prometer igualdade matemática em todas as decisões.",
+      "action": "Construir combinados transparentes e permitir revisão quando as necessidades mudarem."
+    },
+    {
+      "id": "SOT-ED-050",
+      "angle": "No feed, as pessoas escolhem enquadramentos e momentos; comparar bastidores com recortes publicados favorece conclusões incompletas.",
+      "distinction": "O impacto das redes varia conforme conteúdo, uso, contexto e experiências do adolescente; algumas interações também oferecem suporte.",
+      "trap": "A pesquisa da APA não autoriza dizer que toda rede social causa depressão, nem que proibir tudo é sempre solução.",
+      "action": "Conversar sobre perfis seguidos, sentimentos após o uso e práticas de alfabetização midiática."
+    },
+    {
+      "id": "SOT-ED-051",
+      "angle": "Bullying envolve critérios que precisam ser investigados; um conflito grave pontual pode exigir ação mesmo sem se enquadrar nessa definição.",
+      "distinction": "É mais importante interromper situações de risco e apoiar quem sofreu do que vencer disputa sobre o rótulo correto.",
+      "trap": "O artigo não deve substituir protocolos escolares de proteção ou realizar diagnóstico psicológico pela internet.",
+      "action": "Documentar acontecimentos, comunicar responsáveis na escola e preservar a intimidade das crianças."
+    },
+    {
+      "id": "SOT-ED-052",
+      "angle": "Quando escola e família descrevem uma criança de forma diferente, ambos podem estar observando contextos legítimos.",
+      "distinction": "Uma comunicação produtiva distingue fatos, frequência e impacto, em vez de buscar quem tem culpa pelo comportamento.",
+      "trap": "Evitar reuniões em que o aluno seja resumido a um adjetivo ou exposição indevida de informações familiares.",
+      "action": "Perguntar quais observações cada parte pode trazer e quais medidas práticas serão acompanhadas."
+    },
+    {
+      "id": "SOT-ED-053",
+      "angle": "O primeiro encontro com família e criança varia conforme idade, responsabilidade legal e abordagem de quem atende.",
+      "distinction": "Informações sobre consentimento, participação e devolutivas devem ser oferecidas claramente sem revelar conteúdo de sessão.",
+      "trap": "Não prometer número de encontros, testes ou resultados antes de avaliação e acordo profissional.",
+      "action": "Preparar FAQ administrativa validada pela Yasmin e pelos responsáveis técnicos quando necessário."
+    },
+    {
+      "id": "SOT-ED-054",
+      "angle": "Adolescentes precisam compreender quais informações podem permanecer confidenciais e em que circunstâncias o profissional terá deveres de proteção.",
+      "distinction": "Responsáveis podem ter participação necessária sem receber transcrições integrais; as regras dependem de profissão e contexto.",
+      "trap": "Não criar promessa absoluta de segredo nem acesso ilimitado dos pais ao que é dito em atendimento.",
+      "action": "Distinguir comunicação de agenda, acordos de cuidado, devolutivas e situações de segurança."
+    },
+    {
+      "id": "SOT-ED-055",
+      "angle": "O diálogo sobre telas não começa pela contagem de minutos: envolve conteúdo, horário, relações e objetivos do uso.",
+      "distinction": "Um aplicativo usado para estudar, conversar com amigos ou procurar apoio não é equivalente a exposição a conteúdo inadequado.",
+      "trap": "Regras rígidas sem explicação tendem a ocultar a pergunta sobre necessidades e segurança digital.",
+      "action": "Criar acordos revisáveis sobre privacidade, sono, conversas abertas e canais para pedir ajuda."
+    },
+    {
+      "id": "SOT-ED-056",
+      "angle": "Atendimento remoto de crianças e adolescentes requer privacidade, adequação do meio, participação de responsáveis e planejamento de falhas técnicas.",
+      "distinction": "Uma casa sem ambiente reservado pode exigir outra modalidade; decisões dependem da avaliação de profissional habilitado.",
+      "trap": "Não prometer que videochamada é igualmente adequada para qualquer faixa etária e demanda.",
+      "action": "Consultar regras profissionais vigentes e combinar o que fazer se a conexão cair ou não houver espaço seguro."
+    },
+    {
+      "id": "SOT-ED-057",
+      "angle": "Psicanálise, abordagens psicodinâmicas e outras psicoterapias não são sinônimos automáticos e a evidência deve ser atribuída ao método estudado.",
+      "distinction": "Antes de comparar, é necessário identificar a formação de quem atende e o que o estudo avaliou, inclusive idade e desfecho.",
+      "trap": "Não afirmar superioridade universal nem importar meta-análise de uma terapia distinta como prova da prática da Yasmin.",
+      "action": "Fazer perguntas sobre método, objetivos, participação familiar, sigilo e transparência de limites."
+    },
+    {
+      "id": "SOT-ED-058",
+      "angle": "Quando a escola sugere avaliação, pode estar compartilhando observações importantes sem ter concluído qualquer diagnóstico.",
+      "distinction": "Uma reunião pode esclarecer quando e onde surgem dificuldades, como a escola respondeu e o que já foi tentado.",
+      "trap": "Não converter recomendação escolar em rótulo público nem impor uma especialidade sem avaliação adequada.",
+      "action": "Solicitar registro factual e explicação do encaminhamento de modo respeitoso."
+    },
+    {
+      "id": "SOT-ED-059",
+      "angle": "O primeiro contato para informações infantis pode ser feito sem expor fotos, relatos de episódios íntimos ou mensagens da criança.",
+      "distinction": "Responsáveis podem perguntar sobre faixa etária, modalidade, horários e documentação sem receber uma conclusão clínica pelo aplicativo.",
+      "trap": "Não pedir que visitantes descrevam publicamente sintomas de menores para 'qualificar o lead'.",
+      "action": "Informar canal privado, dados mínimos e limite entre acolhimento administrativo e atendimento."
+    },
+    {
+      "id": "SOT-ED-060",
+      "angle": "Na adolescência, a conversa sobre agendamento pode envolver responsáveis e também a autonomia progressiva do próprio adolescente.",
+      "distinction": "Explicar quem estará presente no primeiro encontro e como se tratam informações ajuda a reduzir dúvidas sem prometer acesso irrestrito.",
+      "trap": "Não usar formulários de marketing para coletar detalhes de saúde ou pedir depoimentos de menores.",
+      "action": "Disponibilizar checklist sobre horário, participação, privacidade e confirmação do atendimento."
+    }
+  ]
+}
