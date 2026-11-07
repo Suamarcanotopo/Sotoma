@@ -54,6 +54,6 @@ Se P0 falhar, deixe publicação BLOQUEADA. Diferencie planejamento, revisão po
 ```
 
 ## Modo extensível e índice
-- **20 pautas, 240 prompts prontos e roteiros no Sheets:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit
+- **20 pautas, 240 prompts prontos e roteiros no Sheets:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit
 - Novo profissional: registrar em `AUTORES` e decidir escopo autoral, sem criar marketplace.
 - Qualquer nova entrega deve manter a mesma pauta-ID nos artigos, cards, scripts, aprovação e URL de publicação.
