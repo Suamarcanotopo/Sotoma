@@ -1,5 +1,5 @@
 # Playbook editorial 360° — artigo → post → carrossel → vídeo
-**Contrato:** [MISSION-LOCK-EDITORIAL.md](MISSION-LOCK-EDITORIAL.md). **Planilha operacional:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit
+**Contrato:** [MISSION-LOCK-EDITORIAL.md](MISSION-LOCK-EDITORIAL.md). **Planilha operacional:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit
 
 ## 1. Público, autora e escopo
 - **Cláudia Fernanda Sotoma:** adultos, autocobrança, transições, adaptação internacional, V.I.A., M.I.R.A. Não extrapolar qualificações declaradas; confirmar descrição e abordagem para cada publicação.
