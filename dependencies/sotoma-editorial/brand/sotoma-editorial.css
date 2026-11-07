@@ -1,0 +1,15 @@
+/* SOTOMA editorial token export — observed from public Elementor kit 411, not installed or approved. */
+.sotoma-editorial {
+  --sotoma-accent:#22524A;
+  --sotoma-primary:#2E2E2E;
+  --sotoma-secondary:#54595F;
+  --sotoma-support:#8BA146;
+  --sotoma-soft:#91AFA1;
+  --sotoma-white:#FFFFFF;
+  font-family:"Poppins",system-ui,sans-serif;
+  color:var(--sotoma-primary);
+}
+.sotoma-editorial .sotoma-editorial-title{font-weight:600;color:var(--sotoma-accent)}
+.sotoma-editorial .sotoma-editorial-body{font-weight:400;color:var(--sotoma-primary)}
+.sotoma-editorial .sotoma-editorial-action{font-weight:500;background:var(--sotoma-accent);color:var(--sotoma-white)}
+/* Do not add a global CSS reset, invent logos, or deploy without brand approval. */
