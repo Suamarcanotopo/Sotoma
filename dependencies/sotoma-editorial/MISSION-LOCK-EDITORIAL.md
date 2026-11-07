@@ -36,3 +36,10 @@ Versão 1.0 • 2026-11-07 • Aditivo ao [Mission Lock geral](../../docs/MISSIO
 PAUTA_REGISTRADA ≠ ARTIGO_PRONTO ≠ APROVADO ≠ PUBLICADO. Fontes conferidas, autora e credenciais validadas, revisão técnica e ética, direitos de imagem, acessibilidade, ortografia, decisão de CTA e URL conferida antes da promoção. `PRODUÇÃO` não é sinônimo de publicação.
 ## Reversão
 Atualizar a planilha com registro de correção e GitHub com novo commit; nunca sobrescrever silenciosamente materiais aprovados; corrigenda transparente no site.
+
+## Adendo obrigatório — Evidência científica, IET e Brand (07/11/2026)
+- Funil editorial e CTA: **INFORMAÇÃO 50% (TOPO)** / **EDUCAÇÃO 40% (MEIO)** / **TRANSFORMAÇÃO 10% (FUNDO)**. O último significa decisão de consultar atendimento ou obter informações, não promessa clínica.
+- Fontes: cada afirmação material precisa de prova rastreável, hierarquia adequada, população, método e limites. Pesquisas estão em [ESTUDOS-PUBMED-10.json](dados/ESTUDOS-PUBMED-10.json) e na aba `ESTUDOS_CIENTIFICOS`; vínculos temáticos **não** provam efeito terapêutico.
+- Visual: seguir [IDENTIDADE-VISUAL-MARCA.md](IDENTIDADE-VISUAL-MARCA.md), tokens observados no Elementor kit 411 e logomarca oficial; divergência com paleta anterior resolvida nas especificações ativas. Necessária validação formal da Cláudia.
+- **P0:** fontes não verificadas usadas como prova, vínculo estrangeiro/regulatório extrapolado, estudo de método diferente apresentado como eficácia, CTA de cura, material visual fora da marca, autoras/credenciais não comprovadas e massa de textos repetitivos.
+- Nenhum estado PUBLICADO sem verificações independentes, autoras, direção e URL pública real.
