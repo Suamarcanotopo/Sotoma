@@ -28,3 +28,9 @@ Ver [CATALOGO-60.md](CATALOGO-60.md), [ARTIGOS-60-INDEX.md](ARTIGOS-60-INDEX.md)
 
 ## Continuidade
 Seis ciclos de revisão de dez pautas, cada ciclo 5 topo/4 meio/1 fundo, cinco por autora. Priorizar elaboração humana aprofundada sobre quantidade e usar resultado apenas após avaliações de relevância, precisão e originalidade. Semântica de status: RASCUNHO ≠ APROVADO ≠ PUBLICADO.
+
+
+## Adendo IET + estudos + design (07/11/2026)
+**Metas editoriais canônicas:** 30 artigos INFORMAÇÃO (TOPO), 24 EDUCAÇÃO (MEIO), 6 TRANSFORMAÇÃO (FUNDO) — 30 por autora. Transformação = decisão autônoma informada e consulta administrativa de disponibilidade, não cura ou eficácia garantida.
+**Material de referência:** [10 estudos PubMed](dados/ESTUDOS-PUBMED-10.json), [Política de evidência](PESQUISAS-ESTUDOS-GOVERNANCA.md), [IET](FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md), [Brand observada](IDENTIDADE-VISUAL-MARCA.md) e [COLISEUM](COLISEUM-PESQUISA-MARCA-IET-20261107.md).
+**Fronteira de qualidade:** 58 textos com risco de repetição continuam P0; tentativas preliminares de reescrita falharam e não foram promovidas. Estudos vinculados não eliminam o bloqueio. 720 prompts visuais atualizados em estilo, mas sem aprovação/geração de imagens.
