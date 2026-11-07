@@ -1,0 +1,2767 @@
+{
+  "version": "SOTOMA-ARTICLE-EVIDENCE-v1",
+  "date": "2026-11-07",
+  "notes": "Associação temática referencial; não constitui fact-check de cada frase. Fontes não são endosso de técnicas ou programas específicos.",
+  "items": [
+    {
+      "id": "SOT-ED-001",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Autocobrança: por que descansar às vezes provoca culpa?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-021",
+          "title": "Kokoro no Mimi — saúde mental de trabalhadores",
+          "url": "https://kokoro.mhlw.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientação institucional dirigida a trabalhadores",
+          "limit": "Não extrapolar para todos os brasileiros ou categorias migratórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-048",
+          "title": "Psychological detachment from work meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Intervenções para recuperação do trabalho",
+          "limit": "Dados não justificam promessas para indivíduo",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-002",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Cansaço emocional: quando a rotina parece pesar demais",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-021",
+          "title": "Kokoro no Mimi — saúde mental de trabalhadores",
+          "url": "https://kokoro.mhlw.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientação institucional dirigida a trabalhadores",
+          "limit": "Não extrapolar para todos os brasileiros ou categorias migratórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-048",
+          "title": "Psychological detachment from work meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Intervenções para recuperação do trabalho",
+          "limit": "Dados não justificam promessas para indivíduo",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-003",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Recomeços: por que mudanças despertam sentimentos contraditórios?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-037",
+          "title": "Mental health in the Americas",
+          "url": "https://www.paho.org/en/topics/mental-health?page=1",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Políticas e acesso no continente",
+          "limit": "Página viva, citar data de consulta",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-004",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Morar no exterior: o que muda na sensação de pertencimento?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-005",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Chegar ao Japão: expectativas e adaptação emocional",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-020",
+          "title": "Mental health information portals",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/health_link/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Portal do governo agrega informações e apoio",
+          "limit": "Fonte em japonês; exige tradução contextual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-022",
+          "title": "Kokoro no Mimi — contatos para estrangeiros",
+          "url": "https://kokoro.mhlw.go.jp/agency/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Aponta recursos em outros idiomas para residentes",
+          "limit": "Conferir elegibilidade, idioma e horário antes de indicar",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-023",
+          "title": "Kokoro — portal público de saúde mental",
+          "url": "https://kokoro.ncnp.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Material japonês com links a autocuidado e serviços",
+          "limit": "Tradução e legislação precisam ser checadas",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-006",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Psicoterapia Positiva: o que é e o que ela não promete?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-012",
+          "title": "Rede de Atenção Psicossocial (RAPS)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Sistema brasileiro articula diferentes pontos de cuidado",
+          "limit": "Não determina abordagem clínica individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Atenção: não tratar estudo de Positive Psychotherapy de outra escola como evidência da abordagem de Cláudia"
+    },
+    {
+      "id": "SOT-ED-007",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "V.I.A.: como compreender o apoio à adaptação internacional",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-008",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "M.I.R.A.: o que conversar antes de viver no Japão",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-020",
+          "title": "Mental health information portals",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/health_link/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Portal do governo agrega informações e apoio",
+          "limit": "Fonte em japonês; exige tradução contextual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-022",
+          "title": "Kokoro no Mimi — contatos para estrangeiros",
+          "url": "https://kokoro.mhlw.go.jp/agency/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Aponta recursos em outros idiomas para residentes",
+          "limit": "Conferir elegibilidade, idioma e horário antes de indicar",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-023",
+          "title": "Kokoro — portal público de saúde mental",
+          "url": "https://kokoro.ncnp.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Material japonês com links a autocuidado e serviços",
+          "limit": "Tradução e legislação precisam ser checadas",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-009",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Como escolher acompanhamento emocional de forma responsável",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-012",
+          "title": "Rede de Atenção Psicossocial (RAPS)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Sistema brasileiro articula diferentes pontos de cuidado",
+          "limit": "Não determina abordagem clínica individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-010",
+      "author": "Cláudia",
+      "stage": "FUNDO",
+      "title": "Primeiro contato com a SOTOMA: o que perguntar sobre atendimento adulto",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-012",
+          "title": "Rede de Atenção Psicossocial (RAPS)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Sistema brasileiro articula diferentes pontos de cuidado",
+          "limit": "Não determina abordagem clínica individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-011",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Quando a criança não encontra palavras para o que sente",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-012",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Adolescência: por que emoções e relações parecem mudar tanto?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-013",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Mudança de escola: além do material e do uniforme",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-014",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Ciúmes entre irmãos: observações sem rótulos",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-015",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Pressão escolar e autocobrança na adolescência",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-016",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Escuta psicanalítica infantil: o que as famílias podem esperar?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-017",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Qual é o papel da família no acompanhamento de crianças?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-018",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Mudanças de comportamento: quando buscar orientação profissional?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-019",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Perguntas importantes antes de iniciar atendimento infantojuvenil",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-020",
+      "author": "Yasmin",
+      "stage": "FUNDO",
+      "title": "Primeira conversa com a SOTOMA sobre atendimento infantojuvenil",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-021",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Comparação social: a sensação de estar atrasado na própria vida",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-037",
+          "title": "Mental health in the Americas",
+          "url": "https://www.paho.org/en/topics/mental-health?page=1",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Políticas e acesso no continente",
+          "limit": "Página viva, citar data de consulta",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-022",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Mudar de carreira sem perder a própria identidade",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-021",
+          "title": "Kokoro no Mimi — saúde mental de trabalhadores",
+          "url": "https://kokoro.mhlw.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientação institucional dirigida a trabalhadores",
+          "limit": "Não extrapolar para todos os brasileiros ou categorias migratórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-048",
+          "title": "Psychological detachment from work meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Intervenções para recuperação do trabalho",
+          "limit": "Dados não justificam promessas para indivíduo",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-023",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Saudade do país de origem: vínculos que atravessam fronteiras",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-024",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Quando a vida não seguiu o plano: expectativas e perdas simbólicas",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-037",
+          "title": "Mental health in the Americas",
+          "url": "https://www.paho.org/en/topics/mental-health?page=1",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Políticas e acesso no continente",
+          "limit": "Página viva, citar data de consulta",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-025",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Hiperconectividade e descanso: quando a mente continua no trabalho",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-021",
+          "title": "Kokoro no Mimi — saúde mental de trabalhadores",
+          "url": "https://kokoro.mhlw.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientação institucional dirigida a trabalhadores",
+          "limit": "Não extrapolar para todos os brasileiros ou categorias migratórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-048",
+          "title": "Psychological detachment from work meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Intervenções para recuperação do trabalho",
+          "limit": "Dados não justificam promessas para indivíduo",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-026",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Dizer não sem transformar limites em culpa",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-021",
+          "title": "Kokoro no Mimi — saúde mental de trabalhadores",
+          "url": "https://kokoro.mhlw.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientação institucional dirigida a trabalhadores",
+          "limit": "Não extrapolar para todos os brasileiros ou categorias migratórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-048",
+          "title": "Psychological detachment from work meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34096763/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Intervenções para recuperação do trabalho",
+          "limit": "Dados não justificam promessas para indivíduo",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-027",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Projetos pessoais e expectativas familiares: conversar sobre escolhas",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-016",
+          "title": "Stress — perguntas e respostas",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Estresse é uma resposta humana e depende do contexto",
+          "limit": "Não concluir que um sentimento isolado prova transtorno",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-037",
+          "title": "Mental health in the Americas",
+          "url": "https://www.paho.org/en/topics/mental-health?page=1",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Políticas e acesso no continente",
+          "limit": "Página viva, citar data de consulta",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-028",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Solidão no exterior: contatos não são o mesmo que pertencimento",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-029",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Datas comemorativas longe de casa: saudade e novas tradições",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-030",
+      "author": "Cláudia",
+      "stage": "TOPO",
+      "title": "Medo de errar em outro idioma: comunicação durante a migração",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-020",
+          "title": "Mental health information portals",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/health_link/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Portal do governo agrega informações e apoio",
+          "limit": "Fonte em japonês; exige tradução contextual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-022",
+          "title": "Kokoro no Mimi — contatos para estrangeiros",
+          "url": "https://kokoro.mhlw.go.jp/agency/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Aponta recursos em outros idiomas para residentes",
+          "limit": "Conferir elegibilidade, idioma e horário antes de indicar",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-023",
+          "title": "Kokoro — portal público de saúde mental",
+          "url": "https://kokoro.ncnp.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Material japonês com links a autocuidado e serviços",
+          "limit": "Tradução e legislação precisam ser checadas",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-031",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Adaptação cultural ou sofrimento persistente: por que evitar rótulos",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-032",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Atendimento emocional online no exterior: o que verificar",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-033",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Primeira conversa com profissional de cuidado emocional: como se preparar",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-012",
+          "title": "Rede de Atenção Psicossocial (RAPS)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Sistema brasileiro articula diferentes pontos de cuidado",
+          "limit": "Não determina abordagem clínica individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-034",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Cuidado integrativo e evidências: perguntas essenciais sobre práticas",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-030",
+          "title": "Depression in adults: NG222",
+          "url": "https://www.nice.org.uk/guidance/ng222",
+          "kind": "DIRETRIZ",
+          "applicability": "Diretriz avalia opções e cuidados compartilhados",
+          "limit": "Vale no sistema britânico; não equivale à regulamentação brasileira",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-013",
+          "title": "World Mental Health Report 2022",
+          "url": "https://www.who.int/publications-detail-redirect/9789240049338/",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Enfatiza contextos, serviços e direitos",
+          "limit": "Não demonstra resultados de técnica ou programa da SOTOMA",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-012",
+          "title": "Rede de Atenção Psicossocial (RAPS)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Sistema brasileiro articula diferentes pontos de cuidado",
+          "limit": "Não determina abordagem clínica individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-035",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Rede de apoio para brasileiros fora do país: vínculos e recursos",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-036",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Famílias entre culturas: como lidar com expectativas diferentes",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-037",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Planejamento emocional antes de migrar: perguntas sobre o V.I.A.",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-038",
+      "author": "Cláudia",
+      "stage": "MEIO",
+      "title": "Depois da chegada ao Japão: dúvidas sobre adaptação e M.I.R.A.",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-020",
+          "title": "Mental health information portals",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/health_link/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Portal do governo agrega informações e apoio",
+          "limit": "Fonte em japonês; exige tradução contextual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-022",
+          "title": "Kokoro no Mimi — contatos para estrangeiros",
+          "url": "https://kokoro.mhlw.go.jp/agency/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Aponta recursos em outros idiomas para residentes",
+          "limit": "Conferir elegibilidade, idioma e horário antes de indicar",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-023",
+          "title": "Kokoro — portal público de saúde mental",
+          "url": "https://kokoro.ncnp.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Material japonês com links a autocuidado e serviços",
+          "limit": "Tradução e legislação precisam ser checadas",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-039",
+      "author": "Cláudia",
+      "stage": "FUNDO",
+      "title": "Atendimento online para brasileiros no exterior: dúvidas antes de agendar",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-036",
+          "title": "Psychosocial factors and migrant health in the Americas",
+          "url": "https://www.paho.org/en/documents/international-migrants-health-health-determinants-psychosocial-factors-gender-and-socio",
+          "kind": "SÍNTESE DE EVIDÊNCIA",
+          "applicability": "Fatores culturais e psicossociais",
+          "limit": "Revisão 2016–2021, não esgota a literatura",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-043",
+          "title": "The Migration Experience: scoping review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37571846/",
+          "kind": "REVISÃO DE ESCOPO",
+          "applicability": "Revisa modelos e dimensões de experiência migratória",
+          "limit": "Modelos não captam todas as trajetórias",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-039",
+          "title": "Mental health support for newcomers",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/health-care/mental-health.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Serviços de assentamento e recursos locais",
+          "limit": "Recursos canadenses não se aplicam ao Japão",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-040",
+      "author": "Cláudia",
+      "stage": "FUNDO",
+      "title": "SOTOMA: como esclarecer disponibilidade para V.I.A. e M.I.R.A.",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-014",
+          "title": "Mental health of refugees and migrants — revisão global",
+          "url": "https://www.who.int/publications/i/item/9789240081840",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Barreiras e suportes para migrantes e refugiados",
+          "limit": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-020",
+          "title": "Mental health information portals",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/health_link/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Portal do governo agrega informações e apoio",
+          "limit": "Fonte em japonês; exige tradução contextual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-022",
+          "title": "Kokoro no Mimi — contatos para estrangeiros",
+          "url": "https://kokoro.mhlw.go.jp/agency/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Aponta recursos em outros idiomas para residentes",
+          "limit": "Conferir elegibilidade, idioma e horário antes de indicar",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-023",
+          "title": "Kokoro — portal público de saúde mental",
+          "url": "https://kokoro.ncnp.go.jp/",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Material japonês com links a autocuidado e serviços",
+          "limit": "Tradução e legislação precisam ser checadas",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-041",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "A criança e o medo de errar: espaço para tentar novamente",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-042",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Mudança de casa: referências afetivas e rotina infantil",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-015",
+          "title": "Adolescent mental health",
+          "url": "https://www.who.int/news-room/fact-sheets/adolescent-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Vários fatores influenciam bem-estar do adolescente",
+          "limit": "Não diagnosticar caso individual por dados populacionais",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-038",
+          "title": "Adolescent health in the Americas",
+          "url": "https://www.paho.org/en/topics/adolescent-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Dados regionais e estratégias públicas",
+          "limit": "Não inferir risco individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-043",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Amizade e exclusão escolar: escutar antes de concluir",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-044",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Crianças percebem conflitos dos adultos: como cuidar da comunicação",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-045",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Privacidade na adolescência: confiança não é vigilância constante",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-042",
+          "title": "Health advisory on adolescent social media use",
+          "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+          "kind": "SÍNTESE CIENTÍFICA",
+          "applicability": "Riscos e benefícios dependem de conteúdo e contexto",
+          "limit": "Não é diretriz de prática clínica; associação não é causalidade",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-046",
+          "title": "Social media mental health and sleep: meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39242043/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese de associações de saúde mental e sono",
+          "limit": "Estudos heterogêneos e causalidade limitada",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-047",
+          "title": "Digital Media Use and Child Health 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41801211/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese longitudinal publicada em 2026",
+          "limit": "Não aplicar um efeito geral a todo uso ou criança",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-046",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Agenda infantil lotada: quando quase não resta tempo livre",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-015",
+          "title": "Adolescent mental health",
+          "url": "https://www.who.int/news-room/fact-sheets/adolescent-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Vários fatores influenciam bem-estar do adolescente",
+          "limit": "Não diagnosticar caso individual por dados populacionais",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-038",
+          "title": "Adolescent health in the Americas",
+          "url": "https://www.paho.org/en/topics/adolescent-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Dados regionais e estratégias públicas",
+          "limit": "Não inferir risco individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-047",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Sono e rotina na adolescência: observar antes de rotular",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-042",
+          "title": "Health advisory on adolescent social media use",
+          "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+          "kind": "SÍNTESE CIENTÍFICA",
+          "applicability": "Riscos e benefícios dependem de conteúdo e contexto",
+          "limit": "Não é diretriz de prática clínica; associação não é causalidade",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-046",
+          "title": "Social media mental health and sleep: meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39242043/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese de associações de saúde mental e sono",
+          "limit": "Estudos heterogêneos e causalidade limitada",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-047",
+          "title": "Digital Media Use and Child Health 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41801211/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese longitudinal publicada em 2026",
+          "limit": "Não aplicar um efeito geral a todo uso ou criança",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-048",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Brincar e conversar: caminhos de expressão infantil",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-049",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Irmãos de idades diferentes precisam das mesmas regras?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-045",
+          "title": "Parent-child communication and adolescent mental health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38827979/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Estudos mostram associações na qualidade da comunicação",
+          "limit": "Não implica direção causal em todo contexto",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-050",
+      "author": "Yasmin",
+      "stage": "TOPO",
+      "title": "Adolescentes e comparação nas redes: conversa sem alarmismo",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-042",
+          "title": "Health advisory on adolescent social media use",
+          "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+          "kind": "SÍNTESE CIENTÍFICA",
+          "applicability": "Riscos e benefícios dependem de conteúdo e contexto",
+          "limit": "Não é diretriz de prática clínica; associação não é causalidade",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-046",
+          "title": "Social media mental health and sleep: meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39242043/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese de associações de saúde mental e sono",
+          "limit": "Estudos heterogêneos e causalidade limitada",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-047",
+          "title": "Digital Media Use and Child Health 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41801211/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese longitudinal publicada em 2026",
+          "limit": "Não aplicar um efeito geral a todo uso ou criança",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-051",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Bullying ou conflito pontual: diferenças importantes para escutar",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-052",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Família e escola: como construir diálogo que proteja a criança",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-053",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Primeiros encontros no atendimento infantil: o que combinar",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-054",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Sigilo e adolescência: dúvidas de pais e responsáveis",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-055",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Combinados sobre telas: diálogo adequado à faixa etária",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-042",
+          "title": "Health advisory on adolescent social media use",
+          "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+          "kind": "SÍNTESE CIENTÍFICA",
+          "applicability": "Riscos e benefícios dependem de conteúdo e contexto",
+          "limit": "Não é diretriz de prática clínica; associação não é causalidade",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-046",
+          "title": "Social media mental health and sleep: meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39242043/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese de associações de saúde mental e sono",
+          "limit": "Estudos heterogêneos e causalidade limitada",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-047",
+          "title": "Digital Media Use and Child Health 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41801211/",
+          "kind": "REVISÃO SISTEMÁTICA",
+          "applicability": "Síntese longitudinal publicada em 2026",
+          "limit": "Não aplicar um efeito geral a todo uso ou criança",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-041",
+          "title": "Essentials for Parenting Teens",
+          "url": "https://www.cdc.gov/parenting-teens/about/index.html",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Orientações revisadas por especialistas",
+          "limit": "Não equivale a terapia individual",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-056",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Atendimento remoto infantojuvenil: cuidados antes de decidir",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-057",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "Psicanálise e outras abordagens para crianças: perguntas sem hierarquia",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-058",
+      "author": "Yasmin",
+      "stage": "MEIO",
+      "title": "A escola sugeriu avaliação: como organizar o próximo passo?",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-032",
+          "title": "Social emotional mental wellbeing in education: NG223",
+          "url": "https://www.nice.org.uk/guidance/ng223",
+          "kind": "DIRETRIZ",
+          "applicability": "Saúde socioemocional no ambiente escolar",
+          "limit": "Diretriz sistêmica, não diagnóstico escolar",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-033",
+          "title": "School pressure and family support among adolescents 2024",
+          "url": "https://www.who.int/europe/news/item/13-11-2024-rising-school-pressure-and-declining-family-support-especially-among-girls--finds-new-who-europe-report",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Pesquisa em vários países e culturas",
+          "limit": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-034",
+          "title": "Adolescent mental health Europe Central Asia Canada",
+          "url": "https://www.hbsc.org/publications/reports/a-focus-on-adolescent-mental-health-and-well-being-in-europe-central-asia-and-canada/",
+          "kind": "OBSERVACIONAL",
+          "applicability": "Dados coletados em diferentes países",
+          "limit": "Comparabilidade requer olhar período/medidas",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-018",
+          "title": "The State of the World's Children 2021 — On My Mind",
+          "url": "https://www.unicef.org/reports/state-worlds-children-2021",
+          "kind": "SÍNTESE GLOBAL",
+          "applicability": "Vínculos, condições e cuidadores importam",
+          "limit": "Dados do relatório precisam ser datados e contextualizados",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-059",
+      "author": "Yasmin",
+      "stage": "FUNDO",
+      "title": "Como pedir informações sobre atendimento infantil na SOTOMA",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    },
+    {
+      "id": "SOT-ED-060",
+      "author": "Yasmin",
+      "stage": "FUNDO",
+      "title": "Atendimento para adolescentes: perguntas sobre agendamento na SOTOMA",
+      "evidence": [
+        {
+          "sourceId": "SOT-SRC-010",
+          "title": "Resolução CFP 13/2022 — Psicoterapia",
+          "url": "https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/",
+          "kind": "REGULATÓRIO",
+          "applicability": "Regras profissionais para psicólogos",
+          "limit": "Exigível apenas conforme profissão/registro; verificar texto vigente",
+          "role": "base central"
+        },
+        {
+          "sourceId": "SOT-SRC-017",
+          "title": "Mental health of children and young people — service guidance",
+          "url": "https://www.who.int/publications/b/75680",
+          "kind": "DIRETRIZ",
+          "applicability": "Não existe um único modelo universal de serviço",
+          "limit": "Diretriz para sistemas, não prescrição individual",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-031",
+          "title": "Depression in children and young people: NG134",
+          "url": "https://www.nice.org.uk/guidance/ng134/chapter/Recommendations",
+          "kind": "DIRETRIZ",
+          "applicability": "Recomenda avaliação contextual e compartilhamento de decisões",
+          "limit": "Não atribuir eficácia idêntica a todas as abordagens",
+          "role": "complementar"
+        },
+        {
+          "sourceId": "SOT-SRC-019",
+          "title": "How to talk to your kids about mental health",
+          "url": "https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health",
+          "kind": "INSTITUCIONAL",
+          "applicability": "Ouvir, escolher contexto e não pressionar",
+          "limit": "Não é protocolo clínico e não prova eficácia de abordagem",
+          "role": "complementar"
+        }
+      ],
+      "sourceGate": "AUTOR_DEVE_VALIDAR_A_APLICABILIDADE_E_TEXTO_DA_ALEGACAO",
+      "warning": "Dados externos não comprovam resultados individuais"
+    }
+  ]
+}
