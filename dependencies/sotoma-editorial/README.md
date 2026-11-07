@@ -26,6 +26,7 @@ Abas (URL por `gid` retornado pela API):
 - [PAINEL](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2008109360)
 - [PAUTAS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534)
 - [ARTIGOS_BRIEF](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166)
+- [ARTIGOS_PILOTO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=298731141) — dois artigos completos em rascunho
 - [SCRIPTS_VIDEO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=119742079)
 - [CARDS_240](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762)
 - [POSTS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656)
@@ -42,10 +43,12 @@ Abas (URL por `gid` retornado pela API):
 - [Prompts mestres](PROMPTS-MESTRES.md)
 - [Contrato de integração com Sheets](CONTRATO-SHEETS.md)
 - [Catálogo inicial de 20 pautas](CATALOGO-20.md)
+- [Artigo piloto Cláudia — autocobrança](pilotos/SOT-ED-001-ARTIGO-RASCUNHO.md)
+- [Artigo piloto Yasmin — expressão emocional infantil](pilotos/SOT-ED-011-ARTIGO-RASCUNHO.md)
 - [QA ECP + COLISEUM](COLISEUM-EDITORIAL-QA.md)
 
 ## Realidade operacional
-**Existem:** planilha Google nativa com 20 pautas, 20 briefings, 20 legendas, 20 scripts-base de 60s, 80 versões de vídeo e **240 prompts de cards individualizados**. Esses elementos estão em **rascunho para revisão**.
+**Existem:** planilha Google nativa com 20 pautas, 20 briefings e 2 artigos-piloto completos em rascunho, 20 legendas, 20 scripts-base de 60s, 80 versões de vídeo e **240 prompts de cards individualizados**. Esses elementos estão em **rascunho para revisão**.
 **Não existem como entrega verificada:** 20 artigos completos aprovados pelas autoras, posts/imagens/vídeos publicados, sincronismo automático Sheets ↔ GitHub ↔ WordPress ou avaliação de resultados. Não marcar `PUBLICADO` sem URL pública verificada e autorização.
 Google Sheets armazena **somente editorial**, nunca prontuário, pacientes, fotos clínicas ou leads.
 
