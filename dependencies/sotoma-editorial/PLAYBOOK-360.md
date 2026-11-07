@@ -49,7 +49,7 @@ Arco de 12:
 12. conclusão e CTA não coercitivo
 
 Quando forem 10 cards, combinar 5+6 e 10+11; quando 14–20, distribuir mais exemplos fictícios, alternativas, fontes, FAQ e uma síntese. Nunca aumentar com repetição vazia.
-**Identidade provisória** para prompts: 4:5 (1080×1350), marfim, verde-sálvia, grafite, terracota, imagens conceituais, contraste acessível e margens seguras; só virar identidade oficial após direção aprovar. Cada card deve ter PROMPT AUTOSSUFICIENTE, não "idem anterior". Revisar textos no editor de design — imagens com texto gerado podem conter erro tipográfico.
+**Identidade provisória** para prompts: 4:5 (1080×1350), verde institucional #22524A, verde suave #91AFA1, verde complementar #8BA146, grafite #2E2E2E e branco #FFFFFF (tokens observados no Elementor kit 411), imagens conceituais, contraste acessível e margens seguras; só virar identidade oficial após direção aprovar. Cada card deve ter PROMPT AUTOSSUFICIENTE, não "idem anterior". Revisar textos no editor de design — imagens com texto gerado podem conter erro tipográfico.
 ### VÍDEO
 Produzir uma versão-base de 60s e roteiros opcionais 30/90/120s. Para cada: gancho, falas literais, decupagem com intervalos, enquadramento, legenda acessível, fontes pertinentes e CTA. Ler em voz alta para confirmar duração; os rascunhos na planilha são **alvos**, não gravações cronometradas.
 Não simular sessão clínica, não filmar pacientes, não oferecer diagnóstico remoto via comentário.
