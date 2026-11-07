@@ -1,3 +1,6 @@
+## Continuidade PR #6 — 58 reescritas candidatas (07/11/2026)
+Existe [PR #6 DRAFT](https://github.com/Suamarcanotopo/Sotoma/pull/6), com 58 arquivos candidatos para artigos SOT-ED-002..060, excetuando 011, sem merge. O teste heurístico de repetição literal longa encontrou 0/58 acima de 20% após eliminar trechos compartilhados, mas isso **NÃO mede originalidade semântica nem qualidade clínica**. Amostra de leitura identificou trechos artificiais e exige correção de fluência. A [planilha comparativa](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=2000012341) contém 58 links exatos e bloqueios; `ARTIGOS_60` e `main` continuam como baseline, sem alteração dos textos por essa PR. Não autorizar merge/publicação sem revisão das autoras e fonte integral.
+
 # HANDOFF — SOTOMA-FOUNDATION-20261107
 Data: 2026-11-07 | Estado: FUNDACAO DOCUMENTAL | Leia primeiro [MISSION-LOCK](MISSION-LOCK.md).
 ## Decisão mais recente do responsável
