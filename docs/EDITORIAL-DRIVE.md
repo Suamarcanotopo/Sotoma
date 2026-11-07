@@ -1,3 +1,6 @@
+## Atualização V2 vigente — 60 pautas, estudos e marca (07/11/2026)
+Para novas tarefas, usar [README editorial V2](../dependencies/sotoma-editorial/README.md), [FUNIL IET](../dependencies/sotoma-editorial/FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md), [política de estudos](../dependencies/sotoma-editorial/PESQUISAS-ESTUDOS-GOVERNANCA.md) e [identidade SOTOMA](../dependencies/sotoma-editorial/IDENTIDADE-VISUAL-MARCA.md). Planilha: https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit. As abas `_20` são registros legados preservados; `PAUTAS_60`, `ESTUDOS_CIENTIFICOS`, `FUNIL_IET_60`, `IDENTIDADE_VISUAL`, `GATES_PUBLICACAO` e `ARTIGOS_REVISAO_58` compõem o fluxo atual. 58 reescritas candidatas na [PR #6](https://github.com/Suamarcanotopo/Sotoma/pull/6) aguardam revisão. Todos os artigos continuam não publicados.
+
 # SOTOMA Editorial — planejamento + Google Sheets nativo
 Estado em 2026-11-07: **planilha Google Sheets criada, dados editoriais iniciais preenchidos e lidos de volta; sem automação/WordPress/publicação**.
 ## Documento canônico de funcionamento
