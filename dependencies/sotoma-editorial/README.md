@@ -1,3 +1,6 @@
+### Revisão de 58 artigos — sem merge
+[Pull Request #6 DRAFT](https://github.com/Suamarcanotopo/Sotoma/pull/6) e [planilha comparativa ARTIGOS_REVISAO_58](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=2000012341) apresentam 58 propostas de reescrita. Elas estão **em branch de revisão**, sem substituir os artigos de main. O teste heurístico de repetição literal melhorou, mas linguagem, originalidade semântica, fontes e aprovação das autoras continuam pendentes. Os dois pilotos anteriores são preservados.
+
 # SOTOMA EDITORIAL — INÍCIO RÁPIDO V2 (60 PAUTAS)
 
 ## SOTOMA EDITORIAL — VERSÃO ATIVA: 60 PAUTAS, PESQUISA, FUNIL IET E IDENTIDADE VISUAL (07/11/2026)
