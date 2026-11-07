@@ -15,33 +15,33 @@ Projeto da SOTOMA Saúde Psicointegrada. Estado: **planejamento e fundação doc
 10. [Fontes oficiais](docs/FONTES.md) — investigação e normas.
 
 ## ÍNDICE CANÔNICO — SOTOMA EDITORIAL 50/40/10
-**Dependência:** [SOTOMA Editorial 50/40/10](dependencies/sotoma-editorial/README.md). Autoras atuais: Cláudia Fernanda Sotoma e Yasmin Sotoma Muzilli; expansão para outros profissionais credenciados sem marketplace. Diretriz editorial por lote: **50% topo (10), 40% meio (8), 10% fundo (2)**; níveis N0–N4. Rascunhos necessitam validação de qualificações, conteúdo e fontes.
+**Dependência:** [SOTOMA Editorial 50/40/10](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/README.md). Autoras atuais: Cláudia Fernanda Sotoma e Yasmin Sotoma Muzilli; expansão para outros profissionais credenciados sem marketplace. Diretriz editorial por lote: **50% topo (10), 40% meio (8), 10% fundo (2)**; níveis N0–N4. Rascunhos necessitam validação de qualificações, conteúdo e fontes.
 
 **Google Planilhas, URL exata:** [SOTOMA | Editorial 50-40-10 | Cláudia e Yasmin](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit) — planilha na pasta [ChatGPT](https://drive.google.com/drive/folders/1YKZoWpUbAvnmN7Wg4TBiuQVd8ykvh0yN).
 
 | Entrega | GitHub (documentação executável) | Google Sheets (dados operacionais) |
 | --- | --- | --- |
-| Missão, escopo, ética e 50/40/10 | [Mission Lock editorial](dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [PAINEL](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2008109360) |
-| Catálogo de 20 pautas, autora e consciência | [CATALOGO-20.md](dependencies/sotoma-editorial/CATALOGO-20.md) | [PAUTAS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534) |
-| Artigos, SEO e fontes | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [ARTIGOS_BRIEF](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166) / [ARTIGOS_PILOTO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=298731141) |
-| Scripts de post e legendas | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [POSTS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656) |
-| Carrosséis com **12 prompts completos por pauta** | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [CARDS_240](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762) |
-| Scripts de vídeo 30, 60, 90 e 120 s | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [VIDEOS_80](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1555500162) |
-| Contrato, status e integração | [CONTRATO-SHEETS.md](dependencies/sotoma-editorial/CONTRATO-SHEETS.md) | [APROVACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1457553522) / [PUBLICACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=358903051) |
-| Roteiros-base e quadros de fala | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [SCRIPTS_VIDEO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=119742079) |
-| Credenciamento editorial das autoras | [Mission Lock editorial](dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [AUTORES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=313952020) |
+| Missão, escopo, ética e 50/40/10 | [Mission Lock editorial](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [PAINEL](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2008109360) |
+| Catálogo de 20 pautas, autora e consciência | [CATALOGO-20.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/CATALOGO-20.md) | [PAUTAS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534) |
+| Artigos, SEO e fontes | [PLAYBOOK-360.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/PLAYBOOK-360.md) | [ARTIGOS_BRIEF](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166) / [ARTIGOS_PILOTO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=298731141) |
+| Scripts de post e legendas | [PROMPTS-MESTRES.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [POSTS_20](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656) |
+| Carrosséis com **12 prompts completos por pauta** | [PROMPTS-MESTRES.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [CARDS_240](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762) |
+| Scripts de vídeo 30, 60, 90 e 120 s | [PLAYBOOK-360.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/PLAYBOOK-360.md) | [VIDEOS_80](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1555500162) |
+| Contrato, status e integração | [CONTRATO-SHEETS.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/CONTRATO-SHEETS.md) | [APROVACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1457553522) / [PUBLICACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=358903051) |
+| Roteiros-base e quadros de fala | [PROMPTS-MESTRES.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [SCRIPTS_VIDEO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=119742079) |
+| Credenciamento editorial das autoras | [Mission Lock editorial](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [AUTORES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=313952020) |
 | Registro de fontes e referências | [FONTES.md](docs/FONTES.md) | [FONTES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=498273490) |
-| QA adversarial antes de publicar | [COLISEUM-EDITORIAL-QA.md](dependencies/sotoma-editorial/COLISEUM-EDITORIAL-QA.md) | [GUIA](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2053797448) |
+| QA adversarial antes de publicar | [COLISEUM-EDITORIAL-QA.md](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/COLISEUM-EDITORIAL-QA.md) | [GUIA](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2053797448) |
 
 
 **Espelhos de dados editoriais no GitHub** (snapshot de 07/11/2026, sem sincronismo automático):
-[20 pautas](dependencies/sotoma-editorial/dados/PAUTAS-20.json) ·
-[20 briefings](dependencies/sotoma-editorial/dados/ARTIGOS-BRIEF-20.json) ·
-[20 posts](dependencies/sotoma-editorial/dados/POSTS-20.json) ·
-[80 roteiros de vídeo](dependencies/sotoma-editorial/dados/VIDEOS-80.ndjson) ·
-[240 prompts individuais de cards](dependencies/sotoma-editorial/dados/CARDS-240.ndjson) ·
-[artigo Cláudia 001](dependencies/sotoma-editorial/pilotos/SOT-ED-001-ARTIGO-RASCUNHO.md) ·
-[artigo Yasmin 011](dependencies/sotoma-editorial/pilotos/SOT-ED-011-ARTIGO-RASCUNHO.md).
+[20 pautas](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/PAUTAS-20.json) ·
+[20 briefings](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/ARTIGOS-BRIEF-20.json) ·
+[20 posts](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/POSTS-20.json) ·
+[80 roteiros de vídeo](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/VIDEOS-80.ndjson) ·
+[240 prompts individuais de cards](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/CARDS-240.ndjson) ·
+[artigo Cláudia 001](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/pilotos/SOT-ED-001-ARTIGO-RASCUNHO.md) ·
+[artigo Yasmin 011](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/pilotos/SOT-ED-011-ARTIGO-RASCUNHO.md).
 
 **Importante:** planilha e rascunhos existem; **existem dois artigos-piloto completos em rascunho, mas não existem ainda 20 artigos finais revisados, imagens/vídeos gerados, publicações verificadas ou automação de sincronização**. Nunca adicionar dados de pacientes ao editorial. A primeira publicação depende da autorização individual de cada autora e da direção.
 
@@ -56,3 +56,8 @@ Projeto da SOTOMA Saúde Psicointegrada. Estado: **planejamento e fundação doc
 - Dados de pacientes: **NÃO presentes** e nunca permitidos no GitHub.
 ## Normas de trabalho
 Não inventar disponibilidade, aprovações, publicação, coleta de eventos, pacientes nem indicadores reais. Toda feature deve produzir teste automatizado ou evidência verificável. Production freeze até gates de segurança e aceite formal. Mudanças em branch, revisão e PR sempre que afetarem runtime.
+## Evidência e limites da implantação editorial (2026-11-07)
+- **Verificado no Google Sheets:** 13 abas, 20 pautas, 10/8/2 e porcentagens 50%/40%/10% calculadas, 240 prompts individuais, 20 scripts-base, 80 scripts multiformato, 20 legendas, 2 artigos-piloto integrais em rascunho e zero publicações.
+- **Verificado no GitHub:** contratos, prompts e snapshots de 20 pautas, 20 briefs, 20 legendas, 80 scripts e 240 prompts estão no repositório privado, além de dois artigos-piloto.
+- **NÃO implementado:** automação de sincronização entre Sheets, GitHub, Docs e WordPress; agendamento editorial automático, imagens/vídeos gerados ou postagem no website.
+- **Próximas aprovações:** Cláudia e Yasmin confirmam qualificações e revisam seus conteúdos, fontes e legendas; a direção aprova estilo visual, cadência e publicação.
