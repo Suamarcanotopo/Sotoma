@@ -8,11 +8,13 @@
       "stage": "TOPO",
       "title": "Autocobrança: por que descansar às vezes provoca culpa?",
       "hook": "Autocobrança: por que descansar às vezes provoca culpa?",
-      "script": "Autocobrança: por que descansar às vezes provoca culpa?\n\nUma experiência cotidiana pode começar com culpa ao desacelerar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDescanso não é prêmio por produtividade. Em Exemplo hipotético de culpa ao desacelerar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Autocobrança: por que descansar às vezes provoca culpa?\n\nUma experiência cotidiana pode começar com culpa ao desacelerar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDescanso não é prêmio por produtividade. Em Exemplo hipotético de culpa ao desacelerar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre autocobrança: por que descansar às vezes provoca culpa e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre autocobrança: por que descansar às vezes provoca culpa e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-001.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-001.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-002",
@@ -20,11 +22,13 @@
       "stage": "TOPO",
       "title": "Cansaço emocional: quando a rotina parece pesar demais",
       "hook": "Cansaço emocional: quando a rotina parece pesar demais",
-      "script": "Cansaço emocional: quando a rotina parece pesar demais\n\nUma experiência cotidiana pode começar com sensação persistente de esgotamento. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCansaço emocional não tem explicação única. Em Exemplo hipotético de sensação persistente de esgotamento, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Cansaço emocional: quando a rotina parece pesar demais\n\nUma experiência cotidiana pode começar com sensação persistente de esgotamento. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCansaço emocional não tem explicação única. Em Exemplo hipotético de sensação persistente de esgotamento, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre cansaço emocional: quando a rotina parece pesar demais e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre cansaço emocional: quando a rotina parece pesar demais e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-002.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-002.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-003",
@@ -32,11 +36,13 @@
       "stage": "TOPO",
       "title": "Recomeços: por que mudanças despertam sentimentos contraditórios?",
       "hook": "Recomeços: por que mudanças despertam sentimentos contraditórios?",
-      "script": "Recomeços: por que mudanças despertam sentimentos contraditórios?\n\nUma experiência cotidiana pode começar com mistura de expectativa, luto e incerteza. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAmbivalência pode acompanhar mudanças importantes. Em Exemplo hipotético de mistura de expectativa, luto e incerteza, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Recomeços: por que mudanças despertam sentimentos contraditórios?\n\nUma experiência cotidiana pode começar com mistura de expectativa, luto e incerteza. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAmbivalência pode acompanhar mudanças importantes. Em Exemplo hipotético de mistura de expectativa, luto e incerteza, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre recomeços: por que mudanças despertam sentimentos contraditórios e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre recomeços: por que mudanças despertam sentimentos contraditórios e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-003.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-003.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-004",
@@ -44,11 +50,13 @@
       "stage": "TOPO",
       "title": "Morar no exterior: o que muda na sensação de pertencimento?",
       "hook": "Morar no exterior: o que muda na sensação de pertencimento?",
-      "script": "Morar no exterior: o que muda na sensação de pertencimento?\n\nUma experiência cotidiana pode começar com saudade e redefinição de rotina. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdaptação é um processo, não uma prova individual. Em Exemplo hipotético de saudade e redefinição de rotina, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Morar no exterior: o que muda na sensação de pertencimento?\n\nUma experiência cotidiana pode começar com saudade e redefinição de rotina. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdaptação é um processo, não uma prova individual. Em Exemplo hipotético de saudade e redefinição de rotina, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre morar no exterior: o que muda na sensação de pertencimento e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre morar no exterior: o que muda na sensação de pertencimento e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-004.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-004.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-005",
@@ -56,11 +64,13 @@
       "stage": "TOPO",
       "title": "Chegar ao Japão: expectativas e adaptação emocional",
       "hook": "Chegar ao Japão: expectativas e adaptação emocional",
-      "script": "Chegar ao Japão: expectativas e adaptação emocional\n\nUma experiência cotidiana pode começar com distância entre expectativa e cotidiano. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCada processo de adaptação é singular. Em Exemplo hipotético de distância entre expectativa e cotidiano, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Chegar ao Japão: expectativas e adaptação emocional\n\nUma experiência cotidiana pode começar com distância entre expectativa e cotidiano. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCada processo de adaptação é singular. Em Exemplo hipotético de distância entre expectativa e cotidiano, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre chegar ao japão: expectativas e adaptação emocional e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre chegar ao japão: expectativas e adaptação emocional e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-005.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-005.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/"
     },
     {
       "id": "SOT-ED-006",
@@ -68,11 +78,13 @@
       "stage": "MEIO",
       "title": "Psicoterapia Positiva: o que é e o que ela não promete?",
       "hook": "Psicoterapia Positiva: o que é e o que ela não promete?",
-      "script": "Psicoterapia Positiva: o que é e o que ela não promete?\n\nUma experiência cotidiana pode começar com dúvida sobre abordagem e limites. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAbordagens não oferecem resultados garantidos. Em Exemplo hipotético de dúvida sobre abordagem e limites, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Psicoterapia Positiva: o que é e o que ela não promete?\n\nUma experiência cotidiana pode começar com dúvida sobre abordagem e limites. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAbordagens não oferecem resultados garantidos. Em Exemplo hipotético de dúvida sobre abordagem e limites, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de psicoterapia positiva: o que é e o que ela não promete e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de psicoterapia positiva: o que é e o que ela não promete e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-006.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-006.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-007",
@@ -80,11 +92,13 @@
       "stage": "MEIO",
       "title": "V.I.A.: como compreender o apoio à adaptação internacional",
       "hook": "V.I.A.: como compreender o apoio à adaptação internacional",
-      "script": "V.I.A.: como compreender o apoio à adaptação internacional\n\nUma experiência cotidiana pode começar com dúvidas sobre suporte emocional antes e depois. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrograma não substitui orientação migratória ou médica. Em Exemplo hipotético de dúvidas sobre suporte emocional antes e depois, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "V.I.A.: como compreender o apoio à adaptação internacional\n\nUma experiência cotidiana pode começar com dúvidas sobre suporte emocional antes e depois. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrograma não substitui orientação migratória ou médica. Em Exemplo hipotético de dúvidas sobre suporte emocional antes e depois, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de via: como compreender o apoio à adaptação internacional e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de via: como compreender o apoio à adaptação internacional e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-007.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-007.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-008",
@@ -92,11 +106,13 @@
       "stage": "MEIO",
       "title": "M.I.R.A.: o que conversar antes de viver no Japão",
       "hook": "M.I.R.A.: o que conversar antes de viver no Japão",
-      "script": "M.I.R.A.: o que conversar antes de viver no Japão\n\nUma experiência cotidiana pode começar com necessidade de preparação emocional. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrograma não garante adaptação nem resolve burocracia. Em Exemplo hipotético de necessidade de preparação emocional, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "M.I.R.A.: o que conversar antes de viver no Japão\n\nUma experiência cotidiana pode começar com necessidade de preparação emocional. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrograma não garante adaptação nem resolve burocracia. Em Exemplo hipotético de necessidade de preparação emocional, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de mira: o que conversar antes de viver no japão e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de mira: o que conversar antes de viver no japão e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-008.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-008.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/"
     },
     {
       "id": "SOT-ED-009",
@@ -104,11 +120,13 @@
       "stage": "MEIO",
       "title": "Como escolher acompanhamento emocional de forma responsável",
       "hook": "Como escolher acompanhamento emocional de forma responsável",
-      "script": "Como escolher acompanhamento emocional de forma responsável\n\nUma experiência cotidiana pode começar com dúvida sobre formação, abordagem e sigilo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscolha informada depende de qualificações e limites claros. Em Exemplo hipotético de dúvida sobre formação, abordagem e sigilo, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Como escolher acompanhamento emocional de forma responsável\n\nUma experiência cotidiana pode começar com dúvida sobre formação, abordagem e sigilo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscolha informada depende de qualificações e limites claros. Em Exemplo hipotético de dúvida sobre formação, abordagem e sigilo, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de como escolher acompanhamento emocional de forma responsável e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de como escolher acompanhamento emocional de forma responsável e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-009.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-009.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-010",
@@ -116,11 +134,13 @@
       "stage": "FUNDO",
       "title": "Primeiro contato com a SOTOMA: o que perguntar sobre atendimento adulto",
       "hook": "Primeiro contato com a SOTOMA: o que perguntar sobre atendimento adulto",
-      "script": "Primeiro contato com a SOTOMA: o que perguntar sobre atendimento adulto\n\nUma experiência cotidiana pode começar com insegurança sobre como iniciar contato. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrimeira conversa é esclarecimento, não promessa de resultado. Em Exemplo hipotético de insegurança sobre como iniciar contato, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "Primeiro contato com a SOTOMA: o que perguntar sobre atendimento adulto\n\nUma experiência cotidiana pode começar com insegurança sobre como iniciar contato. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrimeira conversa é esclarecimento, não promessa de resultado. Em Exemplo hipotético de insegurança sobre como iniciar contato, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
+      "cta": "Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-010.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-010.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     },
     {
       "id": "SOT-ED-011",
@@ -128,11 +148,13 @@
       "stage": "TOPO",
       "title": "Quando a criança não encontra palavras para o que sente",
       "hook": "Quando a criança não encontra palavras para o que sente",
-      "script": "Quando a criança não encontra palavras para o que sente\n\nUma experiência cotidiana pode começar com dificuldade infantil para expressar emoções. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nExpressão emocional pode ocorrer de diferentes formas. Em Exemplo hipotético de dificuldade infantil para expressar emoções, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Quando a criança não encontra palavras para o que sente\n\nUma experiência cotidiana pode começar com dificuldade infantil para expressar emoções. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nExpressão emocional pode ocorrer de diferentes formas. Em Exemplo hipotético de dificuldade infantil para expressar emoções, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre quando a criança não encontra palavras para o que sente e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre quando a criança não encontra palavras para o que sente e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-011.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-011.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-012",
@@ -140,11 +162,13 @@
       "stage": "TOPO",
       "title": "Adolescência: por que emoções e relações parecem mudar tanto?",
       "hook": "Adolescência: por que emoções e relações parecem mudar tanto?",
-      "script": "Adolescência: por que emoções e relações parecem mudar tanto?\n\nUma experiência cotidiana pode começar com dúvida diante de mudanças na adolescência. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNão existe um único jeito de viver adolescência. Em Exemplo hipotético de dúvida diante de mudanças na adolescência, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Adolescência: por que emoções e relações parecem mudar tanto?\n\nUma experiência cotidiana pode começar com dúvida diante de mudanças na adolescência. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNão existe um único jeito de viver adolescência. Em Exemplo hipotético de dúvida diante de mudanças na adolescência, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre adolescência: por que emoções e relações parecem mudar tanto e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre adolescência: por que emoções e relações parecem mudar tanto e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-012.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-012.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-013",
@@ -152,11 +176,13 @@
       "stage": "TOPO",
       "title": "Mudança de escola: além do material e do uniforme",
       "hook": "Mudança de escola: além do material e do uniforme",
-      "script": "Mudança de escola: além do material e do uniforme\n\nUma experiência cotidiana pode começar com ruptura de vínculos e novas rotinas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdaptação escolar envolve relações e pertencimento. Em Exemplo hipotético de ruptura de vínculos e novas rotinas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Mudança de escola: além do material e do uniforme\n\nUma experiência cotidiana pode começar com ruptura de vínculos e novas rotinas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdaptação escolar envolve relações e pertencimento. Em Exemplo hipotético de ruptura de vínculos e novas rotinas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre mudança de escola: além do material e do uniforme e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre mudança de escola: além do material e do uniforme e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-013.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-013.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-014",
@@ -164,11 +190,13 @@
       "stage": "TOPO",
       "title": "Ciúmes entre irmãos: observações sem rótulos",
       "hook": "Ciúmes entre irmãos: observações sem rótulos",
-      "script": "Ciúmes entre irmãos: observações sem rótulos\n\nUma experiência cotidiana pode começar com conflitos e disputas no convívio. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEmoções difíceis não definem o caráter da criança. Em Exemplo hipotético de conflitos e disputas no convívio, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Ciúmes entre irmãos: observações sem rótulos\n\nUma experiência cotidiana pode começar com conflitos e disputas no convívio. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEmoções difíceis não definem o caráter da criança. Em Exemplo hipotético de conflitos e disputas no convívio, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre ciúmes entre irmãos: observações sem rótulos e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre ciúmes entre irmãos: observações sem rótulos e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-014.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-014.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-015",
@@ -176,11 +204,13 @@
       "stage": "TOPO",
       "title": "Pressão escolar e autocobrança na adolescência",
       "hook": "Pressão escolar e autocobrança na adolescência",
-      "script": "Pressão escolar e autocobrança na adolescência\n\nUma experiência cotidiana pode começar com medo de errar e pressão por desempenho. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDesempenho escolar não define valor pessoal. Em Exemplo hipotético de medo de errar e pressão por desempenho, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Pressão escolar e autocobrança na adolescência\n\nUma experiência cotidiana pode começar com medo de errar e pressão por desempenho. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDesempenho escolar não define valor pessoal. Em Exemplo hipotético de medo de errar e pressão por desempenho, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre pressão escolar e autocobrança na adolescência e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre pressão escolar e autocobrança na adolescência e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-015.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-015.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-016",
@@ -188,11 +218,13 @@
       "stage": "MEIO",
       "title": "Escuta psicanalítica infantil: o que as famílias podem esperar?",
       "hook": "Escuta psicanalítica infantil: o que as famílias podem esperar?",
-      "script": "Escuta psicanalítica infantil: o que as famílias podem esperar?\n\nUma experiência cotidiana pode começar com dúvidas sobre expressão infantil em consulta. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscuta clínica tem limites éticos e depende do contexto. Em Exemplo hipotético de dúvidas sobre expressão infantil em consulta, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Escuta psicanalítica infantil: o que as famílias podem esperar?\n\nUma experiência cotidiana pode começar com dúvidas sobre expressão infantil em consulta. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscuta clínica tem limites éticos e depende do contexto. Em Exemplo hipotético de dúvidas sobre expressão infantil em consulta, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre escuta psicanalítica infantil: o que as famílias podem esperar com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre escuta psicanalítica infantil: o que as famílias podem esperar com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-016.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-016.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-017",
@@ -200,11 +232,13 @@
       "stage": "MEIO",
       "title": "Qual é o papel da família no acompanhamento de crianças?",
       "hook": "Qual é o papel da família no acompanhamento de crianças?",
-      "script": "Qual é o papel da família no acompanhamento de crianças?\n\nUma experiência cotidiana pode começar com dúvida sobre reuniões e devolutivas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nFamílias participam de modo acordado, preservando sigilo. Em Exemplo hipotético de dúvida sobre reuniões e devolutivas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Qual é o papel da família no acompanhamento de crianças?\n\nUma experiência cotidiana pode começar com dúvida sobre reuniões e devolutivas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nFamílias participam de modo acordado, preservando sigilo. Em Exemplo hipotético de dúvida sobre reuniões e devolutivas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre qual é o papel da família no acompanhamento de crianças com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre qual é o papel da família no acompanhamento de crianças com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-017.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-017.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-018",
@@ -212,11 +246,13 @@
       "stage": "MEIO",
       "title": "Mudanças de comportamento: quando buscar orientação profissional?",
       "hook": "Mudanças de comportamento: quando buscar orientação profissional?",
-      "script": "Mudanças de comportamento: quando buscar orientação profissional?\n\nUma experiência cotidiana pode começar com incerteza sobre necessidade de acompanhamento. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nSinais isolados não bastam para diagnóstico. Em Exemplo hipotético de incerteza sobre necessidade de acompanhamento, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Mudanças de comportamento: quando buscar orientação profissional?\n\nUma experiência cotidiana pode começar com incerteza sobre necessidade de acompanhamento. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nSinais isolados não bastam para diagnóstico. Em Exemplo hipotético de incerteza sobre necessidade de acompanhamento, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre mudanças de comportamento: quando buscar orientação profissional com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre mudanças de comportamento: quando buscar orientação profissional com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-018.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-018.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-019",
@@ -224,11 +260,13 @@
       "stage": "MEIO",
       "title": "Perguntas importantes antes de iniciar atendimento infantojuvenil",
       "hook": "Perguntas importantes antes de iniciar atendimento infantojuvenil",
-      "script": "Perguntas importantes antes de iniciar atendimento infantojuvenil\n\nUma experiência cotidiana pode começar com dúvidas sobre primeira sessão, horários e responsabilidade. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProcesso adequado pressupõe clareza e acolhimento. Em Exemplo hipotético de dúvidas sobre primeira sessão, horários e responsabilidade, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Perguntas importantes antes de iniciar atendimento infantojuvenil\n\nUma experiência cotidiana pode começar com dúvidas sobre primeira sessão, horários e responsabilidade. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProcesso adequado pressupõe clareza e acolhimento. Em Exemplo hipotético de dúvidas sobre primeira sessão, horários e responsabilidade, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre perguntas importantes antes de iniciar atendimento infantojuvenil com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre perguntas importantes antes de iniciar atendimento infantojuvenil com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-019.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-019.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-020",
@@ -236,11 +274,13 @@
       "stage": "FUNDO",
       "title": "Primeira conversa com a SOTOMA sobre atendimento infantojuvenil",
       "hook": "Primeira conversa com a SOTOMA sobre atendimento infantojuvenil",
-      "script": "Primeira conversa com a SOTOMA sobre atendimento infantojuvenil\n\nUma experiência cotidiana pode começar com insegurança sobre os passos para iniciar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nContato inicial esclarece possibilidades sem criar compromisso. Em Exemplo hipotético de insegurança sobre os passos para iniciar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "Primeira conversa com a SOTOMA sobre atendimento infantojuvenil\n\nUma experiência cotidiana pode começar com insegurança sobre os passos para iniciar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nContato inicial esclarece possibilidades sem criar compromisso. Em Exemplo hipotético de insegurança sobre os passos para iniciar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
+      "cta": "Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-020.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-020.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     },
     {
       "id": "SOT-ED-021",
@@ -248,11 +288,13 @@
       "stage": "TOPO",
       "title": "Comparação social: a sensação de estar atrasado na própria vida",
       "hook": "Comparação social: a sensação de estar atrasado na própria vida",
-      "script": "Comparação social: a sensação de estar atrasado na própria vida\n\nUma experiência cotidiana pode começar com comparar marcos pessoais com conquistas alheias. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNenhuma trajetória deve ser reduzida a um calendário universal. Em um encontro entre amigos em etapas diferentes, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Comparação social: a sensação de estar atrasado na própria vida\n\nUma experiência cotidiana pode começar com comparar marcos pessoais com conquistas alheias. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNenhuma trajetória deve ser reduzida a um calendário universal. Em um encontro entre amigos em etapas diferentes, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre comparação social: a sensação de estar atrasado na própria vida e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre comparação social: a sensação de estar atrasado na própria vida e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-021.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-021.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-022",
@@ -260,11 +302,13 @@
       "stage": "TOPO",
       "title": "Mudar de carreira sem perder a própria identidade",
       "hook": "Mudar de carreira sem perder a própria identidade",
-      "script": "Mudar de carreira sem perder a própria identidade\n\nUma experiência cotidiana pode começar com confundir ocupação com identidade inteira. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA trajetória profissional pode mudar sem apagar vivências. Em primeiro dia após sair de um emprego, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Mudar de carreira sem perder a própria identidade\n\nUma experiência cotidiana pode começar com confundir ocupação com identidade inteira. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA trajetória profissional pode mudar sem apagar vivências. Em primeiro dia após sair de um emprego, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre mudar de carreira sem perder a própria identidade e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre mudar de carreira sem perder a própria identidade e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-022.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-022.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-023",
@@ -272,11 +316,13 @@
       "stage": "TOPO",
       "title": "Saudade do país de origem: vínculos que atravessam fronteiras",
       "hook": "Saudade do país de origem: vínculos que atravessam fronteiras",
-      "script": "Saudade do país de origem: vínculos que atravessam fronteiras\n\nUma experiência cotidiana pode começar com sentir saudade mesmo satisfeito com a mudança. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nSaudade não significa que migrar tenha sido um erro. Em uma videochamada entre fusos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Saudade do país de origem: vínculos que atravessam fronteiras\n\nUma experiência cotidiana pode começar com sentir saudade mesmo satisfeito com a mudança. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nSaudade não significa que migrar tenha sido um erro. Em uma videochamada entre fusos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre saudade do país de origem: vínculos que atravessam fronteiras e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre saudade do país de origem: vínculos que atravessam fronteiras e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-023.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-023.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-024",
@@ -284,11 +330,13 @@
       "stage": "TOPO",
       "title": "Quando a vida não seguiu o plano: expectativas e perdas simbólicas",
       "hook": "Quando a vida não seguiu o plano: expectativas e perdas simbólicas",
-      "script": "Quando a vida não seguiu o plano: expectativas e perdas simbólicas\n\nUma experiência cotidiana pode começar com sofrer por um futuro imaginado que não aconteceu. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRever expectativas é diferente de fracassar. Em reencontrar um caderno de projetos antigos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Quando a vida não seguiu o plano: expectativas e perdas simbólicas\n\nUma experiência cotidiana pode começar com sofrer por um futuro imaginado que não aconteceu. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRever expectativas é diferente de fracassar. Em reencontrar um caderno de projetos antigos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre quando a vida não seguiu o plano: expectativas e perdas simbólicas e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre quando a vida não seguiu o plano: expectativas e perdas simbólicas e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-024.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-024.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-025",
@@ -296,11 +344,13 @@
       "stage": "TOPO",
       "title": "Hiperconectividade e descanso: quando a mente continua no trabalho",
       "hook": "Hiperconectividade e descanso: quando a mente continua no trabalho",
-      "script": "Hiperconectividade e descanso: quando a mente continua no trabalho\n\nUma experiência cotidiana pode começar com receber mensagens e demandas após o expediente. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDescanso depende também de condições de trabalho e acordos. Em notificação chegando tarde da noite, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Hiperconectividade e descanso: quando a mente continua no trabalho\n\nUma experiência cotidiana pode começar com receber mensagens e demandas após o expediente. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDescanso depende também de condições de trabalho e acordos. Em notificação chegando tarde da noite, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre hiperconectividade e descanso: quando a mente continua no trabalho e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre hiperconectividade e descanso: quando a mente continua no trabalho e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-025.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-025.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-026",
@@ -308,11 +358,13 @@
       "stage": "TOPO",
       "title": "Dizer não sem transformar limites em culpa",
       "hook": "Dizer não sem transformar limites em culpa",
-      "script": "Dizer não sem transformar limites em culpa\n\nUma experiência cotidiana pode começar com aceitar compromissos para não desagradar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nLimites merecem ser dialogados e contextualizados. Em pedido inesperado em agenda lotada, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Dizer não sem transformar limites em culpa\n\nUma experiência cotidiana pode começar com aceitar compromissos para não desagradar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nLimites merecem ser dialogados e contextualizados. Em pedido inesperado em agenda lotada, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre dizer não sem transformar limites em culpa e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre dizer não sem transformar limites em culpa e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-026.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-026.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-027",
@@ -320,11 +372,13 @@
       "stage": "TOPO",
       "title": "Projetos pessoais e expectativas familiares: conversar sobre escolhas",
       "hook": "Projetos pessoais e expectativas familiares: conversar sobre escolhas",
-      "script": "Projetos pessoais e expectativas familiares: conversar sobre escolhas\n\nUma experiência cotidiana pode começar com sentir pressão familiar sobre decisões. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDiscordar pode conviver com vínculos respeitosos. Em conversa de família sobre planos futuros, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Projetos pessoais e expectativas familiares: conversar sobre escolhas\n\nUma experiência cotidiana pode começar com sentir pressão familiar sobre decisões. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nDiscordar pode conviver com vínculos respeitosos. Em conversa de família sobre planos futuros, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre projetos pessoais e expectativas familiares: conversar sobre escolhas e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre projetos pessoais e expectativas familiares: conversar sobre escolhas e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-027.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-027.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-028",
@@ -332,11 +386,13 @@
       "stage": "TOPO",
       "title": "Solidão no exterior: contatos não são o mesmo que pertencimento",
       "hook": "Solidão no exterior: contatos não são o mesmo que pertencimento",
-      "script": "Solidão no exterior: contatos não são o mesmo que pertencimento\n\nUma experiência cotidiana pode começar com conhecer pessoas sem sentir proximidade. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nO pertencimento depende da qualidade e do contexto dos vínculos. Em entrada em vários grupos digitais num país novo, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Solidão no exterior: contatos não são o mesmo que pertencimento\n\nUma experiência cotidiana pode começar com conhecer pessoas sem sentir proximidade. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nO pertencimento depende da qualidade e do contexto dos vínculos. Em entrada em vários grupos digitais num país novo, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre solidão no exterior: contatos não são o mesmo que pertencimento e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre solidão no exterior: contatos não são o mesmo que pertencimento e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-028.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-028.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-029",
@@ -344,11 +400,13 @@
       "stage": "TOPO",
       "title": "Datas comemorativas longe de casa: saudade e novas tradições",
       "hook": "Datas comemorativas longe de casa: saudade e novas tradições",
-      "script": "Datas comemorativas longe de casa: saudade e novas tradições\n\nUma experiência cotidiana pode começar com sentir alegria e tristeza na mesma celebração. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCriar rituais não apaga histórias anteriores. Em primeira festa em outro país, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Datas comemorativas longe de casa: saudade e novas tradições\n\nUma experiência cotidiana pode começar com sentir alegria e tristeza na mesma celebração. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nCriar rituais não apaga histórias anteriores. Em primeira festa em outro país, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre datas comemorativas longe de casa: saudade e novas tradições e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre datas comemorativas longe de casa: saudade e novas tradições e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-029.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-029.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-030",
@@ -356,11 +414,13 @@
       "stage": "TOPO",
       "title": "Medo de errar em outro idioma: comunicação durante a migração",
       "hook": "Medo de errar em outro idioma: comunicação durante a migração",
-      "script": "Medo de errar em outro idioma: comunicação durante a migração\n\nUma experiência cotidiana pode começar com ficar inseguro ao resolver tarefas em língua estrangeira. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA dificuldade linguística não diminui a dignidade pessoal. Em pedir informações em estação desconhecida, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Medo de errar em outro idioma: comunicação durante a migração\n\nUma experiência cotidiana pode começar com ficar inseguro ao resolver tarefas em língua estrangeira. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA dificuldade linguística não diminui a dignidade pessoal. Em pedir informações em estação desconhecida, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça informações sobre medo de errar em outro idioma: comunicação durante a migração e examine as fontes de apoio.",
+      "cta": "Conheça informações sobre medo de errar em outro idioma: comunicação durante a migração e examine as fontes de apoio.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-030.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-030.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-031",
@@ -368,11 +428,13 @@
       "stage": "MEIO",
       "title": "Adaptação cultural ou sofrimento persistente: por que evitar rótulos",
       "hook": "Adaptação cultural ou sofrimento persistente: por que evitar rótulos",
-      "script": "Adaptação cultural ou sofrimento persistente: por que evitar rótulos\n\nUma experiência cotidiana pode começar com confundir desafios migratórios com diagnósticos. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nContexto e avaliação individual são necessários antes de concluir. Em pessoa recém-chegada buscando explicação rápida, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Adaptação cultural ou sofrimento persistente: por que evitar rótulos\n\nUma experiência cotidiana pode começar com confundir desafios migratórios com diagnósticos. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nContexto e avaliação individual são necessários antes de concluir. Em pessoa recém-chegada buscando explicação rápida, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de adaptação cultural ou sofrimento persistente: por que evitar rótulos e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de adaptação cultural ou sofrimento persistente: por que evitar rótulos e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-031.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-031.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-032",
@@ -380,11 +442,13 @@
       "stage": "MEIO",
       "title": "Atendimento emocional online no exterior: o que verificar",
       "hook": "Atendimento emocional online no exterior: o que verificar",
-      "script": "Atendimento emocional online no exterior: o que verificar\n\nUma experiência cotidiana pode começar com desconhecer regras profissionais em diferentes países. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nHabilitação, legislação local, sigilo e fuso exigem conferência. Em entrevista sobre atendimento em fusos distintos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Atendimento emocional online no exterior: o que verificar\n\nUma experiência cotidiana pode começar com desconhecer regras profissionais em diferentes países. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nHabilitação, legislação local, sigilo e fuso exigem conferência. Em entrevista sobre atendimento em fusos distintos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de atendimento emocional online no exterior: o que verificar e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de atendimento emocional online no exterior: o que verificar e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-032.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-032.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-033",
@@ -392,11 +456,13 @@
       "stage": "MEIO",
       "title": "Primeira conversa com profissional de cuidado emocional: como se preparar",
       "hook": "Primeira conversa com profissional de cuidado emocional: como se preparar",
-      "script": "Primeira conversa com profissional de cuidado emocional: como se preparar\n\nUma experiência cotidiana pode começar com achar que precisa organizar tudo para iniciar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPode-se começar por perguntas sobre objetivo, sigilo e funcionamento. Em lista de três dúvidas antes do contato, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Primeira conversa com profissional de cuidado emocional: como se preparar\n\nUma experiência cotidiana pode começar com achar que precisa organizar tudo para iniciar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPode-se começar por perguntas sobre objetivo, sigilo e funcionamento. Em lista de três dúvidas antes do contato, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de primeira conversa com profissional de cuidado emocional: como se preparar e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de primeira conversa com profissional de cuidado emocional: como se preparar e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-033.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-033.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-034",
@@ -404,11 +470,13 @@
       "stage": "MEIO",
       "title": "Cuidado integrativo e evidências: perguntas essenciais sobre práticas",
       "hook": "Cuidado integrativo e evidências: perguntas essenciais sobre práticas",
-      "script": "Cuidado integrativo e evidências: perguntas essenciais sobre práticas\n\nUma experiência cotidiana pode começar com supor que toda prática tem eficácia comprovada para tudo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA comunicação deve esclarecer formação, métodos e limites científicos. Em comparar duas descrições de serviço, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Cuidado integrativo e evidências: perguntas essenciais sobre práticas\n\nUma experiência cotidiana pode começar com supor que toda prática tem eficácia comprovada para tudo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA comunicação deve esclarecer formação, métodos e limites científicos. Em comparar duas descrições de serviço, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de cuidado integrativo e evidências: perguntas essenciais sobre práticas e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de cuidado integrativo e evidências: perguntas essenciais sobre práticas e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-034.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-034.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-035",
@@ -416,11 +484,13 @@
       "stage": "MEIO",
       "title": "Rede de apoio para brasileiros fora do país: vínculos e recursos",
       "hook": "Rede de apoio para brasileiros fora do país: vínculos e recursos",
-      "script": "Rede de apoio para brasileiros fora do país: vínculos e recursos\n\nUma experiência cotidiana pode começar com não saber com quem contar no cotidiano. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nApoio pode incluir relações pessoais e serviços locais confiáveis. Em criar mapa de contatos e instituições úteis, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Rede de apoio para brasileiros fora do país: vínculos e recursos\n\nUma experiência cotidiana pode começar com não saber com quem contar no cotidiano. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nApoio pode incluir relações pessoais e serviços locais confiáveis. Em criar mapa de contatos e instituições úteis, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de rede de apoio para brasileiros fora do país: vínculos e recursos e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de rede de apoio para brasileiros fora do país: vínculos e recursos e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-035.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-035.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-036",
@@ -428,11 +498,13 @@
       "stage": "MEIO",
       "title": "Famílias entre culturas: como lidar com expectativas diferentes",
       "hook": "Famílias entre culturas: como lidar com expectativas diferentes",
-      "script": "Famílias entre culturas: como lidar com expectativas diferentes\n\nUma experiência cotidiana pode começar com divergir sobre hábitos e papéis familiares. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nO diálogo cultural não requer apagar identidades. Em planejar uma celebração entre famílias de origens distintas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Famílias entre culturas: como lidar com expectativas diferentes\n\nUma experiência cotidiana pode começar com divergir sobre hábitos e papéis familiares. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nO diálogo cultural não requer apagar identidades. Em planejar uma celebração entre famílias de origens distintas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de famílias entre culturas: como lidar com expectativas diferentes e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de famílias entre culturas: como lidar com expectativas diferentes e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-036.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-036.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-037",
@@ -440,11 +512,13 @@
       "stage": "MEIO",
       "title": "Planejamento emocional antes de migrar: perguntas sobre o V.I.A.",
       "hook": "Planejamento emocional antes de migrar: perguntas sobre o V.I.A.",
-      "script": "Planejamento emocional antes de migrar: perguntas sobre o V.I.A.\n\nUma experiência cotidiana pode começar com planejar apenas documentos e logística. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA dimensão emocional integra a mudança sem substituir orientações legais. Em duas listas de preparação para viver fora, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Planejamento emocional antes de migrar: perguntas sobre o V.I.A.\n\nUma experiência cotidiana pode começar com planejar apenas documentos e logística. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA dimensão emocional integra a mudança sem substituir orientações legais. Em duas listas de preparação para viver fora, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de planejamento emocional antes de migrar: perguntas sobre o via e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de planejamento emocional antes de migrar: perguntas sobre o via e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-037.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-037.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/"
     },
     {
       "id": "SOT-ED-038",
@@ -452,11 +526,13 @@
       "stage": "MEIO",
       "title": "Depois da chegada ao Japão: dúvidas sobre adaptação e M.I.R.A.",
       "hook": "Depois da chegada ao Japão: dúvidas sobre adaptação e M.I.R.A.",
-      "script": "Depois da chegada ao Japão: dúvidas sobre adaptação e M.I.R.A.\n\nUma experiência cotidiana pode começar com esperar adaptação rápida a todas as rotinas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNenhum programa pode garantir prazo universal de adaptação. Em primeira semana entre moradia e deslocamentos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Depois da chegada ao Japão: dúvidas sobre adaptação e M.I.R.A.\n\nUma experiência cotidiana pode começar com esperar adaptação rápida a todas as rotinas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nNenhum programa pode garantir prazo universal de adaptação. Em primeira semana entre moradia e deslocamentos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Aprofunde sua compreensão de depois da chegada ao japão: dúvidas sobre adaptação e mira e esclareça limites e possibilidades de atendimento.",
+      "cta": "Aprofunde sua compreensão de depois da chegada ao japão: dúvidas sobre adaptação e mira e esclareça limites e possibilidades de atendimento.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-038.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-038.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/"
     },
     {
       "id": "SOT-ED-039",
@@ -464,11 +540,13 @@
       "stage": "FUNDO",
       "title": "Atendimento online para brasileiros no exterior: dúvidas antes de agendar",
       "hook": "Atendimento online para brasileiros no exterior: dúvidas antes de agendar",
-      "script": "Atendimento online para brasileiros no exterior: dúvidas antes de agendar\n\nUma experiência cotidiana pode começar com não entender disponibilidade e condições internacionais. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAtendimento exige confirmação de elegibilidade e regras aplicáveis. Em perguntas administrativas por canal oficial, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "Atendimento online para brasileiros no exterior: dúvidas antes de agendar\n\nUma experiência cotidiana pode começar com não entender disponibilidade e condições internacionais. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAtendimento exige confirmação de elegibilidade e regras aplicáveis. Em perguntas administrativas por canal oficial, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
+      "cta": "Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-039.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-039.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     },
     {
       "id": "SOT-ED-040",
@@ -476,11 +554,13 @@
       "stage": "FUNDO",
       "title": "SOTOMA: como esclarecer disponibilidade para V.I.A. e M.I.R.A.",
       "hook": "SOTOMA: como esclarecer disponibilidade para V.I.A. e M.I.R.A.",
-      "script": "SOTOMA: como esclarecer disponibilidade para V.I.A. e M.I.R.A.\n\nUma experiência cotidiana pode começar com não saber qual programa procurar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEquipe deve explicar formatos sem prometer resultados. Em consultar páginas institucionais dos programas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "SOTOMA: como esclarecer disponibilidade para V.I.A. e M.I.R.A.\n\nUma experiência cotidiana pode começar com não saber qual programa procurar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEquipe deve explicar formatos sem prometer resultados. Em consultar páginas institucionais dos programas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
+      "cta": "Converse com a equipe SOTOMA para confirmar formatos, condições e disponibilidade, sem compromisso.",
       "hashtags": "#SOTOMA #SaudeEmocional #ReflexaoResponsavel",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-040.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-040.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     },
     {
       "id": "SOT-ED-041",
@@ -488,11 +568,13 @@
       "stage": "TOPO",
       "title": "A criança e o medo de errar: espaço para tentar novamente",
       "hook": "A criança e o medo de errar: espaço para tentar novamente",
-      "script": "A criança e o medo de errar: espaço para tentar novamente\n\nUma experiência cotidiana pode começar com evitar tentativa por receio de falhar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nErros são experiências possíveis, não rótulos de personalidade. Em brinquedo desmontado e remontado, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "A criança e o medo de errar: espaço para tentar novamente\n\nUma experiência cotidiana pode começar com evitar tentativa por receio de falhar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nErros são experiências possíveis, não rótulos de personalidade. Em brinquedo desmontado e remontado, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre a criança e o medo de errar: espaço para tentar novamente e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre a criança e o medo de errar: espaço para tentar novamente e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-041.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-041.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-042",
@@ -500,11 +582,13 @@
       "stage": "TOPO",
       "title": "Mudança de casa: referências afetivas e rotina infantil",
       "hook": "Mudança de casa: referências afetivas e rotina infantil",
-      "script": "Mudança de casa: referências afetivas e rotina infantil\n\nUma experiência cotidiana pode começar com perder referências ao mudar residência. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA transição não produz uma reação única. Em caixas em casa nova e objetos familiares, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Mudança de casa: referências afetivas e rotina infantil\n\nUma experiência cotidiana pode começar com perder referências ao mudar residência. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nA transição não produz uma reação única. Em caixas em casa nova e objetos familiares, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre mudança de casa: referências afetivas e rotina infantil e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre mudança de casa: referências afetivas e rotina infantil e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-042.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-042.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-043",
@@ -512,11 +596,13 @@
       "stage": "TOPO",
       "title": "Amizade e exclusão escolar: escutar antes de concluir",
       "hook": "Amizade e exclusão escolar: escutar antes de concluir",
-      "script": "Amizade e exclusão escolar: escutar antes de concluir\n\nUma experiência cotidiana pode começar com relatar que ficou de fora de um grupo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nUm relato pede investigação do contexto, não interpretação automática. Em não receber convite para brincar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Amizade e exclusão escolar: escutar antes de concluir\n\nUma experiência cotidiana pode começar com relatar que ficou de fora de um grupo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nUm relato pede investigação do contexto, não interpretação automática. Em não receber convite para brincar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre amizade e exclusão escolar: escutar antes de concluir e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre amizade e exclusão escolar: escutar antes de concluir e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-043.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-043.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-044",
@@ -524,11 +610,13 @@
       "stage": "TOPO",
       "title": "Crianças percebem conflitos dos adultos: como cuidar da comunicação",
       "hook": "Crianças percebem conflitos dos adultos: como cuidar da comunicação",
-      "script": "Crianças percebem conflitos dos adultos: como cuidar da comunicação\n\nUma experiência cotidiana pode começar com presenciar tensões que não compreendem. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdultos devem evitar atribuir responsabilidade infantil. Em conversa tensa interrompida por criança, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Crianças percebem conflitos dos adultos: como cuidar da comunicação\n\nUma experiência cotidiana pode começar com presenciar tensões que não compreendem. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdultos devem evitar atribuir responsabilidade infantil. Em conversa tensa interrompida por criança, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre crianças percebem conflitos dos adultos: como cuidar da comunicação e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre crianças percebem conflitos dos adultos: como cuidar da comunicação e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-044.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-044.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-045",
@@ -536,11 +624,13 @@
       "stage": "TOPO",
       "title": "Privacidade na adolescência: confiança não é vigilância constante",
       "hook": "Privacidade na adolescência: confiança não é vigilância constante",
-      "script": "Privacidade na adolescência: confiança não é vigilância constante\n\nUma experiência cotidiana pode começar com querer monitorar todas as conversas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProteção e autonomia exigem acordos proporcionais. Em disputa familiar sobre mensagens privadas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Privacidade na adolescência: confiança não é vigilância constante\n\nUma experiência cotidiana pode começar com querer monitorar todas as conversas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProteção e autonomia exigem acordos proporcionais. Em disputa familiar sobre mensagens privadas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre privacidade na adolescência: confiança não é vigilância constante e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre privacidade na adolescência: confiança não é vigilância constante e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-045.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-045.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-046",
@@ -548,11 +638,13 @@
       "stage": "TOPO",
       "title": "Agenda infantil lotada: quando quase não resta tempo livre",
       "hook": "Agenda infantil lotada: quando quase não resta tempo livre",
-      "script": "Agenda infantil lotada: quando quase não resta tempo livre\n\nUma experiência cotidiana pode começar com conciliar atividades sem pausas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nOuvir necessidades infantis é parte do planejamento. Em deslocamento entre esportes e cursos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Agenda infantil lotada: quando quase não resta tempo livre\n\nUma experiência cotidiana pode começar com conciliar atividades sem pausas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nOuvir necessidades infantis é parte do planejamento. Em deslocamento entre esportes e cursos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre agenda infantil lotada: quando quase não resta tempo livre e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre agenda infantil lotada: quando quase não resta tempo livre e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-046.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-046.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-047",
@@ -560,11 +652,13 @@
       "stage": "TOPO",
       "title": "Sono e rotina na adolescência: observar antes de rotular",
       "hook": "Sono e rotina na adolescência: observar antes de rotular",
-      "script": "Sono e rotina na adolescência: observar antes de rotular\n\nUma experiência cotidiana pode começar com relacionar irritação a um único motivo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRotina, descanso e contexto devem ser examinados sem autodiagnóstico. Em noite tardia após deveres escolares, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Sono e rotina na adolescência: observar antes de rotular\n\nUma experiência cotidiana pode começar com relacionar irritação a um único motivo. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRotina, descanso e contexto devem ser examinados sem autodiagnóstico. Em noite tardia após deveres escolares, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre sono e rotina na adolescência: observar antes de rotular e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre sono e rotina na adolescência: observar antes de rotular e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-047.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-047.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-048",
@@ -572,11 +666,13 @@
       "stage": "TOPO",
       "title": "Brincar e conversar: caminhos de expressão infantil",
       "hook": "Brincar e conversar: caminhos de expressão infantil",
-      "script": "Brincar e conversar: caminhos de expressão infantil\n\nUma experiência cotidiana pode começar com esperar relatos emocionais sempre em palavras. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nBrincadeira não deve ser interpretada como diagnóstico automático. Em inventar uma história com bonecos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Brincar e conversar: caminhos de expressão infantil\n\nUma experiência cotidiana pode começar com esperar relatos emocionais sempre em palavras. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nBrincadeira não deve ser interpretada como diagnóstico automático. Em inventar uma história com bonecos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre brincar e conversar: caminhos de expressão infantil e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre brincar e conversar: caminhos de expressão infantil e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-048.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-048.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-049",
@@ -584,11 +680,13 @@
       "stage": "TOPO",
       "title": "Irmãos de idades diferentes precisam das mesmas regras?",
       "hook": "Irmãos de idades diferentes precisam das mesmas regras?",
-      "script": "Irmãos de idades diferentes precisam das mesmas regras?\n\nUma experiência cotidiana pode começar com confundir justiça com regras idênticas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEquidade pode exigir explicações ajustadas à idade. Em irmãos em horários e fases escolares distintos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Irmãos de idades diferentes precisam das mesmas regras?\n\nUma experiência cotidiana pode começar com confundir justiça com regras idênticas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEquidade pode exigir explicações ajustadas à idade. Em irmãos em horários e fases escolares distintos, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre irmãos de idades diferentes precisam das mesmas regras e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre irmãos de idades diferentes precisam das mesmas regras e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-049.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-049.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-050",
@@ -596,11 +694,13 @@
       "stage": "TOPO",
       "title": "Adolescentes e comparação nas redes: conversa sem alarmismo",
       "hook": "Adolescentes e comparação nas redes: conversa sem alarmismo",
-      "script": "Adolescentes e comparação nas redes: conversa sem alarmismo\n\nUma experiência cotidiana pode começar com medir a própria vida por fotos selecionadas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAmbiente digital combina possibilidades e riscos diferentes. Em feed de vida perfeita e comparação, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Salve a reflexão ou consulte uma fonte confiável.",
-      "cta": "Salve a reflexão ou consulte uma fonte confiável.",
+      "script": "Adolescentes e comparação nas redes: conversa sem alarmismo\n\nUma experiência cotidiana pode começar com medir a própria vida por fotos selecionadas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAmbiente digital combina possibilidades e riscos diferentes. Em feed de vida perfeita e comparação, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Leia sobre adolescentes e comparação nas redes: conversa sem alarmismo e conheça perguntas que ajudam a escutar sem rotular.",
+      "cta": "Leia sobre adolescentes e comparação nas redes: conversa sem alarmismo e conheça perguntas que ajudam a escutar sem rotular.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-050.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-050.md",
+      "pillar": "INFORMAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-051",
@@ -608,11 +708,13 @@
       "stage": "MEIO",
       "title": "Bullying ou conflito pontual: diferenças importantes para escutar",
       "hook": "Bullying ou conflito pontual: diferenças importantes para escutar",
-      "script": "Bullying ou conflito pontual: diferenças importantes para escutar\n\nUma experiência cotidiana pode começar com não distinguir episódio de violência sistemática. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nFrequência, relação de poder e contexto importam na avaliação. Em reunião após relato de agressão escolar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Bullying ou conflito pontual: diferenças importantes para escutar\n\nUma experiência cotidiana pode começar com não distinguir episódio de violência sistemática. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nFrequência, relação de poder e contexto importam na avaliação. Em reunião após relato de agressão escolar, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre bullying ou conflito pontual: diferenças importantes para escutar com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre bullying ou conflito pontual: diferenças importantes para escutar com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-051.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-051.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-052",
@@ -620,11 +722,13 @@
       "stage": "MEIO",
       "title": "Família e escola: como construir diálogo que proteja a criança",
       "hook": "Família e escola: como construir diálogo que proteja a criança",
-      "script": "Família e escola: como construir diálogo que proteja a criança\n\nUma experiência cotidiana pode começar com iniciar conversas com acusações mútuas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nTroca factual e respeito a responsabilidades ajudam a colaborar. Em encontro entre família e professores, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Família e escola: como construir diálogo que proteja a criança\n\nUma experiência cotidiana pode começar com iniciar conversas com acusações mútuas. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nTroca factual e respeito a responsabilidades ajudam a colaborar. Em encontro entre família e professores, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre família e escola: como construir diálogo que proteja a criança com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre família e escola: como construir diálogo que proteja a criança com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-052.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-052.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-053",
@@ -632,11 +736,13 @@
       "stage": "MEIO",
       "title": "Primeiros encontros no atendimento infantil: o que combinar",
       "hook": "Primeiros encontros no atendimento infantil: o que combinar",
-      "script": "Primeiros encontros no atendimento infantil: o que combinar\n\nUma experiência cotidiana pode começar com não saber quem participa e como ocorre. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRegras dependem do profissional, responsabilidade e sigilo. Em perguntas administrativas sobre primeira consulta, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Primeiros encontros no atendimento infantil: o que combinar\n\nUma experiência cotidiana pode começar com não saber quem participa e como ocorre. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRegras dependem do profissional, responsabilidade e sigilo. Em perguntas administrativas sobre primeira consulta, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre primeiros encontros no atendimento infantil: o que combinar com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre primeiros encontros no atendimento infantil: o que combinar com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-053.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-053.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-054",
@@ -644,11 +750,13 @@
       "stage": "MEIO",
       "title": "Sigilo e adolescência: dúvidas de pais e responsáveis",
       "hook": "Sigilo e adolescência: dúvidas de pais e responsáveis",
-      "script": "Sigilo e adolescência: dúvidas de pais e responsáveis\n\nUma experiência cotidiana pode começar com supor que responsável recebe todas as informações da sessão. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nConfidencialidade possui limites e deveres que precisam ser explicados. Em responsável perguntando sobre devolutivas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Sigilo e adolescência: dúvidas de pais e responsáveis\n\nUma experiência cotidiana pode começar com supor que responsável recebe todas as informações da sessão. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nConfidencialidade possui limites e deveres que precisam ser explicados. Em responsável perguntando sobre devolutivas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre sigilo e adolescência: dúvidas de pais e responsáveis com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre sigilo e adolescência: dúvidas de pais e responsáveis com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-054.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-054.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-055",
@@ -656,11 +764,13 @@
       "stage": "MEIO",
       "title": "Combinados sobre telas: diálogo adequado à faixa etária",
       "hook": "Combinados sobre telas: diálogo adequado à faixa etária",
-      "script": "Combinados sobre telas: diálogo adequado à faixa etária\n\nUma experiência cotidiana pode começar com disputas constantes sobre tempo conectado. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRegras proporcionais precisam considerar contexto e proteção. Em família negociando horários de uso, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Combinados sobre telas: diálogo adequado à faixa etária\n\nUma experiência cotidiana pode começar com disputas constantes sobre tempo conectado. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nRegras proporcionais precisam considerar contexto e proteção. Em família negociando horários de uso, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre combinados sobre telas: diálogo adequado à faixa etária com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre combinados sobre telas: diálogo adequado à faixa etária com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-055.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-055.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-056",
@@ -668,11 +778,13 @@
       "stage": "MEIO",
       "title": "Atendimento remoto infantojuvenil: cuidados antes de decidir",
       "hook": "Atendimento remoto infantojuvenil: cuidados antes de decidir",
-      "script": "Atendimento remoto infantojuvenil: cuidados antes de decidir\n\nUma experiência cotidiana pode começar com desconhecer exigências de privacidade para atendimento remoto. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdequação, profissão e responsabilidade legal precisam ser avaliadas. Em casa com poucos espaços reservados, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Atendimento remoto infantojuvenil: cuidados antes de decidir\n\nUma experiência cotidiana pode começar com desconhecer exigências de privacidade para atendimento remoto. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nAdequação, profissão e responsabilidade legal precisam ser avaliadas. Em casa com poucos espaços reservados, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre atendimento remoto infantojuvenil: cuidados antes de decidir com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre atendimento remoto infantojuvenil: cuidados antes de decidir com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-056.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-056.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-057",
@@ -680,11 +792,13 @@
       "stage": "MEIO",
       "title": "Psicanálise e outras abordagens para crianças: perguntas sem hierarquia",
       "hook": "Psicanálise e outras abordagens para crianças: perguntas sem hierarquia",
-      "script": "Psicanálise e outras abordagens para crianças: perguntas sem hierarquia\n\nUma experiência cotidiana pode começar com achar que uma abordagem será superior para todos. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscolha informada precisa de explicação de método e qualificação. Em comparar descrições de duas formas de cuidado, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "Psicanálise e outras abordagens para crianças: perguntas sem hierarquia\n\nUma experiência cotidiana pode começar com achar que uma abordagem será superior para todos. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscolha informada precisa de explicação de método e qualificação. Em comparar descrições de duas formas de cuidado, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre psicanálise e outras abordagens para crianças: perguntas sem hierarquia com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre psicanálise e outras abordagens para crianças: perguntas sem hierarquia com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-057.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-057.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-058",
@@ -692,11 +806,13 @@
       "stage": "MEIO",
       "title": "A escola sugeriu avaliação: como organizar o próximo passo?",
       "hook": "A escola sugeriu avaliação: como organizar o próximo passo?",
-      "script": "A escola sugeriu avaliação: como organizar o próximo passo?\n\nUma experiência cotidiana pode começar com confundir sugestão escolar com diagnóstico. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscola descreve observações, avaliação cabe a habilitados. Em bilhete da escola pedindo conversa, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
-      "cta": "Conheça critérios e esclareça dúvidas sobre as modalidades de cuidado.",
+      "script": "A escola sugeriu avaliação: como organizar o próximo passo?\n\nUma experiência cotidiana pode começar com confundir sugestão escolar com diagnóstico. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nEscola descreve observações, avaliação cabe a habilitados. Em bilhete da escola pedindo conversa, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Veja critérios e perguntas importantes antes de conversar sobre a escola sugeriu avaliação: como organizar o próximo passo com profissional habilitado.",
+      "cta": "Veja critérios e perguntas importantes antes de conversar sobre a escola sugeriu avaliação: como organizar o próximo passo com profissional habilitado.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-058.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-058.md",
+      "pillar": "EDUCAÇÃO",
+      "destination": "URL_ESPECIFICA_A_DEFINIR"
     },
     {
       "id": "SOT-ED-059",
@@ -704,11 +820,13 @@
       "stage": "FUNDO",
       "title": "Como pedir informações sobre atendimento infantil na SOTOMA",
       "hook": "Como pedir informações sobre atendimento infantil na SOTOMA",
-      "script": "Como pedir informações sobre atendimento infantil na SOTOMA\n\nUma experiência cotidiana pode começar com não saber quais canais e dados administrativos informar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrimeiro contato deve esclarecer disponibilidade sem diagnóstico. Em consulta ao canal institucional, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "Como pedir informações sobre atendimento infantil na SOTOMA\n\nUma experiência cotidiana pode começar com não saber quais canais e dados administrativos informar. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nPrimeiro contato deve esclarecer disponibilidade sem diagnóstico. Em consulta ao canal institucional, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
+      "cta": "Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-059.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-059.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     },
     {
       "id": "SOT-ED-060",
@@ -716,11 +834,14 @@
       "stage": "FUNDO",
       "title": "Atendimento para adolescentes: perguntas sobre agendamento na SOTOMA",
       "hook": "Atendimento para adolescentes: perguntas sobre agendamento na SOTOMA",
-      "script": "Atendimento para adolescentes: perguntas sobre agendamento na SOTOMA\n\nUma experiência cotidiana pode começar com ter dúvidas sobre horários e participação da família. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProcesso exige transparência sobre sigilo e responsáveis. Em agenda familiar e dúvidas anotadas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Para informações administrativas, consulte os canais oficiais da SOTOMA.",
-      "cta": "Para informações administrativas, consulte os canais oficiais da SOTOMA.",
+      "script": "Atendimento para adolescentes: perguntas sobre agendamento na SOTOMA\n\nUma experiência cotidiana pode começar com ter dúvidas sobre horários e participação da família. Isso não define um diagnóstico, nem significa que todas as pessoas tenham a mesma vivência.\n\nProcesso exige transparência sobre sigilo e responsáveis. Em agenda familiar e dúvidas anotadas, por exemplo, seria importante considerar o contexto antes de concluir o que aconteceu. A pergunta que vale levar adiante é: como diferenciar fatos, expectativas e possibilidades de diálogo?\n\nInformação pública não substitui acompanhamento individual. Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
+      "cta": "Solicite informações administrativas sobre atendimento infantojuvenil, preservando a privacidade da criança ou adolescente.",
       "hashtags": "#SOTOMA #Infancia #Adolescencia #Familia",
-      "status": "RASCUNHO_SEM_APROVACAO",
-      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-060.md"
+      "status": "CTA_IET_ATUALIZADO__APROVACAO_PENDENTE",
+      "article_url": "https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/artigos/SOT-ED-060.md",
+      "pillar": "TRANSFORMAÇÃO",
+      "destination": "https://sotomasaudepsicointegrada.com.br/"
     }
-  ]
+  ],
+  "funnel_version": "Informação_Educação_Transformação_v1"
 }
