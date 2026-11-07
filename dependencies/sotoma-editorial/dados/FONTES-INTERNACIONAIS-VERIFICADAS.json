@@ -18,8 +18,9 @@
       "topics": "Psicoterapia, sigilo, infância",
       "claim": "Regras profissionais para psicólogos",
       "limitation": "Exigível apenas conforme profissão/registro; verificar texto vigente",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-011",
@@ -32,8 +33,9 @@
       "topics": "Privacidade, documentos e consentimento",
       "claim": "Registros técnicos requerem ética e sigilo",
       "limitation": "Não se aplica automaticamente a profissões não regulamentadas pelo CFP",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-012",
@@ -46,8 +48,9 @@
       "topics": "Rede de cuidado, orientação de atendimento",
       "claim": "Sistema brasileiro articula diferentes pontos de cuidado",
       "limitation": "Não determina abordagem clínica individual",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-013",
@@ -60,8 +63,9 @@
       "topics": "Saúde mental geral, fatores sociais",
       "claim": "Enfatiza contextos, serviços e direitos",
       "limitation": "Não demonstra resultados de técnica ou programa da SOTOMA",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-014",
@@ -74,8 +78,9 @@
       "topics": "Migração, pertencimento, estigma, acesso",
       "claim": "Barreiras e suportes para migrantes e refugiados",
       "limitation": "Não tratar refugiados e migrantes voluntários como um grupo homogêneo",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-015",
@@ -88,8 +93,9 @@
       "topics": "Adolescência, proteção e contexto",
       "claim": "Vários fatores influenciam bem-estar do adolescente",
       "limitation": "Não diagnosticar caso individual por dados populacionais",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-016",
@@ -102,8 +108,9 @@
       "topics": "Estresse, autocobrança e descanso",
       "claim": "Estresse é uma resposta humana e depende do contexto",
       "limitation": "Não concluir que um sentimento isolado prova transtorno",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-017",
@@ -116,8 +123,9 @@
       "topics": "Infância e desenho de serviços",
       "claim": "Não existe um único modelo universal de serviço",
       "limitation": "Diretriz para sistemas, não prescrição individual",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-018",
@@ -130,8 +138,9 @@
       "topics": "Saúde mental infantojuvenil",
       "claim": "Vínculos, condições e cuidadores importam",
       "limitation": "Dados do relatório precisam ser datados e contextualizados",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-019",
@@ -144,8 +153,9 @@
       "topics": "Escuta, família e comunicação",
       "claim": "Ouvir, escolher contexto e não pressionar",
       "limitation": "Não é protocolo clínico e não prova eficácia de abordagem",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-020",
@@ -158,8 +168,9 @@
       "topics": "Saúde mental no Japão, política de serviços",
       "claim": "Portal do governo agrega informações e apoio",
       "limitation": "Fonte em japonês; exige tradução contextual",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-021",
@@ -172,8 +183,9 @@
       "topics": "Trabalho, estresse e descanso no Japão",
       "claim": "Orientação institucional dirigida a trabalhadores",
       "limitation": "Não extrapolar para todos os brasileiros ou categorias migratórias",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-022",
@@ -186,8 +198,9 @@
       "topics": "Apoio e canais multilíngues no Japão",
       "claim": "Aponta recursos em outros idiomas para residentes",
       "limitation": "Conferir elegibilidade, idioma e horário antes de indicar",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-023",
@@ -200,8 +213,9 @@
       "topics": "Informação em saúde mental para residentes",
       "claim": "Material japonês com links a autocuidado e serviços",
       "limitation": "Tradução e legislação precisam ser checadas",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-024",
@@ -214,8 +228,9 @@
       "topics": "Pesquisa japonesa em saúde mental",
       "claim": "Centro público reconhecido e linhas de pesquisa",
       "limitation": "Página institucional não substitui estudo específico",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-025",
@@ -228,8 +243,9 @@
       "topics": "Desenvolvimento infantil no Japão",
       "claim": "Pesquisa japonesa em crianças e adolescentes",
       "limitation": "Não extrapolar pesquisas sobre transtornos específicos",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-026",
@@ -242,8 +258,9 @@
       "topics": "Políticas de saúde na Ásia-Pacífico",
       "claim": "Orientação para sistemas e serviços regionais",
       "limitation": "Não é lei japonesa nem norma clínica brasileira",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-027",
@@ -256,8 +273,9 @@
       "topics": "Política e promoção de saúde mental",
       "claim": "Prioridades regionais e serviços",
       "limitation": "Não aplicar automaticamente dados a Japão, que integra outra região OMS",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-028",
@@ -270,8 +288,9 @@
       "topics": "Jovens, relações, mídia digital",
       "claim": "Estudo nacional em população local",
       "limitation": "População de Singapura não representa Brasil ou Japão; usar apenas após leitura do relatório",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-029",
@@ -284,8 +303,9 @@
       "topics": "Migração laboral, ASEAN e saúde mental",
       "claim": "Síntese regional sobre trabalhadores migrantes",
       "limitation": "Populações concentradas em certas rotas; não inferir prevalência brasileira",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-030",
@@ -298,8 +318,9 @@
       "topics": "Escolha informada de tratamento para adultos",
       "claim": "Diretriz avalia opções e cuidados compartilhados",
       "limitation": "Vale no sistema britânico; não equivale à regulamentação brasileira",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-031",
@@ -312,8 +333,9 @@
       "topics": "Crianças, avaliação e família",
       "claim": "Recomenda avaliação contextual e compartilhamento de decisões",
       "limitation": "Não atribuir eficácia idêntica a todas as abordagens",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-032",
@@ -326,8 +348,9 @@
       "topics": "Escola, vínculos e bem-estar",
       "claim": "Saúde socioemocional no ambiente escolar",
       "limitation": "Diretriz sistêmica, não diagnóstico escolar",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-033",
@@ -340,8 +363,9 @@
       "topics": "Pressão escolar, suporte familiar",
       "claim": "Pesquisa em vários países e culturas",
       "limitation": "Não provar causalidade; não generalizar para todas as escolas brasileiras",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-034",
@@ -354,8 +378,9 @@
       "topics": "Adolescentes, vínculos, escola",
       "claim": "Dados coletados em diferentes países",
       "limitation": "Comparabilidade requer olhar período/medidas",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-035",
@@ -368,8 +393,9 @@
       "topics": "Sistema de cuidado e estigma",
       "claim": "Marco de política regional",
       "limitation": "Período encerrado em 2025, usar historicamente",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-036",
@@ -382,8 +408,9 @@
       "topics": "Migração, América Latina e integração",
       "claim": "Fatores culturais e psicossociais",
       "limitation": "Revisão 2016–2021, não esgota a literatura",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-037",
@@ -396,8 +423,9 @@
       "topics": "Saúde mental nas Américas",
       "claim": "Políticas e acesso no continente",
       "limitation": "Página viva, citar data de consulta",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-038",
@@ -410,8 +438,9 @@
       "topics": "Adolescência, violência e escolas",
       "claim": "Dados regionais e estratégias públicas",
       "limitation": "Não inferir risco individual",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-039",
@@ -424,8 +453,9 @@
       "topics": "Acolhimento migrante no Canadá",
       "claim": "Serviços de assentamento e recursos locais",
       "limitation": "Recursos canadenses não se aplicam ao Japão",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-040",
@@ -438,8 +468,9 @@
       "topics": "Pertencimento, imigração, suporte",
       "claim": "Barreiras socioeconômicas na integração",
       "limitation": "Dados canadenses não generalizáveis automaticamente",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-041",
@@ -452,8 +483,9 @@
       "topics": "Família, adolescência e comunicação",
       "claim": "Orientações revisadas por especialistas",
       "limitation": "Não equivale a terapia individual",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-042",
@@ -466,8 +498,9 @@
       "topics": "Redes sociais e saúde mental adolescente",
       "claim": "Riscos e benefícios dependem de conteúdo e contexto",
       "limitation": "Não é diretriz de prática clínica; associação não é causalidade",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-043",
@@ -480,8 +513,9 @@
       "topics": "Ajustamento psicológico e aculturação",
       "claim": "Revisa modelos e dimensões de experiência migratória",
       "limitation": "Modelos não captam todas as trajetórias",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-044",
@@ -494,8 +528,9 @@
       "topics": "Pertencimento, redes sociais e migrantes",
       "claim": "Identificação social associada a sintomas",
       "limitation": "Associação não comprova que um programa específico funcione",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-045",
@@ -508,8 +543,9 @@
       "topics": "Diálogo familiar, adolescentes",
       "claim": "Estudos mostram associações na qualidade da comunicação",
       "limitation": "Não implica direção causal em todo contexto",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-046",
@@ -522,8 +558,9 @@
       "topics": "Telas, sono, adolescentes",
       "claim": "Síntese de associações de saúde mental e sono",
       "limitation": "Estudos heterogêneos e causalidade limitada",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-047",
@@ -536,8 +573,9 @@
       "topics": "Mídia digital e desenvolvimento",
       "claim": "Síntese longitudinal publicada em 2026",
       "limitation": "Não aplicar um efeito geral a todo uso ou criança",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-048",
@@ -550,8 +588,9 @@
       "topics": "Trabalho, desligamento e descanso",
       "claim": "Intervenções para recuperação do trabalho",
       "limitation": "Dados não justificam promessas para indivíduo",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-049",
@@ -564,8 +603,9 @@
       "topics": "Integração cultural e saúde mental migrante",
       "claim": "Associações entre estratégias e bem-estar",
       "limitation": "Não rotular estratégia como regra ou prescrição",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-050",
@@ -578,8 +618,9 @@
       "topics": "Trabalho migrante na Europa",
       "claim": "Contexto laboral e saúde mental migrante",
       "limitation": "Não inferir prevalência para Japão",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     },
     {
       "id": "SOT-SRC-051",
@@ -592,8 +633,11 @@
       "topics": "Terapias psicodinâmicas e limites da evidência",
       "claim": "Avalia modalidades específicas de terapias dinâmicas",
       "limitation": "Não equivale à demonstração de eficácia da psicanálise da SOTOMA",
-      "status": "ADMITIDA_COM_RESTRIÇÃO",
-      "checked": "2026-11-07"
+      "status": "CANDIDATA_INSTITUCIONAL_OU_CIENTIFICA__LINK_VIGENCIA_RELEVANCIA_PENDENTES",
+      "checked": "2026-11-07",
+      "verificationScope": "Instituição e categoria identificadas; não implica leitura integral ou recomendação"
     }
-  ]
+  ],
+  "status": "CURADORIA_PRELIMINAR_NAO_HOMOLOGADA",
+  "note": "Nome histórico de arquivo mantido por compatibilidade; VERIFICADAS no nome NÃO é aprovação de todas as fontes; 10 estudos PubMed verificados em artefato independente."
 }
