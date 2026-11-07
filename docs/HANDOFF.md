@@ -51,3 +51,17 @@ A planilha SOTOMA Editorial `1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA` tem 1
 
 ## Incidente preventivo de compartilhamento — resolvido no bootstrap 07/11/2026
 Durante auditoria de permissões, a primeira planilha criada apresentava acesso `anyone: commenter`. Foi substituída por cópia privada com 13 abas, conteúdo e fórmulas conferidos. A original criada nesta sessão foi excluída. **URL canônica atual:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit. A verificação de permissões mostrou `shared=false` e apenas a conta proprietária com acesso. A futura colaboração com Cláudia e Yasmin exige convite restrito autorizado; não foi feita nesta missão. Todos os links normativos e snapshots foram corrigidos para o novo ID.
+
+
+## ADENDO PRIORITÁRIO — ESTUDOS, FUNIL IET E BRAND (07/11/2026)
+**Pedido mais recente:** acrescentar pesquisas/estudos confiáveis e separar editorial em INFORMAÇÃO/TOPO (30), EDUCAÇÃO/MEIO (24) e TRANSFORMAÇÃO/FUNDO (6), mantendo 30 pautas para Cláudia e 30 para Yasmin. Transformação significa decisão informada, **nunca promessa de cura**.
+
+**ESTADO VERIFICADO NESTA SESSÃO:**
+- PubMed: 10 estudos com metadados, DOI/PMID e resumos consultados, sem revisão integral de todos os textos nem avaliação formal de viés: [registro](../dependencies/sotoma-editorial/dados/ESTUDOS-PUBMED-10.json).
+- Sheets: 6 novas abas `ESTUDOS_CIENTIFICOS` (gid 269586060), `ESTUDOS_X_ARTIGO` (639989803), `FUNIL_IET_60` (155889112), `IDENTIDADE_VISUAL` (960991046), `CLAIMS_EDITORIAL` (1461341244), `GATES_PUBLICACAO` (1160148978). Planilha: https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit.
+- 32 pautas possuem estudo(s) contextual(is) inicialmente atribuídos; **28 sem estudo específico selecionado**; nenhuma afirmação clínica foi aprovada por isso.
+- Website público: kit Elementor 411 mostrou #22524A, #2E2E2E, #54595F, #8BA146, #91AFA1, fonte Poppins. Exceções de página (Mulish, #4DB0BB) devem ser validadas, não promovidas ao padrão. [Manual observado](../dependencies/sotoma-editorial/IDENTIDADE-VISUAL-MARCA.md), [tokens](../dependencies/sotoma-editorial/brand/tokens.json).
+- 720 prompts individuais de carrossel atualizados no GitHub/Sheets com cores/tipografia observadas; 60 legendas e 240 scripts tiveram CTAs substituídos pelo modelo IET. Sem artes ou vídeos gerados.
+- [Relatório ECP+COLISEUM](../dependencies/sotoma-editorial/COLISEUM-PESQUISA-MARCA-IET-20261107.md).
+**ATENÇÃO:** a auditoria anterior encontrou 58 artigos muito semelhantes; tentativas de reescrita automática não passaram no teste de repetição e não substituíram a versão vigente. **Manter publicação BLOQUEADA** até revisão substantiva dos textos e análise pela autora. Também faltam título/formação e aprovação de marca pela Cláudia, revisão clínica e verificação de links/claims.
+**RETOMADA:** ler Mission Lock, este Handoff, contratos de evidência, IET e marca; iniciar pela revisão de originais específicos. Não criar novo brand system diferente nem usar dados de pacientes no Google Sheets.
