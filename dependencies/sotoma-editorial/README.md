@@ -47,6 +47,14 @@ Abas (URL por `gid` retornado pela API):
 - [Artigo piloto Yasmin — expressão emocional infantil](pilotos/SOT-ED-011-ARTIGO-RASCUNHO.md)
 - [QA ECP + COLISEUM](COLISEUM-EDITORIAL-QA.md)
 
+## Espelho editorial versionado no GitHub (fotografia do Sheets em 07/11/2026)
+- [`dados/PAUTAS-20.json`](dados/PAUTAS-20.json) — 20 pautas e classificação 50/40/10.
+- [`dados/ARTIGOS-BRIEF-20.json`](dados/ARTIGOS-BRIEF-20.json) — 20 briefings de artigo e SEO.
+- [`dados/POSTS-20.json`](dados/POSTS-20.json) — 20 legendas/scripts de post.
+- [`dados/VIDEOS-80.ndjson`](dados/VIDEOS-80.ndjson) — 80 roteiros de vídeo 30/60/90/120s.
+- [`dados/CARDS-240.ndjson`](dados/CARDS-240.ndjson) — 240 prompts completos individualizados de cards.
+Cópia **documental** para rastreabilidade e recuperação; não existe sincronismo automático. A planilha é o registro operacional atual; uma alteração posterior em um dos lados exige reconciliação por ID e versão antes de importar.
+
 ## Realidade operacional
 **Existem:** planilha Google nativa com 20 pautas, 20 briefings e 2 artigos-piloto completos em rascunho, 20 legendas, 20 scripts-base de 60s, 80 versões de vídeo e **240 prompts de cards individualizados**. Esses elementos estão em **rascunho para revisão**.
 **Não existem como entrega verificada:** 20 artigos completos aprovados pelas autoras, posts/imagens/vídeos publicados, sincronismo automático Sheets ↔ GitHub ↔ WordPress ou avaliação de resultados. Não marcar `PUBLICADO` sem URL pública verificada e autorização.
