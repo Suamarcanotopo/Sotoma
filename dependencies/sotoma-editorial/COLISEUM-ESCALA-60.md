@@ -3,7 +3,7 @@ Data: 2026-11-07 • Escopo: 60 drafts, Google Sheets e GitHub. Inspeção autom
 ## Veredito
 - **60 artigos em rascunho**, 30 por autora, distribuição **30 topo / 24 meio / 6 fundo**.
 - **58/60** têm pelo menos 20% das frases longas (>75 caracteres) reaparecendo em 10 ou mais artigos. Todos esses textos recebem **P0: NÃO PUBLICAR**.
-- **Média da taxa de frases longas recorrentes:** aproximadamente 72,8% na auditoria inicial. Não interpretar como resultado de plágio, duplicação indexada ou similaridade semântica: é uma *heurística de repetição literal* e não substitui revisão humana.
+- **Média da taxa de frases longas recorrentes:** aproximadamente 72,6% na auditoria inicial. Não interpretar como resultado de plágio, duplicação indexada ou similaridade semântica: é uma *heurística de repetição literal* e não substitui revisão humana.
 - Dois pilotos preexistentes exigem revisão de autoria, fontes, originalidade e conteúdo; nenhum conteúdo está aprovado.
 - Os derivados de redes e vídeo são versões de roteiro; NÃO são peças finais.
 - `PAINEL` da planilha registra 60 pautas, 30/24/6, 720 cards e 240 scripts; `PUBLICACOES_60` tem **zero publicações**.
@@ -48,63 +48,63 @@ APROVADO para planejamento, produção de rascunhos e revisão privada. **BLOQUE
 ## QA individual
 | ID | Autora | Frases longas repetidas ≥10 artigos | Status |
 |---|---|---|---|
-| SOT-ED-001 | Cláudia | NaN% | P1 — REVISÃO PENDENTE |
-| SOT-ED-002 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-003 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-004 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-005 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-006 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-007 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-008 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-009 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-010 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-011 | Yasmin | NaN% | P1 — REVISÃO PENDENTE |
-| SOT-ED-012 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-013 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-014 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-015 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-016 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-017 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-018 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-019 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-020 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-021 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-022 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-023 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-024 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-025 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-026 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-027 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-028 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-029 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-030 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-031 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-032 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-033 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-034 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-035 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-036 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-037 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-038 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-039 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-040 | Cláudia | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-041 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-042 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-043 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-044 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-045 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-046 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-047 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-048 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-049 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-050 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-051 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-052 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-053 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-054 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-055 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-056 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-057 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-058 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-059 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
-| SOT-ED-060 | Yasmin | NaN% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-002 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-005 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-009 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-013 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-014 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-019 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-021 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-022 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-023 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-024 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-027 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-028 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-029 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-030 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-031 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-033 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-035 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-036 | Cláudia | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-041 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-042 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-044 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-046 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-048 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-052 | Yasmin | 79% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-003 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-004 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-006 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-007 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-008 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-016 | Yasmin | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-018 | Yasmin | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-038 | Cláudia | 78% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-017 | Yasmin | 76% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-037 | Cláudia | 76% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-049 | Yasmin | 76% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-015 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-026 | Cláudia | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-032 | Cláudia | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-034 | Cláudia | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-043 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-045 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-047 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-050 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-051 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-053 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-054 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-055 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-056 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-057 | Yasmin | 74% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-012 | Yasmin | 73% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-025 | Cláudia | 73% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-058 | Yasmin | 73% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-010 | Cláudia | 64% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-020 | Yasmin | 64% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-059 | Yasmin | 58% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-060 | Yasmin | 58% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-039 | Cláudia | 56% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-040 | Cláudia | 53% | P0 — ALTA REPETIÇÃO |
+| SOT-ED-001 | Cláudia | 0% | P1 — REVISÃO PENDENTE |
+| SOT-ED-011 | Yasmin | 0% | P1 — REVISÃO PENDENTE |
