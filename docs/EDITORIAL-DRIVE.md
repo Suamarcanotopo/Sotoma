@@ -5,9 +5,9 @@ Ler a dependência [SOTOMA Editorial 50/40/10](../dependencies/sotoma-editorial/
 ## Planilha real
 - [SOTOMA | Editorial 50-40-10 | Cláudia e Yasmin](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit)
 - Google Sheet ID: `1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU`.
-- Abas existentes: PAINEL; PAUTAS_20; ARTIGOS_BRIEF; SCRIPTS_VIDEO; CARDS_240; AUTORES; FONTES; APROVACOES; PUBLICACOES; GUIA; POSTS_20; VIDEOS_80.
+- Abas existentes: PAINEL; PAUTAS_20; ARTIGOS_BRIEF; ARTIGOS_PILOTO; SCRIPTS_VIDEO; CARDS_240; AUTORES; FONTES; APROVACOES; PUBLICACOES; GUIA; POSTS_20; VIDEOS_80.
 - Distribuição **50% TOPO, 40% MEIO, 10% FUNDO**: 20 pautas (10/8/2), com 10 pautas para Cláudia e 10 para Yasmin; N0–N4.
-- Dados disponíveis: 20 briefs de artigos (não artigos completos), 20 legendas, 20 scripts-base, 80 versões de vídeo e 240 prompts específicos de cards (12 por pauta). Conteúdos **NÃO APROVADOS / NÃO PUBLICADOS**.
+- Dados disponíveis: 20 briefs de artigos (não artigos completos) + 2 artigos-piloto completos em rascunho, 20 legendas, 20 scripts-base, 80 versões de vídeo e 240 prompts específicos de cards (12 por pauta). Conteúdos **NÃO APROVADOS / NÃO PUBLICADOS**.
 ## Expansão do corpo profissional
 A SOTOMA credencia profissionais internamente. Uma pessoa autora só é adicionada ao quadro editorial após confirmação de qualificação, escopo, permissão e revisão. Não existe inscrição pública, ranking, reviews ou comissões por encaminhamento.
 ## Organização sugerida no Drive, ainda não criada
