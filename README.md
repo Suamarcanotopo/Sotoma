@@ -28,7 +28,20 @@ Projeto da SOTOMA Saúde Psicointegrada. Estado: **planejamento e fundação doc
 | Carrosséis com **12 prompts completos por pauta** | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [CARDS_240](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762) |
 | Scripts de vídeo 30, 60, 90 e 120 s | [PLAYBOOK-360.md](dependencies/sotoma-editorial/PLAYBOOK-360.md) | [VIDEOS_80](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1555500162) |
 | Contrato, status e integração | [CONTRATO-SHEETS.md](dependencies/sotoma-editorial/CONTRATO-SHEETS.md) | [APROVACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1457553522) / [PUBLICACOES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=358903051) |
+| Roteiros-base e quadros de fala | [PROMPTS-MESTRES.md](dependencies/sotoma-editorial/PROMPTS-MESTRES.md) | [SCRIPTS_VIDEO](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=119742079) |
+| Credenciamento editorial das autoras | [Mission Lock editorial](dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md) | [AUTORES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=313952020) |
+| Registro de fontes e referências | [FONTES.md](docs/FONTES.md) | [FONTES](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=498273490) |
 | QA adversarial antes de publicar | [COLISEUM-EDITORIAL-QA.md](dependencies/sotoma-editorial/COLISEUM-EDITORIAL-QA.md) | [GUIA](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2053797448) |
+
+
+**Espelhos de dados editoriais no GitHub** (snapshot de 07/11/2026, sem sincronismo automático):
+[20 pautas](dependencies/sotoma-editorial/dados/PAUTAS-20.json) ·
+[20 briefings](dependencies/sotoma-editorial/dados/ARTIGOS-BRIEF-20.json) ·
+[20 posts](dependencies/sotoma-editorial/dados/POSTS-20.json) ·
+[80 roteiros de vídeo](dependencies/sotoma-editorial/dados/VIDEOS-80.ndjson) ·
+[240 prompts individuais de cards](dependencies/sotoma-editorial/dados/CARDS-240.ndjson) ·
+[artigo Cláudia 001](dependencies/sotoma-editorial/pilotos/SOT-ED-001-ARTIGO-RASCUNHO.md) ·
+[artigo Yasmin 011](dependencies/sotoma-editorial/pilotos/SOT-ED-011-ARTIGO-RASCUNHO.md).
 
 **Importante:** planilha e rascunhos existem; **existem dois artigos-piloto completos em rascunho, mas não existem ainda 20 artigos finais revisados, imagens/vídeos gerados, publicações verificadas ou automação de sincronização**. Nunca adicionar dados de pacientes ao editorial. A primeira publicação depende da autorização individual de cada autora e da direção.
 
