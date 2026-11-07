@@ -1,5 +1,7 @@
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
+**Reescrita de 58 artigos — PR em rascunho para revisão:** [PR #6](https://github.com/Suamarcanotopo/Sotoma/pull/6) · [ARTIGOS_REVISAO_58 no Google Sheets](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=2000012341). **A branch main conserva os manuscritos anteriores.** A melhora de similaridade literal não comprova redação final, precisão clínica ou aprovação; texto candidato requer revisão de fluência, estudo específico, autora e direção.
+
 ## SOTOMA EDITORIAL — VERSÃO ATIVA: 60 PAUTAS, PESQUISA, FUNIL IET E IDENTIDADE VISUAL (07/11/2026)
 
 **Esta é a versão vigente** para novas edições. As antigas abas e documentos identificados como `_20` ou `_240` permanecem no histórico para comparação, **não como fluxo operacional vigente**. Nenhum artigo/arte/vídeo foi publicado nesta missão.
