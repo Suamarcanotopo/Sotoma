@@ -1,3 +1,6 @@
+### Comparação da versão candidata (não canônica)
+[ARTIGOS_REVISAO_58](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=2000012341): 58 links de artigo em [PR #6 DRAFT](https://github.com/Suamarcanotopo/Sotoma/pull/6) versus textos em main, status NÃO PUBLICAR. A planilha não é prova de aprovação; não há sincronismo automático de branch com artigo WordPress.
+
 # Contrato operacional — SOTOMA Editorial 60 (v2)
 Data: 2026-11-07 • Planilha **nativa privada**, URL verificada: https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit. Mantém abas anteriores intactas e cria abas v2. Nenhuma sincronização em tempo real GitHub↔Sheets↔WordPress foi implementada.
 
