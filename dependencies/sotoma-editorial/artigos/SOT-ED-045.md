@@ -1,74 +1,45 @@
 # Privacidade na adolescência: confiança não é vigilância constante
 
-> **SOT-ED-045 · Yasmin · TOPO · Não consciente · RASCUNHO EDITORIAL, NÃO PUBLICADO, NÃO APROVADO.** Autoria proposta: Yasmin Sotoma Muzilli; título/qualificação profissional a verificar antes de divulgar.
+**ID:** SOT-ED-045 · **Autoria proposta:** Yasmin · **Pilar:** INFORMAÇÃO · **Consciência:** Não consciente
+*RASCUNHO CANDIDATO V2, sujeito a revisão da autora, método, fontes e direção. Não publicado.*
+**Slug em estudo:** `privacidade-na-adolescencia-confianca-nao-e-vigilancia-constante`
 
-**Título SEO (hipótese):** Privacidade na adolescência: confiança não é vigilância constante
-**Metadescrição (rascunho):** Privacidade na adolescência: confiança não é vigilância constante. Entenda contexto, limites e perguntas relevantes sem autodiagnóstico ou promessas.
-**Intenção de busca:** educacional e reflexiva
-**Palavra-chave candidata (sem análise de volume):** privacidade na adolescência
-**Status de revisão:** FONTE_GERAL_APONTADA; FONTE_ESPECÍFICA_E_AUTORA_PENDENTES
+## O que motivou essa pergunta
 
-## Por que este tema merece uma conversa
+A dúvida sobre "Privacidade na adolescência: confiança não é vigilância constante" pode aparecer entre pais, responsáveis e adolescentes quando existe querer monitorar todas as conversas. Um exemplo seria disputa familiar sobre mensagens privadas. Privacidade de adolescente não é ausência de cuidado: supervisão e confiança mudam conforme idade, riscos e capacidade de diálogo.
 
-Privacidade na adolescência: confiança não é vigilância constante é uma pergunta relevante para pais, responsáveis e adolescentes. Em vez de iniciar por um rótulo, este texto observa uma situação possível: querer monitorar todas as conversas. Essa experiência não se apresenta da mesma maneira para todas as pessoas. O objetivo é compreender o tema com cuidado e indicar perguntas mais úteis do que conclusões apressadas.
+## Uma distinção necessária
 
-## Uma situação possível, sem transformar exemplo em diagnóstico
+Ver mensagens secretamente pode proteger em situações de perigo real, mas monitoramento indiscriminado pode afetar a relação e precisa de justificativa. Não propor uma regra universal de acesso a celulares, ignorando segurança, desenvolvimento e autonomia. Essa diferença afeta a conversa de quem procura respostas sobre "Privacidade na adolescência: confiança não é vigilância constante", porque uma explicação aparentemente simples pode deixar de fora decisões, experiências e limitações relevantes.
 
-Imagine, em uma situação inteiramente fictícia, disputa familiar sobre mensagens privadas. Um adulto pode ter uma leitura imediata do episódio; outra pessoa pode notar circunstâncias que passaram despercebidas. O melhor ponto de partida é escutar, observar o ambiente e não afirmar causas sem avaliação.
+No caso de "Privacidade na adolescência: confiança não é vigilância constante", familiares, crianças e adolescentes precisam ser ouvidos com respeito à idade e à privacidade.
 
-Esse exemplo é fictício, não descreve paciente nem resultado terapêutico. Sua função é mostrar como uma mesma cena admite perguntas diferentes. A interpretação de terceiros não deve silenciar quem vive a experiência.
+## Um episódio hipotético
 
-## A ideia central e seus limites
+Se o exemplo fosse disputa familiar sobre mensagens privadas, seria importante registrar fatos antes de acrescentar interpretações. Combinar antes os riscos que exigem ajuda imediata e o que pode permanecer reservado. A pergunta sobre "Privacidade na adolescência: confiança não é vigilância constante" continua aberta mesmo depois de uma explicação convincente; a história da pessoa não é reduzida a um único comportamento.
 
-Uma ideia importante para a conversa é: proteção e autonomia exigem acordos proporcionais. Isso não é uma lei sobre a experiência humana. É uma perspectiva editorial para examinar o que acontece quando expectativas, relações e condições concretas se cruzam. A fala de uma criança não pode ser tratada como a de um adulto em miniatura. Também não cabe aos responsáveis transformarem cada reação em diagnóstico. Mesmo histórias aparentemente parecidas podem pedir escutas muito diferentes.
+## Fontes para orientar a análise
 
-## O que o contexto muda na interpretação
+**Health advisory on adolescent social media use** — [acessar a fonte 1](https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use). Para o tema "Privacidade na adolescência: confiança não é vigilância constante", contribui ao tratar de riscos e benefícios dependem de conteúdo e contexto; contudo, é necessário observar que não é diretriz de prática clínica; associação não é causalidade
 
-Os adultos podem oferecer atenção e linguagem adequada à idade, combinando respeito à privacidade, proteção e observação de fatos concretos. A pergunta mais produtiva não é 'qual resposta serve para todos?', mas 'que informações faltam para entender este caso?'. No cotidiano, pequenos detalhes são decisivos: quem participou, o que mudou na rotina, como foi possível conversar e quais recursos estavam disponíveis. Esse olhar não elimina dificuldades, mas impede que sejam simplificadas.
+**Social media mental health and sleep: meta-analysis** — [acessar a fonte 2](https://pubmed.ncbi.nlm.nih.gov/39242043/). Para o tema "Privacidade na adolescência: confiança não é vigilância constante", contribui ao tratar de síntese de associações de saúde mental e sono; contudo, é necessário observar que estudos heterogêneos e causalidade limitada
 
-## O que a literatura ou a orientação institucional permite afirmar
+**Digital Media Use and Child Health 2026** — [acessar a fonte 3](https://pubmed.ncbi.nlm.nih.gov/41801211/). Para o tema "Privacidade na adolescência: confiança não é vigilância constante", contribui ao tratar de síntese longitudinal publicada em 2026; contudo, é necessário observar que não aplicar um efeito geral a todo uso ou criança
 
-O Conselho Federal de Psicologia recomenda uma análise contextualizada do ambiente digital, considerando direitos, vínculos e riscos, sem substituir a atenção integral à criança ou adolescente. Essa referência oferece **enquadramento geral**, não comprovação de que o episódio hipotético deste artigo tem uma causa específica. Para transformá-la em afirmação técnica, a autora e a revisão editorial devem conferir a fonte, a pertinência ao tema e os limites do material.
+**Essentials for Parenting Teens** — [acessar a fonte 4](https://www.cdc.gov/parenting-teens/about/index.html). Para o tema "Privacidade na adolescência: confiança não é vigilância constante", contribui ao tratar de orientações revisadas por especialistas; contudo, é necessário observar que não equivale a terapia individual
 
-## Perguntas para organizar a reflexão
+No tema "Privacidade na adolescência: confiança não é vigilância constante", as fontes listadas não constituem uma verificação de cada frase de uma consulta individual.
 
-Em vez de sugerir uma solução automática, propomos três movimentos de reflexão: primeiro, descrever o que ocorreu sem adicionar interpretações; depois, distinguir fatos de expectativas; por fim, identificar uma pergunta que possa ser respondida com diálogo ou busca de informação. O que aconteceu antes, durante e depois da situação? Como a própria criança ou adolescente descreve o ocorrido? O que a família e a escola conseguem ajustar sem rotular ninguém? São convites a observar, e não técnicas de tratamento ou testes psicológicos.
+## Perguntas para refletir
 
-## Quando procurar informações ou acompanhamento
+1. Qual detalhe de querer monitorar todas as conversas precisaria ser entendido antes de sugerir uma resposta?
+2. Como proteção e autonomia exigem acordos proporcionais se relaciona ao cotidiano de pais, responsáveis e adolescentes?
+3. O que combinar antes os riscos que exigem ajuda imediata e o que pode permanecer reservado poderia esclarecer, respeitando a liberdade de cada pessoa?
 
-Quando uma preocupação provoca sofrimento persistente ou interfere de maneira relevante nas atividades, relações ou bem-estar, buscar orientação de um profissional habilitado pode ser importante. Qualquer indicação concreta depende de avaliação individual e da competência legal de quem atende. O artigo não substitui consulta, atendimento de urgência ou serviços locais de saúde.
+Por ser um texto de **Informação**, a reflexão sobre "Privacidade na adolescência: confiança não é vigilância constante" pretende ampliar compreensão, e não exigir agendamento.
 
-Publicar vídeos, fotos ou relatos identificáveis de menores, pedir diagnósticos em comentários e expor conversas privadas são caminhos inadequados. Mesmo exemplos educativos devem preservar a dignidade e a autonomia progressiva.
+Conteúdos de "Privacidade na adolescência: confiança não é vigilância constante" não devem usar depoimentos identificáveis, fotos de crianças ou diagnósticos em formulários públicos.
 
-## Dúvidas frequentes
+**CTA proposto:** Leia sobre privacidade na adolescência: confiança não é vigilância constante e conheça perguntas que ajudam a escutar sem rotular.
 
-**Isso significa necessariamente que existe um transtorno?**
-
-Não. Experiências cotidianas não permitem diagnóstico por leitura. Duração, intensidade, contexto e impacto exigem investigação adequada.
-
-**A escola ou um post pode concluir o que a criança tem?**
-
-Não. Observações podem motivar diálogo e avaliação, mas escola, família e conteúdos de redes sociais não substituem profissionais habilitados.
-
-**O que posso fazer depois da leitura?**
-
-Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-## Para continuar pensando
-
-No centro desta pauta está a pergunta: **Privacidade na adolescência: confiança não é vigilância constante** Uma resposta responsável não encerra a conversa com uma fórmula. Ela ajuda a reconhecer a experiência, proteger a privacidade e buscar informação pertinente. Proteção e autonomia exigem acordos proporcionais; isso pode orientar a reflexão sem substituir o conhecimento da própria história.
-
-**Próximo passo:** Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-### Fonte contextual a conferir pela autora
-
-- CFP — Psicologia e mundo digital na infância e adolescência: https://site.cfp.org.br/publicacao/a-psicologia-frente-ao-mundo-digital-orientacoes-para-a-atuacao-profissional-com-criancas-e-adolescentes/
-
-### Revisão obrigatória antes de publicação
-
-- Confirmar nome, formação, atribuições e autorização editorial da autora.
-- Verificar se a fonte indicada sustenta efetivamente as afirmações de cada seção; pesquisar fontes específicas adicionais.
-- Acrescentar autoria, data de revisão, links internos reais, SEO fundamentado, imagens licenciadas e acessibilidade.
-- Revisar redundâncias e estilo para que o texto reflita a voz da autora, não um template.
-- Não prometer resultados, diagnosticar leitores, mencionar pacientes ou expor menores.
-- Aprovação da autora + direção e URL pública comprovada são condições para status PUBLICADO.
+**Destino:** URL_ESPECIFICA_A_DEFINIR

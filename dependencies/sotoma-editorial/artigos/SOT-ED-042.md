@@ -1,74 +1,45 @@
 # Mudança de casa: referências afetivas e rotina infantil
 
-> **SOT-ED-042 · Yasmin · TOPO · Não consciente · RASCUNHO EDITORIAL, NÃO PUBLICADO, NÃO APROVADO.** Autoria proposta: Yasmin Sotoma Muzilli; título/qualificação profissional a verificar antes de divulgar.
+**ID:** SOT-ED-042 · **Autoria proposta:** Yasmin · **Pilar:** INFORMAÇÃO · **Consciência:** Não consciente
+*RASCUNHO CANDIDATO V2, sujeito a revisão da autora, método, fontes e direção. Não publicado.*
+**Slug em estudo:** `mudanca-de-casa-referencias-afetivas-e-rotina-infantil`
 
-**Título SEO (hipótese):** Mudança de casa: referências afetivas e rotina infantil
-**Metadescrição (rascunho):** Mudança de casa: referências afetivas e rotina infantil. Entenda contexto, limites e perguntas relevantes sem autodiagnóstico ou promessas.
-**Intenção de busca:** educacional e reflexiva
-**Palavra-chave candidata (sem análise de volume):** mudança de casa
-**Status de revisão:** FONTE_GERAL_APONTADA; FONTE_ESPECÍFICA_E_AUTORA_PENDENTES
+## Um começo possível
 
-## Por que este tema merece uma conversa
+A dúvida sobre "Mudança de casa: referências afetivas e rotina infantil" pode aparecer entre famílias, cuidadores e crianças quando existe perder referências ao mudar residência. Um exemplo seria caixas em casa nova e objetos familiares. Ao mudar de casa, uma criança pode perder rotas, amigos e hábitos mesmo quando a nova moradia oferece vantagens concretas.
 
-Mudança de casa: referências afetivas e rotina infantil é uma pergunta relevante para famílias, cuidadores e crianças. Em vez de iniciar por um rótulo, este texto observa uma situação possível: perder referências ao mudar residência. Essa experiência não se apresenta da mesma maneira para todas as pessoas. O objetivo é compreender o tema com cuidado e indicar perguntas mais úteis do que conclusões apressadas.
+## A importância do contraponto
 
-## Uma situação possível, sem transformar exemplo em diagnóstico
+Explicar etapas possíveis e preservar alguns objetos familiares pode tornar o cotidiano mais previsível, sem garantia de reação. Não comparar a adaptação de irmãos nem exigir entusiasmo por uma decisão dos adultos. Essa diferença afeta a conversa de quem procura respostas sobre "Mudança de casa: referências afetivas e rotina infantil", porque uma explicação aparentemente simples pode deixar de fora decisões, experiências e limitações relevantes.
 
-Imagine, em uma situação inteiramente fictícia, caixas em casa nova e objetos familiares. Um adulto pode ter uma leitura imediata do episódio; outra pessoa pode notar circunstâncias que passaram despercebidas. O melhor ponto de partida é escutar, observar o ambiente e não afirmar causas sem avaliação.
+No caso de "Mudança de casa: referências afetivas e rotina infantil", familiares, crianças e adolescentes precisam ser ouvidos com respeito à idade e à privacidade.
 
-Esse exemplo é fictício, não descreve paciente nem resultado terapêutico. Sua função é mostrar como uma mesma cena admite perguntas diferentes. A interpretação de terceiros não deve silenciar quem vive a experiência.
+## Uma hipótese em lugar de rótulo
 
-## A ideia central e seus limites
+Se o exemplo fosse caixas em casa nova e objetos familiares, seria importante registrar fatos antes de acrescentar interpretações. Perguntar quais referências da casa anterior a criança gostaria de manter. A pergunta sobre "Mudança de casa: referências afetivas e rotina infantil" continua aberta mesmo depois de uma explicação convincente; a história da pessoa não é reduzida a um único comportamento.
 
-Uma ideia importante para a conversa é: a transição não produz uma reação única. Isso não é uma lei sobre a experiência humana. É uma perspectiva editorial para examinar o que acontece quando expectativas, relações e condições concretas se cruzam. A fala de uma criança não pode ser tratada como a de um adulto em miniatura. Também não cabe aos responsáveis transformarem cada reação em diagnóstico. Mesmo histórias aparentemente parecidas podem pedir escutas muito diferentes.
+## Evidências e limites de aplicação
 
-## O que o contexto muda na interpretação
+**Adolescent mental health** — [acessar a fonte 1](https://www.who.int/news-room/fact-sheets/adolescent-mental-health). Para o tema "Mudança de casa: referências afetivas e rotina infantil", contribui ao tratar de vários fatores influenciam bem-estar do adolescente; contudo, é necessário observar que não diagnosticar caso individual por dados populacionais
 
-Os adultos podem oferecer atenção e linguagem adequada à idade, combinando respeito à privacidade, proteção e observação de fatos concretos. A pergunta mais produtiva não é 'qual resposta serve para todos?', mas 'que informações faltam para entender este caso?'. No cotidiano, pequenos detalhes são decisivos: quem participou, o que mudou na rotina, como foi possível conversar e quais recursos estavam disponíveis. Esse olhar não elimina dificuldades, mas impede que sejam simplificadas.
+**Mental health of children and young people — service guidance** — [acessar a fonte 2](https://www.who.int/publications/b/75680). Para o tema "Mudança de casa: referências afetivas e rotina infantil", contribui ao tratar de não existe um único modelo universal de serviço; contudo, é necessário observar que diretriz para sistemas, não prescrição individual
 
-## O que a literatura ou a orientação institucional permite afirmar
+**How to talk to your kids about mental health** — [acessar a fonte 3](https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health). Para o tema "Mudança de casa: referências afetivas e rotina infantil", contribui ao tratar de ouvir, escolher contexto e não pressionar; contudo, é necessário observar que não é protocolo clínico e não prova eficácia de abordagem
 
-O UNICEF recomenda conversas respeitosas, escuta ativa e atenção ao momento e às reações dos adultos. Nenhuma conversa isolada define a condição clínica de uma criança. Essa referência oferece **enquadramento geral**, não comprovação de que o episódio hipotético deste artigo tem uma causa específica. Para transformá-la em afirmação técnica, a autora e a revisão editorial devem conferir a fonte, a pertinência ao tema e os limites do material.
+**Adolescent health in the Americas** — [acessar a fonte 4](https://www.paho.org/en/topics/adolescent-health). Para o tema "Mudança de casa: referências afetivas e rotina infantil", contribui ao tratar de dados regionais e estratégias públicas; contudo, é necessário observar que não inferir risco individual
 
-## Perguntas para organizar a reflexão
+No tema "Mudança de casa: referências afetivas e rotina infantil", as fontes listadas não constituem uma verificação de cada frase de uma consulta individual.
 
-Em vez de sugerir uma solução automática, propomos três movimentos de reflexão: primeiro, descrever o que ocorreu sem adicionar interpretações; depois, distinguir fatos de expectativas; por fim, identificar uma pergunta que possa ser respondida com diálogo ou busca de informação. O que aconteceu antes, durante e depois da situação? Como a própria criança ou adolescente descreve o ocorrido? O que a família e a escola conseguem ajustar sem rotular ninguém? São convites a observar, e não técnicas de tratamento ou testes psicológicos.
+## Da informação à ação
 
-## Quando procurar informações ou acompanhamento
+1. Qual detalhe de perder referências ao mudar residência precisaria ser entendido antes de sugerir uma resposta?
+2. Como a transição não produz uma reação única se relaciona ao cotidiano de famílias, cuidadores e crianças?
+3. O que perguntar quais referências da casa anterior a criança gostaria de manter poderia esclarecer, respeitando a liberdade de cada pessoa?
 
-Quando uma preocupação provoca sofrimento persistente ou interfere de maneira relevante nas atividades, relações ou bem-estar, buscar orientação de um profissional habilitado pode ser importante. Qualquer indicação concreta depende de avaliação individual e da competência legal de quem atende. O artigo não substitui consulta, atendimento de urgência ou serviços locais de saúde.
+Por ser um texto de **Informação**, a reflexão sobre "Mudança de casa: referências afetivas e rotina infantil" pretende ampliar compreensão, e não exigir agendamento.
 
-Publicar vídeos, fotos ou relatos identificáveis de menores, pedir diagnósticos em comentários e expor conversas privadas são caminhos inadequados. Mesmo exemplos educativos devem preservar a dignidade e a autonomia progressiva.
+Conteúdos de "Mudança de casa: referências afetivas e rotina infantil" não devem usar depoimentos identificáveis, fotos de crianças ou diagnósticos em formulários públicos.
 
-## Dúvidas frequentes
+**CTA proposto:** Leia sobre mudança de casa: referências afetivas e rotina infantil e conheça perguntas que ajudam a escutar sem rotular.
 
-**Isso significa necessariamente que existe um transtorno?**
-
-Não. Experiências cotidianas não permitem diagnóstico por leitura. Duração, intensidade, contexto e impacto exigem investigação adequada.
-
-**A escola ou um post pode concluir o que a criança tem?**
-
-Não. Observações podem motivar diálogo e avaliação, mas escola, família e conteúdos de redes sociais não substituem profissionais habilitados.
-
-**O que posso fazer depois da leitura?**
-
-Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-## Para continuar pensando
-
-No centro desta pauta está a pergunta: **Mudança de casa: referências afetivas e rotina infantil** Uma resposta responsável não encerra a conversa com uma fórmula. Ela ajuda a reconhecer a experiência, proteger a privacidade e buscar informação pertinente. A transição não produz uma reação única; isso pode orientar a reflexão sem substituir o conhecimento da própria história.
-
-**Próximo passo:** Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-### Fonte contextual a conferir pela autora
-
-- UNICEF — Conversar com crianças sobre saúde mental: https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health
-
-### Revisão obrigatória antes de publicação
-
-- Confirmar nome, formação, atribuições e autorização editorial da autora.
-- Verificar se a fonte indicada sustenta efetivamente as afirmações de cada seção; pesquisar fontes específicas adicionais.
-- Acrescentar autoria, data de revisão, links internos reais, SEO fundamentado, imagens licenciadas e acessibilidade.
-- Revisar redundâncias e estilo para que o texto reflita a voz da autora, não um template.
-- Não prometer resultados, diagnosticar leitores, mencionar pacientes ou expor menores.
-- Aprovação da autora + direção e URL pública comprovada são condições para status PUBLICADO.
+**Destino:** URL_ESPECIFICA_A_DEFINIR

@@ -1,74 +1,45 @@
 # Cuidado integrativo e evidências: perguntas essenciais sobre práticas
 
-> **SOT-ED-034 · Cláudia · MEIO · Consciente do serviço · RASCUNHO EDITORIAL, NÃO PUBLICADO, NÃO APROVADO.** Autoria proposta: Cláudia Fernanda Sotoma; título/qualificação profissional a verificar antes de divulgar.
+**ID:** SOT-ED-034 · **Autoria proposta:** Cláudia · **Pilar:** EDUCAÇÃO · **Consciência:** Consciente do serviço
+*RASCUNHO CANDIDATO V2, sujeito a revisão da autora, método, fontes e direção. Não publicado.*
+**Slug em estudo:** `cuidado-integrativo-e-evidencias-perguntas-essenciais-sobre-praticas`
 
-**Título SEO (hipótese):** Cuidado integrativo e evidências: perguntas essenciais sobre práticas
-**Metadescrição (rascunho):** Cuidado integrativo e evidências: perguntas essenciais sobre práticas. Entenda contexto, limites e perguntas relevantes sem autodiagnóstico ou promessas.
-**Intenção de busca:** comparação informativa e compreensão de possibilidades
-**Palavra-chave candidata (sem análise de volume):** cuidado integrativo e evidências
-**Status de revisão:** FONTE_GERAL_APONTADA; FONTE_ESPECÍFICA_E_AUTORA_PENDENTES
+## A dificuldade por trás da frase
 
-## Por que este tema merece uma conversa
+A dúvida sobre "Cuidado integrativo e evidências: perguntas essenciais sobre práticas" pode aparecer entre adultos interessados em cuidado emocional quando existe supor que toda prática tem eficácia comprovada para tudo. Um exemplo seria comparar duas descrições de serviço. Cuidado integrativo é expressão ampla; cada componente precisa de nome, formação, finalidade e limites verificáveis.
 
-Cuidado integrativo e evidências: perguntas essenciais sobre práticas é uma pergunta relevante para adultos interessados em cuidado emocional. Em vez de iniciar por um rótulo, este texto observa uma situação possível: supor que toda prática tem eficácia comprovada para tudo. Essa experiência não se apresenta da mesma maneira para todas as pessoas. O objetivo é compreender o tema com cuidado e indicar perguntas mais úteis do que conclusões apressadas.
+## Perspectivas que merecem escuta
 
-## Uma situação possível, sem transformar exemplo em diagnóstico
+Uma prática de bem-estar e uma intervenção clínica não têm automaticamente o mesmo tipo de evidência científica ou atribuição profissional. Não legitimar uma técnica só porque aparece ao lado de uma abordagem reconhecida por instituto de pesquisa. Essa diferença afeta a conversa de quem procura respostas sobre "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", porque uma explicação aparentemente simples pode deixar de fora decisões, experiências e limitações relevantes.
 
-Considere um exemplo inteiramente hipotético: comparar duas descrições de serviço. Uma resposta apressada poderia ignorar o significado que essa situação tem para a pessoa. Outra abordagem começa perguntando o que realmente mudou e quais possibilidades estão ao alcance naquele momento.
+A pauta "Cuidado integrativo e evidências: perguntas essenciais sobre práticas" também exige olhar para condições concretas, como tempo, renda, cuidado de familiares e segurança do ambiente.
 
-Esse exemplo é fictício, não descreve paciente nem resultado terapêutico. Sua função é mostrar como uma mesma cena admite perguntas diferentes. A interpretação de terceiros não deve silenciar quem vive a experiência.
+## Uma situação da rotina
 
-## A ideia central e seus limites
+Se o exemplo fosse comparar duas descrições de serviço, seria importante registrar fatos antes de acrescentar interpretações. Criar tabela de questões sobre método, benefícios alegados, contraindicações e prova correspondente. A pergunta sobre "Cuidado integrativo e evidências: perguntas essenciais sobre práticas" continua aberta mesmo depois de uma explicação convincente; a história da pessoa não é reduzida a um único comportamento.
 
-Uma ideia importante para a conversa é: a comunicação deve esclarecer formação, métodos e limites científicos. Isso não é uma lei sobre a experiência humana. É uma perspectiva editorial para examinar o que acontece quando expectativas, relações e condições concretas se cruzam. Uma experiência emocional não pode ser resumida a uma causa única nem interpretada por um título de artigo. Condições de trabalho, relações, histórico e recursos materiais fazem diferença. Mesmo histórias aparentemente parecidas podem pedir escutas muito diferentes.
+## Pesquisa com cautela
 
-## O que o contexto muda na interpretação
+**Resolução CFP 13/2022 — Psicoterapia** — [acessar a fonte 1](https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/). Para o tema "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", contribui ao tratar de regras profissionais para psicólogos; contudo, é necessário observar que exigível apenas conforme profissão/registro; verificar texto vigente
 
-Vale considerar tanto expectativas pessoais quanto as condições reais de tempo, renda, trabalho e convivência. Entender o contexto é diferente de responsabilizar a pessoa por tudo. A pergunta mais produtiva não é 'qual resposta serve para todos?', mas 'que informações faltam para entender este caso?'. No cotidiano, pequenos detalhes são decisivos: quem participou, o que mudou na rotina, como foi possível conversar e quais recursos estavam disponíveis. Esse olhar não elimina dificuldades, mas impede que sejam simplificadas.
+**Depression in adults: NG222** — [acessar a fonte 2](https://www.nice.org.uk/guidance/ng222). Para o tema "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", contribui ao tratar de diretriz avalia opções e cuidados compartilhados; contudo, é necessário observar que vale no sistema britânico; não equivale à regulamentação brasileira
 
-## O que a literatura ou a orientação institucional permite afirmar
+**World Mental Health Report 2022** — [acessar a fonte 3](https://www.who.int/publications-detail-redirect/9789240049338/). Para o tema "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", contribui ao tratar de enfatiza contextos, serviços e direitos; contudo, é necessário observar que não demonstra resultados de técnica ou programa da SOTOMA
 
-A orientação do Conselho Federal de Psicologia é referência para profissionais registrados na Psicologia: comunicação sem sensacionalismo, títulos falsos ou resultados garantidos. A aplicação a cada profissional depende de sua habilitação. Essa referência oferece **enquadramento geral**, não comprovação de que o episódio hipotético deste artigo tem uma causa específica. Para transformá-la em afirmação técnica, a autora e a revisão editorial devem conferir a fonte, a pertinência ao tema e os limites do material.
+**Rede de Atenção Psicossocial (RAPS)** — [acessar a fonte 4](https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps). Para o tema "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", contribui ao tratar de sistema brasileiro articula diferentes pontos de cuidado; contudo, é necessário observar que não determina abordagem clínica individual
 
-## Perguntas para organizar a reflexão
+No tema "Cuidado integrativo e evidências: perguntas essenciais sobre práticas", as fontes listadas não constituem uma verificação de cada frase de uma consulta individual.
 
-Em vez de sugerir uma solução automática, propomos três movimentos de reflexão: primeiro, descrever o que ocorreu sem adicionar interpretações; depois, distinguir fatos de expectativas; por fim, identificar uma pergunta que possa ser respondida com diálogo ou busca de informação. Que expectativa estava presente antes desta experiência? Quais condições do cotidiano tornam a situação mais fácil ou mais difícil? Que conversa ou informação poderia ajudar a enxergar o próximo passo? São convites a observar, e não técnicas de tratamento ou testes psicológicos.
+## Como prosseguir
 
-## Quando procurar informações ou acompanhamento
+1. Qual detalhe de supor que toda prática tem eficácia comprovada para tudo precisaria ser entendido antes de sugerir uma resposta?
+2. Como a comunicação deve esclarecer formação, métodos e limites científicos se relaciona ao cotidiano de adultos interessados em cuidado emocional?
+3. O que criar tabela de questões sobre método, benefícios alegados, contraindicações e prova correspondente poderia esclarecer, respeitando a liberdade de cada pessoa?
 
-Quando uma preocupação provoca sofrimento persistente ou interfere de maneira relevante nas atividades, relações ou bem-estar, buscar orientação de um profissional habilitado pode ser importante. Qualquer indicação concreta depende de avaliação individual e da competência legal de quem atende. O artigo não substitui consulta, atendimento de urgência ou serviços locais de saúde.
+Na etapa de **Educação**, o objetivo de "Cuidado integrativo e evidências: perguntas essenciais sobre práticas" é explicar como avaliar possibilidades e limites, sem declarar que uma técnica serve para todos.
 
-Comparar histórias de modo competitivo, usar frases como 'você tem isso' ou prometer que determinada abordagem sempre funcionará reduz a complexidade do cuidado. Informação pública não equivale a avaliação individual.
+A discussão sobre "Cuidado integrativo e evidências: perguntas essenciais sobre práticas" não pode diagnosticar leitores nem prometer um resultado clínico.
 
-## Dúvidas frequentes
+**CTA proposto:** Aprofunde sua compreensão de cuidado integrativo e evidências: perguntas essenciais sobre práticas e esclareça limites e possibilidades de atendimento.
 
-**Isso significa necessariamente que existe um transtorno?**
-
-Não. Experiências cotidianas não permitem diagnóstico por leitura. Duração, intensidade, contexto e impacto exigem investigação adequada.
-
-**Existe uma resposta que funcione para todas as pessoas?**
-
-Não. Necessidades e recursos variam; propostas de cuidado devem explicar suas bases, seus limites e sua adequação individual.
-
-**O que posso fazer depois da leitura?**
-
-Antes de decidir sobre acompanhamento, esclareça com profissional habilitado o método, o sigilo, as condições e os limites da proposta.
-
-## Para continuar pensando
-
-No centro desta pauta está a pergunta: **Cuidado integrativo e evidências: perguntas essenciais sobre práticas** Uma resposta responsável não encerra a conversa com uma fórmula. Ela ajuda a reconhecer a experiência, proteger a privacidade e buscar informação pertinente. A comunicação deve esclarecer formação, métodos e limites científicos; isso pode orientar a reflexão sem substituir o conhecimento da própria história.
-
-**Próximo passo:** Antes de decidir sobre acompanhamento, esclareça com profissional habilitado o método, o sigilo, as condições e os limites da proposta.
-
-### Fonte contextual a conferir pela autora
-
-- CFP — Nota Técnica de publicidade em redes: https://site.cfp.org.br/wp-content/uploads/2022/06/SEI_CFP-0612475-Nota-Tecnica.pdf
-
-### Revisão obrigatória antes de publicação
-
-- Confirmar nome, formação, atribuições e autorização editorial da autora.
-- Verificar se a fonte indicada sustenta efetivamente as afirmações de cada seção; pesquisar fontes específicas adicionais.
-- Acrescentar autoria, data de revisão, links internos reais, SEO fundamentado, imagens licenciadas e acessibilidade.
-- Revisar redundâncias e estilo para que o texto reflita a voz da autora, não um template.
-- Não prometer resultados, diagnosticar leitores, mencionar pacientes ou expor menores.
-- Aprovação da autora + direção e URL pública comprovada são condições para status PUBLICADO.
+**Destino:** URL_ESPECIFICA_A_DEFINIR
