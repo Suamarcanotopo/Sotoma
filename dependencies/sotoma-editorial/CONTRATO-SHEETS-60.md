@@ -33,3 +33,15 @@ PAUTAS_20, ARTIGOS_BRIEF, ARTIGOS_PILOTO, SCRIPTS_VIDEO, CARDS_240, POSTS_20, VI
 ## Segurança e publicação
 Acesso à planilha permaneceu privado na última verificação, sem compartilhamento público. Não adicionar prontuários, dados de pacientes ou registros de CRM. Cada autora deve validar suas credenciais e os textos antes de atribuir autoria em página pública. O dado em Sheets não constitui autorização de publicar, e a ausência de URL pública indica `NÃO PUBLICADO`.
 A elevada repetição nos 58 textos derivados de templates é **P0 de originalidade**, não falha a ser resolvida por simples sinônimos. Exigir valor de experiência, pesquisa específica e revisão contextual. Vídeos e carrosséis só devem ser finalizados após o artigo ser homologado.
+
+
+## Extensão IET + Estudos + Identidade Visual — GIDs confirmados (07/11/2026)
+| Aba | gid | Natureza e limites |
+|---|---:|---|
+| [ESTUDOS_CIENTIFICOS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=269586060) | 269586060 | 10 estudos PubMed com metadados/resumos, sem parecer de eficácia clínica |
+| [ESTUDOS_X_ARTIGO](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=639989803) | 639989803 | 90 vínculos/linhas; 32 artigos relacionados, 28 lacunas |
+| [FUNIL_IET_60](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=155889112) | 155889112 | CTAs de 60 artigos: Informação/Educação/Transformação |
+| [IDENTIDADE_VISUAL](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=960991046) | 960991046 | 15 regras/tokens observados, sujeitos à aprovação |
+| [CLAIMS_EDITORIAL](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1461341244) | 1461341244 | registro-modelo de afirmações; exemplos não aprovados |
+| [GATES_PUBLICACAO](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1160148978) | 1160148978 | 60 registros NÃO PUBLICAR aguardando revisões |
+**Arquivo de marca:** [brand/tokens.json](brand/tokens.json) e [brand/sotoma-editorial.css](brand/sotoma-editorial.css). **Fontes:** [PESQUISAS-ESTUDOS-GOVERNANCA.md](PESQUISAS-ESTUDOS-GOVERNANCA.md). Nenhuma automação GitHub↔Sheets foi instalada. Registros anteriores `PAUTAS_20`/`CARDS_240` são legados, não guias de nova produção.
