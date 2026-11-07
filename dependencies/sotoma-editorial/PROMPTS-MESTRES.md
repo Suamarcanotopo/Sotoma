@@ -33,7 +33,7 @@ Para CADA CARD (não agrupe), devolva:
 - card_number e função;
 - mensagem única e texto literal a ser mostrado (curto, preciso e revisável);
 - sugestão de descrição/alt text;
-- PROMPT VISUAL 100% INDEPENDENTE em português: 'Produza SOMENTE o card {K} de {N}, PNG 1080×1350 4:5, composição editorial específica, objetos/cenas coerentes, clima e iluminação, paleta provisória marfim/verde-sálvia/grafite/terracota, tipografia legível, área segura 100px, texto exato entre aspas, limites éticos, sem pessoas identificáveis ou casos clínicos reais, sem números ou alegações inventadas, sem logos fictícios, revisão ortográfica, narrativa consistente com o ID'. 
+- PROMPT VISUAL 100% INDEPENDENTE em português: 'Produza SOMENTE o card {K} de {N}, PNG 1080×1350 4:5, composição editorial específica, objetos/cenas coerentes, clima e iluminação, paleta observada no website (pendente de aprovação formal) verde SOTOMA #22524A, verde suave #91AFA1, complementar #8BA146, grafite #2E2E2E e branco #FFFFFF; Poppins conforme Elementor kit 411, tipografia legível, área segura 100px, texto exato entre aspas, limites éticos, sem pessoas identificáveis ou casos clínicos reais, sem números ou alegações inventadas, sem logos fictícios, revisão ortográfica, narrativa consistente com o ID'. 
 Todos os prompts devem repetir contexto e especificação suficiente para funcionar isoladamente. Não usar 'mesmo estilo do anterior' como instrução única. Texto gerado por IA deve ser refeito por camada no editor se houver erro.
 Após o último card, forneça legenda geral, ordem de narrativa e checklist de revisão por autora/direção. Não produzir imagens até autorização explícita.
 ```
@@ -57,3 +57,8 @@ Se P0 falhar, deixe publicação BLOQUEADA. Diferencie planejamento, revisão po
 - **20 pautas, 240 prompts prontos e roteiros no Sheets:** https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit
 - Novo profissional: registrar em `AUTORES` e decidir escopo autoral, sem criar marketplace.
 - Qualquer nova entrega deve manter a mesma pauta-ID nos artigos, cards, scripts, aprovação e URL de publicação.
+## Adendo obrigatório IET + Brand + Evidência (07/11/2026)
+- **Informação/TOPO (50%)**, **Educação/MEIO (40%)**, **Transformação/FUNDO (10%)**, no sentido de decisão informada sem promessa de resultado de saúde. Ler [FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md](FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md).
+- Materiais gráficos devem obedecer [IDENTIDADE-VISUAL-MARCA.md](IDENTIDADE-VISUAL-MARCA.md). Fonte global Poppins; cores observadas #22524A, #2E2E2E, #54595F, #8BA146, #91AFA1 e branco. **Nunca** importar paleta marfim/terracota de outro projeto nem pedir à IA que redesenhe logomarca.
+- **Pesquisar antes de afirmar**: [PESQUISAS-ESTUDOS-GOVERNANCA.md](PESQUISAS-ESTUDOS-GOVERNANCA.md) e [ESTUDOS-PUBMED-10.json](dados/ESTUDOS-PUBMED-10.json). Estudo real não é autorização para conclusão mais forte que seus resultados.
+- **Estado de arte**: 720 prompts específicos receberam tokens de marca no texto, mas as imagens ainda não foram geradas ou homologadas. 60 artigos seguem bloqueados para publicação enquanto houver QA editorial pendente.
