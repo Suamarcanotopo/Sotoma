@@ -49,3 +49,7 @@ Revisão documental por perspectivas: produto, ética e privacidade, clínica, a
 Cláudia e Márcio confirmam escopo, perfis, atividades dos profissionais, política de atendimento e preferência de hospedagem; etapa posterior faz prova de conceito em staging com dados sintéticos.
 ## Rollback
 Mudanças documentais por novos commits/revert; não reescrever histórico, não alterar visibilidade privada.
+## Adendo: SOTOMA Editorial 50/40/10 — 2026-11-07
+A direção estratégica solicitou nova dependência de conteúdo para Cláudia Fernanda Sotoma e Yasmin Sotoma Muzilli, com possibilidade de incluir outros profissionais credenciados internamente, sem marketplace. Aplicar por ciclo editorial 50% TOPO, 40% MEIO, 10% FUNDO, com cinco níveis de consciência, artigo pesquisado, legenda, carrossel de 10–20 cards com prompt próprio por card, vídeos derivados e validação por autora/direção.
+**Documentação:** [Mission Lock editorial](../dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md). **Google Planilhas criada:** https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit. **Estado:** pautas/rascunhos e roteiros estruturados, não publicados; sem sincronismo automático ou deploy.
+A proteção de dados clínicos, o dever de sigilo e os gates de autorização do Mission Lock original prevalecem integralmente.
