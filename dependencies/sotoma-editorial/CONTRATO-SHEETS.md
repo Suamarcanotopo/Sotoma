@@ -14,6 +14,7 @@
 | PAINEL | 2008109360 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=2008109360 | 20 pautas e fórmula de 50/40/10 |
 | PAUTAS_20 | 1761944534 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1761944534 | 20 IDs, 10/8/2, autora, público, nível, CTA e status |
 | ARTIGOS_BRIEF | 717275166 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=717275166 | 20 artigos em briefing, **não artigos completos** |
+| ARTIGOS_PILOTO | 298731141 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=298731141 | 2 artigos completos em rascunho — Cláudia 001 e Yasmin 011 |
 | SCRIPTS_VIDEO | 119742079 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=119742079 | 20 roteiros-base de ~60s, duração alvo |
 | CARDS_240 | 1916538762 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1916538762 | 240 prompts completos, 12 por pauta |
 | POSTS_20 | 1151642656 | https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit#gid=1151642656 | 20 legendas/scripts de post |
@@ -46,7 +47,7 @@
 PROIBIDO pacientes, números de celular, diagnósticos, receituário, exames, imagens de sessões, prontuários, identificadores de CRM ou qualquer vínculo entre pessoa real e saúde. Não enviar planilha para público por engano; compartilhar apenas com pessoas autorizadas.
 
 ## Verificação (07/11/2026)
-- `get_spreadsheet_metadata` retornou 12 abas nativas e seus IDs.
+- `get_spreadsheet_metadata` retornou 12 abas nativas e seus IDs em 07/11/2026; posteriormente, a aba ARTIGOS_PILOTO foi criada, totalizando 13 abas.
 - `PAUTAS_20!A2:E4` devolveu IDs 001–003 com estágio TOPO e autora.
 - `CARDS_240!A238:H241` devolveu registros da pauta 020, cards 9–12.
 - `PAINEL!A2:C10` devolveu 20 pautas, 10 TOPO, 8 MEIO, 2 FUNDO; a leitura de volta de dados não equivale a homologação editorial.
