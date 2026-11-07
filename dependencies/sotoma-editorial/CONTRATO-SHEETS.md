@@ -52,3 +52,12 @@ PROIBIDO pacientes, números de celular, diagnósticos, receituário, exames, im
 - `CARDS_240!A238:H241` devolveu registros da pauta 020, cards 9–12.
 - `PAINEL!A2:C10` devolveu 20 pautas, 10 TOPO, 8 MEIO, 2 FUNDO; a leitura de volta de dados não equivale a homologação editorial.
 - Planilha movida para pasta ChatGPT, operação confirmada.
+
+## Espelhos versionados no GitHub
+Em 07/11/2026 foram lidos os dados pela conexão Google Sheets e salvos no repositório privado para recuperação sem depender da sessão:
+- [PAUTAS-20.json](dados/PAUTAS-20.json), 20 linhas;
+- [ARTIGOS-BRIEF-20.json](dados/ARTIGOS-BRIEF-20.json), 20 linhas;
+- [POSTS-20.json](dados/POSTS-20.json), 20 linhas;
+- [VIDEOS-80.ndjson](dados/VIDEOS-80.ndjson), 80 linhas;
+- [CARDS-240.ndjson](dados/CARDS-240.ndjson), 240 linhas.
+Estes arquivos são **snapshots**, não fonte sincronizada em tempo real. Não sobrescrever um lado a partir do outro sem comparar alterações, status e aprovações; não há webhook, job nem integração automática.
