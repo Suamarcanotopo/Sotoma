@@ -1,34 +1,32 @@
-# SOTOMA EDITORIAL — GitHub, Drive e publicação
-Estado: MODELO PLANEJADO, ainda não há planilha/pasta sincronizada criada por esta missão.
-## Escopo
-Autoridade institucional sem publicidade enganosa. Pautas sobre psicoterapia, psicanálise, adaptação emocional, imigrantes, V.I.A. e M.I.R.A.; novos temas somente com profissionais capacitados/revisores.
-## Hierarquia proposta no Google Drive
+# SOTOMA Editorial — planejamento + Google Sheets nativo
+Estado em 2026-11-07: **planilha Google Sheets criada, dados editoriais iniciais preenchidos e lidos de volta; sem automação/WordPress/publicação**.
+## Documento canônico de funcionamento
+Ler a dependência [SOTOMA Editorial 50/40/10](../dependencies/sotoma-editorial/README.md), seu [Mission Lock](../dependencies/sotoma-editorial/MISSION-LOCK-EDITORIAL.md), [Playbook](../dependencies/sotoma-editorial/PLAYBOOK-360.md), [Prompt mestres](../dependencies/sotoma-editorial/PROMPTS-MESTRES.md) e [Contrato Sheets](../dependencies/sotoma-editorial/CONTRATO-SHEETS.md).
+## Planilha real
+- [SOTOMA | Editorial 50-40-10 | Cláudia e Yasmin](https://docs.google.com/spreadsheets/d/1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU/edit)
+- Google Sheet ID: `1skkm1DmEkTiRseVmgku2EVA7WSZa8nYS4iaWm5ZwASU`.
+- Abas existentes: PAINEL; PAUTAS_20; ARTIGOS_BRIEF; SCRIPTS_VIDEO; CARDS_240; AUTORES; FONTES; APROVACOES; PUBLICACOES; GUIA; POSTS_20; VIDEOS_80.
+- Distribuição **50% TOPO, 40% MEIO, 10% FUNDO**: 20 pautas (10/8/2), com 10 pautas para Cláudia e 10 para Yasmin; N0–N4.
+- Dados disponíveis: 20 briefs de artigos (não artigos completos), 20 legendas, 20 scripts-base, 80 versões de vídeo e 240 prompts específicos de cards (12 por pauta). Conteúdos **NÃO APROVADOS / NÃO PUBLICADOS**.
+## Expansão do corpo profissional
+A SOTOMA credencia profissionais internamente. Uma pessoa autora só é adicionada ao quadro editorial após confirmação de qualificação, escopo, permissão e revisão. Não existe inscrição pública, ranking, reviews ou comissões por encaminhamento.
+## Organização sugerida no Drive, ainda não criada
 ```text
-SOTOMA — EDITORIAL/
-  00-GOVERNANCA/    politica editorial, calendario, responsabilidades
-  01-PAUTAS/        backlog e briefs
-  02-FONTES/        registros de pesquisas e documentos públicos
-  03-ARTIGOS/       rascunhos por pauta e por autor
-  04-REDES-SOCIAIS/ carrosseis e copys
-  05-SCRIPTS/       roteiros 30,60,90,120 s e cenas
-  06-REVISAO/       aprovacoes editoriais e cientificas
-  07-PUBLICADOS/    links e provas de publicação (nunca dados de pacientes)
-  08-RELATORIOS/    indicadores editoriais agregados
+SOTOMA - EDITORIAL/
+  00-GOVERNANCA/
+  01-PAUTAS/
+  02-FONTES/
+  03-ARTIGOS/
+  04-REDES-SOCIAIS/
+  05-SCRIPTS/
+  06-REVISAO/
+  07-PUBLICADOS/
+  08-RELATORIOS/
 ```
-## Abas Google Sheets
-`PAUTAS`, `CALENDARIO`, `ARTIGOS`, `ROTEIROS`, `CENAS`, `AUTORES`, `FONTES`, `PUBLICACOES`, `PERFORMANCE`, `APROVACOES`.
-## Esquema de pauta
-`SOT-ED-0001`; editoria; palavra-chave e intenção; autor e credenciais aprovadas; revisor técnico; fontes primárias; briefing; objetivo educacional; CTA adequado; formato; etapa; data; URL do documento Drive; post_id WordPress (após publicação); URL pública verificada; revisão seguinte.
-## Etapas
-IDEIA → PESQUISA COM FONTES → RASCUNHO → REVISÃO TÉCNICA → REVISÃO ÉTICA → APROVAÇÃO CLÁUDIA → PROGRAMADO → PUBLICADO COM URL → MEDIDO → ATUALIZAÇÃO.
-Nenhum estado 'publicado' sem URL e leitura de volta verificáveis. Versionar mudanças importantes, autorizações e corrigendas.
-## Autoria e atendimento
-Todo artigo exibe autor real, nome/título compatíveis com o conselho, referência bibliográfica, atualização e revisão quando necessário. Não usar casos de pacientes ou imagens identificáveis sem avaliação ética/legal; preferir casos fictícios claramente identificados como tal. Vedadas promessas de cura ou resultados determinísticos.
-## Fluxo de derivados
-1 artigo aprovado → resumo informativo → carrossel (até 10 cards, se adequado) → post curto → 4 scripts opcionais (30/60/90/120 segundos) → CTA educacional ou pedido de contato adequado. Não tratar automaticamente todo artigo como campanha publicitária.
-## Integração técnica
-Drive é a interface de colaboração humana; repositório guarda contratos/schemas/automação e não versões contendo dados pessoais sensíveis. Integração de publicação WordPress usa credencial de serviço limitada e revisão explícita. Manter IDs canônicos idempotentes, URL real do documento e status de erro; conflito gera bloqueio e revisão manual, sem sobregravar silenciosamente.
-## Critérios de aceitação
-Autor verificado, referências checadas, todas as aprovações, ausência de dados clínicos, slug, título/metadescrição e imagens licenciadas, acessibilidade, revisão ortográfica, schema de autor apropriado, links funcionais, URL e data de publicação reais; métricas agregadas coletadas de forma lícita.
-## Independência operacional
-Falha da planilha ou integração não apaga artigo nem altera prontuário. Nada de contatos de pacientes ou imagens clínicas em Sheets.
+Esta árvore de pastas é **proposta futura**, não evidência de pastas criadas. A planilha real está na pasta ChatGPT do Drive.
+## Regras de status
+IDEIA → PESQUISA COM FONTES → RASCUNHO COMPLETO → REVISÃO TÉCNICA/ÉTICA → APROVAÇÃO AUTORA → APROVAÇÃO DIREÇÃO → PUBLICADO COM URL VERIFICADA → MEDIDO. Nunca transformar um briefing em 'artigo pronto' ou um roteiro em 'vídeo publicado'.
+## Proteção de dados
+Drive e GitHub editoriais NÃO recebem dados de pacientes, fotos clínicas, medicamentos, receitas, números de contato ou informação de identificação clínica. O painel administrativo de aquisição e prontuário são produtos separados.
+## Integração técnica futura, não implementada
+O Google Sheets opera como registro das pautas. IDs SOT-ED-001..020 serão chaves canônicas; conectores WordPress, Google Docs e automação com leitura de volta, versionamento e permissões restritas serão implementados apenas mediante PR, testes e aprovação. Falha de uma integração não deve alterar texto editorial homologado, prontuário ou site em produção.
