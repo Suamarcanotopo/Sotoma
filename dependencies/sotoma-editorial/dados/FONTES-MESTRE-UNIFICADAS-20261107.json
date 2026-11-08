@@ -3,12 +3,12 @@
   "user_original": 9,
   "previous_curated": 48,
   "new_candidates": 20,
-  "unique": 73,
+  "unique": 74,
   "counts": {
-    "CANDIDATA_REVALIDAR": 25,
+    "CANDIDATA_REVALIDAR": 24,
     "PAGINA_OFICIAL_CONFERIDA": 33,
     "QUARENTENA_TITULO_DIVERGENTE": 1,
-    "METADADOS_RESUMO_PUBMED": 14
+    "METADADOS_RESUMO_PUBMED": 16
   },
   "headers": [
     "ID",
@@ -553,8 +553,8 @@
     ],
     [
       "SOT-SRC-028",
-      "National Youth Mental Health Study — relatório 2024",
-      "Pesquisa epidemiológica",
+      "CHAT — Annual Report 2023–2024 (não é o estudo nacional NYMHS)",
+      "Relatório anual institucional",
       "https://www.imh.com.sg/CHAT/About%20CHAT/PublishingImages/Pages/Annual-Reports/CHAT_AR_2023-24_Compressed.pdf",
       "Jovens, relações, mídia digital",
       "CANDIDATA — VALIDAR URL, VIGÊNCIA E PERTINÊNCIA",
@@ -562,8 +562,8 @@
       "Institute of Mental Health",
       "OBSERVACIONAL",
       "QUARENTENA_TITULO_DIVERGENTE",
-      "População de Singapura não representa Brasil ou Japão; usar apenas após leitura do relatório",
-      "Sem leitura integral; verificar título, método e atualidade",
+      "O URL é de relatório anual CHAT 2023–24, não o estudo nacional informado na descrição anterior; não usar para estatística nacional.",
+      "Divergência identificada em metadados da página; revisão visual do PDF pendente.",
       "2026-11-07",
       "OBSERVACIONAL",
       "AUTORA_PENDENTE",
@@ -957,7 +957,7 @@
       "Europa",
       "PubMed — BMC Public Health",
       "REVISÃO SISTEMÁTICA",
-      "CANDIDATA_REVALIDAR",
+      "METADADOS_RESUMO_PUBMED",
       "Não inferir prevalência para Japão",
       "PMID 38429674; resumo PubMed consultado",
       "2026-11-07",
@@ -1340,6 +1340,24 @@
       "Página oficial ou entidade editorial conferida",
       "2026-11-07",
       "DIRETRIZ_GLOBAL",
+      "AUTORA_PENDENTE",
+      "PESQUISA_ATUAL"
+    ],
+    [
+      "SOT-SRC-072",
+      "Revisão sistemática — saúde de trabalhadores migrantes e famílias na Ásia-Pacífico",
+      "Revisão sistemática/meta-análise",
+      "https://pubmed.ncbi.nlm.nih.gov/41216213/",
+      "Riscos ocupacionais e contextos de migração na Ásia-Pacífico",
+      "NOVO 07/11/2026",
+      "ÁSIA-PACÍFICO",
+      "The Lancet Regional Health Western Pacific / PubMed",
+      "ESTUDO_CIENTIFICO",
+      "METADADOS_RESUMO_PUBMED",
+      "Amostras concentradas em setores de risco; heterogeneidade; não extrapolar percentuais para brasileiros no Japão",
+      "PMID 41216213; resumo PubMed consultado",
+      "2026-11-07",
+      "Saúde laboral e migração",
       "AUTORA_PENDENTE",
       "PESQUISA_ATUAL"
     ]
