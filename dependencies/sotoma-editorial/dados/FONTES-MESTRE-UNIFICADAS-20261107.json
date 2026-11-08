@@ -3,12 +3,12 @@
   "user_original": 9,
   "previous_curated": 48,
   "new_candidates": 20,
-  "unique": 74,
+  "unique": 76,
   "counts": {
     "CANDIDATA_REVALIDAR": 19,
-    "PAGINA_OFICIAL_CONFERIDA": 38,
+    "PAGINA_OFICIAL_CONFERIDA": 39,
     "QUARENTENA_TITULO_DIVERGENTE": 1,
-    "METADADOS_RESUMO_PUBMED": 16
+    "METADADOS_RESUMO_PUBMED": 17
   },
   "headers": [
     "ID",
@@ -1358,6 +1358,42 @@
       "PMID 41216213; resumo PubMed consultado",
       "2026-11-07",
       "Saúde laboral e migração",
+      "AUTORA_PENDENTE",
+      "PESQUISA_ATUAL"
+    ],
+    [
+      "SOT-SRC-073",
+      "Examining psychological distress among youth in Singapore (NYMHS)",
+      "Estudo epidemiológico transversal",
+      "https://pubmed.ncbi.nlm.nih.gov/39987652/",
+      "Saúde mental de jovens de Singapura, fatores associados; não representa brasileiros",
+      "NOVO 07/11/2026",
+      "SINGAPURA / ÁSIA",
+      "Asian Journal of Psychiatry / PubMed",
+      "ESTUDO_CIENTIFICO",
+      "METADADOS_RESUMO_PUBMED",
+      "População 15–35 anos, medidas de sintomas, estudo transversal; não deduzir causalidade nem extrapolar a outras populações",
+      "PMID 39987652; DOI 10.1016/j.ajp.2025.104405; resumo PubMed lido",
+      "2026-11-07",
+      "Jovens, Singapura, epidemiologia",
+      "AUTORA_PENDENTE",
+      "PESQUISA_ATUAL"
+    ],
+    [
+      "SOT-SRC-074",
+      "National Youth Mental Health Study — instituto oficial de Singapura",
+      "Programa de pesquisa institucional",
+      "https://www.nhghealth.com.sg/imh/research/research-programmes/the-national-youth-mental-health-study",
+      "Identidade e escopo de pesquisa nacional juvenil em Singapura",
+      "NOVO 07/11/2026",
+      "SINGAPURA / ÁSIA",
+      "Institute of Mental Health / NHG Health",
+      "PORTAL_INSTITUCIONAL",
+      "PAGINA_OFICIAL_CONFERIDA",
+      "Página de estudo não equivale a artigo científico ou metodologia completa; dados populacionais são de Singapura",
+      "Título e instituição confirmados na página oficial do instituto",
+      "2026-11-07",
+      "Saúde mental juvenil; pesquisa populacional",
       "AUTORA_PENDENTE",
       "PESQUISA_ATUAL"
     ]
