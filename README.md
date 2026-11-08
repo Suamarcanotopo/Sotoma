@@ -1,5 +1,14 @@
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
+## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
+
+**Versão ativa do catálogo de fontes:** [Google Sheets FONTES — 74 referências distintas](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=498273490) · [PAINEL_FONTES — 38 páginas oficiais/editoriais conferidas, 16 estudos/resumos PubMed conferidos, 19 candidatos e 1 em quarentena](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=313551946) · [POLITICA_FONTES — 13 gates adversariais](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1276106181).
+
+**Pesquisas:** [ESTUDOS_CIENTIFICOS — 15 estudos](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=269586060) · [ESTUDOS_X_ARTIGO — 105 linhas incluindo lacunas](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=639989803) · [PLAYBOOK de fontes Japão, Ásia, Europa e Américas](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/FONTES-PLAYBOOK-EVIDENCIA-INTERNACIONAL-20261107.md) · [JSON canônico das 74 fontes](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/FONTES-MESTRE-UNIFICADAS-20261107.json) · [15 estudos PubMed](https://github.com/Suamarcanotopo/Sotoma/blob/main/dependencies/sotoma-editorial/dados/ESTUDOS-PUBMED-15.json).
+
+**Histórico:** `FONTES` tinha apenas 9 entradas; `FONTES_60` foi curadoria paralela de 48 com 4 URLs sobrepostas. A aba `FONTES` é agora a **fonte operacional única**; `FONTES_60` permanece histórico. `PAGINA_OFICIAL_CONFERIDA` confirma site/entidade e não libera qualquer claim clínico. **Nenhum artigo está aprovado para publicação.**
+
+
 **Reescrita de 58 artigos — PR em rascunho para revisão:** [PR #6](https://github.com/Suamarcanotopo/Sotoma/pull/6) · [ARTIGOS_REVISAO_58 no Google Sheets](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=2000012341). **A branch main conserva os manuscritos anteriores.** A melhora de similaridade literal não comprova redação final, precisão clínica ou aprovação; texto candidato requer revisão de fluência, estudo específico, autora e direção.
 
 ## SOTOMA EDITORIAL — VERSÃO ATIVA: 60 PAUTAS, PESQUISA, FUNIL IET E IDENTIDADE VISUAL (07/11/2026)
