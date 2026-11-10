@@ -65,3 +65,7 @@ As fontes editoriais canônicas são registradas em [Google Sheets FONTES](https
 <!-- SIN-PR-STATUS-ML-ADDENDUM-V1 -->
 ## Adendo permanente — controle de PRs e estado real
 O arquivo MISSION-LOCK-PR-STATUS-ADDENDUM.md na raiz deste repositório complementa este Mission Lock. Antes de reimplementar ou refazer investigação, verificar checkpoint e delta; registrar status de PR, commit, teste, merge, instalação e homologação como dimensões separadas. O adendo não autoriza deploy, custo ou merge e não substitui regras próprias deste projeto.
+
+
+## Novo Mission Lock: migração por dois backups e PR Lock (proposto na PR #7)
+A reconstrução só pode começar da perícia de dois backups reais, de site atual em leitura e de novos requisitos versionados. Ler [Mission Lock de novo servidor](REBUILD-NEW-SERVER-MISSION-LOCK.md), [Backup Intake](BACKUP-INTAKE-RECONCILIATION.md) e [PR Lock](PR-LOCK.md). O site atual permanece last-known-good; nenhum DNS/WordPress/SMTP pode ser alterado antes de aprovação e staging. GitHub armazena documentação sanitizada/código, jamais cópia bruta de prontuário, dumps SQL ou credenciais. PRs e branches precisam de provenance/QA, com status distintos. Rascunho de PR não é execução.
