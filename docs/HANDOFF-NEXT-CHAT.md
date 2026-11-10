@@ -27,3 +27,5 @@ Ao receber as novidades novas, adicionar em backlog e mapear o que é PRESERVAR 
 
 ## Gate de saída desta preparação
 O README e a PR #7 devem apontar para o prompt, os protocolos e o registro PR. O estado real após este trabalho é: documentos versionados em branch, sem migração/restore/deploy. Não declarar CI ou branch protection aplicados sem verificar.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
