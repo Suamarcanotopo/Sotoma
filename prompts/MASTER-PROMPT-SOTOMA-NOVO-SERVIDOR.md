@@ -71,3 +71,4 @@ Não publicar automaticamente artigos, usar dados de pacientes em Google Sheets 
 6. Não pedir confirmação do que já está documentado; quando eu trouxer novidades, incorporá-las no backlog e matriz de reconciliação sem apagar decisões.
 
 COMECE A NOVA CONVERSA lendo o repositório e identificando os dois arquivos anexados. Se ainda não houver anexos, não fabrique inventários; deixe G0 em espera e apresente o estado do GitHub já verificado.
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
