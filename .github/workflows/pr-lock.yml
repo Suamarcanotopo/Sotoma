@@ -1,0 +1,19 @@
+name: SOTOMA PR Lock
+
+on:
+  pull_request:
+    types: [opened, reopened, edited, synchronize, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  pr-lock-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR source
+        uses: actions/checkout@v4
+      - name: Validate ledger and PR provenance
+        run: python3 scripts/pr_lock_check.py
