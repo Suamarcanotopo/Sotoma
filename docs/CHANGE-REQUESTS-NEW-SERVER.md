@@ -16,3 +16,5 @@ Cada melhoria nova adicionada pelo usuário ganha ID REQ-AAAAMMDD-NNN, justifica
 
 ## Nenhuma solução inventada
 Ainda não sabemos sistema operacional/servidor novo, versão do WordPress real, licenças, estrutura dos dois backups, fonte do banco, dependências de hosting ou janela de migração. Manter UNKNOWN até evidência.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
