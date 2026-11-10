@@ -60,3 +60,8 @@ O escopo editorial é governado por [Mission Lock escala 60](../dependencies/sot
 
 ## Fontes científicas SOTOMA — adendo de segurança 07/11/2026
 As fontes editoriais canônicas são registradas em [Google Sheets FONTES](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=498273490) e auditadas segundo [POLITICA_FONTES](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1276106181) e o [Playbook internacional](../dependencies/sotoma-editorial/FONTES-PLAYBOOK-EVIDENCIA-INTERNACIONAL-20261107.md). A verificação de domínio, título ou PMID não equivale à comprovação de uma afirmação clínica. Proibido usar conteúdo de fonte em quarentena, estudos de outras populações como resultados dos programas V.I.A./M.I.R.A., opiniões com roupagem de estudo, notícias sem referência primária, estatísticas sem método, textos de sites protegidos por direito autoral copiados integralmente, trabalhos de menores identificáveis ou marketing com promessas terapêuticas. Todas as fontes e os 60 artigos continuam sujeitos a validação profissional para cada alegação.
+
+
+<!-- SIN-PR-STATUS-ML-ADDENDUM-V1 -->
+## Adendo permanente — controle de PRs e estado real
+O arquivo MISSION-LOCK-PR-STATUS-ADDENDUM.md na raiz deste repositório complementa este Mission Lock. Antes de reimplementar ou refazer investigação, verificar checkpoint e delta; registrar status de PR, commit, teste, merge, instalação e homologação como dimensões separadas. O adendo não autoriza deploy, custo ou merge e não substitui regras próprias deste projeto.
