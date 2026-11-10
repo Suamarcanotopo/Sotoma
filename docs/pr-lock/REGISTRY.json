@@ -68,12 +68,12 @@
         5
       ],
       "branch": "governance/mission-lock-pr-state-20261110",
-      "last_reviewed_head_sha": "41167e081f6424a5365c5ac0c8c844d7f6cd0ad7",
+      "last_reviewed_head_sha": "60ab218b8421616defc1f0f83de45aa5ab2ae89b",
       "baseline_main_sha_at_intake": "55de6b33f43c783fc9c15571f3708f803fc17b39",
       "statuses": {
         "github": "DRAFT",
-        "implementation": "IMPLEMENTING",
-        "quality": "NOT_RUN",
+        "implementation": "CODE_READY",
+        "quality": "PARTIAL",
         "application": "BRANCH_ONLY",
         "operation": "PLANNED"
       },
@@ -91,13 +91,24 @@
           "kind": "PR_METADATA",
           "url": "https://github.com/Suamarcanotopo/Sotoma/pull/7",
           "note": "Draft, no merge at inspection; head checkpoint will be stale after subsequent writes"
+        },
+        {
+          "kind": "CI_RUN",
+          "url": "https://github.com/Suamarcanotopo/Sotoma/actions/runs/42877806769",
+          "note": "GitHub Actions conclusion failure, step details unavailable; no pass claim"
+        },
+        {
+          "kind": "INDEPENDENT_STRUCTURAL_PREFLIGHT",
+          "url": "https://github.com/Suamarcanotopo/Sotoma/pull/7",
+          "note": "2 PR bodies match 12 required fields; registry and files found; not host/CI proof"
         }
       ],
       "tests": {
-        "status": "NOT_RUN",
-        "details": "Structural checks for ledger and PR template to be executed; no runtime, staging or backup test",
-        "ci_run_url": null,
-        "host_proof": null
+        "status": "FAIL",
+        "details": "Independent GitHub API read: Actions PR Lock runs fail; latest 42877806769 did not expose executable steps or usable logs. Cause UNKNOWN. Separate in-chat structural preflight of PR bodies and registry passed (zero schema/missing-file findings). These two evidences must not be conflated.",
+        "ci_run_url": "https://github.com/Suamarcanotopo/Sotoma/actions/runs/42877806769",
+        "host_proof": null,
+        "manual_structure_check": "PASS (JS preflight read of PR #6 and #7 bodies, registry and 11 files; 2026-11-10)"
       },
       "open_blockers": [
         "Receive two backup files",
@@ -105,11 +116,14 @@
         "Review this PR's diff and CI",
         "Approve merge separately",
         "New server not configured",
-        "Branch protection not verified"
+        "Branch protection not verified",
+        "GitHub Actions pr-lock-contract FAIL; root cause not confirmed; CI check not homologated",
+        "Required status check/branch protection permission unavailable to current GitHub connector",
+        "Review new-host governance diff before merge"
       ],
-      "decision": "KEEP_DRAFT_UNTIL_DOCUMENTAL_QA",
+      "decision": "KEEP_DRAFT_BLOCK_MERGE_UNTIL_CI_AND_REVIEW",
       "rollback": "Close or revert governance PR; main and live host unchanged",
-      "next_action": "Complete governance files, run checks, then review PR without automatic merge",
+      "next_action": "Investigate Actions early failure, rerun checks or inspect via authorized GitHub UI, then review PR #7; receive two backups and begin G0 only after upload",
       "owner_role": "Product and repository owner",
       "verified_date": "2026-11-10"
     }
