@@ -1,5 +1,15 @@
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
+
+## CONTINUIDADE OBRIGATÓRIA — Novo servidor, 2 backups e PR Lock (adendo na PR #7)
+- O usuário continuará a conversa numa janela nova, ANEXANDO DOIS BACKUPS DO WEBSITE. Até que os arquivos reais sejam recebidos: NENHUM conteúdo, versão, integridade ou hash foi conferido. Não inferir os dados dos anexos futuros.
+- **LER PRIMEIRO:** [Master Prompt SOTOMA](prompts/MASTER-PROMPT-SOTOMA-NOVO-SERVIDOR.md), [Handoff nova conversa](docs/HANDOFF-NEXT-CHAT.md), [Mission Lock reconstrução](docs/REBUILD-NEW-SERVER-MISSION-LOCK.md), [Protocolo de backup](docs/BACKUP-INTAKE-RECONCILIATION.md).
+- **PR LOCK:** [política](docs/PR-LOCK.md), [registro versionado](docs/pr-lock/REGISTRY.json), [modelo de PR](.github/PULL_REQUEST_TEMPLATE.md) e [validador](scripts/pr_lock_check.py). Consultar API GitHub HEAD/PR/CI e apenas delta desde o checkpoint; não reler PRs aplicadas sem motivo, nem confundir DRAFT com MERGED/INSTALADO.
+- **Estado observado 2026-11-10:** PR #6 58 revisões editoriais DRAFT; PR #7 governança/continuidade DRAFT, ambas NÃO merged. Main possui contratos editoriais, 60 pautas (30 Cláudia / 30 Yasmin), 76 fontes, 16 estudos, 720 prompts de cards, 240 roteiros. **Nenhum backup recebido, staging restaurado, servidor novo instalado ou DNS cortado**.
+- WordPress público antigo deve ficar intacto. Não colocar backup, dump SQL, wp-config, dados de pacientes ou credenciais no GitHub/Google Sheets, mesmo privado. Priorizar reconciliação A/B, segurança, staging isolado e rollback.
+- Qualquer novo pedido entra como melhoria versionada após preservar o que há nos backups; nenhum serviço, formação, preço ou claim clínico será inventado.
+
+
 ## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
 
 **Versão ativa do catálogo de fontes:** [Google Sheets FONTES — 76 referências distintas](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=498273490) · [PAINEL_FONTES — 39 páginas oficiais/editoriais conferidas, 17 estudos/resumos PubMed conferidos, 19 candidatos e 1 em quarentena](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=313551946) · [POLITICA_FONTES — 13 gates adversariais](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1276106181).
@@ -93,3 +103,5 @@ Não inventar disponibilidade, aprovações, publicação, coleta de eventos, pa
 - **Verificado no GitHub:** contratos, prompts e snapshots de 20 pautas, 20 briefs, 20 legendas, 80 scripts e 240 prompts estão no repositório privado, além de dois artigos-piloto.
 - **NÃO implementado:** automação de sincronização entre Sheets, GitHub, Docs e WordPress; agendamento editorial automático, imagens/vídeos gerados ou postagem no website.
 - **Próximas aprovações:** Cláudia e Yasmin confirmam qualificações e revisam seus conteúdos, fontes e legendas; a direção aprova estilo visual, cadência e publicação.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.

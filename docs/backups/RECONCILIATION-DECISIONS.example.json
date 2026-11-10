@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "EMPTY_TEMPLATE_NO_BACKUPS_INSPECTED",
+  "rows": [
+    {
+      "item_id": "EXAMPLE-URL-000",
+      "object": "/exemplo-nao-verificado/",
+      "backup_a": "UNKNOWN",
+      "backup_b": "UNKNOWN",
+      "live_site": "UNKNOWN",
+      "github": "DOCS_ONLY",
+      "new_requirement": "NONE",
+      "decision": "UNKNOWN",
+      "evidence": [],
+      "tests": [],
+      "pr": null,
+      "note": "Exemplo puramente estrutural; não é uma URL verificada do site."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "mission_id": "SOT-REBUILD-NEW-HOST-20261110",
+  "status": "TEMPLATE_NOT_EVIDENCE",
+  "notes": "Nenhum backup foi recebido ou analisado; preencher APENAS com arquivos reais. NUNCA registrar senhas, banco SQL ou dados pessoais no GitHub.",
+  "backups": [
+    {
+      "id": "BACKUP_A",
+      "received": false,
+      "original_filename": null,
+      "bytes": null,
+      "sha256": null,
+      "archive_format": null,
+      "integrity": "NOT_TESTED",
+      "origin_evidence": null,
+      "contains_wp_content": "UNKNOWN",
+      "contains_database": "UNKNOWN",
+      "malware_scan": "NOT_RUN",
+      "pii_assessment": "NOT_RUN",
+      "staging_restore": "NOT_RUN"
+    },
+    {
+      "id": "BACKUP_B",
+      "received": false,
+      "original_filename": null,
+      "bytes": null,
+      "sha256": null,
+      "archive_format": null,
+      "integrity": "NOT_TESTED",
+      "origin_evidence": null,
+      "contains_wp_content": "UNKNOWN",
+      "contains_database": "UNKNOWN",
+      "malware_scan": "NOT_RUN",
+      "pii_assessment": "NOT_RUN",
+      "staging_restore": "NOT_RUN"
+    }
+  ],
+  "decisions": [],
+  "no_raw_backups_in_git": true
+}

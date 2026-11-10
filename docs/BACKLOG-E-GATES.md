@@ -46,3 +46,15 @@ Status geral: planejamento, nada instalado.
 4. Validação em staging; produção somente com aprovação explícita da direção e backup verificado.
 ## Definições universais de pronto
 Sem regressão, sem vazamento, com testes de autorizações, documentação atualizada, logs sem PII/PHI e métricas verificáveis. Diferenciar documentado de construído.
+
+## Migração de hospedagem — gates independentes (adendo na PR #7)
+- [ ] MIG0: receber 2 backups, provar hashes, integridade, proveniência e segurança, sem expor dados.
+- [ ] MIG1: comparar A/B/live/README; construir inventário e decisão item a item, com rastreabilidade.
+- [ ] MIG2: staging isolado, WordPress/Elementor e banco compatíveis, links/mídia/SEO, e-mail/webhooks desligados.
+- [ ] MIG3: incorporar melhorias novas mediante PRs pequenas com teste/rollback.
+- [ ] MIG4: COLISEUM + Red Team de restauração, proteção de dados, UX, segurança e originalidade.
+- [ ] MIG5: aceites documentados e plano de corte com garantia de retorno ao servidor antigo.
+- [ ] MIG6: go-live só após aprovação explícita, com prova de DNS/TLS, e-mail, delta de conteúdo e rollback.
+A fundação G0–G4 permanece válida; MIG0–MIG6 é linha de migração, não autorização de prontuário ou produção.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
