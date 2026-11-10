@@ -23,3 +23,5 @@ Produção: não foi alterada por esta missão.
 Ler AGENTS.md e docs/MISSION-LOCK.md, depois docs/PR-LOCK.md e docs/HANDOFF-NEXT-CHAT.md no branch da PR #7; verificar GitHub API HEAD/PR/CI e usar diff/checkpoints. Seguir docs/BACKUP-INTAKE-RECONCILIATION.md.
 Ao receber backups: G0 hash/estrutura/segurança; comparar A/B/site; escolher estrutura de staging sem alterar produção. Projetar melhorias novas por PR, sem apagar evidências, não perguntar de novo pelos acordos arquivados.
 Qualquer alteração em runtime exige nova prova independente; nenhuma promessa de site instalado, servidor configurado ou backup pronto.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
