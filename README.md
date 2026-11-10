@@ -103,3 +103,5 @@ Não inventar disponibilidade, aprovações, publicação, coleta de eventos, pa
 - **Verificado no GitHub:** contratos, prompts e snapshots de 20 pautas, 20 briefs, 20 legendas, 80 scripts e 240 prompts estão no repositório privado, além de dois artigos-piloto.
 - **NÃO implementado:** automação de sincronização entre Sheets, GitHub, Docs e WordPress; agendamento editorial automático, imagens/vídeos gerados ou postagem no website.
 - **Próximas aprovações:** Cláudia e Yasmin confirmam qualificações e revisam seus conteúdos, fontes e legendas; a direção aprova estilo visual, cadência e publicação.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
