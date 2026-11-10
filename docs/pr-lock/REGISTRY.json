@@ -65,7 +65,8 @@
         2,
         3,
         4,
-        5
+        5,
+        8
       ],
       "branch": "governance/mission-lock-pr-state-20261110",
       "last_reviewed_head_sha": "60ab218b8421616defc1f0f83de45aa5ab2ae89b",
@@ -101,6 +102,11 @@
           "kind": "INDEPENDENT_STRUCTURAL_PREFLIGHT",
           "url": "https://github.com/Suamarcanotopo/Sotoma/pull/7",
           "note": "2 PR bodies match 12 required fields; registry and files found; not host/CI proof"
+        },
+        {
+          "kind": "ISSUE",
+          "url": "https://github.com/Suamarcanotopo/Sotoma/issues/8",
+          "note": "Standalone migration scope from user; backups pending"
         }
       ],
       "tests": {
