@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "project": "SOTOMA_2.0",
+  "policy": "docs/PR-LOCK.md",
+  "as_of_date": "2026-11-10",
+  "snapshot_source": "GitHub API pull requests 6 and 7; Git refs heads/main",
+  "baseline_main_sha": "55de6b33f43c783fc9c15571f3708f803fc17b39",
+  "disclaimer": "Snapshot can go stale immediately on any new commit or runtime change; verify live API and CI first. Branch-only does not mean applied.",
+  "records": [
+    {
+      "work_id": "SOT-EDITORIAL-58-REWRITE-20261107",
+      "work_revision": "0.1.0",
+      "pr_number": 6,
+      "pr_url": "https://github.com/Suamarcanotopo/Sotoma/pull/6",
+      "issue_numbers": [
+        5
+      ],
+      "branch": "editorial/evidence-iet-brand-rewrite-58-20261107",
+      "last_reviewed_head_sha": "1bd5cb9cc13e9dbcbc453bbcd75cb2f1dfdff315",
+      "baseline_main_sha_at_intake": "fdc2417c3de5c99edc8f87d13990f1c8a98b3377",
+      "statuses": {
+        "github": "DRAFT",
+        "implementation": "CODE_READY",
+        "quality": "RETEST",
+        "application": "BRANCH_ONLY",
+        "operation": "PLANNED"
+      },
+      "scope": "58 editorial candidate rewrites; pilots 001 and 011 unchanged",
+      "affected_paths": [
+        "dependencies/sotoma-editorial/artigos/",
+        "dependencies/sotoma-editorial/COLISEUM-REVISAO-58-CANDIDATO.md"
+      ],
+      "evidence": [
+        {
+          "kind": "PR_METADATA",
+          "url": "https://github.com/Suamarcanotopo/Sotoma/pull/6",
+          "note": "Draft / not merged, commit 1bd5... observed 2026-11-10"
+        }
+      ],
+      "tests": {
+        "status": "PARTIAL",
+        "details": "Literal repetition heuristic documented; full clinical, semantic, source and author review not passed",
+        "ci_run_url": null,
+        "host_proof": null
+      },
+      "open_blockers": [
+        "Verify claims against full studies",
+        "Review semantic originality and fluency",
+        "Approve author professional descriptors",
+        "No mass publication"
+      ],
+      "decision": "DO_NOT_MERGE_OR_PUBLISH",
+      "rollback": "Close PR / revert changes if merged later, preserve main and editorial data",
+      "next_action": "Review candidate manuscripts individually after factual/author QA",
+      "owner_role": "Editorial and clinical reviewers",
+      "verified_date": "2026-11-10"
+    },
+    {
+      "work_id": "SOT-PR-GOVERNANCE-AND-REBUILD-20261110",
+      "work_revision": "0.2.0",
+      "pr_number": 7,
+      "pr_url": "https://github.com/Suamarcanotopo/Sotoma/pull/7",
+      "issue_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "branch": "governance/mission-lock-pr-state-20261110",
+      "last_reviewed_head_sha": "41167e081f6424a5365c5ac0c8c844d7f6cd0ad7",
+      "baseline_main_sha_at_intake": "55de6b33f43c783fc9c15571f3708f803fc17b39",
+      "statuses": {
+        "github": "DRAFT",
+        "implementation": "IMPLEMENTING",
+        "quality": "NOT_RUN",
+        "application": "BRANCH_ONLY",
+        "operation": "PLANNED"
+      },
+      "scope": "PR Lock, provenance ledger, no-read-all delta policy, fresh-chat prompt, backup intake and new-host reconstruction governance",
+      "affected_paths": [
+        "AGENTS.md",
+        "MISSION-LOCK-PR-STATUS-ADDENDUM.md",
+        "docs/",
+        "prompts/",
+        "scripts/",
+        ".github/"
+      ],
+      "evidence": [
+        {
+          "kind": "PR_METADATA",
+          "url": "https://github.com/Suamarcanotopo/Sotoma/pull/7",
+          "note": "Draft, no merge at inspection; head checkpoint will be stale after subsequent writes"
+        }
+      ],
+      "tests": {
+        "status": "NOT_RUN",
+        "details": "Structural checks for ledger and PR template to be executed; no runtime, staging or backup test",
+        "ci_run_url": null,
+        "host_proof": null
+      },
+      "open_blockers": [
+        "Receive two backup files",
+        "Inspect and hash archives",
+        "Review this PR's diff and CI",
+        "Approve merge separately",
+        "New server not configured",
+        "Branch protection not verified"
+      ],
+      "decision": "KEEP_DRAFT_UNTIL_DOCUMENTAL_QA",
+      "rollback": "Close or revert governance PR; main and live host unchanged",
+      "next_action": "Complete governance files, run checks, then review PR without automatic merge",
+      "owner_role": "Product and repository owner",
+      "verified_date": "2026-11-10"
+    }
+  ]
+}
