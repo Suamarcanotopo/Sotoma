@@ -56,3 +56,5 @@ Sem regressão, sem vazamento, com testes de autorizações, documentação atua
 - [ ] MIG5: aceites documentados e plano de corte com garantia de retorno ao servidor antigo.
 - [ ] MIG6: go-live só após aprovação explícita, com prova de DNS/TLS, e-mail, delta de conteúdo e rollback.
 A fundação G0–G4 permanece válida; MIG0–MIG6 é linha de migração, não autorização de prontuário ou produção.
+
+**Issue de migração criada:** https://github.com/Suamarcanotopo/Sotoma/issues/8 — MIG0 a MIG6; o escopo está em PLANEJAMENTO e ambos backups ainda estão pendentes.
