@@ -1,74 +1,45 @@
 # Adolescentes e comparação nas redes: conversa sem alarmismo
 
-> **SOT-ED-050 · Yasmin · TOPO · Consciente do problema · RASCUNHO EDITORIAL, NÃO PUBLICADO, NÃO APROVADO.** Autoria proposta: Yasmin Sotoma Muzilli; título/qualificação profissional a verificar antes de divulgar.
+**ID:** SOT-ED-050 · **Autoria proposta:** Yasmin · **Pilar:** INFORMAÇÃO · **Consciência:** Consciente do problema
+*RASCUNHO CANDIDATO V2, sujeito a revisão da autora, método, fontes e direção. Não publicado.*
+**Slug em estudo:** `adolescentes-e-comparacao-nas-redes-conversa-sem-alarmismo`
 
-**Título SEO (hipótese):** Adolescentes e comparação nas redes: conversa sem alarmismo
-**Metadescrição (rascunho):** Adolescentes e comparação nas redes: conversa sem alarmismo. Entenda contexto, limites e perguntas relevantes sem autodiagnóstico ou promessas.
-**Intenção de busca:** educacional e reflexiva
-**Palavra-chave candidata (sem análise de volume):** adolescentes e comparação nas redes
-**Status de revisão:** FONTE_GERAL_APONTADA; FONTE_ESPECÍFICA_E_AUTORA_PENDENTES
+## A pergunta central
 
-## Por que este tema merece uma conversa
+A dúvida sobre "Adolescentes e comparação nas redes: conversa sem alarmismo" pode aparecer entre pais, responsáveis e adolescentes quando existe medir a própria vida por fotos selecionadas. Um exemplo seria feed de vida perfeita e comparação. No feed, as pessoas escolhem enquadramentos e momentos; comparar bastidores com recortes publicados favorece conclusões incompletas.
 
-Adolescentes e comparação nas redes: conversa sem alarmismo é uma pergunta relevante para pais, responsáveis e adolescentes. Em vez de iniciar por um rótulo, este texto observa uma situação possível: medir a própria vida por fotos selecionadas. Essa experiência não se apresenta da mesma maneira para todas as pessoas. O objetivo é compreender o tema com cuidado e indicar perguntas mais úteis do que conclusões apressadas.
+## Quando a explicação falha
 
-## Uma situação possível, sem transformar exemplo em diagnóstico
+O impacto das redes varia conforme conteúdo, uso, contexto e experiências do adolescente; algumas interações também oferecem suporte. A pesquisa da APA não autoriza dizer que toda rede social causa depressão, nem que proibir tudo é sempre solução. Essa diferença afeta a conversa de quem procura respostas sobre "Adolescentes e comparação nas redes: conversa sem alarmismo", porque uma explicação aparentemente simples pode deixar de fora decisões, experiências e limitações relevantes.
 
-Imagine, em uma situação inteiramente fictícia, feed de vida perfeita e comparação. Um adulto pode ter uma leitura imediata do episódio; outra pessoa pode notar circunstâncias que passaram despercebidas. O melhor ponto de partida é escutar, observar o ambiente e não afirmar causas sem avaliação.
+No caso de "Adolescentes e comparação nas redes: conversa sem alarmismo", familiares, crianças e adolescentes precisam ser ouvidos com respeito à idade e à privacidade.
 
-Esse exemplo é fictício, não descreve paciente nem resultado terapêutico. Sua função é mostrar como uma mesma cena admite perguntas diferentes. A interpretação de terceiros não deve silenciar quem vive a experiência.
+## Um encontro cotidiano
 
-## A ideia central e seus limites
+Se o exemplo fosse feed de vida perfeita e comparação, seria importante registrar fatos antes de acrescentar interpretações. Conversar sobre perfis seguidos, sentimentos após o uso e práticas de alfabetização midiática. A pergunta sobre "Adolescentes e comparação nas redes: conversa sem alarmismo" continua aberta mesmo depois de uma explicação convincente; a história da pessoa não é reduzida a um único comportamento.
 
-Uma ideia importante para a conversa é: ambiente digital combina possibilidades e riscos diferentes. Isso não é uma lei sobre a experiência humana. É uma perspectiva editorial para examinar o que acontece quando expectativas, relações e condições concretas se cruzam. A fala de uma criança não pode ser tratada como a de um adulto em miniatura. Também não cabe aos responsáveis transformarem cada reação em diagnóstico. Mesmo histórias aparentemente parecidas podem pedir escutas muito diferentes.
+## O que pesquisar
 
-## O que o contexto muda na interpretação
+**Health advisory on adolescent social media use** — [acessar a fonte 1](https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use). Para o tema "Adolescentes e comparação nas redes: conversa sem alarmismo", contribui ao tratar de riscos e benefícios dependem de conteúdo e contexto; contudo, é necessário observar que não é diretriz de prática clínica; associação não é causalidade
 
-Os adultos podem oferecer atenção e linguagem adequada à idade, combinando respeito à privacidade, proteção e observação de fatos concretos. A pergunta mais produtiva não é 'qual resposta serve para todos?', mas 'que informações faltam para entender este caso?'. No cotidiano, pequenos detalhes são decisivos: quem participou, o que mudou na rotina, como foi possível conversar e quais recursos estavam disponíveis. Esse olhar não elimina dificuldades, mas impede que sejam simplificadas.
+**Social media mental health and sleep: meta-analysis** — [acessar a fonte 2](https://pubmed.ncbi.nlm.nih.gov/39242043/). Para o tema "Adolescentes e comparação nas redes: conversa sem alarmismo", contribui ao tratar de síntese de associações de saúde mental e sono; contudo, é necessário observar que estudos heterogêneos e causalidade limitada
 
-## O que a literatura ou a orientação institucional permite afirmar
+**Digital Media Use and Child Health 2026** — [acessar a fonte 3](https://pubmed.ncbi.nlm.nih.gov/41801211/). Para o tema "Adolescentes e comparação nas redes: conversa sem alarmismo", contribui ao tratar de síntese longitudinal publicada em 2026; contudo, é necessário observar que não aplicar um efeito geral a todo uso ou criança
 
-O Conselho Federal de Psicologia recomenda uma análise contextualizada do ambiente digital, considerando direitos, vínculos e riscos, sem substituir a atenção integral à criança ou adolescente. Essa referência oferece **enquadramento geral**, não comprovação de que o episódio hipotético deste artigo tem uma causa específica. Para transformá-la em afirmação técnica, a autora e a revisão editorial devem conferir a fonte, a pertinência ao tema e os limites do material.
+**Essentials for Parenting Teens** — [acessar a fonte 4](https://www.cdc.gov/parenting-teens/about/index.html). Para o tema "Adolescentes e comparação nas redes: conversa sem alarmismo", contribui ao tratar de orientações revisadas por especialistas; contudo, é necessário observar que não equivale a terapia individual
 
-## Perguntas para organizar a reflexão
+No tema "Adolescentes e comparação nas redes: conversa sem alarmismo", as fontes listadas não constituem uma verificação de cada frase de uma consulta individual.
 
-Em vez de sugerir uma solução automática, propomos três movimentos de reflexão: primeiro, descrever o que ocorreu sem adicionar interpretações; depois, distinguir fatos de expectativas; por fim, identificar uma pergunta que possa ser respondida com diálogo ou busca de informação. O que aconteceu antes, durante e depois da situação? Como a própria criança ou adolescente descreve o ocorrido? O que a família e a escola conseguem ajustar sem rotular ninguém? São convites a observar, e não técnicas de tratamento ou testes psicológicos.
+## Escolhas proporcionais
 
-## Quando procurar informações ou acompanhamento
+1. Qual detalhe de medir a própria vida por fotos selecionadas precisaria ser entendido antes de sugerir uma resposta?
+2. Como ambiente digital combina possibilidades e riscos diferentes se relaciona ao cotidiano de pais, responsáveis e adolescentes?
+3. O que conversar sobre perfis seguidos, sentimentos após o uso e práticas de alfabetização midiática poderia esclarecer, respeitando a liberdade de cada pessoa?
 
-Quando uma preocupação provoca sofrimento persistente ou interfere de maneira relevante nas atividades, relações ou bem-estar, buscar orientação de um profissional habilitado pode ser importante. Qualquer indicação concreta depende de avaliação individual e da competência legal de quem atende. O artigo não substitui consulta, atendimento de urgência ou serviços locais de saúde.
+Por ser um texto de **Informação**, a reflexão sobre "Adolescentes e comparação nas redes: conversa sem alarmismo" pretende ampliar compreensão, e não exigir agendamento.
 
-Publicar vídeos, fotos ou relatos identificáveis de menores, pedir diagnósticos em comentários e expor conversas privadas são caminhos inadequados. Mesmo exemplos educativos devem preservar a dignidade e a autonomia progressiva.
+Conteúdos de "Adolescentes e comparação nas redes: conversa sem alarmismo" não devem usar depoimentos identificáveis, fotos de crianças ou diagnósticos em formulários públicos.
 
-## Dúvidas frequentes
+**CTA proposto:** Leia sobre adolescentes e comparação nas redes: conversa sem alarmismo e conheça perguntas que ajudam a escutar sem rotular.
 
-**Isso significa necessariamente que existe um transtorno?**
-
-Não. Experiências cotidianas não permitem diagnóstico por leitura. Duração, intensidade, contexto e impacto exigem investigação adequada.
-
-**A escola ou um post pode concluir o que a criança tem?**
-
-Não. Observações podem motivar diálogo e avaliação, mas escola, família e conteúdos de redes sociais não substituem profissionais habilitados.
-
-**O que posso fazer depois da leitura?**
-
-Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-## Para continuar pensando
-
-No centro desta pauta está a pergunta: **Adolescentes e comparação nas redes: conversa sem alarmismo** Uma resposta responsável não encerra a conversa com uma fórmula. Ela ajuda a reconhecer a experiência, proteger a privacidade e buscar informação pertinente. Ambiente digital combina possibilidades e riscos diferentes; isso pode orientar a reflexão sem substituir o conhecimento da própria história.
-
-**Próximo passo:** Se este assunto faz sentido, explore informações de fontes confiáveis e reflita sobre seu próprio contexto.
-
-### Fonte contextual a conferir pela autora
-
-- CFP — Psicologia e mundo digital na infância e adolescência: https://site.cfp.org.br/publicacao/a-psicologia-frente-ao-mundo-digital-orientacoes-para-a-atuacao-profissional-com-criancas-e-adolescentes/
-
-### Revisão obrigatória antes de publicação
-
-- Confirmar nome, formação, atribuições e autorização editorial da autora.
-- Verificar se a fonte indicada sustenta efetivamente as afirmações de cada seção; pesquisar fontes específicas adicionais.
-- Acrescentar autoria, data de revisão, links internos reais, SEO fundamentado, imagens licenciadas e acessibilidade.
-- Revisar redundâncias e estilo para que o texto reflita a voz da autora, não um template.
-- Não prometer resultados, diagnosticar leitores, mencionar pacientes ou expor menores.
-- Aprovação da autora + direção e URL pública comprovada são condições para status PUBLICADO.
+**Destino:** URL_ESPECIFICA_A_DEFINIR

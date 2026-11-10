@@ -1,74 +1,45 @@
 # Perguntas importantes antes de iniciar atendimento infantojuvenil
 
-> **SOT-ED-019 · Yasmin · MEIO · Consciente do serviço · RASCUNHO EDITORIAL, NÃO PUBLICADO, NÃO APROVADO.** Autoria proposta: Yasmin Sotoma Muzilli; título/qualificação profissional a verificar antes de divulgar.
+**ID:** SOT-ED-019 · **Autoria proposta:** Yasmin · **Pilar:** EDUCAÇÃO · **Consciência:** Consciente do serviço
+*RASCUNHO CANDIDATO V2, sujeito a revisão da autora, método, fontes e direção. Não publicado.*
+**Slug em estudo:** `perguntas-importantes-antes-de-iniciar-atendimento-infantojuvenil`
 
-**Título SEO (hipótese):** Perguntas importantes antes de iniciar atendimento infantojuvenil
-**Metadescrição (rascunho):** Perguntas importantes antes de iniciar atendimento infantojuvenil. Entenda contexto, limites e perguntas relevantes sem autodiagnóstico ou promessas.
-**Intenção de busca:** comparação informativa e compreensão de possibilidades
-**Palavra-chave candidata (sem análise de volume):** perguntas importantes antes de iniciar atendimento infantojuvenil
-**Status de revisão:** FONTE_GERAL_APONTADA; FONTE_ESPECÍFICA_E_AUTORA_PENDENTES
+## Olhar além do primeiro sinal
 
-## Por que este tema merece uma conversa
+A dúvida sobre "Perguntas importantes antes de iniciar atendimento infantojuvenil" pode aparecer entre familiares considerando o cuidado quando existe dúvidas sobre primeira sessão, horários e responsabilidade. Um exemplo seria uma família tentando compreender dúvidas sobre primeira sessão, horários e responsabilidade. Antes do atendimento infantojuvenil, é legítimo compreender quem autoriza, quem participa, como ocorrem encontros e quais informações circulam.
 
-Perguntas importantes antes de iniciar atendimento infantojuvenil é uma pergunta relevante para familiares considerando o cuidado. Em vez de iniciar por um rótulo, este texto observa uma situação possível: dúvidas sobre primeira sessão, horários e responsabilidade. Essa experiência não se apresenta da mesma maneira para todas as pessoas. O objetivo é compreender o tema com cuidado e indicar perguntas mais úteis do que conclusões apressadas.
+## O aspecto que faz diferença
 
-## Uma situação possível, sem transformar exemplo em diagnóstico
+A família precisa de orientações práticas, mas o adolescente também merece saber como sua voz e privacidade serão consideradas. Transformar uma FAQ de atendimento em promessa de que a criança ficará melhor rapidamente é publicidade imprópria. Essa diferença afeta a conversa de quem procura respostas sobre "Perguntas importantes antes de iniciar atendimento infantojuvenil", porque uma explicação aparentemente simples pode deixar de fora decisões, experiências e limitações relevantes.
 
-Imagine, em uma situação inteiramente fictícia, Exemplo hipotético de dúvidas sobre primeira sessão, horários e responsabilidade. Um adulto pode ter uma leitura imediata do episódio; outra pessoa pode notar circunstâncias que passaram despercebidas. O melhor ponto de partida é escutar, observar o ambiente e não afirmar causas sem avaliação.
+No caso de "Perguntas importantes antes de iniciar atendimento infantojuvenil", familiares, crianças e adolescentes precisam ser ouvidos com respeito à idade e à privacidade.
 
-Esse exemplo é fictício, não descreve paciente nem resultado terapêutico. Sua função é mostrar como uma mesma cena admite perguntas diferentes. A interpretação de terceiros não deve silenciar quem vive a experiência.
+## Um exemplo sem paciente
 
-## A ideia central e seus limites
+Se o exemplo fosse uma família tentando compreender dúvidas sobre primeira sessão, horários e responsabilidade, seria importante registrar fatos antes de acrescentar interpretações. Pedir explicação documentada das etapas, do sigilo e de eventuais encaminhamentos. A pergunta sobre "Perguntas importantes antes de iniciar atendimento infantojuvenil" continua aberta mesmo depois de uma explicação convincente; a história da pessoa não é reduzida a um único comportamento.
 
-Uma ideia importante para a conversa é: processo adequado pressupõe clareza e acolhimento. Isso não é uma lei sobre a experiência humana. É uma perspectiva editorial para examinar o que acontece quando expectativas, relações e condições concretas se cruzam. A fala de uma criança não pode ser tratada como a de um adulto em miniatura. Também não cabe aos responsáveis transformarem cada reação em diagnóstico. Mesmo histórias aparentemente parecidas podem pedir escutas muito diferentes.
+## Bases de conhecimento
 
-## O que o contexto muda na interpretação
+**Resolução CFP 13/2022 — Psicoterapia** — [acessar a fonte 1](https://site.cfp.org.br/resolucao-sobre-psicoterapia-e-publicada-no-diario-oficial-da-uniao/). Para o tema "Perguntas importantes antes de iniciar atendimento infantojuvenil", contribui ao tratar de regras profissionais para psicólogos; contudo, é necessário observar que exigível apenas conforme profissão/registro; verificar texto vigente
 
-Os adultos podem oferecer atenção e linguagem adequada à idade, combinando respeito à privacidade, proteção e observação de fatos concretos. A pergunta mais produtiva não é 'qual resposta serve para todos?', mas 'que informações faltam para entender este caso?'. No cotidiano, pequenos detalhes são decisivos: quem participou, o que mudou na rotina, como foi possível conversar e quais recursos estavam disponíveis. Esse olhar não elimina dificuldades, mas impede que sejam simplificadas.
+**Mental health of children and young people — service guidance** — [acessar a fonte 2](https://www.who.int/publications/b/75680). Para o tema "Perguntas importantes antes de iniciar atendimento infantojuvenil", contribui ao tratar de não existe um único modelo universal de serviço; contudo, é necessário observar que diretriz para sistemas, não prescrição individual
 
-## O que a literatura ou a orientação institucional permite afirmar
+**Depression in children and young people: NG134** — [acessar a fonte 3](https://www.nice.org.uk/guidance/ng134/chapter/Recommendations). Para o tema "Perguntas importantes antes de iniciar atendimento infantojuvenil", contribui ao tratar de recomenda avaliação contextual e compartilhamento de decisões; contudo, é necessário observar que não atribuir eficácia idêntica a todas as abordagens
 
-O UNICEF recomenda conversas respeitosas, escuta ativa e atenção ao momento e às reações dos adultos. Nenhuma conversa isolada define a condição clínica de uma criança. Essa referência oferece **enquadramento geral**, não comprovação de que o episódio hipotético deste artigo tem uma causa específica. Para transformá-la em afirmação técnica, a autora e a revisão editorial devem conferir a fonte, a pertinência ao tema e os limites do material.
+**How to talk to your kids about mental health** — [acessar a fonte 4](https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health). Para o tema "Perguntas importantes antes de iniciar atendimento infantojuvenil", contribui ao tratar de ouvir, escolher contexto e não pressionar; contudo, é necessário observar que não é protocolo clínico e não prova eficácia de abordagem
 
-## Perguntas para organizar a reflexão
+No tema "Perguntas importantes antes de iniciar atendimento infantojuvenil", as fontes listadas não constituem uma verificação de cada frase de uma consulta individual.
 
-Em vez de sugerir uma solução automática, propomos três movimentos de reflexão: primeiro, descrever o que ocorreu sem adicionar interpretações; depois, distinguir fatos de expectativas; por fim, identificar uma pergunta que possa ser respondida com diálogo ou busca de informação. O que aconteceu antes, durante e depois da situação? Como a própria criança ou adolescente descreve o ocorrido? O que a família e a escola conseguem ajustar sem rotular ninguém? São convites a observar, e não técnicas de tratamento ou testes psicológicos.
+## Uma leitura responsável
 
-## Quando procurar informações ou acompanhamento
+1. Qual detalhe de dúvidas sobre primeira sessão, horários e responsabilidade precisaria ser entendido antes de sugerir uma resposta?
+2. Como processo adequado pressupõe clareza e acolhimento se relaciona ao cotidiano de familiares considerando o cuidado?
+3. O que pedir explicação documentada das etapas, do sigilo e de eventuais encaminhamentos poderia esclarecer, respeitando a liberdade de cada pessoa?
 
-Quando uma preocupação provoca sofrimento persistente ou interfere de maneira relevante nas atividades, relações ou bem-estar, buscar orientação de um profissional habilitado pode ser importante. Qualquer indicação concreta depende de avaliação individual e da competência legal de quem atende. O artigo não substitui consulta, atendimento de urgência ou serviços locais de saúde.
+Na etapa de **Educação**, o objetivo de "Perguntas importantes antes de iniciar atendimento infantojuvenil" é explicar como avaliar possibilidades e limites, sem declarar que uma técnica serve para todos.
 
-Publicar vídeos, fotos ou relatos identificáveis de menores, pedir diagnósticos em comentários e expor conversas privadas são caminhos inadequados. Mesmo exemplos educativos devem preservar a dignidade e a autonomia progressiva.
+Conteúdos de "Perguntas importantes antes de iniciar atendimento infantojuvenil" não devem usar depoimentos identificáveis, fotos de crianças ou diagnósticos em formulários públicos.
 
-## Dúvidas frequentes
+**CTA proposto:** Veja critérios e perguntas importantes antes de conversar sobre perguntas importantes antes de iniciar atendimento infantojuvenil com profissional habilitado.
 
-**Isso significa necessariamente que existe um transtorno?**
-
-Não. Experiências cotidianas não permitem diagnóstico por leitura. Duração, intensidade, contexto e impacto exigem investigação adequada.
-
-**A escola ou um post pode concluir o que a criança tem?**
-
-Não. Observações podem motivar diálogo e avaliação, mas escola, família e conteúdos de redes sociais não substituem profissionais habilitados.
-
-**O que posso fazer depois da leitura?**
-
-Antes de decidir sobre acompanhamento, esclareça com profissional habilitado o método, o sigilo, as condições e os limites da proposta.
-
-## Para continuar pensando
-
-No centro desta pauta está a pergunta: **Perguntas importantes antes de iniciar atendimento infantojuvenil** Uma resposta responsável não encerra a conversa com uma fórmula. Ela ajuda a reconhecer a experiência, proteger a privacidade e buscar informação pertinente. Processo adequado pressupõe clareza e acolhimento; isso pode orientar a reflexão sem substituir o conhecimento da própria história.
-
-**Próximo passo:** Antes de decidir sobre acompanhamento, esclareça com profissional habilitado o método, o sigilo, as condições e os limites da proposta.
-
-### Fonte contextual a conferir pela autora
-
-- UNICEF — Conversar com crianças sobre saúde mental: https://www.unicef.org/parenting/mental-health/how-to-talk-to-kids-mental-health
-
-### Revisão obrigatória antes de publicação
-
-- Confirmar nome, formação, atribuições e autorização editorial da autora.
-- Verificar se a fonte indicada sustenta efetivamente as afirmações de cada seção; pesquisar fontes específicas adicionais.
-- Acrescentar autoria, data de revisão, links internos reais, SEO fundamentado, imagens licenciadas e acessibilidade.
-- Revisar redundâncias e estilo para que o texto reflita a voz da autora, não um template.
-- Não prometer resultados, diagnosticar leitores, mencionar pacientes ou expor menores.
-- Aprovação da autora + direção e URL pública comprovada são condições para status PUBLICADO.
+**Destino:** URL_ESPECIFICA_A_DEFINIR
