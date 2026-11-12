@@ -1,11 +1,10 @@
-# CATÁLOGO COMPLETO — 22 PÁGINAS/ENTRADAS SOTOMA 2.0 (BRANCH DE REVISÃO)
+# SOTOMA 2.0 — REVISÃO VISUAL V5 PARA PUBLICAÇÃO SEGURA
 
-- [**MEGA INDEX DAS DEMAIS PÁGINAS (15 existentes + 5 propostas), com cada HTML único**](dependencies/sotoma-website/paginas/INDEX.md)
-- [Home V5 sem Blog — código único](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
-- [Blog V1 — código único, 13 artigos existentes](dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)
-- [Manifesto de status: URLs reais vs. novas e bloqueios de segurança](dependencies/sotoma-website/paginas/MANIFESTO-PAGINAS.json)
+**Início pela [nova arquitetura de cinco páginas, profissionais e códigos Elementor](dependencies/sotoma-website/MEGA-INDEX.md).**
 
-**Contrato:** por página, um HTML com CSS e JavaScript incorporados; Header/Footer globais. Não instalar/produtionar arquivos de risco sem gates. Nenhuma URL nova foi criada no WordPress.
+**[Contrato de publicação segura e prova dos telefones/imagens](dependencies/sotoma-website/PUBLICACAO-SEGURA-V5.md)** · [Home V5](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) · [Blog](dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html).
+
+Cláudia e Yasmin têm apresentações, cores e WhatsApps individuais. As novas rotas de perfis e dúvidas precisam ser criadas antes de substituir a Home. Nenhum merge ou deploy foi realizado.
 
 ---
 
