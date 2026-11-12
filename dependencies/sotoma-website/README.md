@@ -1,15 +1,17 @@
-# SOTOMA Website — Home V5 | Arquivo único Elementor
+# SOTOMA WEBSITE — WIDGET ÚNICO POR PÁGINA
 
-**Regra obrigatória:** uma página = um HTML único (STYLE + conteúdo + SCRIPT no mesmo arquivo). Header e footer pertencem aos templates globais WordPress/Elementor.
+## Entregas em avaliação
+- **[HOME V5 — um único HTML para Elementor, sem Blog/Pesquisa](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)**
+- **[BLOG V1 — um único HTML para Elementor, 13 posts reais](blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)**
+- **[MEGA INDEX — mapa das duas páginas, IDs, CSS e JS](MEGA-INDEX.md)**
+- [Fontes, limites e gates de aprovação](ASSETS-E-PENDENCIAS.md)
 
-- [**HOME V5 — CÓDIGO ÚNICO, COPIAR COMPLETO**](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
-- [**MEGA INDEX — seções, HTML, CSS e JS no mesmo arquivo**](MEGA-INDEX.md)
-- [**Proveniência, riscos e testes**](ASSETS-E-PENDENCIAS.md)
+Regra fixa: **o arquivo de cada página contém todo HTML + CSS + JavaScript no mesmo bloco**; header e footer continuam **globais** nos templates do Theme Builder Elementor. Estas páginas **não incluem** html/head/body/header/footer nem arquivos de código externos.
 
-O código preserva a composição visual da V5 autônoma enviada pelo usuário e integra os 13 posts publicados registrados na exportação WordPress de 10/11/2026, com filtros temáticos, busca, ordenação e expansão dos resultados.
+## Fonte e ordenação dos artigos
+O XML WordPress WXR de 10/11/2026 confirma 13 posts publicados e 2 categorias: Qualidade de vida (9) e Psicoterapia Positiva (4); não há tags WordPress cadastradas nos artigos. Os rótulos por assunto são **tags editoriais apenas de interface**, não representam alteração de taxonomias no WordPress. Não foram inventados artigos, URLs nem autores.
 
-### Uso
-No Elementor, crie UM widget HTML no contêiner de largura total da Home e cole todo o arquivo. Não inserir HTML/HEAD/BODY ou HEADER/FOOTER: esses últimos continuam globais. Não colocar dados sensíveis de pacientes.
+## Estado e segurança
+Branch isolada, PR em Draft, sem merge e sem alteração no site em produção. Testes locais básicos de JS, responsividade e interações concluídos; teste real Elementor, contatos, imagens, dados clínicos, SEO, acessibilidade e links ainda pendentes de homologação.
 
-### Estado
-Testado localmente com Node.js e Chromium, 390/768/1440 pixels; zero erros JavaScript ou rolagem horizontal. Sem deploy, sem merge e sem testes reais Elementor/WordPress, disponibilidade de links ao vivo ou aprovação clínica/comercial. Guardar backup, testar em staging e aguardar aprovação das profissionais.
+Para aplicar: abrir a página WordPress correspondente com Elementor, colar o arquivo inteiro em **um widget HTML**, manter header/footer globais, revisar em staging, fazer backup e testar rollback.
