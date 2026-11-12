@@ -1,3 +1,15 @@
+# ÍNDICE DE PRODUÇÃO VISUAL — SOTOMA / ELEMENTOR
+
+**Comece pelo [MEGA INDEX das 22 páginas/entradas](paginas/INDEX.md).**
+
+Páginas principais: [Home V5](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) · [Blog V1](blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html).
+
+Mais 15 páginas já publicadas no WXR (arquivos BODY individuais) e 5 propostas de novas rotas. Todos os arquivos têm CSS e JS no próprio HTML; header/footer globais.
+
+**STATUS:** candidatos de revisão. Sem publicação, sem formulário clínico e com bloqueio específico para Iridologia, Cadastro, Novo Lead e Privacidade.
+
+---
+
 # SOTOMA WEBSITE — WIDGET ÚNICO POR PÁGINA
 
 ## Entregas em avaliação
