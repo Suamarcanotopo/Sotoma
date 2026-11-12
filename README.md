@@ -1,3 +1,13 @@
+# ACESSO RÁPIDO — HOME SOTOMA V5 (BRANCH DE REVISÃO)
+
+- [**MEGA INDEX: encontre cada componente HTML, CSS, JavaScript e área de negócio**](dependencies/sotoma-website/MEGA-INDEX.md)
+- [Visualizar / copiar HTML modular](dependencies/sotoma-website/home-v5/index.html) · [CSS](dependencies/sotoma-website/home-v5/home-v5.css) · [JavaScript](dependencies/sotoma-website/home-v5/home-v5.js)
+- [Assets e pendências de proveniência](dependencies/sotoma-website/ASSETS-E-PENDENCIAS.md)
+
+**Estado:** somente protótipo de revisão; não contém os assets V4 originais, não foi publicado e não representa migração homologada.
+
+---
+
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
 ## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
