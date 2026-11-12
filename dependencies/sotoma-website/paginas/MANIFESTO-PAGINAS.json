@@ -1,0 +1,64 @@
+{
+  "source": "WXR WordPress export 2026-11-10, revisado 2026-11-12",
+  "branch": "feat/website-pages-single-html-20261112",
+  "rules": [
+    "body+style+script single file per page",
+    "header/footer global Elementor",
+    "no deploy and no sensitive data"
+  ],
+  "existingPublishedPages": [
+    "home",
+    "sobre",
+    "terapia-online",
+    "psicanalise",
+    "psicoterapia-positiva",
+    "iridologia-naturopatia",
+    "atendimentos-em-psicoterapia",
+    "como-cuidamos",
+    "blog",
+    "agendar-atendimento",
+    "contato",
+    "obrigado-contato",
+    "obrigado",
+    "cadastro-de-cliente",
+    "criancas-e-adolescentes",
+    "novo-lead",
+    "autoconhecimento"
+  ],
+  "existingCreated": [
+    "sobre",
+    "como-cuidamos",
+    "terapia-online",
+    "psicanalise",
+    "psicoterapia-positiva",
+    "atendimentos-em-psicoterapia",
+    "criancas-e-adolescentes",
+    "autoconhecimento",
+    "agendar-atendimento",
+    "contato",
+    "iridologia-naturopatia",
+    "obrigado-contato",
+    "obrigado",
+    "cadastro-de-cliente",
+    "novo-lead"
+  ],
+  "proposedPages": [
+    "duvidas-sobre-atendimento",
+    "programa-via",
+    "programa-mira",
+    "pesquisas-e-estudos",
+    "privacidade"
+  ],
+  "redTeamHolds": [
+    "iridologia-naturopatia",
+    "cadastro-de-cliente",
+    "novo-lead",
+    "privacidade"
+  ],
+  "publishedWPFormsActive": "UNVERIFIED",
+  "articlesWxr": 13,
+  "wpCategories": 2,
+  "wpTags": 0,
+  "clinicalDataStored": false,
+  "wordpressSiteModified": false
+}
