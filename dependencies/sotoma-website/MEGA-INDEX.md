@@ -1,47 +1,53 @@
-# MEGA INDEX — SOTOMA HOME V5 / Elementor
+# MEGA INDEX — SOTOMA 2.0 | PÁGINAS ELEMENTOR, CÓDIGO ÚNICO
 
-**CÓDIGO CANÔNICO ÚNICO:** [Copiar Home V5 completa](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html).
+**Regra de implementação:** uma página = um arquivo HTML único com STYLE + marcação do conteúdo (BODY) + SCRIPT. **Header e footer são globais** no Theme Builder do WordPress/Elementor. Nenhuma publicação, merge ou deploy nesta branch.
 
-Regra: uma página = um único HTML para um widget Elementor. O próprio arquivo contém STYLE + conteúdo do corpo + SCRIPT. O HEADER e o FOOTER são globais do Elementor/WordPress. Não copiar documento HTML completo nem criar arquivos CSS/JS separados para colar.
-
-## Pesquisa rápida no arquivo (Ctrl+F)
-| Grupo | Conteúdo | Identificador dentro do arquivo |
+## CÓDIGOS CANÔNICOS — COPIAR E COLAR NO WIDGET HTML
+| Página real | Arquivo integral e único | Conteúdo |
 |---|---|---|
-| Navegação | Início | #inicio / .hero-section / data-hero-rotator |
-| Navegação | Quem cuida de você | #equipe / .team-card |
-| Navegação | Como cuidamos | #servicos / .service-card |
-| Navegação | Dúvidas | #faq / .faq-item |
-| Navegação | Blog | #blog / .blog-card |
-| Navegação | Contato | #agendamento / data-whatsapp |
-| Jornada | Defina sua área | #caminhos / .pathway-card |
-| Jornada | Escolha seu plano | #planos / .plan-card |
-| Jornada | Primeira sessão | #jornada / .step-card |
-| Modalidades | Consulta avulsa, Multidisciplinar, Profissional único | #planos / .plans-grid |
-| Áreas | Adultos, Crianças/adolescentes | #caminhos |
-| Programas | Psicoterapia Positiva, Psicanálise, V.I.A., M.I.R.A. | #servicos |
-| Conhecimento | Pesquisas, artigos, leituras relacionadas, correlação | #blog / BLOG-01 até BLOG-13 |
-| Conhecimento | Filtrar, procurar, ordenar | data-filter / data-blog-search / data-blog-sort / renderBlog |
-| Utilitários | Mostrar todos os 13 artigos | data-blog-more |
-| Utilitários | Voltar ao topo | data-to-top |
-| Utilitários | Privacidade | Footer global (fora do widget) |
+| **HOME** (`/`) | [SOTOMA_HOME_V5_ELEMENTOR_UNICO.html](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) | Hero Cláudia/Yasmin, caminhos, valores, serviços/programas, jornada, planos, equipe, FAQ, contato; **sem a seção Blog/Pesquisa** |
+| **BLOG** (`/blog/`) | [SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html](blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html) | Hero editorial, 3 roteiros de leitura, 13 artigos WXR, categorias WordPress, assuntos temáticos, busca, ordenação, filtros, mostrar mais e nota de pesquisa |
 
-## HTML, CSS, JavaScript: tudo no mesmo arquivo
-- [Arquivo inteiro — copiar e colar](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
-- Para o CSS, busque STYLE e o prefixo #sotoma-home-v5.
-- Para a estrutura, busque cada âncora da tabela.
-- Para o JS, busque SCRIPT, heroConfig, renderBlog e data-whatsapp.
-- Fotografias e WebP da prévia V5 permanecem embutidas. Imagens de capa dos posts vêm dos endereços WXR, com prévia da V5 quando indisponíveis.
+## HOME — localizar pelo Ctrl+F no código único
+| Bloco | HTML âncora / marcador | CSS / JavaScript |
+|---|---|---|
+| Hero alternado Cláudia / Yasmin | `[data-hero-rotator]` | `heroConfig`; `.hero-carousel` |
+| Áreas / Adultos / Crianças e adolescentes | `#caminhos` | `.pathway-card` |
+| Acolhimento, conhecimento e responsabilidade | `#valores` | `.info-card` |
+| Psicoterapia Positiva, Psicanálise, V.I.A., M.I.R.A. | `#servicos` | `.service-card` |
+| Defina sua área / Escolha o plano / Primeira sessão | `#jornada` | `.step-card` |
+| Consulta avulsa / Multidisciplinar / Profissional único | `#planos` | `.plan-card` |
+| Cláudia e Yasmin | `#equipe` | `.team-card` |
+| Dúvidas | `#faq` | `.faq-item` |
+| Contato | `#agendamento` | `[data-whatsapp]` |
+| **Blog/Pesquisa** | **REMOVIDO da Home** | O conteúdo permanece na página **/blog/** independente |
 
-## Blog integrado ao corpo da Home
-Fonte: exportação WordPress WXR de 10/11/2026: 13 posts publicados, com URLs, títulos e datas. Curadoria por sequência de leitura (primeiros passos, infância/adolescência, vida adulta, abordagens e programas). Inicialmente 6 destaques; botão mostra todos 13. Filtro e busca local não inferem autoria profissional.
+## BLOG — localizar pelo Ctrl+F no código único
+| Bloco | HTML âncora / marcador | CSS / JavaScript |
+|---|---|---|
+| Hero editorial / 13 artigos | `#sb-title` | `.sb-hero` |
+| 3 caminhos de leitura, links para posts existentes | `#sotoma-blog-trilhas` | `.sb-path-grid` |
+| Biblioteca e resultados | `#sotoma-blog-artigos` | `[data-grid]` / `draw()` |
+| **Categorias oficiais WordPress** | `[data-category-filter]` | `qualidade-de-vida` (9) / `psicoterapia-positiva` (4) |
+| **Assuntos editoriais de navegação** | `[data-topic]`, `[data-choose-topic]` | `topic`, `chooseTopic()` |
+| Busca por título, resumo e tema | `input[data-search]` | `norm()`, `draw()` |
+| Ordenação | `select[data-sort]` | Curadoria, recentes, antigos, A–Z |
+| Expandir / recolher 13 posts | `[data-more]` | `visibleLimit` |
+| Mensagem de resultados e limpar | `[data-results]`, `[data-clear]` | `aria-live` |
+| Imagem destacada original + prévia local | `[data-fallback-kind]` | `tryOfficialThumbnail()` |
+| Limites científicos e leitura | `#sb-note-title` | `.sb-endpanel` |
 
-**Limite:** as URLs e imagens foram extraídas do XML, sem verificação de funcionamento do servidor ao vivo.
+### Prova dos dados do Blog
+Inventário realizado no WXR WordPress exportado em **10/11/2026**: **13 posts com status publish, 2 categorias efetivamente cadastradas e 0 tags WordPress (post_tag)**. Os rótulos de assuntos no Blog são **etiquetas editoriais locais**, atribuídas com base em títulos e conteúdos; ainda não são tags persistidas na taxonomia do WordPress. Não inferir autoria clínica dos posts a partir do campo de criação do WXR.
 
-## Uso com Elementor, sem duplicação
-1. Home > Editar com Elementor > contêiner largura total > UM widget HTML.
-2. Cole todo o arquivo único; header e footer permanecem no Theme Builder global.
-3. Faça backup do estado anterior; evite widgets antigos duplicados e título de página extra.
-4. Confirme imagens, consentimentos, qualificações, WhatsApp, ofertas e links.
-5. Valide em staging, desktop/tablet/mobile e rollback antes de qualquer publicação.
+### Regras de uso
+1. Baixar o código completo **da página desejada** no link acima.
+2. Na **Home** ou na página existente **Blog** do WordPress, criar um contêiner de largura total com **um único widget HTML**; colar o arquivo inteiro (não retirar CSS ou JS).
+3. **Não** adicionar DOCTYPE, HTML, HEAD, BODY, HEADER ou FOOTER aos widgets. Manter header/footer nos templates globais.
+4. Fazer backup antes de trocar widgets da página anterior; revisar CSS de tema/Elementor, ícones, media, tipografia, links e cache em staging.
+5. Confirmar consentimento de imagem, dados profissionais, WhatsApp e ofertas; checar os 13 permalinks e imagens destacadas no servidor real.
+6. Não publicar até aprovação e teste de rollback.
 
-[Governança](../../docs/MISSION-LOCK.md) · [Proveniência e gates](ASSETS-E-PENDENCIAS.md) · [Artigos editoriais](../sotoma-editorial/ARTIGOS-60-INDEX.md)
+**Testes locais:** JavaScript analisado por Node.js sem erros; Chromium com visualizações 390, 768 e 1440 px, sem rolagem horizontal ou exceções JS; Hero alterna, Home tem 9 seções e não inclui Blog; Blog possui 13 artigos, inicia com 6, filtro categoria Psicoterapia Positiva retorna 4, assunto Infância retorna 2, busca ansiedade retorna 1, expansão mostra 13. **Não é homologação no WordPress real.**
+
+[Mission Lock geral](../../docs/MISSION-LOCK.md) · [Proveniência e QA](ASSETS-E-PENDENCIAS.md) · [Editorial separado](../sotoma-editorial/ARTIGOS-60-INDEX.md)
