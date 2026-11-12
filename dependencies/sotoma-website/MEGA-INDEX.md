@@ -1,70 +1,47 @@
-# MEGA INDEX — SOTOMA WEBSITE / HOME V5
-> Branch de revisão. **Não publicado; não homologado.** Última revisão: 12/11/2026.
-> Fonte real da V4 e 15 WebP + 26 SVG **não encontrados na main** no momento do inventário. Não confundir este protótipo novo com migração fiel da V4.
+# MEGA INDEX — SOTOMA HOME V5 / Elementor
 
-## ENTRADA RÁPIDA — copiar e colar
-| O que preciso? | Arquivo exato | Como utilizar |
+**CÓDIGO CANÔNICO ÚNICO:** [Copiar Home V5 completa](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html).
+
+Regra: uma página = um único HTML para um widget Elementor. O próprio arquivo contém STYLE + conteúdo do corpo + SCRIPT. O HEADER e o FOOTER são globais do Elementor/WordPress. Não copiar documento HTML completo nem criar arquivos CSS/JS separados para colar.
+
+## Pesquisa rápida no arquivo (Ctrl+F)
+| Grupo | Conteúdo | Identificador dentro do arquivo |
 |---|---|---|
-| Visualizar estrutura navegável | [HTML](home-v5/index.html) | Abrir localmente após baixar a pasta com CSS e JS |
-| Copiar o HTML inteiro | [index.html](home-v5/index.html) | Marcação das dez seções, ids e links |
-| Copiar apenas estilos | [home-v5.css](home-v5/home-v5.css) | Tokens, componentes e responsividade |
-| Copiar apenas interações | [home-v5.js](home-v5/home-v5.js) | Menu móvel, filtro de conteúdo e Escape |
-| Saber o que está faltando | [ASSETS-E-PENDENCIAS.md](ASSETS-E-PENDENCIAS.md) | Bloqueios e proveniência |
-| Entender contratos de integração | [README.md](README.md) | Uso no WordPress e gates |
+| Navegação | Início | #inicio / .hero-section / data-hero-rotator |
+| Navegação | Quem cuida de você | #equipe / .team-card |
+| Navegação | Como cuidamos | #servicos / .service-card |
+| Navegação | Dúvidas | #faq / .faq-item |
+| Navegação | Blog | #blog / .blog-card |
+| Navegação | Contato | #agendamento / data-whatsapp |
+| Jornada | Defina sua área | #caminhos / .pathway-card |
+| Jornada | Escolha seu plano | #planos / .plan-card |
+| Jornada | Primeira sessão | #jornada / .step-card |
+| Modalidades | Consulta avulsa, Multidisciplinar, Profissional único | #planos / .plans-grid |
+| Áreas | Adultos, Crianças/adolescentes | #caminhos |
+| Programas | Psicoterapia Positiva, Psicanálise, V.I.A., M.I.R.A. | #servicos |
+| Conhecimento | Pesquisas, artigos, leituras relacionadas, correlação | #blog / BLOG-01 até BLOG-13 |
+| Conhecimento | Filtrar, procurar, ordenar | data-filter / data-blog-search / data-blog-sort / renderBlog |
+| Utilitários | Mostrar todos os 13 artigos | data-blog-more |
+| Utilitários | Voltar ao topo | data-to-top |
+| Utilitários | Privacidade | Footer global (fora do widget) |
 
-## MAPA DE ÂNCORAS E CÓDIGO
-> No GitHub use Ctrl+F pelo **ID SOT-HV5** no HTML. Estilos são identificados pelas classes abaixo. Scripts interativos têm seletores identificáveis.
+## HTML, CSS, JavaScript: tudo no mesmo arquivo
+- [Arquivo inteiro — copiar e colar](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
+- Para o CSS, busque STYLE e o prefixo #sotoma-home-v5.
+- Para a estrutura, busque cada âncora da tabela.
+- Para o JS, busque SCRIPT, heroConfig, renderBlog e data-whatsapp.
+- Fotografias e WebP da prévia V5 permanecem embutidas. Imagens de capa dos posts vêm dos endereços WXR, com prévia da V5 quando indisponíveis.
 
-| ID | Grupo | Seção / item | HTML — âncora ou marcador | CSS — seletor | JS — gatilho | Estado |
-|---|---|---|---|---|---|---|
-| SOT-HV5-00 | Navegação | Início, Equipe, Como cuidamos, Dúvidas, Blog, Contato | `#menu-principal` / `#inicio` | `.site-nav` / `.site-header` | `[data-menu-button]` | Protótipo |
-| SOT-HV5-01 | Hero | Início / Encontrar atendimento / Explorar | `<!-- SOT-HV5-01 HERO -->` | `.hero`, `.hero-grid` | — | Imagem pendente |
-| SOT-HV5-02 | Áreas | Adultos; Crianças e adolescentes | `#areas` | `.cards.two` | — | Texto candidato |
-| SOT-HV5-03 | Valores | Acolhimento; Conhecimento; Responsabilidade | `#valores` | `.tinted`, `.panel` | — | Texto candidato |
-| SOT-HV5-04 | Como cuidamos | Psicoterapia Positiva; Psicanálise; V.I.A.; M.I.R.A. | `#como-cuidamos`, `#via`, `#mira` | `.cards.four` | — | Revisão clínica |
-| SOT-HV5-05 | Jornada | Defina sua área; Escolha seu plano; Primeira sessão | `#jornada` | `.steps` | — | Protótipo |
-| SOT-HV5-06 | Modalidades | Avulsa; Multidisciplinar; Profissional único | `#modalidades` | `.cards.three` | — | Oferta não confirmada |
-| SOT-HV5-07 | Equipe | Cláudia e Yasmin | `#equipe`, `#claudia`, `#yasmin` | `.profile`, `.portrait` | — | Fotos e credenciais pendentes |
-| SOT-HV5-08 | Conhecimento | Pesquisas; Artigos; Correlação; Leituras relacionadas | `#blog`, `#resultados-blog` | `.filters`, `.filter` | `[data-filter]`, `[data-category]` | Exemplos, sem artigos publicados |
-| SOT-HV5-09 | Dúvidas | 5 perguntas expansíveis | `#duvidas` | `.faq` | HTML `details` nativo | Revisão editorial |
-| SOT-HV5-10 | Contato | Contato; Encontrar atendimento | `#contato` | `.contact` | — | Canal a confirmar |
-| SOT-HV5-11 | Utilitários | Privacidade | Rodapé | `.footer` | — | URL oficial pendente |
+## Blog integrado ao corpo da Home
+Fonte: exportação WordPress WXR de 10/11/2026: 13 posts publicados, com URLs, títulos e datas. Curadoria por sequência de leitura (primeiros passos, infância/adolescência, vida adulta, abordagens e programas). Inicialmente 6 destaques; botão mostra todos 13. Filtro e busca local não inferem autoria profissional.
 
-## LOCALIZADOR POR TEMA
-### Navegação
-- **Início:** `#inicio`
-- **Quem cuida de você:** `#equipe`
-- **Como cuidamos:** `#como-cuidamos`
-- **Dúvidas:** `#duvidas`
-- **Blog:** `#blog`
-- **Contato:** `#contato`
-### Jornada
-- **Defina sua área:** `#areas`
-- **Escolha seu plano:** `#modalidades`
-- **Primeira sessão:** `#jornada` terceiro passo
-### Modalidades
-- **Consulta avulsa, Multidisciplinar, Pacote profissional único:** `#modalidades`
-### Áreas e programas
-- **Adultos; Crianças e adolescentes:** `#areas`
-- **Psicoterapia Positiva; Psicanálise; V.I.A.; M.I.R.A.:** `#como-cuidamos`
-### Conhecimento
-- **Pesquisas e estudos; Artigo; Leituras relacionadas; Correlação:** `#blog`; filtro disponível para pesquisa, artigo e correlação; leituras relacionadas dentro do card de correlação.
-### Utilitários
-- **Privacidade:** aviso no rodapé, link definitivo não configurado
-- **Encontrar atendimento:** botões `#jornada`, `#contato`
-- **Filtros do blog:** `[data-filter]`
-- **Explorar:** áreas `#areas` e abordagens `#como-cuidamos`
+**Limite:** as URLs e imagens foram extraídas do XML, sem verificação de funcionamento do servidor ao vivo.
 
-## PROTOCOLO DE CÓPIA SEM REGRESSÃO
-1. Localize o ID/âncora, copie o HTML da seção entre os comentários SOT-HV5.
-2. Copie somente seletores CSS relacionados; preserve tokens `:root`, acessibilidade e breakpoints.
-3. Copie o JS correspondente, se aplicável. Não replique listeners em plugins de injeção.
-4. Adeque links, caminhos de arquivos e prefixos ao tema/Elementor; use escopo CSS de contêiner para evitar colisões.
-5. Teste teclado, 390/768/1440, imagens reais, links e formulários no staging. NÃO publicar sem aprovação.
+## Uso com Elementor, sem duplicação
+1. Home > Editar com Elementor > contêiner largura total > UM widget HTML.
+2. Cole todo o arquivo único; header e footer permanecem no Theme Builder global.
+3. Faça backup do estado anterior; evite widgets antigos duplicados e título de página extra.
+4. Confirme imagens, consentimentos, qualificações, WhatsApp, ofertas e links.
+5. Valide em staging, desktop/tablet/mobile e rollback antes de qualquer publicação.
 
-## REFERÊNCIAS CANÔNICAS NO REPOSITÓRIO
-- [Missão / segurança](../../docs/MISSION-LOCK.md)
-- [Handoff](../../docs/HANDOFF.md)
-- [Identidade visual editorial](../sotoma-editorial/IDENTIDADE-VISUAL-MARCA.md)
-- [Tokens editoriais observados](../sotoma-editorial/brand/tokens.json)
-- [Índice de artigos editoriais](../sotoma-editorial/ARTIGOS-60-INDEX.md)
+[Governança](../../docs/MISSION-LOCK.md) · [Proveniência e gates](ASSETS-E-PENDENCIAS.md) · [Artigos editoriais](../sotoma-editorial/ARTIGOS-60-INDEX.md)
