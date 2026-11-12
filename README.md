@@ -1,10 +1,10 @@
-# ACESSO RÁPIDO — HOME SOTOMA V5 (BRANCH DE REVISÃO)
+# ACESSO IMEDIATO — HOME SOTOMA V5 (ELEMENTOR / CÓDIGO ÚNICO)
 
-- [**MEGA INDEX: encontre cada componente HTML, CSS, JavaScript e área de negócio**](dependencies/sotoma-website/MEGA-INDEX.md)
-- [Visualizar / copiar HTML modular](dependencies/sotoma-website/home-v5/index.html) · [CSS](dependencies/sotoma-website/home-v5/home-v5.css) · [JavaScript](dependencies/sotoma-website/home-v5/home-v5.js)
-- [Assets e pendências de proveniência](dependencies/sotoma-website/ASSETS-E-PENDENCIAS.md)
+- [**HOME V5 completa: HTML + CSS + JavaScript em um único arquivo para colar no widget Elementor**](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
+- [**MEGA INDEX: localizar qualquer bloco, CSS, JS e artigo**](dependencies/sotoma-website/MEGA-INDEX.md)
+- [**Documentação e gates de publicação**](dependencies/sotoma-website/README.md)
 
-**Estado:** somente protótipo de revisão; não contém os assets V4 originais, não foi publicado e não representa migração homologada.
+**Regra permanente:** uma página = um arquivo único colável. **Header e footer são globais** do WordPress/Elementor. Blog com os 13 posts publicados da exportação WordPress de 10/11/2026. Branch de revisão, sem publicação nem merge.
 
 ---
 
