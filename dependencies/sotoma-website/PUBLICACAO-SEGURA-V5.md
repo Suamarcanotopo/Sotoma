@@ -30,7 +30,7 @@ Menu global do Elementor Theme Builder — **não embutir no BODY de nenhuma pá
 - Yasmin: `#176873` em bordas, CTAs e detalhes próprios **dentro da identidade SOTOMA**.
 - Poppins (títulos), Mulish (corpo), conforme V5 enviada, observando a diferença do kit Elementor global.
 - CSS isolado por widget; header e footer globais. Nenhum elemento de navegação duplicado no corpo.
-- Fotografias prioritárias devem ser **URLs de mídia registradas no WXR**, com metadados auditáveis. A Home preserva imagens V5 como fallback interno. As imagens do WXR não tiveram resposta verificada no host ao vivo, portanto aprovação visual e de mídia pendente.
+- Fotografias prioritárias devem ser **URLs de mídia registradas no WXR**, com metadados auditáveis. A Home preserva o layout V5, mas substituiu os dados de imagem incorporados por referências WXR externas; se uma mídia não carregar, o contêiner mantém o fundo visual, sem inventar outra foto. As imagens do WXR não tiveram resposta verificada no host ao vivo, portanto aprovação visual e de mídia pendente.
 
 ## 3. Pessoas, contatos e prova
 | Profissional | Origem/prova | WhatsApp | Situação |
@@ -83,8 +83,8 @@ O WXR contém apenas os metadados/URLs das imagens, não os bytes reais. **Não 
 
 ## 7. Evidência de teste
 - Os 15 corpos principais (Home + Blog + 13 internos) foram recuperados da branch e avaliados quanto a **um STYLE e um SCRIPT por arquivo, sem header/footer, compilação sintática do JavaScript**.
-- Home: **botões de perfil corrigidos e verificados 4/4**. A imagem principal e cards de Cláudia/Yasmin usam referência WXR e fallback da V5.
-- Blog: 13 artigos preservados, categorias/filtros preservados, duas profissionais e contato individual acrescentados.
+- Home: **botões de perfil corrigidos e verificados 4/4**. As 12 imagens passaram a usar referências WXR, sem dados base64 embutidos, reduzindo o arquivo de ~966 KB para ~76 KB.
+- Blog: 13 artigos preservados, categorias/filtros preservados, duas profissionais e contato individual acrescentados. Imagem institucional e thumbnails preferem o WXR; payload caiu de ~248 KB para ~54 KB (sem imagens inline).
 - CSS e conteúdo não foram testados dentro do Elementor real nesta execução; testes visuais de WordPress/staging seguem pendentes.
 
 ## 8. Papéis e aceite
