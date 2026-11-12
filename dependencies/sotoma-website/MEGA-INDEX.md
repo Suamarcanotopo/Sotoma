@@ -1,3 +1,13 @@
+# MEGA INDEX GERAL — SITE SOTOMA 2.0
+
+**Todas as páginas**: [Catálogo com 15 páginas reais e 5 propostas, cada uma em um único HTML](paginas/INDEX.md).
+
+**Arquivos atuais para Elementor**: [Home V5 sem Blog](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) · [Blog V1 com 13 artigos](blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html).
+
+**Nota**: O cabeçalho e o rodapé seguem globais no WordPress/Elementor. Rotas propostas não estão publicadas. Formulários e dados clínicos não devem ser implementados dentro de widgets sem backend autorizado.
+
+---
+
 # MEGA INDEX — SOTOMA 2.0 | PÁGINAS ELEMENTOR, CÓDIGO ÚNICO
 
 **Regra de implementação:** uma página = um arquivo HTML único com STYLE + marcação do conteúdo (BODY) + SCRIPT. **Header e footer são globais** no Theme Builder do WordPress/Elementor. Nenhuma publicação, merge ou deploy nesta branch.

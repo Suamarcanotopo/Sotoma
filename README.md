@@ -1,10 +1,11 @@
-# SOTOMA — ACESSO AOS CÓDIGOS ELEMENTOR (BRANCH DE REVISÃO)
+# CATÁLOGO COMPLETO — 22 PÁGINAS/ENTRADAS SOTOMA 2.0 (BRANCH DE REVISÃO)
 
-- [**HOME V5 — HTML ÚNICO com CSS e JavaScript, SEM seção Blog/Pesquisa**](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
-- [**BLOG V1 — HTML ÚNICO com CSS e JavaScript, 13 artigos reais e categorias do WordPress**](dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)
-- [**MEGA INDEX — localização de códigos, seções e filtros**](dependencies/sotoma-website/MEGA-INDEX.md)
+- [**MEGA INDEX DAS DEMAIS PÁGINAS (15 existentes + 5 propostas), com cada HTML único**](dependencies/sotoma-website/paginas/INDEX.md)
+- [Home V5 sem Blog — código único](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
+- [Blog V1 — código único, 13 artigos existentes](dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)
+- [Manifesto de status: URLs reais vs. novas e bloqueios de segurança](dependencies/sotoma-website/paginas/MANIFESTO-PAGINAS.json)
 
-**Contrato:** um widget HTML para cada página, apenas corpo. Header/footer globais via Elementor Theme Builder. PR em Draft, sem publicação no WordPress; assuntos no Blog são etiquetas editoriais, não tags cadastradas na base WordPress.
+**Contrato:** por página, um HTML com CSS e JavaScript incorporados; Header/Footer globais. Não instalar/produtionar arquivos de risco sem gates. Nenhuma URL nova foi criada no WordPress.
 
 ---
 
