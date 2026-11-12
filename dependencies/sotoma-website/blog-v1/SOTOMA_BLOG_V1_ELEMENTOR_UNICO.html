@@ -62,6 +62,29 @@
 @media(max-width:560px){#sotoma-blog-v1 .sb-grid{grid-template-columns:1fr}#sotoma-blog-v1 .sb-filter-grid{grid-template-columns:1fr}#sotoma-blog-v1 .sb-hero-copy{padding:30px 22px}#sotoma-blog-v1 .sb-hero h1{font-size:2.35rem}#sotoma-blog-v1 .sb-hero-art{min-height:225px}#sotoma-blog-v1 .sb-controlpanel{padding:20px 16px}#sotoma-blog-v1 .sb-image{height:230px}#sotoma-blog-v1 .sb-endpanel{padding:27px 22px}}
 @media(prefers-reduced-motion:reduce){#sotoma-blog-v1 *,#sotoma-blog-v1 *:before,#sotoma-blog-v1 *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
+
+/* BLOG V1 · GOVERNANÇA V5 DAS PROFISSIONAIS · SEM HEADER/FOOTER */
+#sotoma-blog-v1 .sb-prof-section{padding:64px 0;background:#eaf2eb}
+#sotoma-blog-v1 .sb-prof-heading{margin-bottom:30px}
+#sotoma-blog-v1 .sb-prof-heading h2{font-family:"Poppins",system-ui,sans-serif;font-size:clamp(1.7rem,3vw,2.9rem);color:#22524A;line-height:1.19;margin:10px 0}
+#sotoma-blog-v1 .sb-prof-heading p{max-width:800px;color:#557063}
+#sotoma-blog-v1 .sb-profs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+#sotoma-blog-v1 .sb-prof{display:grid;grid-template-columns:34% 66%;background:#fff;border:1px solid #d9e7de;border-radius:20px;overflow:hidden;box-shadow:0 14px 35px rgba(15,60,43,.06)}
+#sotoma-blog-v1 .sb-prof[data-person="claudia"]{border-top:5px solid #486D55}
+#sotoma-blog-v1 .sb-prof[data-person="yasmin"]{border-top:5px solid #176873}
+#sotoma-blog-v1 .sb-prof>img{width:100%;height:100%;min-height:285px;object-fit:cover;object-position:center top}
+#sotoma-blog-v1 .sb-prof-content{padding:22px;display:flex;flex-direction:column;gap:10px}
+#sotoma-blog-v1 .sb-prof-content h3{font:650 1.18rem/1.2 "Poppins",system-ui,sans-serif;margin:0}
+#sotoma-blog-v1 .sb-prof-content p{font-size:.84rem;color:#526d60;margin:0}
+#sotoma-blog-v1 .sb-prof-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:auto;padding-top:12px}
+#sotoma-blog-v1 .sb-prof-actions a{text-decoration:underline;text-underline-offset:4px;font-weight:850;font-size:.81rem}
+#sotoma-blog-v1 .sb-prof-actions .sb-prof-wa{border-radius:10px;min-height:43px;display:inline-flex;align-items:center;padding:10px 15px;text-decoration:none;color:#fff;background:#486D55}
+#sotoma-blog-v1 [data-person="yasmin"] .sb-prof-wa{background:#176873}
+#sotoma-blog-v1 .sb-prof .sb-phone{display:block;color:#5d7267;font-size:.72rem}
+#sotoma-blog-v1 .sb-events-note{margin-top:24px;border-left:3px solid #8BA146;padding:14px 19px;background:#fff;border-radius:10px;color:#506b60;font-size:.86rem}
+@media(max-width:810px){#sotoma-blog-v1 .sb-profs{grid-template-columns:1fr}}
+@media(max-width:460px){#sotoma-blog-v1 .sb-prof{grid-template-columns:39% 61%}#sotoma-blog-v1 .sb-prof>img{min-height:270px}#sotoma-blog-v1 .sb-prof-content{padding:16px 12px}#sotoma-blog-v1 .sb-prof-actions a{font-size:.71rem}}
+
 </style>
 <main id="sotoma-blog-v1" class="sotoma-blog-widget" aria-label="Biblioteca de conhecimento SOTOMA">
 <section class="sb-hero" aria-labelledby="sb-title"><div class="sb-wrap"><div class="sb-hero-panel">
@@ -184,6 +207,16 @@
 <div class="sb-empty" data-empty hidden><h3>Nenhum artigo encontrado</h3><p>Experimente outro termo, assunto ou categoria. Você também pode limpar todos os filtros.</p></div>
 <div class="sb-more-row"><button class="sb-button" type="button" data-more aria-expanded="false">Mostrar mais artigos</button></div>
 </div></section>
+<section class="sb-prof-section" id="sotoma-blog-profissionais" aria-labelledby="sb-prof-heading">
+ <div class="sb-wrap">
+ <div class="sb-prof-heading"><span class="sb-eyebrow">Leitura e acolhimento responsável</span><h2 id="sb-prof-heading">Conheça as profissionais da SOTOMA</h2><p>Os artigos são material educativo e não substituem orientação individual. Conheça quem atende cada público e escolha o contato direto apropriado.</p></div>
+ <div class="sb-profs">
+ <article class="sb-prof" data-person="claudia"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/03/Clau-9.jpeg" alt="Fotografia de Cláudia referenciada no backup WordPress" loading="lazy"><div class="sb-prof-content"><span class="sb-eyebrow">Adultos · Psicoterapia Positiva</span><h3>Cláudia Fernanda Sotoma</h3><p>Apresentação profissional, conteúdos de vida adulta e opções de contato.</p><div class="sb-prof-actions"><a href="https://sotomasaudepsicointegrada.com.br/sobre/claudia/">Conhecer Cláudia ↗</a><a class="sb-prof-wa" data-sotoma-whatsapp="claudia" data-source-section="blog-profissional" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Blog.%20Se%C3%A7%C3%A3o%3A%20profissionais.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp Cláudia ↗</a><span class="sb-phone">WhatsApp: (67) 99184-7679</span></div></div></article>
+ <article class="sb-prof" data-person="yasmin"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/03/Ya-11.jpeg" alt="Fotografia de Yasmin referenciada no backup WordPress" loading="lazy"><div class="sb-prof-content"><span class="sb-eyebrow">Crianças e adolescentes · Psicanálise</span><h3>Yasmin Sotoma Muzilli</h3><p>Conteúdos relacionados à infância, adolescência e orientações para responsáveis.</p><div class="sb-prof-actions"><a href="https://sotomasaudepsicointegrada.com.br/sobre/yasmin/">Conhecer Yasmin ↗</a><a class="sb-prof-wa" data-sotoma-whatsapp="yasmin" data-source-section="blog-profissional" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Blog.%20Se%C3%A7%C3%A3o%3A%20profissionais.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp Yasmin ↗</a><span class="sb-phone">WhatsApp: (67) 99185-8129</span></div></div></article>
+ </div>
+ <p class="sb-events-note"><strong>Eventos e notícias:</strong> este espaço pode divulgar atividades futuras depois de apuração editorial e confirmação de data, local e responsável. O backup analisado não comprova eventos futuros; por isso nenhuma agenda foi inventada.</p>
+ </div>
+</section>
 <section class="sb-endnote" aria-labelledby="sb-note-title"><div class="sb-wrap"><div class="sb-endpanel"><div><span class="sb-eyebrow">Pesquisa e responsabilidade</span><h2 id="sb-note-title">Conteúdo informativo, com limites claros</h2><p>Esses artigos são conteúdos de divulgação e não substituem avaliação individual. A associação de cada texto a estudos científicos específicos depende de conferência de fontes e revisão editorial. Nenhum resultado clínico é prometido por esta biblioteca.</p></div><a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos/">Conheça como cuidamos</a></div></div></section>
 </main>
 <script>
@@ -192,6 +225,7 @@
 const root=document.getElementById('sotoma-blog-v1');
 if(!root || root.dataset.initialized==='true')return;
 root.dataset.initialized='true';
+ const direct={claudia:'556791847679',yasmin:'5567991858129'};root.querySelectorAll('[data-sotoma-whatsapp]').forEach(a=>{const p=a.dataset.sotomaWhatsapp;if(!direct[p])return;const n=p==='claudia'?'Cláudia':'Yasmin';a.href='https://wa.me/'+direct[p]+'?text='+encodeURIComponent('Olá, '+n+'! Encontrei a SOTOMA pelo site. Origem: Blog. Seção: Profissionais. Gostaria de informações gerais sobre atendimento, horários e próximos passos.');a.target='_blank';a.rel='noopener noreferrer';});
 const grid=root.querySelector('[data-grid]');
 const cards=[...root.querySelectorAll('[data-article]')];
 const categories=[...root.querySelectorAll('[data-category-filter]')];
