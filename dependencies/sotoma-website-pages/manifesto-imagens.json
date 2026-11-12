@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "SOT-UX-WEB-HOME-V5-20261112",
+  "images": [
+    {
+      "name": "logo-sotoma.webp",
+      "status": "FOTO_ORIGINAL_BACKUP",
+      "relative_url": "assets/images/logo-sotoma.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/logo-sotoma.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "hero-claudia-consultorio.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/hero-claudia-consultorio.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/hero-claudia-consultorio.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "hero-claudia-real-original.webp",
+      "status": "FOTO_ORIGINAL_BACKUP",
+      "relative_url": "assets/images/hero-claudia-real-original.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/hero-claudia-real-original.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "hero-claudia-reflexao.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/hero-claudia-reflexao.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/hero-claudia-reflexao.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "hero-tres-passos.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/hero-tres-passos.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/hero-tres-passos.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "perfil-claudia-original.webp",
+      "status": "FOTO_ORIGINAL_BACKUP",
+      "relative_url": "assets/images/perfil-claudia-original.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/perfil-claudia-original.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "perfil-yasmin-original.webp",
+      "status": "FOTO_ORIGINAL_BACKUP",
+      "relative_url": "assets/images/perfil-yasmin-original.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/perfil-yasmin-original.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "cuidado-psicoterapia-positiva.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/cuidado-psicoterapia-positiva.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/cuidado-psicoterapia-positiva.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "cuidado-infancia.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/cuidado-infancia.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/cuidado-infancia.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "programa-via.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/programa-via.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/programa-via.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "programa-mira.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/programa-mira.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/programa-mira.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "editorial-leituras.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/editorial-leituras.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/editorial-leituras.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "faq-perguntas.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/faq-perguntas.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/faq-perguntas.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "transicoes-vida.webp",
+      "status": "IMAGEM_TESTE_IA_NAO_APROVADA",
+      "relative_url": "assets/images/transicoes-vida.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/transicoes-vida.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    },
+    {
+      "name": "caminhos-originais.webp",
+      "status": "FOTO_ORIGINAL_BACKUP",
+      "relative_url": "assets/images/caminhos-originais.webp",
+      "proposed_wp_path": "/wp-content/uploads/sotoma-2026/caminhos-originais.webp",
+      "is_on_github": false,
+      "is_on_new_host": false
+    }
+  ]
+}
