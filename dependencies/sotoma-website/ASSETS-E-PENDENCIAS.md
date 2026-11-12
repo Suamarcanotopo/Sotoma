@@ -1,22 +1,25 @@
-# Proveniência, assets e pendências da Home V5
-## Inventário de evidências
-| Item descrito | Fonte declarada pelo briefing | Encontrado na main do GitHub em 12/11? | Decisão |
-|---|---|---|---|
-| `SOTOMA_HOME_V4_PREVIA_COMPLETA_AUTONOMA.html` | Home V4 | NÃO | Solicitar importação, preservar original |
-| `SOTOMA_HOME_V4_CODIGO_HTML_CSS_JS_UNIDOS.html` | Home V4 | NÃO | Comparar e migrar com fidelidade |
-| `SOTOMA_HOME_V4_URLS_IMAGENS.md` | Manifesto V4 | NÃO | Usar como fonte de caminhos e origem |
-| 15 WebP | Pacote V4 (informação do briefing) | NÃO | Verificar arquivos, hashes, autorização |
-| 26 SVGs | Pacote V4 (informação do briefing) | NÃO | Registrar individualmente e reutilizar |
-| 13 artigos de backup V3 | Informação do briefing | NÃO verificados como pacote web V3 | Não inventar URLs ou importar automaticamente |
-| 60 rascunhos editoriais | `../sotoma-editorial/artigos/` | SIM | Não publicar; revisão separada |
-| Tokens visuais observados | `../sotoma-editorial/brand/tokens.json` | SIM | Reconciliar com manual aprovado |
+# SOTOMA Home V5 — Proveniência, limitações e aceite
 
-## Registro obrigatório por asset
-`asset_id | nome_arquivo | categoria | origem | autor/titular | tipo_original_ou_gerado | direito_de_uso | consentimento_imagem | hash_sha256 | uso_previsto | status_aprovacao | caminho_no_repo | url_final_verificada`
+## Fontes recebidas
+1. SOTOMA_HOME_V5_PREVIA_AUTONOMA(1).html — base visual V5 com fotografias e WebP incorporados.
+2. SOTOMA_HOME_V5_CODIGO_UNICO_HTML_CSS_JS(1).html — código V5 original de comparação, com referências de imagens relativas.
+3. sotomasadepsicointegrada.WordPress.2026-11-10(1).xml — exportação WXR, fonte de 13 posts publicados, datas, títulos, slugs, links e thumbnails.
+4. [Home V5 única adaptada para Elementor](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) — sem header/footer, com CSS/JS incorporados e Blog 13/13.
 
-## Bloqueios em Fail Closed
-- Não substituir rosto de Cláudia/Yasmin por fotografia gerada sem aprovação expressa.
-- Não atribuir números de registro, especialidades, promessas terapêuticas ou preços não verificados.
-- Não ativar contato clínico, rastreamento sensível ou links de publicação fictícios.
-- Não declarar os testes da V4 como testes executados nesta V5.
-- Não implementar envio automático ao WordPress nesta branch.
+## Limites
+- XML WXR **não é backup completo do site** nem garante que links/imagens estejam online.
+- Imagens embutidas, direitos de uso e fidelidade das fisionomias Cláudia/Yasmin continuam pendentes de aprovação.
+- O Blog usa as imagens V5 como prévia e tenta imagens destacadas dos posts quando respondem.
+- Não foram criadas páginas /profissionais/claudia/, /profissionais/yasmin/, /programas/via/, /programas/mira/ ou /duvidas/ porque não aparecem como páginas publicadas no WXR; a navegação remete às âncoras da Home.
+- Telefones do WhatsApp foram mantidos da V5 recebida e devem ser confirmados antes da publicação.
+- Nenhuma informação de paciente, prontuário ou credencial foi adicionada.
+
+## Gates para publicação
+- [ ] Validar imagem/consentimentos/qualificações e autorização da direção.
+- [ ] Validar disponibilidade real de modalidades, V.I.A., M.I.R.A. e canais de contato.
+- [ ] Testar as 13 URLs e thumbs no WordPress real, SEO, canonical e links globais.
+- [ ] Revisar responsividade, acessibilidade, cache Elementor, desempenho e privacidade em staging.
+- [ ] Preparar rollback, backup e aprovação formal.
+
+## Evidência de testes locais
+Node.js validou sintaxe JS; Chromium simulado em 390/768/1440 pixels, 13 cards, 6 destaques iniciais, filtro infância 3, expandir 13, buscar ansiedade 1, Hero Cláudia/Yasmin, sem overflow ou erros JS. **Testes de integração/produção ainda NÃO executados.**
