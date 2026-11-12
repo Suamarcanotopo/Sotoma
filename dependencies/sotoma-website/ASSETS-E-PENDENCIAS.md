@@ -1,25 +1,34 @@
-# SOTOMA Home V5 — Proveniência, limitações e aceite
+# SOTOMA Home + Blog — Proveniência e limites (12/11/2026)
 
-## Fontes recebidas
-1. SOTOMA_HOME_V5_PREVIA_AUTONOMA(1).html — base visual V5 com fotografias e WebP incorporados.
-2. SOTOMA_HOME_V5_CODIGO_UNICO_HTML_CSS_JS(1).html — código V5 original de comparação, com referências de imagens relativas.
-3. sotomasadepsicointegrada.WordPress.2026-11-10(1).xml — exportação WXR, fonte de 13 posts publicados, datas, títulos, slugs, links e thumbnails.
-4. [Home V5 única adaptada para Elementor](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html) — sem header/footer, com CSS/JS incorporados e Blog 13/13.
+## Fontes efetivamente utilizadas
+- `Texto colado(20261112-211907).txt`: código Home V5 unificado enviado pelo usuário, com imagens WebP embutidas e seção Blog/Pesquisa.
+- `SOTOMA_HOME_V5_CODIGO_UNICO_HTML_CSS_JS(1).html` e `SOTOMA_HOME_V5_PREVIA_AUTONOMA(1).html`: fontes visuais previamente fornecidas.
+- `sotomasadepsicointegrada.WordPress.2026-11-10(1).xml`: exportação WXR (não é backup completo); prova de 13 posts `publish`, seus títulos, links, datas, categorias e mídias destacadas indicadas no arquivo.
+- [Arquivo único da Home](home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html): derivação do anexo, sem Blog/Pesquisa, preservando demais seções, Hero e WebP embutidos.
+- [Arquivo único da página Blog](blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html): nova experiência editorial e catálogo 13/13.
 
-## Limites
-- XML WXR **não é backup completo do site** nem garante que links/imagens estejam online.
-- Imagens embutidas, direitos de uso e fidelidade das fisionomias Cláudia/Yasmin continuam pendentes de aprovação.
-- O Blog usa as imagens V5 como prévia e tenta imagens destacadas dos posts quando respondem.
-- Não foram criadas páginas /profissionais/claudia/, /profissionais/yasmin/, /programas/via/, /programas/mira/ ou /duvidas/ porque não aparecem como páginas publicadas no WXR; a navegação remete às âncoras da Home.
-- Telefones do WhatsApp foram mantidos da V5 recebida e devem ser confirmados antes da publicação.
-- Nenhuma informação de paciente, prontuário ou credencial foi adicionada.
+## Taxonomia comprovada
+- **Qualidade de vida:** 9 posts.
+- **Psicoterapia Positiva:** 4 posts.
+- **Tags do WordPress (post_tag):** 0 no WXR.
+- **Assuntos editoriais:** filtros locais de UI atribuídos a títulos/contexto (não escritos no banco WordPress). Não se apresentam como tags existentes.
 
-## Gates para publicação
-- [ ] Validar imagem/consentimentos/qualificações e autorização da direção.
-- [ ] Validar disponibilidade real de modalidades, V.I.A., M.I.R.A. e canais de contato.
-- [ ] Testar as 13 URLs e thumbs no WordPress real, SEO, canonical e links globais.
-- [ ] Revisar responsividade, acessibilidade, cache Elementor, desempenho e privacidade em staging.
-- [ ] Preparar rollback, backup e aprovação formal.
+## Imagens e URLs
+Imagens ilustrativas da V5 fornecida foram otimizadas para uso como fallback **incorporado no mesmo código** do Blog. A página tenta carregar a imagem destacada WXR para cada post quando disponível. Não se inventaram URLs de publicações. A presença no XML **não garante** funcionamento atual do link ou da imagem no servidor. Cláudia/Yasmin e direção devem aprovar fisionomia, consentimento e direitos de uso.
 
-## Evidência de testes locais
-Node.js validou sintaxe JS; Chromium simulado em 390/768/1440 pixels, 13 cards, 6 destaques iniciais, filtro infância 3, expandir 13, buscar ansiedade 1, Hero Cláudia/Yasmin, sem overflow ou erros JS. **Testes de integração/produção ainda NÃO executados.**
+## QA reproduzido
+- Node.js `--check` dos dois scripts: PASS.
+- Chromium local sem carregar WordPress, 390, 768 e 1440: sem `pageerror` e sem overflow horizontal.
+- Home: 9 seções, Blog ausente, Hero alternado para Yasmin.
+- Blog: 13 cards, 6 iniciais; categoria Psicoterapia Positiva = 4; tema Infância = 2; texto ansiedade = 1; expandir = 13.
+- **Não avaliado:** Elementor real, performance em produção, tráfego real, mídia WordPress, CSS do tema, SEO, Core Web Vitals e aprovadores.
+
+## Gates inegociáveis
+- [ ] Revisão clínica, copy, qualificações e modalidades por Cláudia/direção.
+- [ ] Conferir direitos de uso de imagens e telefones.
+- [ ] Validar todos os 13 permalinks e thumbnails ao vivo.
+- [ ] Comparar visualmente contra o site WordPress real; header/footer continuam globais, sem duplicação.
+- [ ] Segurança, acessibilidade, mobile, SEO, cache, consentimento e desempenho em staging.
+- [ ] Backup e rollback comprovados antes da publicação.
+
+Nenhuma alteração foi feita no WordPress ao vivo.
