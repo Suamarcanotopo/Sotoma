@@ -1,0 +1,573 @@
+<!-- SOTOMA 2.0 | HOME V5 | ELEMENTOR | BODY ONLY | arquivo único.
+    Sem Blog/Pesquisa. O Blog completo agora fica em /artigos-sotoma/.
+    Header e footer são globais no Theme Builder; CSS e JS aqui incorporados.
+    Pré-publicação: validar contatos, fotos e formas de atendimento clínicas. -->
+<style>
+#sotoma-home-v5{--pine:#22524A;--pine-dark:#183e37;--sage:#91AFA1;--olive:#8BA146;--paper:#f7f8f3;--cream:#f4f0e7;--text:#263b36;--mute:#64716b;--border:#dee7df;--yasmin:#176873;--claudia:#486d55;--white:#fff;--shadow:0 18px 54px rgba(30,65,53,.09);--round:22px;--head:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;--body:"Mulish",system-ui,-apple-system,"Segoe UI",sans-serif}
+#sotoma-home-v5 *, #sotoma-home-v5 *::before, #sotoma-home-v5 *::after{box-sizing:border-box}
+#sotoma-home-v5{scroll-behavior:smooth;scroll-padding-top:108px}
+#sotoma-home-v5{margin:0;color:var(--text);background:var(--paper);font:400 16px/1.7 var(--body);-webkit-font-smoothing:antialiased}
+#sotoma-home-v5 img{display:block;width:100%;height:auto}
+#sotoma-home-v5 a{color:inherit;text-decoration:none}
+#sotoma-home-v5 button, #sotoma-home-v5 input{font:inherit}
+#sotoma-home-v5 button{cursor:pointer}
+#sotoma-home-v5 a:focus-visible, #sotoma-home-v5 button:focus-visible, #sotoma-home-v5 input:focus-visible, #sotoma-home-v5 summary:focus-visible{outline:3px solid #8BA146;outline-offset:4px}
+#sotoma-home-v5 p{margin:.65rem 0 0}
+#sotoma-home-v5 h1, #sotoma-home-v5 h2, #sotoma-home-v5 h3, #sotoma-home-v5 h4{font-family:var(--head);line-height:1.19;letter-spacing:-.032em;margin:0}
+#sotoma-home-v5 h1{font-size:clamp(2.5rem,4.7vw,4.9rem);font-weight:650}
+#sotoma-home-v5 h2{font-size:clamp(2rem,3.6vw,3.3rem);font-weight:650}
+#sotoma-home-v5 h3{font-size:clamp(1.13rem,1.55vw,1.42rem);font-weight:650}
+#sotoma-home-v5 small{font-size:.8rem}
+#sotoma-home-v5 ul{margin:0;padding:0}
+#sotoma-home-v5 .wrap{width:min(1180px,calc(100% - 42px));margin-inline:auto}
+#sotoma-home-v5 .skip{position:absolute;left:-999px;top:12px;z-index:100;background:white;padding:12px}
+#sotoma-home-v5 .skip:focus{left:12px}
+#sotoma-home-v5 .prototype{background:#1e4941;color:#eaf7ed;text-align:center;font-weight:700;font-size:.68rem;letter-spacing:.11em;padding:8px 14px;text-transform:uppercase}
+#sotoma-home-v5 .site-header{position:sticky;top:0;background:rgba(250,250,245,.96);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:70}
+#sotoma-home-v5 .header-inner{min-height:83px;display:flex;gap:24px;justify-content:space-between;align-items:center}
+#sotoma-home-v5 .brand{display:flex;align-items:center;gap:9px;flex-shrink:0}
+#sotoma-home-v5 .brand img{width:59px;height:59px;object-fit:contain}
+#sotoma-home-v5 .brand-word{font:700 1.38rem/1.1 var(--head);letter-spacing:.03em;color:var(--pine)}
+#sotoma-home-v5 .brand-word small{display:block;font-size:.59rem;font-weight:550;letter-spacing:.14em;text-transform:uppercase;margin-top:5px;color:#5b7065}
+#sotoma-home-v5 .nav{display:flex;align-items:center;gap:22px}
+#sotoma-home-v5 .nav>a{font-weight:800;font-size:.79rem;white-space:nowrap;transition:color .2s}
+#sotoma-home-v5 .nav>a:hover{color:#539070}
+#sotoma-home-v5 .nav .nav-pill{background:var(--pine);color:white;padding:12px 17px;border-radius:100px}
+#sotoma-home-v5 .nav .nav-pill:hover{background:#396f61;color:white}
+#sotoma-home-v5 .hamb{display:none;align-items:center;gap:8px;background:transparent;border:1px solid var(--border);border-radius:11px;padding:9px 12px;color:var(--pine);font-weight:800}
+#sotoma-home-v5 .hamb .st-icon{width:22px}
+#sotoma-home-v5 .st-icon{width:30px;height:30px;flex:none;display:inline-block;vertical-align:middle}
+#sotoma-home-v5 .st-icon .st-body, #sotoma-home-v5 .st-icon .st-accent{transform-box:fill-box;transform-origin:center;transition:transform .35s cubic-bezier(.2,.9,.28,1),opacity .35s}
+#sotoma-home-v5 .ico-box:hover .st-icon[data-motion="bloom"] .st-accent, #sotoma-home-v5 .icon-motion:hover .st-icon[data-motion="bloom"] .st-accent{transform:scale(1.12)}
+#sotoma-home-v5 .ico-box:hover .st-icon[data-motion="lift"] .st-accent, #sotoma-home-v5 .icon-motion:hover .st-icon[data-motion="lift"] .st-accent{transform:translateY(-2px)}
+#sotoma-home-v5 .ico-box:hover .st-icon[data-motion="slide"] .st-accent, #sotoma-home-v5 .icon-motion:hover .st-icon[data-motion="slide"] .st-accent{transform:translateX(2px)}
+#sotoma-home-v5 .ico-box:hover .st-icon[data-motion="rotate"] .st-accent, #sotoma-home-v5 .icon-motion:hover .st-icon[data-motion="rotate"] .st-accent{transform:rotate(10deg)}
+#sotoma-home-v5 .eyebrow{font:800 .74rem/1.4 var(--head);letter-spacing:.17em;text-transform:uppercase;color:#637f58;display:inline-flex;align-items:center;gap:10px}
+#sotoma-home-v5 .eyebrow:before{content:"";width:25px;height:2px;background:var(--olive)}
+#sotoma-home-v5 .section{padding:clamp(66px,8vw,110px) 0}
+#sotoma-home-v5 .section-head{max-width:735px;margin-bottom:36px}
+#sotoma-home-v5 .section-head>p{font-size:1.03rem;color:var(--mute);max-width:600px}
+#sotoma-home-v5 .center{text-align:center;margin-inline:auto}
+#sotoma-home-v5 .center .eyebrow:before{display:none}
+#sotoma-home-v5 .center .eyebrow:after{content:"";width:25px;height:2px;background:var(--olive)}
+#sotoma-home-v5 .button{display:inline-flex;gap:9px;justify-content:center;align-items:center;min-height:46px;border-radius:100px;padding:12px 20px;border:1px solid transparent;font:800 .85rem/1.35 var(--head);transition:transform .25s,background .25s,box-shadow .25s}
+#sotoma-home-v5 .button:hover{transform:translateY(-2px)}
+#sotoma-home-v5 .button .st-icon{width:19px;height:19px}
+#sotoma-home-v5 .button.primary{color:white;background:var(--pine);box-shadow:0 10px 24px rgba(34,82,74,.14)}
+#sotoma-home-v5 .button.primary:hover{background:#386c5d}
+#sotoma-home-v5 .button.outline{border-color:#9ab5a6;background:rgba(255,255,255,.72);color:var(--pine)}
+#sotoma-home-v5 .button.outline:hover{background:white}
+#sotoma-home-v5 .button.light{color:var(--pine);background:white}
+#sotoma-home-v5 .actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:25px}
+#sotoma-home-v5 .section-soft{background:#eef3ed}
+#sotoma-home-v5 .section-dark{background:var(--pine-dark);color:white}
+#sotoma-home-v5 .section-dark .eyebrow{color:#becfb9}
+#sotoma-home-v5 .section-dark .section-head>p{color:#cfddd4}
+#sotoma-home-v5 .muted{color:var(--mute)}
+#sotoma-home-v5 .text-link{font-weight:850;color:var(--pine);display:inline-flex;align-items:center;gap:7px}
+#sotoma-home-v5 .text-link .st-icon{width:19px;height:19px}
+/* HERO */
+#sotoma-home-v5 .hero-section{padding:24px 0 0}
+#sotoma-home-v5 .hero-box{position:relative;min-height:650px;overflow:hidden;border-radius:30px;background:#e9e1d3;box-shadow:0 24px 75px rgba(32,60,51,.11);isolation:isolate}
+#sotoma-home-v5 .hero-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2;transition:opacity .35s}
+#sotoma-home-v5 .hero-box:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(246,243,236,.84) 0%,rgba(247,242,231,.78) 30%,rgba(250,247,241,.23) 56%,transparent 78%);pointer-events:none}
+#sotoma-home-v5 .hero-copy{padding:93px 0 55px 68px;width:min(665px,60%)}
+#sotoma-home-v5 .hero-copy h1{margin:16px 0 20px;color:#173e36}
+#sotoma-home-v5 .hero-copy h1 em{font-style:normal;color:#648363}
+#sotoma-home-v5 .hero-copy .lead{max-width:525px;font-size:1.08rem;color:#3f5f53;line-height:1.8}
+#sotoma-home-v5 .hero-copy .actions{margin-top:28px}
+#sotoma-home-v5 .hero-small{display:flex;gap:12px;margin-top:49px;font-size:.8rem;font-weight:750;align-items:center;color:#31594c}
+#sotoma-home-v5 .hero-small span{display:flex;gap:7px;align-items:center}
+#sotoma-home-v5 .hero-small .st-icon{width:18px;height:18px}
+#sotoma-home-v5 .hero-selector{position:absolute;bottom:22px;right:24px;z-index:3;display:flex;gap:6px;padding:6px;background:rgba(255,255,255,.8);backdrop-filter:blur(12px);border-radius:14px;border:1px solid rgba(255,255,255,.6)}
+#sotoma-home-v5 .hero-selector button{border:0;background:transparent;color:#527062;padding:7px 12px;border-radius:9px;font-weight:850;font-size:.7rem}
+#sotoma-home-v5 .hero-selector button[aria-pressed=true]{background:var(--pine);color:white}
+#sotoma-home-v5 .hero-photo-note{position:absolute;top:18px;right:20px;background:rgba(255,255,255,.82);backdrop-filter:blur(10px);padding:7px 11px;border-radius:15px;color:#456558;font-size:.66rem;font-weight:850;letter-spacing:.03em}
+#sotoma-home-v5 .intro-belt{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;padding:24px 12px;font-size:.85rem;color:#627f6e;font-weight:850}
+#sotoma-home-v5 .intro-belt span{display:flex;align-items:center;gap:8px}
+#sotoma-home-v5 .intro-belt .st-icon{width:21px;height:21px;color:#739d72}
+/* PATHWAY cards */
+#sotoma-home-v5 .pathway-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#sotoma-home-v5 .pathway-card{border-radius:var(--round);background:white;border:1px solid var(--border);box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:41% 59%;min-height:350px}
+#sotoma-home-v5 .pathway-photo{height:100%;min-height:345px;object-fit:cover;object-position:50% 28%}
+#sotoma-home-v5 .pathway-copy{padding:37px 28px;display:flex;flex-direction:column;align-items:start}
+#sotoma-home-v5 .pathway-card[data-person="claudia"]{border-top:4px solid var(--claudia)}
+#sotoma-home-v5 .pathway-card[data-person="yasmin"]{border-top:4px solid var(--yasmin)}
+#sotoma-home-v5 .pathway-copy p{font-size:.93rem;color:var(--mute);margin:14px 0 12px}
+#sotoma-home-v5 .pathway-copy .tag{font-weight:850;font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--pine);margin-bottom:13px}
+#sotoma-home-v5 .pathway-card[data-person="yasmin"] .tag{color:var(--yasmin)}
+#sotoma-home-v5 .pathway-copy .actions{margin-top:auto}
+#sotoma-home-v5 .pathway-copy .button{padding:10px 15px;font-size:.76rem}
+#sotoma-home-v5 .info-stripe{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+#sotoma-home-v5 .info-card{padding:24px 26px;border-radius:18px;border:1px solid #d6e3d8;background:white}
+#sotoma-home-v5 .ico-box{width:57px;height:57px;border-radius:19px;display:grid;place-items:center;background:#e6efe5;color:var(--pine);margin-bottom:17px}
+#sotoma-home-v5 .ico-box .st-icon{width:32px;height:32px}
+#sotoma-home-v5 .info-card p{color:var(--mute);font-size:.9rem;margin:10px 0}
+/* SERVICES */
+#sotoma-home-v5 .service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+#sotoma-home-v5 .service-card{background:white;border:1px solid var(--border);border-radius:21px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 30px rgba(25,60,45,.04);transition:transform .25s,box-shadow .25s}
+#sotoma-home-v5 .service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+#sotoma-home-v5 .service-photo{height:192px;object-fit:cover;object-position:center}
+#sotoma-home-v5 .service-main{padding:22px;display:flex;flex-direction:column;flex:1}
+#sotoma-home-v5 .service-kicker{display:flex;gap:9px;align-items:center;font-size:.72rem;letter-spacing:.08em;font-weight:900;text-transform:uppercase;color:#52745e}
+#sotoma-home-v5 .service-kicker .st-icon{width:25px;height:25px}
+#sotoma-home-v5 .service-card p{color:var(--mute);font-size:.88rem;line-height:1.6;margin:12px 0 19px}
+#sotoma-home-v5 .service-card .text-link{margin-top:auto;font-size:.84rem}
+#sotoma-home-v5 .service-card h3{margin-top:14px}
+#sotoma-home-v5 .program-wrap{display:grid;grid-template-columns:.7fr 1.3fr;gap:44px;align-items:center;margin-top:55px}
+#sotoma-home-v5 .program-visual{border-radius:20px;overflow:hidden;min-height:290px}
+#sotoma-home-v5 .program-visual img{height:100%;object-fit:cover}
+#sotoma-home-v5 .program-copy p{color:var(--mute)}
+/* THREE STEPS */
+#sotoma-home-v5 .journey-head{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:26px;margin-bottom:34px}
+#sotoma-home-v5 .journey-head h2{margin-top:14px}
+#sotoma-home-v5 .journey-head p{color:#d7e8de}
+#sotoma-home-v5 .journey-visual{border-radius:20px;overflow:hidden;max-height:235px}
+#sotoma-home-v5 .journey-visual img{height:230px;object-fit:cover;object-position:center}
+#sotoma-home-v5 .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+#sotoma-home-v5 .step-card{background:rgba(255,255,255,.085);padding:27px;border:1px solid rgba(255,255,255,.18);border-radius:20px;min-height:265px}
+#sotoma-home-v5 .step-card .ico-box{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.14);color:#f1f7e8}
+#sotoma-home-v5 .step-card .number{font:850 .76rem var(--head);letter-spacing:.13em;color:#ccdbbe}
+#sotoma-home-v5 .step-card h3{margin:10px 0;color:white}
+#sotoma-home-v5 .step-card p{color:#d3e2d9;font-size:.89rem}
+#sotoma-home-v5 .steps-end{display:flex;align-items:center;justify-content:center;margin-top:30px}
+#sotoma-home-v5 .steps-end .button{background:white;color:var(--pine)}
+/* PLANS */
+#sotoma-home-v5 .plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+#sotoma-home-v5 .plan-card{border-radius:23px;border:1px solid var(--border);padding:26px;background:white;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:340px}
+#sotoma-home-v5 .plan-card.featured{border:2px solid #99b3a3;background:#f6f9f2}
+#sotoma-home-v5 .plan-head{display:flex;gap:13px;align-items:center;color:var(--pine);margin-bottom:17px}
+#sotoma-home-v5 .plan-head .st-icon{width:41px;height:41px}
+#sotoma-home-v5 .plan-head small{font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+#sotoma-home-v5 .plan-card p{color:var(--mute);font-size:.89rem}
+#sotoma-home-v5 .plan-card ul{list-style:none;margin:17px 0 21px}
+#sotoma-home-v5 .plan-card li{font-size:.83rem;color:#435e53;padding:5px 0;display:flex;gap:8px;align-items:flex-start}
+#sotoma-home-v5 .plan-card li:before{content:"✓";color:#5b855f;font-weight:900}
+#sotoma-home-v5 .plan-card .actions{margin-top:auto}
+#sotoma-home-v5 .plan-card .button{width:100%;font-size:.78rem}
+#sotoma-home-v5 .plan-disclaimer{text-align:center;color:var(--mute);font-size:.79rem;margin:21px auto 0;max-width:870px}
+/* TEAM */
+#sotoma-home-v5 .team-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+#sotoma-home-v5 .team-card{background:#fff;border:1px solid var(--border);border-radius:21px;overflow:hidden;display:flex;gap:0;align-items:stretch}
+#sotoma-home-v5 .team-card img{width:38%;height:315px;object-fit:cover;object-position:center 18%}
+#sotoma-home-v5 .team-body{padding:29px;display:flex;flex-direction:column;align-items:start}
+#sotoma-home-v5 .team-body .person-label{color:#5e8069;font-size:.76rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+#sotoma-home-v5 .team-card[data-person="yasmin"] .person-label{color:var(--yasmin)}
+#sotoma-home-v5 .team-body p{color:var(--mute);font-size:.91rem;margin:13px 0}
+#sotoma-home-v5 .team-body .actions{margin-top:auto}
+#sotoma-home-v5 .team-body .button{font-size:.76rem;padding:10px 13px}
+/* FAQ */
+#sotoma-home-v5 .faq-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:65px;align-items:start}
+#sotoma-home-v5 .faq-wrap .section-head{margin:0}
+#sotoma-home-v5 .faq-wrap .section-head p{margin-bottom:22px}
+#sotoma-home-v5 .faq-art{border-radius:19px;overflow:hidden;max-height:235px}
+#sotoma-home-v5 .faq-art img{height:235px;object-fit:cover}
+#sotoma-home-v5 .faq-item{border-bottom:1px solid #d5dfd6}
+#sotoma-home-v5 .faq-item summary{list-style:none;cursor:pointer;padding:20px 0;display:flex;justify-content:space-between;gap:12px;align-items:center;font-weight:850;font-family:var(--head);font-size:.97rem}
+#sotoma-home-v5 .faq-item summary::-webkit-details-marker{display:none}
+#sotoma-home-v5 .faq-item summary:after{content:"+";display:grid;place-items:center;width:25px;height:25px;flex:none;border-radius:50%;background:#e1eddf;color:var(--pine);font-size:19px}
+#sotoma-home-v5 .faq-item[open] summary:after{content:"–"}
+#sotoma-home-v5 .faq-answer{color:var(--mute);font-size:.92rem;padding:0 26px 20px 0}
+#sotoma-home-v5 .faq-answer a{color:var(--pine);text-decoration:underline;text-underline-offset:3px}
+/* FINAL */
+#sotoma-home-v5 .final-box{background:var(--pine);color:white;border-radius:27px;padding:62px 55px;position:relative;overflow:hidden;display:grid;grid-template-columns:1.3fr .7fr;gap:35px;align-items:center}
+#sotoma-home-v5 .final-box:after{content:"";position:absolute;width:400px;height:400px;right:-130px;bottom:-230px;border:1px solid rgba(255,255,255,.21);border-radius:50%;pointer-events:none}
+#sotoma-home-v5 .final-box h2{margin-top:12px}
+#sotoma-home-v5 .final-box p{color:#d4e5d8}
+#sotoma-home-v5 .final-choices{display:grid;gap:10px}
+#sotoma-home-v5 .final-choices .button{background:#fff;color:var(--pine);border:0;justify-content:space-between}
+#sotoma-home-v5 .final-choices .button:nth-child(2){background:#dfebec;color:#225d62}
+#sotoma-home-v5 .site-footer{margin-top:75px;padding:42px 0;border-top:1px solid var(--border);background:#f1f5ef}
+#sotoma-home-v5 .footer-inner{display:flex;align-items:start;justify-content:space-between;gap:50px}
+#sotoma-home-v5 .footer-brand{display:flex;gap:14px;align-items:center}
+#sotoma-home-v5 .footer-brand img{width:63px;height:63px;object-fit:contain}
+#sotoma-home-v5 .footer-copy{max-width:350px;color:#6e7f72;font-size:.8rem}
+#sotoma-home-v5 .footer-nav{display:flex;flex-wrap:wrap;gap:12px 20px;font-size:.82rem;color:#355f4d;font-weight:800}
+#sotoma-home-v5 .legal{font-size:.72rem;color:#718174;margin-top:26px;padding-top:23px;border-top:1px solid #dce5db}
+#sotoma-home-v5 .link-demo{font-size:.72rem;color:#6d8575;margin-top:11px}
+#sotoma-home-v5 .page-arrow{position:fixed;bottom:20px;right:20px;display:grid;place-items:center;width:43px;height:43px;border-radius:50%;background:var(--pine);color:white;box-shadow:0 8px 22px rgba(20,70,40,.2);border:0;opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+#sotoma-home-v5 .page-arrow.visible{opacity:1;pointer-events:auto}
+#sotoma-home-v5 .page-arrow .st-icon{width:24px;height:24px;transform:rotate(-90deg)}
+#sotoma-home-v5 .notice{position:fixed;bottom:14px;left:14px;z-index:85;max-width:min(470px,calc(100% - 80px));border-radius:12px;padding:14px 17px;background:#f7faf4;border:1px solid #c9dacc;box-shadow:var(--shadow);font-size:.82rem;color:#426454;display:none}
+#sotoma-home-v5 .notice.show{display:block}
+#sotoma-home-v5.js .reveal:not(.visible){opacity:0;transform:translateY(18px)}
+#sotoma-home-v5 .reveal{transition:opacity .6s ease,transform .6s ease}
+#sotoma-home-v5 .reveal.visible{opacity:1;transform:none}
+@media (max-width:1100px){#sotoma-home-v5 .nav{gap:15px}
+#sotoma-home-v5 .nav>a{font-size:.73rem}
+#sotoma-home-v5 .hero-copy{padding-left:43px}
+#sotoma-home-v5 .service-grid{grid-template-columns:repeat(2,1fr)}
+#sotoma-home-v5 .pathway-card{grid-template-columns:37% 63%}
+#sotoma-home-v5 .pathway-copy{padding:26px 20px}}
+@media (max-width:820px){#sotoma-home-v5 .header-inner{min-height:75px}
+#sotoma-home-v5 .hamb{display:flex}
+#sotoma-home-v5 .nav{position:absolute;top:100%;left:0;right:0;background:#f7faf5;padding:15px 25px 25px;border-bottom:1px solid var(--border);display:none;flex-direction:column;align-items:stretch;box-shadow:0 20px 30px rgba(29,63,51,.06)}
+#sotoma-home-v5 .nav.open{display:flex}
+#sotoma-home-v5 .nav>a{font-size:.93rem;padding:10px 8px}
+#sotoma-home-v5 .nav .nav-pill{text-align:center}
+#sotoma-home-v5 .hero-box{min-height:550px}
+#sotoma-home-v5 .hero-copy{width:min(550px,70%);padding:65px 0 72px 35px}
+#sotoma-home-v5 .hero-box:after{background:linear-gradient(90deg,rgba(247,245,238,.95),rgba(247,245,238,.8) 45%,rgba(247,245,238,.12) 100%)}
+#sotoma-home-v5 .pathway-grid, #sotoma-home-v5 .steps-grid, #sotoma-home-v5 .plans-grid, #sotoma-home-v5 .team-grid, #sotoma-home-v5 .info-stripe{grid-template-columns:1fr}
+#sotoma-home-v5 .pathway-card{grid-template-columns:37% 63%}
+#sotoma-home-v5 .journey-head, #sotoma-home-v5 .faq-wrap, #sotoma-home-v5 .program-wrap, #sotoma-home-v5 .final-box{grid-template-columns:1fr}
+
+#sotoma-home-v5 .journey-visual{display:none}
+#sotoma-home-v5 .footer-inner{flex-direction:column}
+#sotoma-home-v5 .final-box{padding:48px 32px}}
+@media (max-width:560px){#sotoma-home-v5{scroll-padding-top:95px}
+#sotoma-home-v5 .wrap{width:calc(100% - 30px)}
+#sotoma-home-v5 .prototype{font-size:.57rem}
+#sotoma-home-v5 .brand img{height:48px;width:48px}
+#sotoma-home-v5 .brand-word{font-size:1.08rem}
+#sotoma-home-v5 .brand-word small{font-size:.5rem}
+#sotoma-home-v5 .hero-section{padding:8px 0 0}
+#sotoma-home-v5 .hero-box{border-radius:19px;min-height:720px}
+#sotoma-home-v5 .hero-background{height:60%;top:40%;object-position:62% center}
+#sotoma-home-v5 .hero-box:after{background:linear-gradient(180deg,rgba(247,243,236,.98) 0%,rgba(246,241,232,.96) 43%,rgba(246,241,232,.22) 68%,rgba(246,241,232,.03) 100%)}
+#sotoma-home-v5 .hero-copy{width:100%;padding:34px 21px 315px}
+#sotoma-home-v5 .hero-copy h1{font-size:clamp(2.18rem,9vw,2.9rem)}
+#sotoma-home-v5 .hero-copy .lead{font-size:.9rem;line-height:1.58}
+#sotoma-home-v5 .hero-copy .actions{gap:8px}
+#sotoma-home-v5 .hero-copy .button{font-size:.76rem;min-height:42px;padding:10px 13px}
+#sotoma-home-v5 .hero-small{margin-top:18px;flex-wrap:wrap;gap:9px;font-size:.69rem}
+#sotoma-home-v5 .hero-selector{bottom:12px;right:8px;left:8px;justify-content:center}
+#sotoma-home-v5 .hero-selector button{flex:1;padding:8px 4px;font-size:.66rem}
+#sotoma-home-v5 .hero-photo-note{top:auto;bottom:58px;right:12px;font-size:.58rem}
+#sotoma-home-v5 .intro-belt{justify-content:start;padding:20px 0;gap:8px;font-size:.72rem}
+#sotoma-home-v5 .intro-belt span{padding-right:10px}
+#sotoma-home-v5 .pathway-card{grid-template-columns:42% 58%;min-height:270px}
+#sotoma-home-v5 .pathway-photo{min-height:270px}
+#sotoma-home-v5 .pathway-copy{padding:18px 13px}
+#sotoma-home-v5 .pathway-copy h3{font-size:1.05rem}
+#sotoma-home-v5 .pathway-copy p{font-size:.76rem;line-height:1.45;margin:7px 0}
+#sotoma-home-v5 .pathway-copy .tag{font-size:.64rem;letter-spacing:0}
+#sotoma-home-v5 .pathway-copy .actions{gap:7px;margin-top:8px}
+#sotoma-home-v5 .pathway-copy .button{min-height:34px;padding:7px 10px;font-size:.68rem}
+#sotoma-home-v5 .section{padding:65px 0}
+#sotoma-home-v5 .section-head{margin-bottom:23px}
+#sotoma-home-v5 .section-head>p{font-size:.93rem}
+#sotoma-home-v5 .service-grid, 
+#sotoma-home-v5 .service-photo{height:240px}
+#sotoma-home-v5 .step-card, #sotoma-home-v5 .plan-card{min-height:auto}
+#sotoma-home-v5 .faq-wrap{gap:26px}
+#sotoma-home-v5 .faq-art img{height:190px}
+#sotoma-home-v5 .final-box{padding:35px 25px}
+#sotoma-home-v5 .site-footer{margin-top:55px}
+#sotoma-home-v5 .footer-nav{gap:8px 15px}
+#sotoma-home-v5 .page-arrow{right:12px;bottom:12px}}
+@media (prefers-reduced-motion:reduce){#sotoma-home-v5{scroll-behavior:auto}
+#sotoma-home-v5 *, #sotoma-home-v5 *:before, #sotoma-home-v5 *:after{animation:none!important;transition:none!important}
+#sotoma-home-v5 .reveal{opacity:1!important;transform:none!important}}
+/* ========== HOME V5: HERO EM ALTERNÂNCIA — CLÁUDIA ⇄ YASMIN ========== */
+#sotoma-home-v5 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+#sotoma-home-v5 .hero-box.hero-carousel{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);min-height:635px;background:linear-gradient(145deg,#25594d 0%,#1a423b 100%);border-radius:30px;isolation:isolate;overflow:hidden;--hero-accent:#d1dcbd}
+#sotoma-home-v5 .hero-carousel:after{display:none!important}
+#sotoma-home-v5 .hero-carousel .hero-copy{width:auto;min-width:0;padding:66px 45px 47px 66px;position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center}
+#sotoma-home-v5 .hero-overline{font-size:.68rem;font-weight:850;letter-spacing:.17em;text-transform:uppercase;color:#dce8d8}
+#sotoma-home-v5 .hero-small-leaf{display:inline-block;color:#b7cc98;margin-right:9px}
+#sotoma-home-v5 .hero-professional-label{color:#d7eac6;font-size:.83rem;font-weight:850;letter-spacing:.015em;margin:25px 0 0}
+#sotoma-home-v5 .hero-carousel .hero-copy h1{font-size:clamp(2.35rem,3.7vw,4rem);line-height:1.12;letter-spacing:-.052em;color:#fff;margin:11px 0 20px;max-width:650px}
+#sotoma-home-v5 .hero-carousel .hero-copy h1 em{color:#e2e9bf;font-style:normal}
+#sotoma-home-v5 .hero-carousel .hero-copy .lead{color:#edf3e9;font-size:1.03rem;line-height:1.75;max-width:520px;margin:0}
+#sotoma-home-v5 .hero-carousel .actions{margin-top:28px;gap:12px;display:flex;flex-wrap:wrap}
+#sotoma-home-v5 .hero-carousel .button{font-size:.86rem;font-weight:850;min-height:48px;padding:12px 20px;border:1px solid transparent;border-radius:12px}
+#sotoma-home-v5 .hero-carousel .hero-primary{color:#234e44;background:#f1f3e8}
+#sotoma-home-v5 .hero-carousel .hero-primary:hover{background:#fff;color:#143b32}
+#sotoma-home-v5 .hero-carousel .hero-secondary{color:#fff;border-color:rgba(237,244,235,.6);background:transparent}
+#sotoma-home-v5 .hero-carousel .hero-secondary:hover{background:rgba(255,255,255,.12)}
+#sotoma-home-v5 .hero-carousel .hero-small{display:flex;flex-wrap:wrap;gap:9px;margin:26px 0 32px;color:#e9f3e6;font-size:.72rem}
+#sotoma-home-v5 .hero-carousel .hero-small span{display:inline-flex;align-items:center;padding:5px 10px;background:rgba(255,255,255,.085);border:1px solid rgba(255,255,255,.17);border-radius:30px}
+#sotoma-home-v5 .hero-carousel-bottom{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:auto;flex-wrap:wrap}
+#sotoma-home-v5 .hero-select{display:flex;align-items:center;gap:7px;border:1px solid rgba(255,255,255,.18);padding:5px;border-radius:13px;background:rgba(7,38,29,.21)}
+#sotoma-home-v5 .hero-select button{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border:0;background:transparent;color:#dce8e2;font-size:.78rem;font-weight:850;border-radius:9px;line-height:1.2}
+#sotoma-home-v5 .hero-select button[aria-pressed="true"]{background:#eff3e8;color:#22524a}
+#sotoma-home-v5 .hero-indicator{width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.5}
+#sotoma-home-v5 .hero-select button[aria-pressed="true"] .hero-indicator{opacity:1;background:#6e946c}
+#sotoma-home-v5 .hero-playpause{background:transparent;border:0;color:#e2ece4;font-size:.76rem;font-weight:750;display:inline-flex;gap:8px;align-items:center;padding:9px;border-radius:9px}
+#sotoma-home-v5 .hero-playpause:hover{background:rgba(255,255,255,.10)}
+#sotoma-home-v5 .hero-progress{margin-top:22px;height:3px;border-radius:12px;background:rgba(255,255,255,.14);overflow:hidden}
+#sotoma-home-v5 .hero-progress span{display:block;width:100%;height:100%;background:#d6e9b5;transform-origin:left;transform:scaleX(0)}
+#sotoma-home-v5 .hero-carousel.is-playing .hero-progress span{animation:hero-countdown 7.2s linear forwards}
+@keyframes hero-countdown{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+#sotoma-home-v5 .hero-portrait{position:relative;min-height:635px;overflow:hidden;background:#c3c9ae}
+#sotoma-home-v5 .hero-portrait:before{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(28,68,55,.21),transparent 24%),linear-gradient(0deg,rgba(25,50,40,.58),transparent 30%)}
+#sotoma-home-v5 .hero-person-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 37%;opacity:0;transform:scale(1.027);transition:opacity .65s ease,transform 1.1s ease;will-change:opacity;pointer-events:none}
+#sotoma-home-v5 .hero-person-photo.is-active{opacity:1;transform:scale(1)}
+#sotoma-home-v5 .hero-portrait-arc{position:absolute;top:7%;right:-22%;width:80%;aspect-ratio:1;border:1px solid rgba(251,252,237,.36);border-radius:50%;z-index:3;pointer-events:none}
+#sotoma-home-v5 .hero-portrait-caption{position:absolute;z-index:3;left:29px;right:25px;bottom:26px;display:flex;align-items:flex-end;justify-content:space-between;gap:10px;color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.25)}
+#sotoma-home-v5 .hero-portrait-caption span{font-size:1.3rem;font-weight:850}
+#sotoma-home-v5 .hero-portrait-caption small{font-size:.69rem;letter-spacing:.04em;color:#f2f5ed}
+#sotoma-home-v5 .hero-review-note{font-size:.74rem;color:#698078;margin:10px 4px 0;text-align:right}
+#sotoma-home-v5 .hero-carousel[data-current-professional="yasmin"]{background:linear-gradient(145deg,#20545a 0%,#163d43 100%);--hero-accent:#d6e8db}
+#sotoma-home-v5 .hero-carousel[data-current-professional="yasmin"] .hero-primary{color:#1d4f54}
+#sotoma-home-v5 .hero-carousel[data-current-professional="yasmin"] .hero-professional-label{color:#d4edf0}
+#sotoma-home-v5 .hero-carousel[data-current-professional="yasmin"] .hero-copy h1 em{color:#cbe5dc}
+#sotoma-home-v5 .hero-carousel[data-current-professional="yasmin"] .hero-progress span{background:#bde1d8}
+@media (max-width:1020px){#sotoma-home-v5 .hero-box.hero-carousel{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);min-height:570px}
+#sotoma-home-v5 .hero-carousel .hero-copy{padding:46px 27px 35px 38px}
+#sotoma-home-v5 .hero-carousel .hero-copy h1{font-size:clamp(2.1rem,4.2vw,3.2rem)}
+#sotoma-home-v5 .hero-portrait{min-height:570px}
+#sotoma-home-v5 .hero-carousel .hero-small{margin-bottom:24px}}
+@media (max-width:740px){#sotoma-home-v5 .hero-section{padding-top:8px}
+#sotoma-home-v5 .hero-box.hero-carousel{display:flex;flex-direction:column;min-height:unset;border-radius:20px}
+#sotoma-home-v5 .hero-carousel .hero-copy{order:0;padding:35px 24px 22px}
+#sotoma-home-v5 .hero-carousel .hero-copy h1{font-size:clamp(2.05rem,7.7vw,3.05rem);margin:9px 0 15px}
+#sotoma-home-v5 .hero-carousel .hero-copy .lead{font-size:.88rem;line-height:1.62}
+#sotoma-home-v5 .hero-professional-label{margin:17px 0 0}
+#sotoma-home-v5 .hero-carousel .actions{margin-top:19px;gap:9px}
+#sotoma-home-v5 .hero-carousel .button{min-height:43px;padding:11px 14px;font-size:.76rem}
+#sotoma-home-v5 .hero-carousel .hero-small{margin:18px 0 19px}
+#sotoma-home-v5 .hero-carousel-bottom{margin:0}
+#sotoma-home-v5 .hero-portrait{order:1;min-height:355px;max-height:470px;width:100%;aspect-ratio:1.45}
+#sotoma-home-v5 .hero-person-photo{object-position:center 33%}
+#sotoma-home-v5 .hero-portrait-caption{left:17px;right:17px;bottom:14px}
+#sotoma-home-v5 .hero-portrait-caption span{font-size:1rem}
+#sotoma-home-v5 .hero-progress{margin-top:14px}
+#sotoma-home-v5 .hero-review-note{text-align:left;font-size:.68rem}}
+@media (max-width:380px){#sotoma-home-v5 .hero-carousel .hero-copy{padding:26px 18px 17px}
+#sotoma-home-v5 .hero-carousel .hero-copy h1{font-size:2.05rem}
+#sotoma-home-v5 .hero-carousel .button{font-size:.7rem;padding:8px 11px}
+#sotoma-home-v5 .hero-select button{padding:8px 10px}
+#sotoma-home-v5 .hero-carousel .hero-small{gap:5px}
+#sotoma-home-v5 .hero-carousel .hero-small span{font-size:.65rem}}
+@media (prefers-reduced-motion:reduce){#sotoma-home-v5 .hero-person-photo{transition:none!important;transform:none!important}
+#sotoma-home-v5 .hero-progress span{animation:none!important;transform:none!important}
+#sotoma-home-v5 .hero-carousel .hero-progress{display:none}}
+
+/* Encapsulamento seguro no widget HTML do Elementor */
+#sotoma-home-v5{isolation:isolate;width:100%;max-width:100%;min-width:0;overflow-wrap:anywhere}
+#sotoma-home-v5 [id]{scroll-margin-top:var(--sotoma-header-offset,105px)}
+
+/* WXR: imagem Cláudia e Yasmin, identidade SOTOMA V5; contatos segregados */
+#sotoma-home-v5 .sotoma-phone-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:22px 0 5px}
+#sotoma-home-v5 .sotoma-phone{display:grid;gap:4px;border-radius:18px;background:#fff;border:1px solid #dce9de;padding:19px 22px;box-shadow:0 13px 26px rgba(20,54,42,.05)}
+#sotoma-home-v5 .sotoma-phone strong{font:800 1rem var(--head);color:#264f43}
+#sotoma-home-v5 .sotoma-phone span{color:#617567;font-size:.8rem}
+#sotoma-home-v5 .sotoma-phone a{display:inline-block;width:max-content;max-width:100%;font:800 .84rem var(--head);text-decoration:underline;text-underline-offset:4px;margin-top:8px}
+#sotoma-home-v5 .sotoma-phone.sotoma-claudia{border-top:4px solid #486D55}
+#sotoma-home-v5 .sotoma-phone.sotoma-yasmin{border-top:4px solid #176873}
+#sotoma-home-v5 .sotoma-phone.sotoma-yasmin a{color:#176873}
+#sotoma-home-v5 .pathway-card[data-person="claudia"] .button.primary,#sotoma-home-v5 .team-card[data-person="claudia"] .button.primary{background:#486D55}
+#sotoma-home-v5 .pathway-card[data-person="yasmin"] .button.primary,#sotoma-home-v5 .team-card[data-person="yasmin"] .button.primary{background:#176873}
+@media(max-width:620px){#sotoma-home-v5 .sotoma-phone-panel{grid-template-columns:1fr}}
+
+/* ECP · SOTOMA V6 / assinatura visual e movimento leve: respeita Motion Reduced. */
+#sotoma-home-v5 .v6-client-approved{background:linear-gradient(145deg,#EAF2E9,#F9FBF7);padding:clamp(32px,5vw,70px) clamp(17px,4vw,45px);border-radius:23px;margin:38px auto;border:1px solid #D5E6D8}
+#sotoma-home-v5 .v6-client-head{max-width:840px;margin:0 auto 28px}
+#sotoma-home-v5 .v6-client-kicker{display:block;text-transform:uppercase;letter-spacing:.14em;color:#4A785B;font-size:.75rem;font-weight:850}
+#sotoma-home-v5 .v6-client-head h2{font-size:clamp(1.75rem,3vw,2.9rem);color:#224C40;margin:13px 0}
+#sotoma-home-v5 .v6-client-head p{color:#526D60}
+#sotoma-home-v5 .v6-client-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#sotoma-home-v5 .v6-client-card{background:#fff;border:1px solid #D8E9DD;border-radius:21px;padding:clamp(20px,3vw,32px);box-shadow:0 16px 38px #264A3510;transition:transform .24s ease,box-shadow .24s ease}
+#sotoma-home-v5 .v6-client-card:hover{transform:translateY(-5px);box-shadow:0 27px 43px #264A3524}
+#sotoma-home-v5 .v6-client-icon{display:grid;place-items:center;color:#22524A;background:#E7F3E8;width:60px;height:60px;border-radius:15px;margin-bottom:17px}
+#sotoma-home-v5 .v6-client-card h3{font-size:clamp(1.16rem,2vw,1.58rem);color:#22524A;margin-bottom:12px}
+#sotoma-home-v5 .v6-client-card p{color:#5C7166;line-height:1.72}
+#sotoma-home-v5 .v6-client-card ul{padding:0;margin:16px 0 0;list-style:none;display:grid;gap:8px}
+#sotoma-home-v5 .v6-client-card li{font-size:.94rem;font-weight:700;display:flex;gap:9px}
+#sotoma-home-v5 .v6-client-card li:before{content:"✓";color:#5E8C63;font-weight:900}
+#sotoma-home-v5 .v6-client-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}
+#sotoma-home-v5 .v6-client-links a{border-radius:12px;padding:12px 17px;min-height:46px;display:inline-flex;align-items:center;gap:10px;text-decoration:none!important;font-weight:850;color:#fff!important;background:#486D55;transition:transform .2s ease}
+#sotoma-home-v5 .v6-client-links a[data-pro="yasmin"]{background:#176873}
+#sotoma-home-v5 .v6-client-links a:hover{transform:translateY(-2px)}
+#sotoma-home-v5 .v6-client-note{color:#67796E;font-size:.79rem;margin:17px 0 0}
+#sotoma-home-v5 .v6-cross-nav{border-top:1px solid #DDEBDD;padding:31px 0;margin-top:24px}
+#sotoma-home-v5 .v6-cross-nav h2{font-size:clamp(1.25rem,2vw,1.7rem);color:#22524A}
+#sotoma-home-v5 .v6-cross-nav-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:19px}
+#sotoma-home-v5 .v6-cross-nav-links a{display:inline-flex;min-height:40px;align-items:center;border-radius:10px;padding:9px 13px;color:#22524A!important;border:1px solid #B9D6C3;background:#fff;font-size:.83rem;font-weight:800;text-decoration:none!important}
+#sotoma-home-v5 .v6-cross-nav-links a:hover{background:#E9F2E9}
+#sotoma-home-v5 .so-panel,.sotoma-v5-widget .service-card,#sotoma-home-v5 .sb-article{transition:transform .25s ease,box-shadow .25s ease}
+#sotoma-home-v5 .so-panel:hover,#sotoma-home-v5 .sb-article:hover{transform:translateY(-4px)}
+#sotoma-home-v5 :is(a,button,summary):focus-visible{outline:3px solid #8BA146;outline-offset:4px}
+@media(max-width:700px){#sotoma-home-v5 .v6-client-grid{grid-template-columns:1fr}#sotoma-home-v5 .v6-client-links{flex-direction:column}#sotoma-home-v5 .v6-client-links a{justify-content:center}}
+@media(prefers-reduced-motion:reduce){#sotoma-home-v5 .v6-client-card,#sotoma-home-v5 .v6-client-links a,#sotoma-home-v5 .so-panel,#sotoma-home-v5 .sb-article{animation:none!important;transition:none!important;transform:none!important}}
+#sotoma-home-v5 #planos .plans-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1020px;margin:0 auto}@media(max-width:680px){#sotoma-home-v5 #planos .plans-grid{grid-template-columns:1fr}}</style>
+
+<div id="sotoma-home-v5" class="sotoma-v5-widget">
+
+<section aria-labelledby="hero-titulo" class="hero-section">
+  <div class="wrap">
+    <div class="hero-box hero-carousel" data-hero-rotator data-current-professional="claudia" aria-roledescription="Carrossel de profissionais">
+      <div class="hero-copy">
+        <div class="hero-overline"><span class="hero-small-leaf" aria-hidden="true">✦</span> SOTOMA · Saúde Psicointegrada</div>
+        <p class="hero-professional-label" data-hero-eyebrow>Cláudia · Atendimento a adultos</p>
+        <h1 id="hero-titulo" data-hero-title>Um espaço para <em>ouvir a sua história.</em></h1>
+        <p class="lead" data-hero-description>Vida adulta, emoções, mudanças e novos começos merecem atenção. Conheça a Cláudia, seus caminhos de cuidado e conteúdos relacionados.</p>
+        <div class="actions hero-cta-actions">
+          <a class="button hero-primary" data-hero-profile href="/claudia-sotoma/" data-future-route="/claudia-sotoma/">Conhecer Cláudia <svg class="st-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 24h31m-11-10 11 10-11 10"/></svg></a>
+          <a class="button hero-secondary" data-hero-contact data-whatsapp="claudia" data-origin="Hero da Cláudia" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20Hero%20da%20Cl%C3%A1udia.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer">Falar com Cláudia <svg class="st-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13c0-4 4-7 8-7h13c6 0 10 4 10 10v10c0 6-4 10-10 10H21l-11 7v-13c-2-2-3-5-3-8v-6c0-2 1-3 3-3Z"/><path d="M16 21h18M16 27h12"/></svg></a>
+        </div>
+        <div class="hero-small" data-hero-topics><span>Psicoterapia Positiva</span><span>V.I.A. · M.I.R.A.</span><span>Vida adulta</span></div>
+        <div class="hero-carousel-bottom">
+          <div class="hero-select" role="group" aria-label="Escolher profissional exibida no Hero">
+            <button type="button" data-hero-person="claudia" aria-pressed="true"><span class="hero-indicator" aria-hidden="true"></span> Cláudia</button>
+            <button type="button" data-hero-person="yasmin" aria-pressed="false"><span class="hero-indicator" aria-hidden="true"></span> Yasmin</button>
+          </div>
+          <button type="button" class="hero-playpause" data-hero-pause aria-pressed="false" aria-label="Pausar alternância automática das profissionais"><span aria-hidden="true" data-pause-symbol>Ⅱ</span><span data-pause-label>Pausar</span></button>
+        </div>
+        <div class="hero-progress" role="presentation"><span data-hero-progress></span></div>
+        <span class="sr-only" aria-live="polite" aria-atomic="true" data-hero-announcement></span>
+      </div>
+      <div class="hero-portrait" aria-label="Fotografias originais da equipe SOTOMA">
+        <div class="hero-portrait-arc" aria-hidden="true"></div>
+        <img class="hero-person-photo is-active" data-hero-photo="claudia" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" width="766" height="1150" fetchpriority="high" decoding="async"/>
+        <img class="hero-person-photo" data-hero-photo="yasmin" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" alt="Yasmin Sotoma Muzilli — fotografia da biblioteca WordPress SOTOMA" width="767" height="1150" loading="eager" decoding="async" aria-hidden="true"/>
+        <div class="hero-portrait-caption"><span data-hero-picture-name>Cláudia</span><small>Foto original · SOTOMA</small></div>
+      </div>
+    </div>
+    <p class="hero-review-note">Prévia visual: as fotografias são originais da equipe; a alternância e os textos são propostas para aprovação.</p>
+  </div>
+</section>
+<div class="intro-belt wrap" aria-label="Valores da SOTOMA"><span><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="cuidado" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M6 29c5-1 9 1 12 6l6 5 6-5c3-5 7-7 12-6"/><path d="M6 29v-9c0-2 2-3 3.5-1.5L16 27M42 29v-9c0-2-2-3-3.5-1.5L32 27"/><path d="M18 35h12"/></g><g class="st-accent"><path d="M24 28c-6-3-7-8-6-13 4 0 7 2 8 6 1.5-4 4.5-6 8-6 1 6-1 10-8 13"/></g></svg>
+ Cuidado centrado em pessoas</span><span><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="pesquisa" data-motion="lift" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M12 6h22l6 6v19"/><path d="M34 6v8h8M17 18h12M17 24h9"/><circle cx="28" cy="31" r="8"/></g><g class="st-accent"><path d="m34 37 7 7"/></g></svg>
+ Conteúdo responsável</span><span><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="privacidade" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M24 5 40 11v12c0 10-6 17-16 21C14 40 8 33 8 23V11L24 5Z"/></g><g class="st-accent"><path d="M24 20a4 4 0 0 0-1.5 7.7L22 33h4l-.5-5.3A4 4 0 0 0 24 20Z"/></g></svg>
+ Respeito à privacidade</span></div>
+<section class="section" id="caminhos"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">Cada pessoa, um universo</div><h2>Por onde você gostaria de começar?</h2><p>Você não precisa conhecer o nome de uma abordagem para encontrar informações. Comece pela fase da vida ou pelo assunto que deseja compreender.</p></div>
+<div class="pathway-grid">
+<article class="pathway-card reveal" data-person="claudia"><img class="pathway-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="pathway-copy"><div class="tag">Para adultos</div><h3>Cláudia</h3><p>Questões da vida adulta, transições, Psicoterapia Positiva e vivências internacionais.</p><div class="actions"><a href="/claudia-sotoma/" class="button outline icon-motion">Conhecer perfil <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><a data-whatsapp="claudia" data-origin="caminhos para adultos" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20caminhos%20para%20adultos.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" class="button primary">Conversar com Cláudia</a></div></div></article>
+<article class="pathway-card reveal" data-person="yasmin"><img class="pathway-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" alt="Yasmin Sotoma Muzilli — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="pathway-copy"><div class="tag">Crianças e adolescentes</div><h3>Yasmin</h3><p>Escuta infantojuvenil e informações para responsáveis sobre a Psicanálise e fases de desenvolvimento.</p><div class="actions"><a href="/yasmin-sotoma-muzilli/" class="button outline icon-motion">Conhecer perfil <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><a data-whatsapp="yasmin" data-origin="caminhos para crianças e adolescentes" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20caminhos%20para%20crian%C3%A7as%20e%20adolescentes.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" class="button primary">Conversar com Yasmin</a></div></div></article>
+</div><p class="link-demo">As fotografias dos perfis são dos arquivos originais. Áreas e credenciais devem ser confirmadas pela direção antes da publicação.</p></div></section>
+<section class="section section-soft" id="valores"><div class="wrap"><div class="section-head center reveal"><span class="eyebrow">Nossa forma de cuidar</span><h2>Cuidado com clareza, respeito e presença</h2><p>A SOTOMA propõe uma experiência acolhedora, com conteúdo acessível e contato com o profissional responsável.</p></div><div class="info-stripe">
+<article class="info-card icon-motion reveal"><span class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="cuidado" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M6 29c5-1 9 1 12 6l6 5 6-5c3-5 7-7 12-6"/><path d="M6 29v-9c0-2 2-3 3.5-1.5L16 27M42 29v-9c0-2-2-3-3.5-1.5L32 27"/><path d="M18 35h12"/></g><g class="st-accent"><path d="M24 28c-6-3-7-8-6-13 4 0 7 2 8 6 1.5-4 4.5-6 8-6 1 6-1 10-8 13"/></g></svg>
+</span><h3>Escuta acolhedora</h3><p>Uma forma de apresentar o cuidado emocional respeitando diferentes histórias e momentos de vida.</p></article>
+<article class="info-card icon-motion reveal"><span class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="leituras" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M14 6h24v36l-12-7-12 7V6Z"/><path d="M20 15h12M20 21h12"/></g><g class="st-accent"><path d="M21 29c0-5 2-7 6-8-1 5-3 8-6 8Z"/></g></svg>
+</span><h3>Conhecimento acessível</h3><p>Artigos, estudos e perguntas respondidas ajudam você a compreender possibilidades e limites.</p></article>
+<article class="info-card icon-motion reveal"><span class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="privacidade" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M24 5 40 11v12c0 10-6 17-16 21C14 40 8 33 8 23V11L24 5Z"/></g><g class="st-accent"><path d="M24 20a4 4 0 0 0-1.5 7.7L22 33h4l-.5-5.3A4 4 0 0 0 24 20Z"/></g></svg>
+</span><h3>Responsabilidade</h3><p>Comunicação sem diagnósticos pelo site, promessas de resultado ou exposição de informações clínicas.</p></article>
+</div></div></section>
+<section class="section" id="servicos"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Como cuidamos</span><h2>Serviços e programas explicados com simplicidade</h2><p>Conheça as abordagens e as propostas da SOTOMA. Cada página reúne orientações, leituras relacionadas e um caminho para o atendimento correspondente.</p></div>
+<div class="service-grid">
+<article class="service-card reveal"><img class="service-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="service-main"><div class="service-kicker"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="positiva" data-motion="bloom" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M6 37h36"/><path d="M12 37c1-11 5-16 12-16s11 5 12 16"/><path d="M24 10v-4M11 18l-3-3M37 18l3-3"/></g><g class="st-accent"><path d="M24 30c-4-4-4-7-3-9 4 0 5 2 5 6 2-4 5-5 8-5 0 4-2 7-10 8Z"/></g></svg>
+ Abordagem</div><h3>Psicoterapia Positiva</h3><p>Um olhar para dificuldades, capacidades e recursos de cada pessoa, sem reduzir sua experiência a um diagnóstico.</p><a href="/psicoterapia-positiva/" class="text-link icon-motion">Saiba como funciona <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></article>
+<article class="service-card reveal"><img class="service-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-6.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-6.jpeg" alt="Yasmin Sotoma Muzilli — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="service-main"><div class="service-kicker"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="psicanalise" data-motion="rotate" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M9 33c-3-4-4-9-2-15C10 10 17 6 25 7c11 1 17 10 16 21-.5 7-7 13-16 13"/></g><g class="st-accent"><path d="M14 26c-1-7 4-13 11-13 7 0 12 5 12 11 0 7-6 12-13 11-6-1-8-7-5-11s9-4 12-1"/></g></svg>
+ Abordagem</div><h3>Psicanálise infantojuvenil</h3><p>Informações sobre escuta, expressão e acompanhamento de crianças e adolescentes, com a participação dos responsáveis quando pertinente.</p><a href="/psicanalise/" class="text-link icon-motion">Saiba como funciona <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></article>
+<article class="service-card reveal"><img class="service-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="service-main"><div class="service-kicker"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="via" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><circle cx="24" cy="24" r="18"/><path d="M6 24h36M24 6c-7 6-11 12-11 18s4 12 11 18M24 6c7 6 11 12 11 18s-4 12-11 18"/></g><g class="st-accent"><path d="m13 30 5-5 6 4 10-10"/></g></svg>
+ Programa</div><h3>V.I.A.</h3><p>Apresentação do programa e de conteúdos sobre vivências e adaptação ao contexto internacional, conforme escopo a confirmar.</p><a href="/autoconhecimento/" class="text-link icon-motion">Conhecer o programa <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></article>
+<article class="service-card reveal"><img class="service-photo" src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="service-main"><div class="service-kicker"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="mira" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="m9 24 15-13 15 13v17H9V24Z"/><path d="M20 41V30h8v11"/></g><g class="st-accent"><path d="M6 31c5-8 10-11 18-11M18 17l6 3-2 6"/></g></svg>
+ Programa</div><h3>M.I.R.A.</h3><p>Conteúdos e proposta sobre reorganização da vida quando há mudança de país, com condições e objetivos a serem confirmados.</p><a href="/autoconhecimento/" class="text-link icon-motion">Conhecer o programa <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></article>
+</div><div class="actions" style="justify-content:center;margin-top:30px"><a class="button outline icon-motion" href="/como-cuidamos-2/">Ver todas as formas de cuidado <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></div></section>
+<section class="section section-dark" id="jornada"><div class="wrap"><div class="journey-head reveal"><div><span class="eyebrow">Como começar</span><h2>O próximo passo pode ser simples.</h2><p>Três etapas para encontrar o atendimento e conversar diretamente com a profissional escolhida.</p></div><div class="journey-visual"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" alt="Cláudia e Yasmin — fotografia da biblioteca WordPress SOTOMA" loading="lazy"></div></div>
+<div class="steps-grid">
+<article class="step-card icon-motion reveal"><div class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="area" data-motion="rotate" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><circle cx="24" cy="24" r="18"/><path d="M24 6v5M24 37v5M6 24h5M37 24h5"/></g><g class="st-accent"><path d="m19 29 3-9 9-3-3 9-9 3Z"/></g></svg>
+</div><span class="number">ETAPA 01</span><h3>Defina a área que busca</h3><p>Escolha o assunto ou a fase de vida, ou peça direcionamento à equipe da SOTOMA.</p></article>
+<article class="step-card icon-motion reveal"><div class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="plano" data-motion="lift" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><rect x="8" y="9" width="32" height="9" rx="3"/><rect x="11" y="21" width="26" height="9" rx="3"/><rect x="14" y="33" width="20" height="8" rx="3"/></g><g class="st-accent"><path d="m29 12 3 3 4-5"/></g></svg>
+</div><span class="number">ETAPA 02</span><h3>Conheça as formas de atendimento</h3><p>Conheça Atendimento individual e Acompanhamento terapêutico; converse com a profissional sobre as condições.</p></article>
+<article class="step-card icon-motion reveal"><div class="ico-box"><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="sessao" data-motion="lift" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><rect x="7" y="11" width="34" height="31" rx="6"/><path d="M16 6v10M32 6v10M7 21h34"/></g><g class="st-accent"><path d="m18 32 4 4 9-9"/></g></svg>
+</div><span class="number">ETAPA 03</span><h3>Agende sua primeira sessão</h3><p>Entre em contato com a profissional, consulte a disponibilidade e combine os próximos passos.</p></article>
+</div><div class="steps-end"><a href="#planos" class="button light icon-motion">Conhecer as formas de atendimento <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></div></section>
+<section class="section section-soft" id="planos"><div class="wrap"><div class="section-head center reveal"><span class="eyebrow">Formas de atendimento</span><h2>O cuidado começa por uma escolha informada</h2><p>Atendimento individual e acompanhamento terapêutico: duas formas de organizar os encontros, sem exposição de preços e com confirmação diretamente com a profissional.</p></div><div class="plans-grid"><article class="plan-card icon-motion reveal"><div class="plan-head"><span class="v6-client-icon"><svg viewBox="0 0 40 40" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 33S7 26 7 16c0-7 8-11 13-4 5-7 13-3 13 4 0 10-13 17-13 17Z"/><path d="M14 20h12"/></svg></span><small>Opção 01</small></div><h3>Atendimento individual</h3><p>Um espaço de escuta, acolhimento e desenvolvimento emocional, com acompanhamento realizado por uma profissional, de acordo com suas necessidades.</p><ul><li>Sessões individuais de 50 minutos</li><li>Contratação por sessão.</li></ul><div class="actions"><a class="button outline" href="#agendamento">Conversar com a profissional ↗</a></div></article><article class="plan-card icon-motion reveal"><div class="plan-head"><span class="v6-client-icon"><svg viewBox="0 0 40 40" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12V6h6M32 28v6h-6"/><path d="M9 12a14 14 0 0 1 25 7M31 28A14 14 0 0 1 6 21"/><path d="M15 20h10"/></svg></span><small>Opção 02</small></div><h3>Acompanhamento terapêutico</h3><p>Uma proposta de continuidade do processo terapêutico, com planejamento de encontros e acompanhamento individualizado.</p><ul><li>Pacotes de 6 ou 12 sessões.</li><li>Condições especiais para contratação em pacote.</li></ul><div class="actions"><a class="button outline" href="#agendamento">Conversar com a profissional ↗</a></div></article></div><p class="plan-disclaimer">Valores e condições são informados diretamente. O site não processa pagamentos nem confirma agendamentos automaticamente.</p></div></section>
+<section class="section" id="equipe"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Quem cuida de você</span><h2>Conheça as profissionais da SOTOMA</h2><p>Cada perfil reúne sua apresentação, serviços relacionados, conteúdos por área temática e contato direto.</p></div><div class="team-grid">
+<article class="team-card reveal" data-person="claudia"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="team-body"><span class="person-label">Adultos e vivências internacionais</span><h3>Cláudia</h3><p>Conteúdos relacionados à vida adulta, Psicoterapia Positiva, experiências internacionais, V.I.A. e M.I.R.A.</p><div class="actions"><a class="button outline" href="/claudia-sotoma/">Perfil e artigos <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><a class="button primary" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20equipe.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" data-whatsapp="claudia" data-origin="equipe">Contato</a></div></div></article>
+<article class="team-card reveal" data-person="yasmin"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" alt="Yasmin Sotoma Muzilli — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="team-body"><span class="person-label">Crianças e adolescentes</span><h3>Yasmin</h3><p>Conteúdos relacionados à infância, adolescência, relações familiares e Psicanálise infantojuvenil.</p><div class="actions"><a class="button outline" href="/yasmin-sotoma-muzilli/">Perfil e artigos <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><a class="button primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20equipe.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" data-whatsapp="yasmin" data-origin="equipe">Contato</a></div></div></article>
+</div></div></section>
+<!-- SOT-HOME-V5-08 | BLOG | 13 posts publicados na exportação WordPress de 10/11/2026 -->
+<!-- HOME V5: a biblioteca de artigos e pesquisas foi movida para /blog/.
+     O header e o footer continuam globais no Theme Builder Elementor. -->
+<section class="section" id="faq"><div class="wrap"><div class="faq-wrap"><div class="reveal"><div class="section-head"><span class="eyebrow">Dúvidas frequentes</span><h2>Informações que ajudam a decidir com tranquilidade</h2><p>Além das respostas, reunimos referências de leitura para aprofundar temas antes de entrar em contato.</p></div><div class="faq-art"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" data-wxr-url="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-5.jpeg" loading="lazy" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA"></div><div class="actions"><a class="button outline icon-motion" href="/duvidas/">Ver todas as dúvidas <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a></div></div>
+<div class="reveal">
+<details class="faq-item"><summary>Como saber qual profissional procurar?</summary><div class="faq-answer">Você pode conhecer o público atendido por cada profissional e consultar a equipe para orientação administrativa, sem precisar se autodiagnosticar. Leitura relacionada: <a href="https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho/">Abordagens terapêuticas</a>.</div></details>
+<details class="faq-item"><summary>Qual a diferença entre Atendimento individual e Acompanhamento terapêutico?</summary><div class="faq-answer">O Atendimento individual é contratado por sessão de 50 minutos. O Acompanhamento terapêutico prevê pacotes de 6 ou 12 sessões, com condições especiais e confirmação diretamente com a profissional. <a href="#planos">Compare as formas de atendimento</a>.</div></details>
+<details class="faq-item"><summary>É possível atendimento online?</summary><div class="faq-answer">O formato de atendimento deve ser confirmado diretamente com a profissional, considerando a situação e os requisitos aplicáveis. Leitura relacionada: <a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/atendimento-online-terapia-de-onde-voce-estiver/">Atendimento online</a>.</div></details>
+<details class="faq-item"><summary>Como funciona o atendimento para crianças e adolescentes?</summary><div class="faq-answer">A página da Yasmin e os artigos relacionados apresentam a proposta de escuta infantojuvenil e orientações iniciais aos responsáveis. <a href="https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes/">Leia sobre Psicanálise para crianças e adolescentes</a>.</div></details>
+<details class="faq-item"><summary>O que são V.I.A. e M.I.R.A.?</summary><div class="faq-answer">São programas apresentados pela SOTOMA em torno de experiências e reorganização de vida em contextos internacionais. Escopo, condições e elegibilidade ainda exigem validação. Consulte <a href="#servicos">V.I.A.</a> e <a href="#servicos">M.I.R.A.</a>.</div></details>
+</div></div></div></section>
+<section class="section" id="agendamento" style="padding-top:0"><div class="wrap"><div class="final-box reveal"><div><span class="eyebrow">Seu primeiro passo</span><h2>Você pode começar por uma conversa.</h2><p>Escolha com quem deseja falar. A mensagem de WhatsApp solicita apenas informações administrativas sobre formas de atendimento, disponibilidade e próximos passos.</p></div><div class="final-choices"><a class="button icon-motion" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20primeiro%20passo%20na%20Home.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" data-whatsapp="claudia" data-origin="primeiro passo na Home">Falar com Cláudia <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><a class="button icon-motion" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20primeiro%20passo%20na%20Home.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener noreferrer" data-whatsapp="yasmin" data-origin="primeiro passo na Home">Falar com Yasmin <svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</a><small style="color:#d1e0d8">Não envie dados clínicos ou documentos sensíveis no primeiro contato.</small></div></div></div><div class="sotoma-phone-panel" aria-label="WhatsApp direto de cada profissional">
+ <div class="sotoma-phone sotoma-claudia"><strong>Cláudia Fernanda Sotoma</strong><span>Atendimento a adultos</span><a data-whatsapp="claudia" data-origin="contato direto na Home" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20contato%20direto.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp: (67) 99184-7679 ↗</a></div>
+ <div class="sotoma-phone sotoma-yasmin"><strong>Yasmin Sotoma Muzilli</strong><span>Crianças e adolescentes</span><a data-whatsapp="yasmin" data-origin="contato direto na Home" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Inicial.%20Se%C3%A7%C3%A3o%3A%20contato%20direto.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp: (67) 99185-8129 ↗</a></div>
+</div></section>
+
+<button class="page-arrow" type="button" aria-label="Voltar ao topo" data-to-top><svg xmlns="http://www.w3.org/2000/svg" class="st-icon" data-icon="seta" data-motion="slide" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><g class="st-body"><path d="M7 24h33"/></g><g class="st-accent"><path d="m29 13 11 11-11 11"/></g></svg>
+</button>
+</div>
+<script>
+(() => {'use strict';
+  const root=document.getElementById('sotoma-home-v5');
+  if(!root || root.dataset.initialized==='true')return;
+  root.dataset.initialized='true';
+  const PHONE={claudia:'556791847679',yasmin:'5567991858129'};
+  const persons={claudia:'Cláudia',yasmin:'Yasmin'};
+ // Todas as imagens referenciam o WXR. A publicação depende de verificar resposta do servidor e direitos de imagem.
+ root.querySelectorAll('img[data-wxr-url]').forEach(img=>{function failed(){img.hidden=true;img.closest('.hero-portrait,.pathway-card,.service-card,.team-card,.journey-visual,.faq-art')?.classList.add('sotoma-midia-indisponivel')}img.addEventListener('error',failed);if(img.complete&&img.naturalWidth===0)failed()});
+
+  // Somente mensagem administrativa, sem coletar motivos pessoais ou dados de saúde.
+  function whatsapp(person,origin){const p=PHONE[person];if(!p)return null;const name=persons[person];const message=`Olá, ${name}! Encontrei a SOTOMA pelo site. Origem: Inicial. Seção: ${origin}. Gostaria de informações gerais sobre atendimento, horários e próximos passos.`;return `https://wa.me/${p}?text=${encodeURIComponent(message)}`}
+  root.querySelectorAll('[data-whatsapp]').forEach(a=>{const who=a.dataset.whatsapp;const origin=a.dataset.origin||'Início';if(PHONE[who]){a.href=whatsapp(who,origin);a.target='_blank';a.rel='noopener noreferrer'}});
+  // HERO ALTERNADO V5: fotografias originais, conteúdo e CTA segregados por profissional.
+  // Não executa agendamento, não coleta dados sensíveis e não usa serviços externos de terceiros.
+  const rotator=root.querySelector('[data-hero-rotator]');
+  if(rotator){
+    const heroConfig={
+      claudia:{name:'Cláudia',eyebrow:'Cláudia · Atendimento a adultos',headline:'Um espaço para <em>ouvir a sua história.</em>',description:'Vida adulta, emoções, mudanças e novos começos merecem atenção. Conheça a Cláudia, seus caminhos de cuidado e conteúdos relacionados.',topics:['Psicoterapia Positiva','V.I.A. · M.I.R.A.','Vida adulta'],profile:'/claudia-sotoma/'},
+      yasmin:{name:'Yasmin',eyebrow:'Yasmin · Infância e adolescência',headline:'Cada fase merece <em>escuta e atenção.</em>',description:'Conheça os caminhos de cuidado e os conteúdos sobre infância, adolescência e relações familiares associados à atuação da Yasmin.',topics:['Infância','Adolescência','Psicanálise'],profile:'/yasmin-sotoma-muzilli/'}
+    };
+    const title=rotator.querySelector('[data-hero-title]');
+    const eyebrow=rotator.querySelector('[data-hero-eyebrow]');
+    const description=rotator.querySelector('[data-hero-description]');
+    const profile=rotator.querySelector('[data-hero-profile]');
+    const contact=rotator.querySelector('[data-hero-contact]');
+    const topics=rotator.querySelector('[data-hero-topics]');
+    const photoName=rotator.querySelector('[data-hero-picture-name]');
+    const announce=rotator.querySelector('[data-hero-announcement]');
+    const controls=[...rotator.querySelectorAll('[data-hero-person]')];
+    const photos=[...rotator.querySelectorAll('[data-hero-photo]')];
+    const pauseButton=rotator.querySelector('[data-hero-pause]');
+    const pauseLabel=rotator.querySelector('[data-pause-label]');
+    const pauseSymbol=rotator.querySelector('[data-pause-symbol]');
+    const motionMedia=window.matchMedia('(prefers-reduced-motion: reduce)');
+    let current='claudia',timer=null,userPaused=false,hovered=false,focused=false;
+    const delay=7200;
+    function clearRotation(){if(timer){window.clearTimeout(timer);timer=null} rotator.classList.remove('is-playing')}
+    function canRotate(){return !userPaused&&!hovered&&!focused&&!document.hidden&&!motionMedia.matches}
+    function startRotation(){clearRotation();if(!canRotate())return;void rotator.offsetWidth;rotator.classList.add('is-playing');timer=window.setTimeout(()=>{changeSlide(current==='claudia'?'yasmin':'claudia',false);},delay)}
+    function changeSlide(person,manual){
+      if(!heroConfig[person])return;
+      current=person;const data=heroConfig[person];
+      rotator.dataset.currentProfessional=person;
+      eyebrow.textContent=data.eyebrow;
+      title.innerHTML=data.headline; // Somente strings estáticas controladas no código.
+      description.textContent=data.description;
+      profile.setAttribute('href',data.profile);
+      profile.dataset.futureRoute=data.profile;
+      profile.firstChild.textContent='Conhecer '+data.name+' ';
+      contact.dataset.whatsapp=person;
+      contact.dataset.origin='Hero da '+data.name;
+      contact.setAttribute('href',whatsapp(person,'Hero da '+data.name));
+      contact.firstChild.textContent='Falar com '+data.name+' ';
+      photoName.textContent=data.name;
+      topics.replaceChildren(...data.topics.map(t=>{const span=document.createElement('span');span.textContent=t;return span}));
+      photos.forEach(img=>{const active=img.dataset.heroPhoto===person;img.classList.toggle('is-active',active);img.setAttribute('aria-hidden',String(!active))});
+      controls.forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.heroPerson===person)));
+      if(manual&&announce)announce.textContent='Apresentando '+data.name+' na capa da SOTOMA';
+      startRotation();
+    }
+    controls.forEach(button=>button.addEventListener('click',()=>changeSlide(button.dataset.heroPerson,true)));
+    function reflectPause(){pauseButton.setAttribute('aria-pressed',String(userPaused));pauseButton.setAttribute('aria-label',userPaused?'Reativar alternância automática das profissionais':'Pausar alternância automática das profissionais');pauseLabel.textContent=userPaused?'Reproduzir':'Pausar';pauseSymbol.textContent=userPaused?'▶':'Ⅱ'}
+    pauseButton.addEventListener('click',()=>{userPaused=!userPaused;reflectPause();startRotation()});
+    rotator.addEventListener('mouseenter',()=>{hovered=true;clearRotation()});
+    rotator.addEventListener('mouseleave',()=>{hovered=false;startRotation()});
+    rotator.addEventListener('focusin',()=>{focused=true;clearRotation()});
+    rotator.addEventListener('focusout',e=>{if(!rotator.contains(e.relatedTarget)){focused=false;startRotation()}});
+    document.addEventListener('visibilitychange',startRotation);
+    if(motionMedia.addEventListener)motionMedia.addEventListener('change',startRotation);
+    reflectPause();startRotation();
+  }
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce&&'IntersectionObserver'in window){root.classList.add('js');const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:.06,rootMargin:'0px 0px -12px 0px'});root.querySelectorAll('.reveal').forEach(el=>obs.observe(el))}
+  const topBtn=root.querySelector('[data-to-top]');if(topBtn){const toggle=()=>topBtn.classList.toggle('visible',window.scrollY>600);window.addEventListener('scroll',toggle,{passive:true});toggle();topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:reduce?'auto':'smooth'}))}
+  // Links de páginas não incluídas nesta única prévia continuam com os slugs canônicos documentados.
+})();
+</script>

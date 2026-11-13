@@ -1,3 +1,11 @@
+# SOTOMA — MISSÃO V6 ECP + COLISEUM (13/11/2026): APENAS CÓDIGO, SEM PLUGINS
+
+**[Abrir o Mega Index V6 completo](dependencies/sotoma-website/v6-ecp-coliseum/INDEX-V6.md)** · [ZIP 7 páginas completas](dependencies/sotoma-website/v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) · [ZIP 10 melhorias aditivas](dependencies/sotoma-website/v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip).
+
+Decisão da Cláudia: duas formas de atendimento, sem valores e sem oferta de atendimento integrado. Artigo 2187 com texto aprovado para substituição pontual no WordPress original. Sem deploy, sem plugin, sem remoção de páginas ou textos antigos nesta missão.
+
+---
+
 # SOTOMA 2.0 — ARQUITETURA GLOBAL + DESCOBERTA POR IA (CÓDIGOS EM REVISÃO)
 
 **Abrir primeiro:** [**MEGA INDEX WEBSITE**](dependencies/sotoma-website/MEGA-INDEX.md) — acesso a todos os códigos, assets e auditorias.

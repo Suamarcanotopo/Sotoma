@@ -1,0 +1,68 @@
+{
+  "project": "SOTOMA",
+  "date": "2026-11-13",
+  "provenance": "Biblioteca de mídia pública WordPress e manifesto Git SOTOMA",
+  "assets": [
+    {
+      "file": "Logo-SOTOMA-Saude-Psicointegrada.png",
+      "usage": "Marca institucional no Header",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Logo-SOTOMA-Saude-Psicointegrada.png",
+      "status": "acervo WordPress"
+    },
+    {
+      "file": "TERAPEUTA-CREDENCIADO-SOTOMA-ABRATH.png",
+      "usage": "Selo provisoriamente adotado no Footer a pedido da direção",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/TERAPEUTA-CREDENCIADO-SOTOMA-ABRATH.png",
+      "status": "selo visual, não comprovação externa"
+    },
+    {
+      "file": "Clau-Ya-1.jpeg",
+      "usage": "Home, Quem cuida, Blog, blocos integrados",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Clau-9.jpeg",
+      "usage": "Perfil Cláudia e serviços adultos",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Clau-4.jpeg",
+      "usage": "V.I.A., autoconhecimento e artigo sobre autocobrança",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-4.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Clau-7.jpeg",
+      "usage": "Artigo sobre espaço seguro — foto de contexto, não do autor",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-7.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Clau-6.jpeg",
+      "usage": "Artigo sobre atendimento online",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-6.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Ya-11.jpeg",
+      "usage": "Perfil Yasmin, infância e adolescência",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Ya-7.jpeg",
+      "usage": "Ponte de infância e adolescência",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-7.jpeg",
+      "status": "fotografia oficial"
+    },
+    {
+      "file": "Ya-5.jpeg",
+      "usage": "Artigo de conteúdo infantojuvenil",
+      "src": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-5.jpeg",
+      "status": "fotografia oficial"
+    }
+  ],
+  "gate": "Verificar consentimento, atribuições e disponibilidade no host; sem inferir credenciamento de selo"
+}

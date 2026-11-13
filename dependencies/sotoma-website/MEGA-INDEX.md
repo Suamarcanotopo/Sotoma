@@ -1,3 +1,17 @@
+# SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
+
+[ZIP das 7 páginas completas](v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) · [ZIP dos 10 blocos aditivos, sem apagar textos](v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip)
+
+**Comece pelo [MEGA INDEX V6 — 7 páginas completas e 10 conexões preservando textos antigos](v6-ecp-coliseum/INDEX-V6.md).**
+
+Atualização da Cláudia: Atendimento individual (50 minutos, contratação por sessão) e Acompanhamento terapêutico (6 ou 12 sessões, condições especiais); nenhum preço no site. Atendimento integrado SOMENTE futuro.
+
+[Correção aprovada do post 2187](v6-ecp-coliseum/CORRECAO-POST-2187.md) · [Mapa de imagens](v6-ecp-coliseum/ASSETS-MAPA-V6.json) · [Gates Coliseum](v6-ecp-coliseum/COLISEUM-V6.md).
+
+**Atenção:** esta missão é exclusivamente de arquivos de código e documentação; nenhum plugin WordPress foi ativado. Não houve merge nem atualização das páginas em produção.
+
+---
+
 # SOTOMA 2.0 — MEGA INDEX CANÔNICO WEBSITE (13/11/2026)
 
 **Contrato visual:** Header/Footer globais Elementor; um único HTML contendo STYLE, corpo visual e SCRIPT por template; edição dos artigos via widgets nativos **Post Title (H1) e Post Content** no Single Post para garantir HTML renderizado no servidor. `main` não modificada.
