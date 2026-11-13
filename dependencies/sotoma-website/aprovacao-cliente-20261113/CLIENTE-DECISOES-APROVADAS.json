@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-13",
+  "source": "Mensagem literal da cliente",
+  "offers": [
+    {
+      "name": "Atendimento individual",
+      "text": "Um espaço de escuta, acolhimento e desenvolvimento emocional, com acompanhamento realizado por uma profissional, de acordo com suas necessidades.",
+      "items": [
+        "Sessões individuais de 50 minutos",
+        "Contratação por sessão."
+      ]
+    },
+    {
+      "name": "Acompanhamento terapêutico",
+      "text": "Uma proposta de continuidade do processo terapêutico, com planejamento de encontros e acompanhamento individualizado.",
+      "items": [
+        "Pacotes de 6 ou 12 sessões.",
+        "Condições especiais para contratação em pacote."
+      ]
+    }
+  ],
+  "future": {
+    "name": "Atendimento integrado",
+    "status": "NÃO OFERTAR ATÉ AMPLIAR EQUIPE"
+  },
+  "priceDisplay": false,
+  "wording": "formas de atendimento",
+  "article": {
+    "postId": 2187,
+    "slug": "a-importancia-de-um-espaco-seguro-na-terapia",
+    "from": "O atendimento humanizado é o que transforma o cuidado em cura e evolução.",
+    "to": "Acreditamos que o atendimento humanizado é o que torna o cuidado uma experiência de acolhimento, respeito e transformação."
+  },
+  "sourceRoutes": [
+    "/como-cuidamos-2/",
+    "/atendimentos-em-psicoterapia/",
+    "/agendar-atendimento/"
+  ]
+}
