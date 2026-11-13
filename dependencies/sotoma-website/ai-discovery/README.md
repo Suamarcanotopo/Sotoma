@@ -37,6 +37,9 @@ O recurso opcional de negociação **fica desligado por padrão**. Após validar
 
 **Atenção:** um arquivo físico `/llms.txt` no diretório público pode ter precedência sobre qualquer plugin; escolher um mecanismo, nunca dois. Usar somente links Markdown existentes, com HTML como canônico e `noindex` nos mirrors.
 
+### Proteção recomendada se usar Rank Math
+A interface do Rank Math pode incluir automaticamente muitas páginas publicadas, inclusive URLs operacionais. Para aplicar allowlist estrita, use **somente** o [guard para Rank Math](rankmath-guard/sotoma-rankmath-llms-allowlist.php) em `wp-content/mu-plugins/` do staging. Ele usa filtros oficiais `rank_math/llms_txt/posts_query_args`, `rank_math/llms_txt/posts` e `rank_math/llms_txt/terms`, limitando a saída a **7 páginas e 13 posts**, sem tags de teste ou páginas internas. Caso não encontre registros, usa `post__in=[-1]` para evitar a peculiaridade do WordPress de retornar TODOS os posts quando o array está vazio. **Não instalar este guard junto com o plugin fallback como proprietário do mesmo /llms.txt.** Revisar no preview do Rank Math antes de publicar.
+
 ## 4. Limitações transparentes
 - Excluir `cadastro-de-cliente` e `novo-lead` do índice **não protege seu conteúdo** se a URL ainda é pública. Aplicar no WordPress restrições reais de acesso e/ou noindex após auditoria.
 - `/llms-full.txt` atual segue legado em produção; **não deve ser divulgado como fonte curada**. Revisar o plugin que o gera, retirar páginas técnicas e dados sem validação, regenerar/invalidar cache e verificar resposta antes de referenciá-lo em `/llms.txt`. Se não houver controle de exclusões, desabilitar este endpoint até a solução segura.
