@@ -1,0 +1,327 @@
+<!-- SOTOMA 2.0 — BLOG, PESQUISAS E LEITURAS | WIDGET HTML ÚNICO ELEMENTOR
+     A página usa apenas conteúdo do body; header e footer continuam globais.
+     ARTIGOS/CATEGORIAS: WXR WordPress exportado 10/11/2026 — 13 posts publish, 2 categorias.
+     IMPORTANTE: zero post_tag no WXR. "Assuntos" são tags editoriais locais, NÃO termos do WordPress.
+     Os permalinks/arquivos de mídia não foram confirmados ao vivo. Validar em staging antes de publicar.
+-->
+<style>
+/* SOTOMA BLOG — CSS isolado no widget HTML, sem header/footer. */
+#sotoma-blog-v1{--pine:#22524A;--pine-dark:#183e37;--sage:#91AFA1;--olive:#8BA146;--paper:#f7f8f3;--cream:#f4f0e7;--text:#263b36;--mute:#64716b;--border:#dee7df;--white:#fff;--shadow:0 18px 54px rgba(30,65,53,.09);--head:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;--body:'Mulish',system-ui,-apple-system,'Segoe UI',sans-serif;box-sizing:border-box;position:relative;min-width:0;max-width:100%;width:100%;overflow-wrap:anywhere;font:400 16px/1.65 var(--body);color:var(--text);background:var(--paper);isolation:isolate}
+#sotoma-blog-v1 *,#sotoma-blog-v1 *::before,#sotoma-blog-v1 *::after{box-sizing:border-box}
+#sotoma-blog-v1 :is(h1,h2,h3,h4,p,figure){margin:0}#sotoma-blog-v1 :is(h1,h2,h3){font-family:var(--head);line-height:1.17;letter-spacing:-.033em}
+#sotoma-blog-v1 a{color:inherit;text-decoration:none}#sotoma-blog-v1 button,#sotoma-blog-v1 input,#sotoma-blog-v1 select{font:inherit}#sotoma-blog-v1 button{cursor:pointer}
+#sotoma-blog-v1 img{display:block;width:100%;height:auto}#sotoma-blog-v1 [hidden]{display:none!important}
+#sotoma-blog-v1 :is(a,button,input,select):focus-visible{outline:3px solid var(--olive);outline-offset:3px}
+#sotoma-blog-v1 .sb-wrap{width:min(1180px,calc(100% - 42px));margin:0 auto}
+#sotoma-blog-v1 .sb-eyebrow{font:800 .74rem/1.4 var(--head);letter-spacing:.16em;text-transform:uppercase;color:#64835f;display:inline-flex;gap:10px;align-items:center}#sotoma-blog-v1 .sb-eyebrow:before{content:"";width:24px;height:2px;background:var(--olive)}
+#sotoma-blog-v1 .sb-hero{padding:35px 0 28px}#sotoma-blog-v1 .sb-hero-panel{display:grid;grid-template-columns:1.12fr .88fr;min-height:490px;overflow:hidden;border-radius:29px;background:linear-gradient(145deg,#265b4d 0%,#173d34 100%);color:#fff;box-shadow:0 25px 70px rgba(30,65,53,.14)}
+#sotoma-blog-v1 .sb-hero-copy{padding:clamp(34px,5.5vw,70px);display:flex;flex-direction:column;justify-content:center;gap:21px;position:relative;z-index:2}
+#sotoma-blog-v1 .sb-hero-copy .sb-eyebrow{color:#d8e9d8}#sotoma-blog-v1 .sb-hero h1{font-size:clamp(2.45rem,4.4vw,4.8rem);line-height:1.08;color:#fff;max-width:690px}#sotoma-blog-v1 .sb-hero h1 em{font-style:normal;color:#d5e5b8}
+#sotoma-blog-v1 .sb-hero-copy>p{color:#e2ece4;font-size:1.01rem;max-width:530px}#sotoma-blog-v1 .sb-hero-mini{display:flex;flex-wrap:wrap;gap:9px;margin-top:6px}
+#sotoma-blog-v1 .sb-chip{font:750 .76rem var(--head);padding:8px 13px;border:1px solid rgba(255,255,255,.24);border-radius:40px;background:rgba(255,255,255,.09);color:#eaf3e8}
+#sotoma-blog-v1 .sb-hero-art{position:relative;background:#acc3b2;overflow:hidden;min-height:350px}#sotoma-blog-v1 .sb-hero-art img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;object-position:center}#sotoma-blog-v1 .sb-hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(25,67,55,.28),transparent 30%),linear-gradient(0deg,rgba(20,56,48,.35),transparent 35%)}
+#sotoma-blog-v1 .sb-hero-art figcaption{position:absolute;bottom:24px;left:28px;z-index:2;color:#fff;font-size:.82rem;font-weight:800;max-width:270px}
+#sotoma-blog-v1 .sb-summary{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap;align-items:center;padding:16px 0 0;color:var(--mute);font-size:.79rem;font-weight:750}#sotoma-blog-v1 .sb-summary b{color:var(--pine)}
+#sotoma-blog-v1 .sb-paths-section{padding:60px 0 70px}#sotoma-blog-v1 .sb-heading{margin-bottom:24px;display:flex;justify-content:space-between;align-items:end;gap:26px;flex-wrap:wrap}
+#sotoma-blog-v1 .sb-heading h2{font-size:clamp(2rem,3.4vw,3.15rem);margin-top:12px;max-width:760px}#sotoma-blog-v1 .sb-heading p{color:var(--mute);max-width:690px;margin-top:12px}
+#sotoma-blog-v1 .sb-path-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+#sotoma-blog-v1 .sb-path{border:1px solid var(--border);border-radius:21px;display:flex;flex-direction:column;gap:16px;min-height:226px;padding:27px;background:white;box-shadow:0 8px 35px rgba(25,70,45,.045);transition:transform .25s,border-color .25s}
+#sotoma-blog-v1 .sb-path:hover{transform:translateY(-4px);border-color:#a5c1ad}#sotoma-blog-v1 .sb-pathnumber{color:#76936a;font:850 .7rem var(--head);letter-spacing:.11em;text-transform:uppercase}#sotoma-blog-v1 .sb-path h3{font-size:1.4rem}#sotoma-blog-v1 .sb-path p{color:var(--mute);font-size:.92rem}
+#sotoma-blog-v1 .sb-pathlink{font:850 .82rem var(--head);color:var(--pine);margin-top:auto}
+#sotoma-blog-v1 .sb-library{background:#edf3ed;padding:70px 0 92px}
+#sotoma-blog-v1 .sb-controlpanel{padding:25px;border:1px solid #d5e5d8;border-radius:22px;background:white;box-shadow:0 12px 45px rgba(25,70,45,.055);margin:24px 0 26px}
+#sotoma-blog-v1 .sb-label{font:850 .76rem var(--head);letter-spacing:.06em;text-transform:uppercase;color:#466f59;display:block;margin-bottom:10px}
+#sotoma-blog-v1 .sb-category-row,#sotoma-blog-v1 .sb-topic-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#sotoma-blog-v1 .sb-category{border:1px solid #d1e1d5;background:#fff;color:#355b49;border-radius:100px;padding:10px 17px;font:850 .78rem var(--head)}#sotoma-blog-v1 .sb-category[aria-pressed=true]{background:var(--pine);color:white;border-color:var(--pine)}#sotoma-blog-v1 .sb-cat-count{font-size:.72rem;opacity:.8;margin-left:3px}
+#sotoma-blog-v1 .sb-category-section{margin-bottom:25px}#sotoma-blog-v1 .sb-filter-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(150px,.8fr);gap:13px;margin-bottom:23px}
+#sotoma-blog-v1 .sb-controlpanel input,#sotoma-blog-v1 .sb-controlpanel select{width:100%;min-width:0;min-height:47px;background:#fbfdfb;color:var(--text);border:1px solid #c8d9cc;border-radius:13px;padding:12px 14px;font-size:.92rem}
+#sotoma-blog-v1 .sb-topic{border:1px solid #d4dfd3;border-radius:100px;background:#f3f7f1;color:#476553;font-weight:750;font-size:.77rem;padding:7px 13px;transition:background .2s}
+#sotoma-blog-v1 .sb-topic[aria-pressed=true]{background:#dbeedb;border-color:#6b9c7e;color:#1e4c3d;box-shadow:0 0 0 1px #6b9c7e inset}
+#sotoma-blog-v1 .sb-note{margin-top:12px;color:#7e8e80;font-size:.76rem}#sotoma-blog-v1 .sb-activebar{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:24px}#sotoma-blog-v1 .sb-results{font:800 .88rem var(--head);color:var(--pine)}
+#sotoma-blog-v1 .sb-clear{border:0;background:transparent;color:var(--pine);font-size:.82rem;text-decoration:underline;text-underline-offset:4px;font-weight:850;padding:7px}
+#sotoma-blog-v1 .sb-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:21px}
+#sotoma-blog-v1 .sb-article{min-width:0;display:flex;flex-direction:column;border:1px solid var(--border);border-radius:19px;overflow:hidden;background:white;box-shadow:0 10px 30px rgba(31,65,53,.045);transition:transform .25s,box-shadow .25s}
+#sotoma-blog-v1 .sb-article:hover{transform:translateY(-3px);box-shadow:var(--shadow)}#sotoma-blog-v1 .sb-image{height:205px;display:block;overflow:hidden;position:relative;background:linear-gradient(145deg,#b9cdb8,#dce7df)}
+#sotoma-blog-v1 .sb-image img{height:100%;object-fit:cover;transition:transform .4s}#sotoma-blog-v1 .sb-article:hover .sb-image img{transform:scale(1.04)}#sotoma-blog-v1 .sb-readmark{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.92);color:var(--pine);border-radius:50%;display:grid;place-items:center;width:34px;height:34px;font-size:1.1rem}
+#sotoma-blog-v1 .sb-cardcopy{padding:21px 22px 24px;display:flex;flex-direction:column;gap:15px;flex:1}#sotoma-blog-v1 .sb-meta{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center}
+#sotoma-blog-v1 .sb-cat{background:#eaf2e9;color:#35604e;font:850 .68rem var(--head);text-transform:uppercase;letter-spacing:.03em;padding:6px 11px;border-radius:100px}
+#sotoma-blog-v1 .sb-meta time{color:#758577;font-size:.75rem}#sotoma-blog-v1 .sb-cardcopy h3{font-size:1.13rem;line-height:1.37;color:#254638}#sotoma-blog-v1 .sb-cardcopy h3 a:hover{text-decoration:underline;text-decoration-color:#93ad94;text-underline-offset:4px}
+#sotoma-blog-v1 .sb-cardcopy>p{color:#62736a;font-size:.9rem;line-height:1.58}#sotoma-blog-v1 .sb-cardfoot{margin-top:auto;display:flex;gap:14px;flex-direction:column;padding-top:13px;border-top:1px solid #e5ebe5}
+#sotoma-blog-v1 .sb-tags{display:flex;flex-wrap:wrap;gap:6px}#sotoma-blog-v1 .sb-tag{border:0;background:#f3f5ef;border-radius:8px;color:#58735c;font-size:.71rem;font-weight:780;padding:5px 8px}#sotoma-blog-v1 .sb-tag:hover{background:#e1eadd}
+#sotoma-blog-v1 .sb-read{font:850 .82rem var(--head);color:var(--pine);align-self:end}#sotoma-blog-v1 .sb-read:hover{text-decoration:underline;text-underline-offset:4px}
+#sotoma-blog-v1 .sb-more-row{display:flex;align-items:center;justify-content:center;margin:30px 0 0;gap:14px}
+#sotoma-blog-v1 .sb-button{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:11px 23px;color:#fff;background:var(--pine);border:1px solid var(--pine);border-radius:100px;font:850 .86rem var(--head)}#sotoma-blog-v1 .sb-button:hover{background:var(--pine-dark)}
+#sotoma-blog-v1 .sb-empty{padding:40px;border:1px dashed #a9c3af;text-align:center;background:#fff;border-radius:20px}#sotoma-blog-v1 .sb-empty h3{font-size:1.32rem;margin-bottom:10px}#sotoma-blog-v1 .sb-empty p{color:var(--mute)}
+#sotoma-blog-v1 .sb-endnote{padding:55px 0 75px;background:#f8f9f5}
+#sotoma-blog-v1 .sb-endpanel{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;background:#e1ede4;border:1px solid #d4e2d9;border-radius:24px;padding:33px 40px}
+#sotoma-blog-v1 .sb-endpanel h2{font-size:clamp(1.6rem,2.7vw,2.2rem);margin:9px 0}#sotoma-blog-v1 .sb-endpanel p{max-width:770px;color:#5c7166;font-size:.91rem}
+#sotoma-blog-v1 .sb-endpanel a{border:1px solid var(--pine);color:var(--pine);padding:12px 19px;border-radius:30px;font:850 .85rem var(--head);white-space:nowrap}
+#sotoma-blog-v1 [id]{scroll-margin-top:110px}
+@media(max-width:1000px){#sotoma-blog-v1 .sb-hero-panel{grid-template-columns:1.1fr .9fr}#sotoma-blog-v1 .sb-hero-copy{padding:38px}#sotoma-blog-v1 .sb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:750px){#sotoma-blog-v1 .sb-wrap{width:calc(100% - 30px)}#sotoma-blog-v1 .sb-hero{padding:12px 0 0}#sotoma-blog-v1 .sb-hero-panel{grid-template-columns:1fr;border-radius:20px}#sotoma-blog-v1 .sb-hero-copy{padding:34px 26px}#sotoma-blog-v1 .sb-hero h1{font-size:clamp(2.25rem,7vw,3.5rem)}#sotoma-blog-v1 .sb-hero-art{min-height:280px}#sotoma-blog-v1 .sb-hero-art img{position:absolute}#sotoma-blog-v1 .sb-path-grid{grid-template-columns:1fr}#sotoma-blog-v1 .sb-path{min-height:auto}#sotoma-blog-v1 .sb-paths-section{padding:48px 0}#sotoma-blog-v1 .sb-library{padding:55px 0 70px}#sotoma-blog-v1 .sb-endpanel{grid-template-columns:1fr}#sotoma-blog-v1 .sb-endpanel a{width:max-content}}
+@media(max-width:560px){#sotoma-blog-v1 .sb-grid{grid-template-columns:1fr}#sotoma-blog-v1 .sb-filter-grid{grid-template-columns:1fr}#sotoma-blog-v1 .sb-hero-copy{padding:30px 22px}#sotoma-blog-v1 .sb-hero h1{font-size:2.35rem}#sotoma-blog-v1 .sb-hero-art{min-height:225px}#sotoma-blog-v1 .sb-controlpanel{padding:20px 16px}#sotoma-blog-v1 .sb-image{height:230px}#sotoma-blog-v1 .sb-endpanel{padding:27px 22px}}
+@media(prefers-reduced-motion:reduce){#sotoma-blog-v1 *,#sotoma-blog-v1 *:before,#sotoma-blog-v1 *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+
+/* BLOG V1 · GOVERNANÇA V5 DAS PROFISSIONAIS · SEM HEADER/FOOTER */
+#sotoma-blog-v1 .sb-prof-section{padding:64px 0;background:#eaf2eb}
+#sotoma-blog-v1 .sb-prof-heading{margin-bottom:30px}
+#sotoma-blog-v1 .sb-prof-heading h2{font-family:"Poppins",system-ui,sans-serif;font-size:clamp(1.7rem,3vw,2.9rem);color:#22524A;line-height:1.19;margin:10px 0}
+#sotoma-blog-v1 .sb-prof-heading p{max-width:800px;color:#557063}
+#sotoma-blog-v1 .sb-profs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+#sotoma-blog-v1 .sb-prof{display:grid;grid-template-columns:34% 66%;background:#fff;border:1px solid #d9e7de;border-radius:20px;overflow:hidden;box-shadow:0 14px 35px rgba(15,60,43,.06)}
+#sotoma-blog-v1 .sb-prof[data-person="claudia"]{border-top:5px solid #486D55}
+#sotoma-blog-v1 .sb-prof[data-person="yasmin"]{border-top:5px solid #176873}
+#sotoma-blog-v1 .sb-prof>img{width:100%;height:100%;min-height:285px;object-fit:cover;object-position:center top}
+#sotoma-blog-v1 .sb-prof-content{padding:22px;display:flex;flex-direction:column;gap:10px}
+#sotoma-blog-v1 .sb-prof-content h3{font:650 1.18rem/1.2 "Poppins",system-ui,sans-serif;margin:0}
+#sotoma-blog-v1 .sb-prof-content p{font-size:.84rem;color:#526d60;margin:0}
+#sotoma-blog-v1 .sb-prof-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:auto;padding-top:12px}
+#sotoma-blog-v1 .sb-prof-actions a{text-decoration:underline;text-underline-offset:4px;font-weight:850;font-size:.81rem}
+#sotoma-blog-v1 .sb-prof-actions .sb-prof-wa{border-radius:10px;min-height:43px;display:inline-flex;align-items:center;padding:10px 15px;text-decoration:none;color:#fff;background:#486D55}
+#sotoma-blog-v1 [data-person="yasmin"] .sb-prof-wa{background:#176873}
+#sotoma-blog-v1 .sb-prof .sb-phone{display:block;color:#5d7267;font-size:.72rem}
+#sotoma-blog-v1 .sb-events-note{margin-top:24px;border-left:3px solid #8BA146;padding:14px 19px;background:#fff;border-radius:10px;color:#506b60;font-size:.86rem}
+@media(max-width:810px){#sotoma-blog-v1 .sb-profs{grid-template-columns:1fr}}
+@media(max-width:460px){#sotoma-blog-v1 .sb-prof{grid-template-columns:39% 61%}#sotoma-blog-v1 .sb-prof>img{min-height:270px}#sotoma-blog-v1 .sb-prof-content{padding:16px 12px}#sotoma-blog-v1 .sb-prof-actions a{font-size:.71rem}}
+
+
+/* ECP · SOTOMA V6 / assinatura visual e movimento leve: respeita Motion Reduced. */
+#sotoma-blog-v1 .v6-client-approved{background:linear-gradient(145deg,#EAF2E9,#F9FBF7);padding:clamp(32px,5vw,70px) clamp(17px,4vw,45px);border-radius:23px;margin:38px auto;border:1px solid #D5E6D8}
+#sotoma-blog-v1 .v6-client-head{max-width:840px;margin:0 auto 28px}
+#sotoma-blog-v1 .v6-client-kicker{display:block;text-transform:uppercase;letter-spacing:.14em;color:#4A785B;font-size:.75rem;font-weight:850}
+#sotoma-blog-v1 .v6-client-head h2{font-size:clamp(1.75rem,3vw,2.9rem);color:#224C40;margin:13px 0}
+#sotoma-blog-v1 .v6-client-head p{color:#526D60}
+#sotoma-blog-v1 .v6-client-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#sotoma-blog-v1 .v6-client-card{background:#fff;border:1px solid #D8E9DD;border-radius:21px;padding:clamp(20px,3vw,32px);box-shadow:0 16px 38px #264A3510;transition:transform .24s ease,box-shadow .24s ease}
+#sotoma-blog-v1 .v6-client-card:hover{transform:translateY(-5px);box-shadow:0 27px 43px #264A3524}
+#sotoma-blog-v1 .v6-client-icon{display:grid;place-items:center;color:#22524A;background:#E7F3E8;width:60px;height:60px;border-radius:15px;margin-bottom:17px}
+#sotoma-blog-v1 .v6-client-card h3{font-size:clamp(1.16rem,2vw,1.58rem);color:#22524A;margin-bottom:12px}
+#sotoma-blog-v1 .v6-client-card p{color:#5C7166;line-height:1.72}
+#sotoma-blog-v1 .v6-client-card ul{padding:0;margin:16px 0 0;list-style:none;display:grid;gap:8px}
+#sotoma-blog-v1 .v6-client-card li{font-size:.94rem;font-weight:700;display:flex;gap:9px}
+#sotoma-blog-v1 .v6-client-card li:before{content:"✓";color:#5E8C63;font-weight:900}
+#sotoma-blog-v1 .v6-client-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}
+#sotoma-blog-v1 .v6-client-links a{border-radius:12px;padding:12px 17px;min-height:46px;display:inline-flex;align-items:center;gap:10px;text-decoration:none!important;font-weight:850;color:#fff!important;background:#486D55;transition:transform .2s ease}
+#sotoma-blog-v1 .v6-client-links a[data-pro="yasmin"]{background:#176873}
+#sotoma-blog-v1 .v6-client-links a:hover{transform:translateY(-2px)}
+#sotoma-blog-v1 .v6-client-note{color:#67796E;font-size:.79rem;margin:17px 0 0}
+#sotoma-blog-v1 .v6-cross-nav{border-top:1px solid #DDEBDD;padding:31px 0;margin-top:24px}
+#sotoma-blog-v1 .v6-cross-nav h2{font-size:clamp(1.25rem,2vw,1.7rem);color:#22524A}
+#sotoma-blog-v1 .v6-cross-nav-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:19px}
+#sotoma-blog-v1 .v6-cross-nav-links a{display:inline-flex;min-height:40px;align-items:center;border-radius:10px;padding:9px 13px;color:#22524A!important;border:1px solid #B9D6C3;background:#fff;font-size:.83rem;font-weight:800;text-decoration:none!important}
+#sotoma-blog-v1 .v6-cross-nav-links a:hover{background:#E9F2E9}
+#sotoma-blog-v1 .so-panel,.sotoma-v5-widget .service-card,#sotoma-blog-v1 .sb-article{transition:transform .25s ease,box-shadow .25s ease}
+#sotoma-blog-v1 .so-panel:hover,#sotoma-blog-v1 .sb-article:hover{transform:translateY(-4px)}
+#sotoma-blog-v1 :is(a,button,summary):focus-visible{outline:3px solid #8BA146;outline-offset:4px}
+@media(max-width:700px){#sotoma-blog-v1 .v6-client-grid{grid-template-columns:1fr}#sotoma-blog-v1 .v6-client-links{flex-direction:column}#sotoma-blog-v1 .v6-client-links a{justify-content:center}}
+@media(prefers-reduced-motion:reduce){#sotoma-blog-v1 .v6-client-card,#sotoma-blog-v1 .v6-client-links a,#sotoma-blog-v1 .so-panel,#sotoma-blog-v1 .sb-article{animation:none!important;transition:none!important;transform:none!important}}
+</style>
+<main id="sotoma-blog-v1" class="sotoma-blog-widget" aria-label="Biblioteca de conhecimento SOTOMA">
+<section class="sb-hero" aria-labelledby="sb-title"><div class="sb-wrap"><div class="sb-hero-panel">
+ <div class="sb-hero-copy"><span class="sb-eyebrow">Blog · Estudos · Leituras</span><h1 id="sb-title">Conhecimento que <em>acolhe perguntas.</em></h1>
+ <p>Explore artigos publicados pela SOTOMA sobre o cuidado emocional, as fases da vida e diferentes abordagens. Encontre um ponto de partida e escolha seu próximo assunto.</p>
+ <div class="sb-hero-mini"><span class="sb-chip">13 artigos do WordPress</span><span class="sb-chip">2 categorias cadastradas</span><span class="sb-chip">Leituras por tema</span></div>
+ </div><figure class="sb-hero-art"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" alt="Cláudia e Yasmin — fotografia da biblioteca WordPress SOTOMA" width="740" height="500"><figcaption>Informação para compreender possibilidades, sem prometer resultados.</figcaption></figure>
+</div><div class="sb-summary"><span>Uma biblioteca organizada por <b>categorias reais e assuntos editoriais</b></span><span>Fonte do catálogo: WordPress, exportação de 10/11/2026</span></div></div></section>
+<section class="sb-paths-section" id="sotoma-blog-trilhas" aria-labelledby="sb-paths-title"><div class="sb-wrap"><div class="sb-heading"><div><span class="sb-eyebrow">Roteiros de leitura</span><h2 id="sb-paths-title">Por onde começar?</h2><p>Três caminhos sugeridos a partir de textos que já constam do Blog. São sugestões de leitura, não indicações clínicas individuais.</p></div></div>
+<div class="sb-path-grid"><a class="sb-path" href="https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho/"><span class="sb-pathnumber">01 / Roteiro de leitura</span><h3>Comece por aqui</h3><p>Explore as diferenças entre abordagens e encontre referências para aprofundar.</p><span class="sb-pathlink">Abrir leitura <span aria-hidden="true">↗</span></span></a><a class="sb-path" href="https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes/"><span class="sb-pathnumber">02 / Roteiro de leitura</span><h3>Infância e adolescência</h3><p>Uma entrada para leituras sobre escuta e desenvolvimento nas primeiras fases da vida.</p><span class="sb-pathlink">Abrir leitura <span aria-hidden="true">↗</span></span></a><a class="sb-path" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/"><span class="sb-pathnumber">03 / Roteiro de leitura</span><h3>Caminhos e mudanças</h3><p>Textos sobre recomeços, mudanças e experiências de vida.</p><span class="sb-pathlink">Abrir leitura <span aria-hidden="true">↗</span></span></a></div></div></section>
+<section class="sb-library" id="sotoma-blog-artigos" aria-labelledby="sb-library-title"><div class="sb-wrap"><div class="sb-heading"><div><span class="sb-eyebrow">Biblioteca de artigos</span><h2 id="sb-library-title">Encontre sua próxima leitura</h2><p>Pesquise por título ou tema, filtre por categoria cadastrada no WordPress e explore assuntos relacionados.</p></div></div>
+<div class="sb-controlpanel">
+ <div class="sb-category-section"><span class="sb-label" id="sb-cat-label">Categorias do WordPress</span><div class="sb-category-row" role="group" aria-labelledby="sb-cat-label"><button type="button" class="sb-category" data-category-filter="all" aria-pressed="true">Todas <span class="sb-cat-count">13</span></button><button type="button" class="sb-category" data-category-filter="qualidade-de-vida" aria-pressed="false">Qualidade de vida <span class="sb-cat-count">9</span></button><button type="button" class="sb-category" data-category-filter="psicoterapia-positiva" aria-pressed="false">Psicoterapia Positiva <span class="sb-cat-count">4</span></button></div></div>
+ <div class="sb-filter-grid"><label><span class="sb-label">Pesquisar artigos</span><input type="search" data-search placeholder="Ex.: ansiedade, psicanálise, V.I.A." autocomplete="off" aria-label="Buscar artigos por título, descrição, categoria ou assunto"></label><label><span class="sb-label">Ordenação</span><select data-sort aria-label="Ordenar artigos"><option value="curadoria">Roteiro de leitura sugerido</option><option value="recente">Mais recentes</option><option value="antigo">Mais antigos</option><option value="az">Título A–Z</option></select></label></div>
+ <span class="sb-label" id="sb-topic-label">Assuntos para explorar</span><div class="sb-topic-row" role="group" aria-labelledby="sb-topic-label"><button type="button" data-topic="Primeiros passos" aria-pressed="false" class="sb-topic">Primeiros passos</button>
+<button type="button" data-topic="Vida adulta" aria-pressed="false" class="sb-topic">Vida adulta</button>
+<button type="button" data-topic="Infância" aria-pressed="false" class="sb-topic">Infância</button>
+<button type="button" data-topic="Adolescência" aria-pressed="false" class="sb-topic">Adolescência</button>
+<button type="button" data-topic="Psicanálise" aria-pressed="false" class="sb-topic">Psicanálise</button>
+<button type="button" data-topic="Psicoterapia Positiva" aria-pressed="false" class="sb-topic">Psicoterapia Positiva</button>
+<button type="button" data-topic="Ansiedade" aria-pressed="false" class="sb-topic">Ansiedade</button>
+<button type="button" data-topic="Atendimento online" aria-pressed="false" class="sb-topic">Atendimento online</button>
+<button type="button" data-topic="Mudanças de vida" aria-pressed="false" class="sb-topic">Mudanças de vida</button>
+<button type="button" data-topic="V.I.A." aria-pressed="false" class="sb-topic">V.I.A.</button>
+<button type="button" data-topic="M.I.R.A." aria-pressed="false" class="sb-topic">M.I.R.A.</button></div>
+ <p class="sb-note">Os assuntos acima são etiquetas editoriais de navegação desta página. A exportação de 10/11/2026 não contém tags do WordPress cadastradas nos artigos.</p>
+</div>
+<div class="sb-activebar"><p class="sb-results" data-results role="status" aria-live="polite">13 publicações no catálogo</p><button class="sb-clear" type="button" data-clear>Limpar filtros</button></div>
+<div class="sb-grid" data-grid><!-- BLOG-01: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="1" data-date="2026-01-07" data-category="qualidade-de-vida" data-topics="Primeiros passos|Abordagens" data-search="abordagens terapeuticas: entendendo melhor cada caminho panorama das abordagens e das possibilidades de cuidado. qualidade de vida primeiros passos abordagens">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho/" aria-label="Ler artigo: Abordagens terapêuticas: entendendo melhor cada caminho"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="abordagens" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Abordagens terapêuticas: entendendo melhor cada caminho"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-01-07">07/01/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho/">Abordagens terapêuticas: entendendo melhor cada caminho</a></h3><p>Panorama das abordagens e das possibilidades de cuidado.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Primeiros passos" title="Filtrar pelo assunto Primeiros passos">Primeiros passos</button> <button class="sb-tag" type="button" data-choose-topic="Abordagens" title="Filtrar pelo assunto Abordagens">Abordagens</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-02: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="2" data-date="2026-03-02" data-category="psicoterapia-positiva" data-topics="Primeiros passos|Acolhimento" data-search="a importancia de um espaco seguro na terapia a importancia de um ambiente acolhedor na experiencia terapeutica. psicoterapia positiva primeiros passos acolhimento">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/a-importancia-de-um-espaco-seguro-na-terapia/" aria-label="Ler artigo: A Importância de um Espaço Seguro na Terapia"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="primeiros" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: A Importância de um Espaço Seguro na Terapia"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Psicoterapia Positiva</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/a-importancia-de-um-espaco-seguro-na-terapia/">A Importância de um Espaço Seguro na Terapia</a></h3><p>A importância de um ambiente acolhedor na experiência terapêutica.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Primeiros passos" title="Filtrar pelo assunto Primeiros passos">Primeiros passos</button> <button class="sb-tag" type="button" data-choose-topic="Acolhimento" title="Filtrar pelo assunto Acolhimento">Acolhimento</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/a-importancia-de-um-espaco-seguro-na-terapia/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-03: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="3" data-date="2026-03-02" data-category="qualidade-de-vida" data-topics="Atendimento online|Primeiros passos" data-search="atendimento online: terapia de onde voce estiver conheca o contexto do atendimento em formato on-line. qualidade de vida atendimento online primeiros passos">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/atendimento-online-terapia-de-onde-voce-estiver/" aria-label="Ler artigo: Atendimento Online: Terapia de Onde Você Estiver"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="primeiros" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Atendimento Online: Terapia de Onde Você Estiver"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/atendimento-online-terapia-de-onde-voce-estiver/">Atendimento Online: Terapia de Onde Você Estiver</a></h3><p>Conheça o contexto do atendimento em formato on-line.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Atendimento online" title="Filtrar pelo assunto Atendimento online">Atendimento online</button> <button class="sb-tag" type="button" data-choose-topic="Primeiros passos" title="Filtrar pelo assunto Primeiros passos">Primeiros passos</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/atendimento-online-terapia-de-onde-voce-estiver/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-04: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="4" data-date="2026-01-06" data-category="qualidade-de-vida" data-topics="Infância|Adolescência|Psicanálise" data-search="psicanalise para criancas e adolescentes uma leitura introdutoria sobre a psicanalise voltada as primeiras fases da vida. qualidade de vida infancia adolescencia psicanalise">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes/" aria-label="Ler artigo: Psicanálise para crianças e adolescentes"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" data-fallback-kind="infancia" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Psicanálise para crianças e adolescentes"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-01-06">06/01/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes/">Psicanálise para crianças e adolescentes</a></h3><p>Uma leitura introdutória sobre a psicanálise voltada às primeiras fases da vida.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Infância" title="Filtrar pelo assunto Infância">Infância</button> <button class="sb-tag" type="button" data-choose-topic="Adolescência" title="Filtrar pelo assunto Adolescência">Adolescência</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-05: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="5" data-date="2026-03-02" data-category="qualidade-de-vida" data-topics="Infância|Psicanálise" data-search="o mundo das criancas: como a psicanalise auxilia na infancia reflexoes sobre infancia, escuta e possibilidades de acompanhamento. qualidade de vida infancia psicanalise">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia/" aria-label="Ler artigo: O Mundo das Crianças: Como a Psicanálise Auxilia na Infância"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" data-fallback-kind="infancia" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: O Mundo das Crianças: Como a Psicanálise Auxilia na Infância"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia/">O Mundo das Crianças: Como a Psicanálise Auxilia na Infância</a></h3><p>Reflexões sobre infância, escuta e possibilidades de acompanhamento.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Infância" title="Filtrar pelo assunto Infância">Infância</button> <button class="sb-tag" type="button" data-choose-topic="Psicanálise" title="Filtrar pelo assunto Psicanálise">Psicanálise</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-06: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="6" data-date="2026-03-02" data-category="psicoterapia-positiva" data-topics="Adolescência|Saúde emocional" data-search="adolescencia e saude mental: escuta e compreensao uma leitura sobre o acolhimento e a compreensao na adolescencia. psicoterapia positiva adolescencia saude emocional">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/adolescencia-e-saude-mental-escuta-e-compreensao/" aria-label="Ler artigo: Adolescência e Saúde Mental: Escuta e Compreensão"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="infancia" loading="lazy" decoding="async" width="740" height="470" alt="Cláudia e Yasmin — fotografia da biblioteca WordPress SOTOMA"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Psicoterapia Positiva</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/adolescencia-e-saude-mental-escuta-e-compreensao/">Adolescência e Saúde Mental: Escuta e Compreensão</a></h3><p>Uma leitura sobre o acolhimento e a compreensão na adolescência.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Adolescência" title="Filtrar pelo assunto Adolescência">Adolescência</button> <button class="sb-tag" type="button" data-choose-topic="Saúde emocional" title="Filtrar pelo assunto Saúde emocional">Saúde emocional</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/adolescencia-e-saude-mental-escuta-e-compreensao/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-07: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="7" data-date="2026-03-02" data-category="qualidade-de-vida" data-topics="Ansiedade|Vida adulta" data-search="ansiedade e autocobranca: quando o peso se torna insuportavel reflexao sobre exigencias internas, ansiedade e autocobranca. qualidade de vida ansiedade vida adulta">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel/" aria-label="Ler artigo: Ansiedade e Autocobrança: Quando o Peso se Torna Insuportável"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="adultos" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Ansiedade e Autocobrança: Quando o Peso se Torna Insuportável"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel/">Ansiedade e Autocobrança: Quando o Peso se Torna Insuportável</a></h3><p>Reflexão sobre exigências internas, ansiedade e autocobrança.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Ansiedade" title="Filtrar pelo assunto Ansiedade">Ansiedade</button> <button class="sb-tag" type="button" data-choose-topic="Vida adulta" title="Filtrar pelo assunto Vida adulta">Vida adulta</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-08: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="8" data-date="2026-03-02" data-category="qualidade-de-vida" data-topics="Mudanças de vida|Vida adulta" data-search="transicoes de vida: o desafio de recomecar mudancas e recomecos como parte da experiencia humana. qualidade de vida mudancas de vida vida adulta">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/transicoes-de-vida-o-desafio-de-recomecar/" aria-label="Ler artigo: Transições de Vida: O Desafio de Recomeçar"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="adultos" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Transições de Vida: O Desafio de Recomeçar"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/transicoes-de-vida-o-desafio-de-recomecar/">Transições de Vida: O Desafio de Recomeçar</a></h3><p>Mudanças e recomeços como parte da experiência humana.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Mudanças de vida" title="Filtrar pelo assunto Mudanças de vida">Mudanças de vida</button> <button class="sb-tag" type="button" data-choose-topic="Vida adulta" title="Filtrar pelo assunto Vida adulta">Vida adulta</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/transicoes-de-vida-o-desafio-de-recomecar/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-09: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="9" data-date="2026-03-02" data-category="psicoterapia-positiva" data-topics="Psicoterapia Positiva|Abordagens" data-search="psicoterapia positiva: um olhar alem do diagnostico uma introducao a psicoterapia positiva. psicoterapia positiva psicoterapia positiva abordagens">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/psicoterapia-positiva-um-olhar-alem-do-diagnostico/" aria-label="Ler artigo: Psicoterapia Positiva: Um Olhar Além do Diagnóstico"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="abordagens" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Psicoterapia Positiva: Um Olhar Além do Diagnóstico"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Psicoterapia Positiva</span><time datetime="2026-03-02">02/03/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/03/02/psicoterapia-positiva-um-olhar-alem-do-diagnostico/">Psicoterapia Positiva: Um Olhar Além do Diagnóstico</a></h3><p>Uma introdução à Psicoterapia Positiva.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Psicoterapia Positiva" title="Filtrar pelo assunto Psicoterapia Positiva">Psicoterapia Positiva</button> <button class="sb-tag" type="button" data-choose-topic="Abordagens" title="Filtrar pelo assunto Abordagens">Abordagens</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/03/02/psicoterapia-positiva-um-olhar-alem-do-diagnostico/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-10: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="10" data-date="2026-01-06" data-category="psicoterapia-positiva" data-topics="Psicoterapia Positiva|Autoconhecimento" data-search="um cuidado que fortalece recursos emocionais e promove florescimento conteudo sobre recursos pessoais e perspectivas de cuidado. psicoterapia positiva psicoterapia positiva autoconhecimento">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/01/06/um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento/" aria-label="Ler artigo: Um cuidado que fortalece recursos emocionais e promove florescimento"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="abordagens" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: Um cuidado que fortalece recursos emocionais e promove florescimento"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Psicoterapia Positiva</span><time datetime="2026-01-06">06/01/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/01/06/um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento/">Um cuidado que fortalece recursos emocionais e promove florescimento</a></h3><p>Conteúdo sobre recursos pessoais e perspectivas de cuidado.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Psicoterapia Positiva" title="Filtrar pelo assunto Psicoterapia Positiva">Psicoterapia Positiva</button> <button class="sb-tag" type="button" data-choose-topic="Autoconhecimento" title="Filtrar pelo assunto Autoconhecimento">Autoconhecimento</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/01/06/um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-11: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="11" data-date="2026-05-25" data-category="qualidade-de-vida" data-topics="Autoconhecimento|Mudanças de vida" data-search="manifesto – entre caminhos e olhares conheca ideias e principios apresentados no manifesto da sotoma. qualidade de vida autoconhecimento mudancas de vida">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/manifesto-entre-caminhos-e-olhares/" aria-label="Ler artigo: Manifesto – Entre caminhos e olhares"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="primeiros" loading="lazy" decoding="async" width="740" height="470" alt="Cláudia e Yasmin — fotografia da biblioteca WordPress SOTOMA"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-05-25">25/05/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/05/25/manifesto-entre-caminhos-e-olhares/">Manifesto – Entre caminhos e olhares</a></h3><p>Conheça ideias e princípios apresentados no manifesto da SOTOMA.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="Autoconhecimento" title="Filtrar pelo assunto Autoconhecimento">Autoconhecimento</button> <button class="sb-tag" type="button" data-choose-topic="Mudanças de vida" title="Filtrar pelo assunto Mudanças de vida">Mudanças de vida</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/manifesto-entre-caminhos-e-olhares/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-12: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="12" data-date="2026-05-25" data-category="qualidade-de-vida" data-topics="V.I.A.|Mudanças de vida" data-search="a experiencia v.i.a. - mais do que chegar a um destino entenda a proposta narrativa associada ao v.i.a. qualidade de vida v.i.a. mudancas de vida">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/" aria-label="Ler artigo: A experiência V.I.A. - mais do que chegar a um destino"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="programas" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: A experiência V.I.A. - mais do que chegar a um destino"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-05-25">25/05/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/">A experiência V.I.A. - mais do que chegar a um destino</a></h3><p>Entenda a proposta narrativa associada ao V.I.A.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="V.I.A." title="Filtrar pelo assunto V.I.A.">V.I.A.</button> <button class="sb-tag" type="button" data-choose-topic="Mudanças de vida" title="Filtrar pelo assunto Mudanças de vida">Mudanças de vida</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article>
+<!-- BLOG-13: publicação confirmada no arquivo WXR; categorização WordPress original preservada. -->
+<article class="sb-article" data-article data-order="13" data-date="2026-05-25" data-category="qualidade-de-vida" data-topics="M.I.R.A.|Mudanças de vida" data-search="a experiencia m.i.r.a - quando mudar de pais tambem significa reorganizar a vida uma leitura sobre mudancas de pais e reorganizacao da vida. qualidade de vida m.i.r.a. mudancas de vida">
+ <a class="sb-image" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/" aria-label="Ler artigo: A experiência M.I.R.A - quando mudar de país também significa reorganizar a vida"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-Ya-1.jpeg" data-fallback-kind="programas" loading="lazy" decoding="async" width="740" height="470" alt="Imagem de capa: A experiência M.I.R.A - quando mudar de país também significa reorganizar a vida"><span class="sb-readmark" aria-hidden="true">↗</span></a>
+ <div class="sb-cardcopy"><div class="sb-meta"><span class="sb-cat">Qualidade de vida</span><time datetime="2026-05-25">25/05/2026</time></div>
+ <h3><a href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/">A experiência M.I.R.A - quando mudar de país também significa reorganizar a vida</a></h3><p>Uma leitura sobre mudanças de país e reorganização da vida.</p>
+ <div class="sb-cardfoot"><div class="sb-tags" aria-label="Assuntos editoriais"><button class="sb-tag" type="button" data-choose-topic="M.I.R.A." title="Filtrar pelo assunto M.I.R.A.">M.I.R.A.</button> <button class="sb-tag" type="button" data-choose-topic="Mudanças de vida" title="Filtrar pelo assunto Mudanças de vida">Mudanças de vida</button></div><a class="sb-read" href="https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida/">Ler artigo <span aria-hidden="true">→</span></a></div></div>
+</article></div>
+<div class="sb-empty" data-empty hidden><h3>Nenhum artigo encontrado</h3><p>Experimente outro termo, assunto ou categoria. Você também pode limpar todos os filtros.</p></div>
+<div class="sb-more-row"><button class="sb-button" type="button" data-more aria-expanded="false">Mostrar mais artigos</button></div>
+</div></section>
+<nav class="v6-cross-nav" aria-label="Explore as páginas da SOTOMA"><h2>Continue sua jornada pela SOTOMA</h2><div class="v6-cross-nav-links"><a href="https://sotomasaudepsicointegrada.com.br/quem-cuida/">Quem cuida ↗</a><a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Cláudia ↗</a><a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Yasmin ↗</a><a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/">Como cuidamos ↗</a><a href="https://sotomasaudepsicointegrada.com.br/duvidas/">Dúvidas ↗</a><a href="https://sotomasaudepsicointegrada.com.br/atendimentos-em-psicoterapia/">Atendimento individual e acompanhamento ↗</a></div></nav><section class="sb-prof-section" id="sotoma-blog-profissionais" aria-labelledby="sb-prof-heading">
+ <div class="sb-wrap">
+ <div class="sb-prof-heading"><span class="sb-eyebrow">Leitura e acolhimento responsável</span><h2 id="sb-prof-heading">Conheça as profissionais da SOTOMA</h2><p>Os artigos são material educativo e não substituem orientação individual. Conheça quem atende cada público e escolha o contato direto apropriado.</p></div>
+ <div class="sb-profs">
+ <article class="sb-prof" data-person="claudia"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Clau-9.jpeg" alt="Cláudia Fernanda Sotoma — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="sb-prof-content"><span class="sb-eyebrow">Adultos · Psicoterapia Positiva</span><h3>Cláudia Fernanda Sotoma</h3><p>Apresentação profissional, conteúdos de vida adulta e opções de contato.</p><div class="sb-prof-actions"><a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Conhecer Cláudia ↗</a><a class="sb-prof-wa" data-sotoma-whatsapp="claudia" data-source-section="blog-profissional" href="https://wa.me/556791847679?text=Ol%C3%A1%2C%20Cl%C3%A1udia!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Blog.%20Se%C3%A7%C3%A3o%3A%20profissionais.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp Cláudia ↗</a><span class="sb-phone">WhatsApp: (67) 99184-7679</span></div></div></article>
+ <article class="sb-prof" data-person="yasmin"><img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" alt="Yasmin Sotoma Muzilli — fotografia da biblioteca WordPress SOTOMA" loading="lazy"><div class="sb-prof-content"><span class="sb-eyebrow">Crianças e adolescentes · Psicanálise</span><h3>Yasmin Sotoma Muzilli</h3><p>Conteúdos relacionados à infância, adolescência e orientações para responsáveis.</p><div class="sb-prof-actions"><a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Conhecer Yasmin ↗</a><a class="sb-prof-wa" data-sotoma-whatsapp="yasmin" data-source-section="blog-profissional" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pelo%20site.%20Origem%3A%20Blog.%20Se%C3%A7%C3%A3o%3A%20profissionais.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20atendimento%2C%20hor%C3%A1rios%20e%20pr%C3%B3ximos%20passos.">WhatsApp Yasmin ↗</a><span class="sb-phone">WhatsApp: (67) 99185-8129</span></div></div></article>
+ </div>
+ <p class="sb-events-note"><strong>Eventos e notícias:</strong> este espaço pode divulgar atividades futuras depois de apuração editorial e confirmação de data, local e responsável. O backup analisado não comprova eventos futuros; por isso nenhuma agenda foi inventada.</p>
+ </div>
+</section>
+<section class="sb-endnote" aria-labelledby="sb-note-title"><div class="sb-wrap"><div class="sb-endpanel"><div><span class="sb-eyebrow">Pesquisa e responsabilidade</span><h2 id="sb-note-title">Conteúdo informativo, com limites claros</h2><p>Esses artigos são conteúdos de divulgação e não substituem avaliação individual. A associação de cada texto a estudos científicos específicos depende de conferência de fontes e revisão editorial. Nenhum resultado clínico é prometido por esta biblioteca.</p></div><a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/">Conheça como cuidamos</a></div></div></section>
+</main>
+<script>
+(() => {
+'use strict';
+const root=document.getElementById('sotoma-blog-v1');
+if(!root || root.dataset.initialized==='true')return;
+root.dataset.initialized='true';
+ const direct={claudia:'556791847679',yasmin:'5567991858129'};root.querySelectorAll('[data-sotoma-whatsapp]').forEach(a=>{const p=a.dataset.sotomaWhatsapp;if(!direct[p])return;const n=p==='claudia'?'Cláudia':'Yasmin';a.href='https://wa.me/'+direct[p]+'?text='+encodeURIComponent('Olá, '+n+'! Encontrei a SOTOMA pelo site. Origem: Blog. Seção: Profissionais. Gostaria de informações gerais sobre atendimento, horários e próximos passos.');a.target='_blank';a.rel='noopener noreferrer';});
+const grid=root.querySelector('[data-grid]');
+const cards=[...root.querySelectorAll('[data-article]')];
+const categories=[...root.querySelectorAll('[data-category-filter]')];
+const topics=[...root.querySelectorAll('[data-topic]')];
+const search=root.querySelector('[data-search]');
+const sort=root.querySelector('[data-sort]');
+const results=root.querySelector('[data-results]');
+const empty=root.querySelector('[data-empty]');
+const more=root.querySelector('[data-more]');
+const clear=root.querySelector('[data-clear]');
+let category='all',topic='',visibleLimit=6;
+const norm=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('pt-BR').trim();
+function draw(){
+ const phrase=norm(search?.value), order=sort?.value||'curadoria';
+ const sorted=[...cards].sort((a,b)=>{
+  if(order==='recente')return b.dataset.date.localeCompare(a.dataset.date);
+  if(order==='antigo')return a.dataset.date.localeCompare(b.dataset.date);
+  if(order==='az')return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent,'pt-BR');
+  return Number(a.dataset.order)-Number(b.dataset.order);
+ });
+ sorted.forEach(card=>grid.appendChild(card));
+ const matched=sorted.filter(card=>(category==='all'||card.dataset.category===category)&&(!topic||card.dataset.topics.split('|').includes(topic))&&(!phrase||card.dataset.search.includes(phrase)));
+ const shown=matched.slice(0,visibleLimit);
+ cards.forEach(card=>card.hidden=!shown.includes(card));
+ if(results)results.textContent=matched.length?`Exibindo ${shown.length} de ${matched.length} artigos encontrados · ${cards.length} publicações na biblioteca`:`Nenhum artigo encontrado · ${cards.length} publicações na biblioteca`;
+ if(empty)empty.hidden=matched.length!==0;
+ if(more){more.hidden=matched.length<=6;more.textContent=visibleLimit>=matched.length?'Mostrar menos artigos':`Mostrar mais artigos (${matched.length-shown.length} restantes)`;more.setAttribute('aria-expanded',String(visibleLimit>=matched.length))}
+ categories.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.categoryFilter===category)));
+ topics.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.topic===topic)));
+}
+function chooseTopic(value){topic=topic===value?'':value;visibleLimit=6;draw();root.querySelector('#sotoma-blog-artigos')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
+categories.forEach(b=>b.addEventListener('click',()=>{category=b.dataset.categoryFilter;visibleLimit=6;draw()}));
+topics.forEach(b=>b.addEventListener('click',()=>chooseTopic(b.dataset.topic)));
+root.querySelectorAll('[data-choose-topic]').forEach(b=>b.addEventListener('click',()=>chooseTopic(b.dataset.chooseTopic)));
+search?.addEventListener('input',()=>{visibleLimit=6;draw()});
+sort?.addEventListener('change',draw);
+more?.addEventListener('click',()=>{visibleLimit=Number(more.getAttribute('aria-expanded')==='true'?6:cards.length);draw()});
+clear?.addEventListener('click',()=>{category='all';topic='';if(search)search.value='';if(sort)sort.value='curadoria';visibleLimit=6;draw()});
+// Original WP thumbnails from the supplied XML; locally embedded V5 image only on failure.
+const fallbacks={}; // As capas preferenciais vêm do WordPress WXR; não embutir milhares de bytes em data URIs.
+const thumbImages=[...root.querySelectorAll('img[data-fallback-kind]')];
+thumbImages.forEach(img=>{
+ const wordpressSrc=img.getAttribute('src');
+ img.addEventListener('error',()=>{if(img.dataset.imageFailed)return;img.dataset.imageFailed='1';img.src='https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/03/Sotoma-blog.jpg';});
+ img.dataset.wordpressSrc=wordpressSrc;
+ const preview=fallbacks[img.dataset.fallbackKind];
+ if(preview){img.src=preview;img.alt='Imagem editorial ilustrativa da SOTOMA para o artigo: '+img.closest('article')?.querySelector('h3')?.textContent;}
+});
+function tryOfficialThumbnail(img){
+ const source=img.dataset.wordpressSrc;
+ if(!source || !source.startsWith('https://sotomasaudepsicointegrada.com.br/wp-content/uploads/'))return;
+ const probe=new Image();
+ probe.onload=()=>{if(img.isConnected){img.src=source;img.alt='Imagem destacada original do artigo: '+img.closest('article')?.querySelector('h3')?.textContent;}};
+ probe.onerror=()=>{}; // Mantém a prévia local caso a mídia WordPress esteja indisponível.
+ probe.src=source;
+}
+if('IntersectionObserver' in window){
+ const observer=new IntersectionObserver(entries=>entries.forEach(({target,isIntersecting})=>{
+  if(!isIntersecting)return;
+  observer.unobserve(target);
+  tryOfficialThumbnail(target);
+ }),{rootMargin:'250px'});
+ thumbImages.forEach(img=>observer.observe(img));
+}else{thumbImages.forEach(tryOfficialThumbnail);}
+
+draw();
+})();
+</script>
