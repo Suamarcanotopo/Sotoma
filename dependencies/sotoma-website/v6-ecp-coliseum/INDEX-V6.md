@@ -2,6 +2,14 @@
 
 **Estado:** candidatos GitHub para revisão, sem WordPress/plugin, sem merge, sem deploy. Escopo: 26 páginas públicas do snapshot 13/11/2026. Preservação de conteúdo prioritária.
 
+
+## Pacotes ZIP somente HTML (sem instalação de plugin)
+
+- [**SOTOMA V6 — 7 páginas completas**](v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) — sete HTML completos, índice e orientação de correção editorial.
+- [**SOTOMA V6 — 10 blocos de conexão não destrutivos**](v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip) — dois blocos para páginas novas e oito para páginas legadas, mais gates ECP + COLISEUM.
+
+**Atenção:** os arquivos ZIP são para **extrair, avaliar e copiar o HTML no Elementor**; NÃO são plugins WordPress. Em ambos os casos, backup e staging antes de qualquer troca.
+
 ## A. Novas páginas / estrutura V6 COMPLETA (7 códigos únicos)
 
 | URL em produção | Código HTML + CSS + JS juntos | Situação |
