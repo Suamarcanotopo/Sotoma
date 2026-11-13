@@ -18,6 +18,7 @@
 - [llms.txt curado](ai-discovery/llms.txt): **7 páginas novas / 13 posts efetivamente publicados**, excluídos testes e páginas operacionais.
 - [Estratégia e guias](ai-discovery/README.md): preferir Rank Math instalado ou plugin fallback, **nunca ambos para llms.txt**.
 - [ZIP WordPress pronto para staging](ai-discovery/releases/sotoma-ai-discovery-v1.0.0.zip): plugin mínimo + cópia **exata** do índice.
+- [Guard MU-plugin para Rank Math](ai-discovery/rankmath-guard/sotoma-rankmath-llms-allowlist.php): bloqueia páginas operacionais, posts legados e tags do gerador automático.
 - [Código PHP do plugin](ai-discovery/wordpress-plugin/sotoma-ai-discovery/sotoma-ai-discovery.php).
 - [Rotas, slugs e plano de 301](ai-discovery/ROTAS-SEO-AGENTES.md).
 - [Coliseum / segurança / QA](ai-discovery/COLISEUM-REDTEAM.md).
