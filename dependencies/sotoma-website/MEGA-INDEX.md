@@ -1,5 +1,7 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+[ZIP das 7 páginas completas](v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) · [ZIP dos 10 blocos aditivos, sem apagar textos](v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip)
+
 **Comece pelo [MEGA INDEX V6 — 7 páginas completas e 10 conexões preservando textos antigos](v6-ecp-coliseum/INDEX-V6.md).**
 
 Atualização da Cláudia: Atendimento individual (50 minutos, contratação por sessão) e Acompanhamento terapêutico (6 ou 12 sessões, condições especiais); nenhum preço no site. Atendimento integrado SOMENTE futuro.
