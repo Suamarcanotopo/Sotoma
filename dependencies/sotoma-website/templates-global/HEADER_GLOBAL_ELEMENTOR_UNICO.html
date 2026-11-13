@@ -1,0 +1,129 @@
+<!-- SOTOMA V5 · HEADER GLOBAL · widget HTML único (Elementor Theme Builder / Header).
+Versão 1.0 · sem analytics, sem dados clínicos, sem duplicação de menu do tema.
+Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLICO revisado em missão futura. -->
+<style>
+#sotoma-global-header{--pine:#22524A;--deep:#183E37;--paper:#F7F8F3;--olive:#8BA146;--yasmin:#176873;--claudia:#486D55;--edge:#DDE8DE;--shadow:0 13px 35px rgba(26,73,54,.11);font:500 15px/1.55 "Mulish",system-ui,-apple-system,sans-serif;color:#213E35;background:rgba(250,252,247,.97);border-bottom:1px solid var(--edge);position:relative;z-index:1000;isolation:isolate}
+#sotoma-global-header *,#sotoma-global-header *:before,#sotoma-global-header *:after{box-sizing:border-box}
+#sotoma-global-header a{color:inherit;text-decoration:none}
+#sotoma-global-header button{font:inherit;cursor:pointer}
+#sotoma-global-header :is(a,button,summary):focus-visible{outline:3px solid var(--olive);outline-offset:3px}
+#sotoma-global-header [hidden]{display:none!important}
+#sotoma-global-header .sth-inner{width:min(1230px,calc(100% - 36px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:22px;min-height:91px;position:relative}
+#sotoma-global-header .sth-logo{display:inline-flex;align-items:center;gap:12px;flex-shrink:0;min-width:0}
+#sotoma-global-header .sth-logo img{display:block;width:152px;height:83px;max-width:100%;object-fit:contain;object-position:left center}
+#sotoma-global-header .sth-nav{display:flex;gap:clamp(10px,2vw,26px);align-items:center;flex:1;justify-content:center}
+#sotoma-global-header .sth-nav>a,#sotoma-global-header .sth-nav summary{font:750 .85rem/1.35 "Poppins",system-ui,sans-serif;color:#2B5749;padding:10px 2px;white-space:nowrap}
+#sotoma-global-header .sth-nav>a:hover,#sotoma-global-header .sth-nav summary:hover,#sotoma-global-header .sth-nav .sth-current{color:#176873}
+#sotoma-global-header .sth-nav a[aria-current="page"]{text-decoration:underline;text-decoration-color:#8BA146;text-decoration-thickness:2px;text-underline-offset:7px}
+#sotoma-global-header .sth-nav details{position:relative}
+#sotoma-global-header .sth-nav summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:7px}
+#sotoma-global-header .sth-nav summary::-webkit-details-marker{display:none}
+#sotoma-global-header .sth-nav summary:after{content:"";width:7px;height:7px;border:solid currentColor;border-width:0 1.8px 1.8px 0;transform:rotate(45deg);margin-top:-3px;transition:transform .18s}
+#sotoma-global-header .sth-nav details[open]>summary:after{transform:rotate(225deg);margin-top:4px}
+#sotoma-global-header .sth-sub{position:absolute;top:100%;left:-18px;min-width:240px;background:#fff;border:1px solid var(--edge);border-radius:15px;padding:9px;box-shadow:var(--shadow);display:grid;gap:3px;z-index:3}
+#sotoma-global-header .sth-sub a{display:block;padding:11px 12px;border-radius:9px;font-weight:750;font-size:.86rem}
+#sotoma-global-header .sth-sub a:hover,#sotoma-global-header .sth-sub a:focus-visible{background:#EDF4EE}
+#sotoma-global-header .sth-contact{position:relative;flex-shrink:0}
+#sotoma-global-header .sth-cta{min-height:45px;border:0;border-radius:13px;padding:11px 17px;background:var(--pine);color:#fff;display:inline-flex;align-items:center;justify-content:space-between;gap:14px;font:750 .82rem "Poppins",system-ui,sans-serif}
+#sotoma-global-header .sth-cta:hover{background:#337162}
+#sotoma-global-header .sth-cta .sth-chevron{width:7px;height:7px;border:solid currentColor;border-width:0 1.8px 1.8px 0;transform:rotate(45deg);transition:transform .18s}
+#sotoma-global-header .sth-cta[aria-expanded="true"] .sth-chevron{transform:rotate(225deg)}
+#sotoma-global-header .sth-contact-box{position:absolute;top:calc(100% + 13px);right:0;width:min(360px,calc(100vw - 32px));background:#fff;border:1px solid var(--edge);border-radius:18px;padding:21px;box-shadow:0 18px 58px rgba(27,69,53,.18);z-index:6}
+#sotoma-global-header .sth-contact-box strong{font:750 1rem/1.3 "Poppins",system-ui,sans-serif;color:var(--deep)}
+#sotoma-global-header .sth-contact-box>p{color:#597368;font-size:.84rem;margin:8px 0 17px}
+#sotoma-global-header .sth-professionals{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+#sotoma-global-header .sth-professionals a{display:flex;align-items:center;justify-content:space-between;gap:10px;border-radius:12px;border:1px solid #DDE8E1;background:#F8FBF8;padding:12px 14px;font:750 .86rem "Poppins",system-ui,sans-serif}
+#sotoma-global-header .sth-professionals a[data-professional="claudia"]{border-left:4px solid var(--claudia)}
+#sotoma-global-header .sth-professionals a[data-professional="yasmin"]{border-left:4px solid var(--yasmin)}
+#sotoma-global-header .sth-professionals a:hover{background:#EEF5ED}
+#sotoma-global-header .sth-professionals small{display:block;font:500 .74rem/1.5 "Mulish",system-ui,sans-serif;color:#61776A;margin-top:3px}
+#sotoma-global-header .sth-smallnote{font-size:.73rem!important;color:#68796E!important;margin:13px 0 0!important}
+#sotoma-global-header .sth-menu-toggle{display:none;align-items:center;justify-content:center;gap:9px;border:1px solid var(--edge);border-radius:12px;padding:9px 12px;color:var(--pine);background:#fff;font-weight:800}
+#sotoma-global-header .sth-bars{width:19px;height:14px;display:block;border-top:2px solid currentColor;border-bottom:2px solid currentColor;position:relative}
+#sotoma-global-header .sth-bars:after{content:"";height:2px;background:currentColor;position:absolute;top:5px;left:0;right:0}
+#sotoma-global-header .sth-skip{position:absolute;left:-10000px;top:0;padding:10px;background:#fff;z-index:9999}
+#sotoma-global-header .sth-skip:focus{left:12px}
+@media(max-width:1100px){#sotoma-global-header .sth-nav{gap:12px}#sotoma-global-header .sth-logo img{width:132px}}
+@media(max-width:920px){
+ #sotoma-global-header .sth-inner{min-height:78px;flex-wrap:wrap;gap:12px 8px}
+ #sotoma-global-header .sth-logo img{width:112px;height:65px}
+ #sotoma-global-header .sth-menu-toggle{display:inline-flex;order:2;margin-left:auto}
+ #sotoma-global-header .sth-contact{order:3}
+ #sotoma-global-header .sth-nav{display:none;order:4;flex-basis:100%;flex-direction:column;align-items:stretch;background:#fff;padding:8px 0 18px;border-top:1px solid var(--edge)}
+ #sotoma-global-header .sth-nav[data-open="true"]{display:flex}
+ #sotoma-global-header .sth-nav>a,#sotoma-global-header .sth-nav summary{display:flex;padding:11px 10px;font-size:.91rem}
+ #sotoma-global-header .sth-nav details{width:100%}
+ #sotoma-global-header .sth-sub{position:static;box-shadow:none;width:100%;border:0;border-left:2px solid #B4CAB5;border-radius:0;padding:0 0 0 11px;margin:0 0 6px 10px}
+ #sotoma-global-header .sth-cta{min-height:43px;padding:10px 12px;font-size:.75rem}
+ #sotoma-global-header .sth-contact-box{right:0}
+}
+@media(max-width:420px){#sotoma-global-header .sth-inner{width:calc(100% - 22px)}#sotoma-global-header .sth-logo img{width:86px;height:62px}#sotoma-global-header .sth-cta{padding:9px}#sotoma-global-header .sth-menu-toggle{font-size:0}#sotoma-global-header .sth-bars{font-size:initial}}
+@media(prefers-reduced-motion:reduce){#sotoma-global-header *,#sotoma-global-header *:before,#sotoma-global-header *:after{animation:none!important;transition:none!important}}
+</style>
+<header id="sotoma-global-header" role="banner">
+<a class="sth-skip" href="#conteudo">Ir ao conteúdo principal</a>
+<div class="sth-inner">
+ <a class="sth-logo" href="https://sotomasaudepsicointegrada.com.br/" aria-label="SOTOMA Saúde Psicointegrada — página inicial">
+  <img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Logo-SOTOMA-Saude-Psicointegrada.png" width="152" height="83" alt="SOTOMA Saúde Psicointegrada" decoding="async" fetchpriority="high">
+ </a>
+ <nav class="sth-nav" id="sth-nav-main" aria-label="Navegação principal" data-navigation>
+  <a href="https://sotomasaudepsicointegrada.com.br/" data-sotoma-nav="/">Início</a>
+  <details><summary>Quem cuida</summary><div class="sth-sub">
+   <a href="https://sotomasaudepsicointegrada.com.br/quem-cuida/">Conheça a equipe SOTOMA</a>
+   <a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Cláudia Fernanda Sotoma</a>
+   <a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Yasmin Sotoma Muzilli</a>
+  </div></details>
+  <a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos/" data-sotoma-nav="/como-cuidamos/">Como cuidamos</a>
+  <a href="https://sotomasaudepsicointegrada.com.br/duvidas/" data-sotoma-nav="/duvidas/">Dúvidas</a>
+  <a href="https://sotomasaudepsicointegrada.com.br/blog/" data-sotoma-nav="/blog/">Blog</a>
+ </nav>
+ <button type="button" class="sth-menu-toggle" aria-controls="sth-nav-main" aria-expanded="false" aria-label="Abrir menu" data-menu-toggle><span class="sth-bars" aria-hidden="true"></span> Menu</button>
+ <div class="sth-contact">
+  <button type="button" class="sth-cta" aria-haspopup="true" aria-controls="sth-contact-options" aria-expanded="false" data-contact-toggle>Falar com SOTOMA <span class="sth-chevron" aria-hidden="true"></span></button>
+  <div id="sth-contact-options" class="sth-contact-box" data-contact-panel hidden>
+   <strong>Com quem deseja conversar?</strong>
+   <p>Escolha a profissional para solicitar informações. O WhatsApp não realiza agendamento automático.</p>
+   <ul class="sth-professionals" data-professionals-list>
+    <li><a data-professional="claudia" href="https://wa.me/556791847679" target="_blank" rel="noopener noreferrer"><span>Cláudia<small>Atendimento a adultos</small></span><span aria-hidden="true">↗</span></a></li>
+    <li><a data-professional="yasmin" href="https://wa.me/5567991858129" target="_blank" rel="noopener noreferrer"><span>Yasmin<small>Crianças e adolescentes</small></span><span aria-hidden="true">↗</span></a></li>
+   </ul>
+   <p class="sth-smallnote">Mensagem editável, sem informações clínicas pré-preenchidas.</p>
+  </div>
+ </div>
+</div>
+</header>
+<script>
+(function(){
+ 'use strict';
+ const root=document.getElementById('sotoma-global-header');if(!root||root.dataset.initialized==='1')return;root.dataset.initialized='1';
+ // REGISTRY: somente profissionais com publicação autorizada; novas entradas entram aqui ou em uma fonte pública aprovada.
+ const REGISTRY=[
+  {id:'claudia',name:'Cláudia Fernanda Sotoma',area:'Atendimento a adultos',phone:'556791847679',profile:'/claudia-sotoma/',active:true},
+  {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças e adolescentes',phone:'5567991858129',profile:'/yasmin-sotoma-muzilli/',active:true}
+ ];
+ const allowed=/^\d{12,13}$/;
+ const sanitize=(p)=>p&&typeof p.name==='string'&&p.name.trim()&&allowed.test(String(p.phone||''))&&p.active!==false;
+ const source=Array.isArray(window.SOTOMA_PUBLIC_PROFESSIONALS)?window.SOTOMA_PUBLIC_PROFESSIONALS:REGISTRY;
+ const people=source.filter(sanitize).map(p=>({id:String(p.id||'profissional').replace(/[^a-z0-9-]/gi,'').slice(0,35),name:String(p.name).slice(0,90),area:String(p.area||'Informações de atendimento').slice(0,90),phone:String(p.phone)}));
+ // Exposto apenas para o footer e o template editorial desta mesma página; não é um endpoint clínico.
+ window.SOTOMA_PUBLIC_PROFESSIONALS=people;
+ const list=root.querySelector('[data-professionals-list]'),contactButton=root.querySelector('[data-contact-toggle]'),contactPanel=root.querySelector('[data-contact-panel]');
+ const menuButton=root.querySelector('[data-menu-toggle]'),navigation=root.querySelector('[data-navigation]');
+ const routes={'/':'inicio','/quem-cuida/':'quem-cuida','/claudia-sotoma/':'profissional','/yasmin-sotoma-muzilli/':'profissional','/como-cuidamos/':'servicos','/duvidas/':'duvidas','/blog/':'blog','/contato/':'contato'};
+ const current=location.pathname.replace(/\/+$/,'/')||'/';
+ const sourceCode=routes[current]||'conteudo-editorial'; // Nunca inserir slug clínico ou termo buscado na mensagem.
+ const linkFor=p=>'https://wa.me/'+p.phone+'?text='+encodeURIComponent('Olá, '+p.name.split(' ')[0]+'! Vim pelo site SOTOMA (origem: '+sourceCode+'; seção: header global). Gostaria de informações gerais sobre atendimento e disponibilidade.');
+ list.replaceChildren();
+ people.forEach(p=>{const li=document.createElement('li'),a=document.createElement('a'),span=document.createElement('span'),small=document.createElement('small'),arrow=document.createElement('span');
+  a.href=linkFor(p);a.target='_blank';a.rel='noopener noreferrer';a.dataset.professional=p.id;
+  span.textContent=p.name;small.textContent=p.area;span.appendChild(small);arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');a.append(span,arrow);li.appendChild(a);list.appendChild(li);
+ });
+ const closeContacts=()=>{contactPanel.hidden=true;contactButton.setAttribute('aria-expanded','false')};
+ contactButton.addEventListener('click',()=>{const open=contactPanel.hidden;contactPanel.hidden=!open;contactButton.setAttribute('aria-expanded',String(open));if(open)navigation.querySelectorAll('details[open]').forEach(x=>x.open=false)});
+ menuButton.addEventListener('click',()=>{const open=navigation.dataset.open!=='true';navigation.dataset.open=String(open);menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Fechar menu':'Abrir menu')});
+ document.addEventListener('pointerdown',ev=>{if(!root.contains(ev.target)){closeContacts();navigation.querySelectorAll('details[open]').forEach(x=>x.open=false);return;}if(!ev.target.closest('.sth-contact'))closeContacts();});
+ document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){closeContacts();navigation.querySelectorAll('details[open]').forEach(x=>x.open=false);menuButton.focus()}});
+ root.querySelectorAll('[data-sotoma-nav]').forEach(a=>{if(a.dataset.sotomaNav===current)a.setAttribute('aria-current','page')});
+ const media=window.matchMedia('(min-width:921px)');const onWide=()=>{if(media.matches){navigation.dataset.open='false';menuButton.setAttribute('aria-expanded','false')}};if(media.addEventListener)media.addEventListener('change',onWide);onWide();
+})();
+</script>
