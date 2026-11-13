@@ -1,3 +1,5 @@
+> **Atualização por verificação direta de 12/11/2026:** a consulta à API pública WordPress encontrou **21 páginas publicadas**, não 17 como no WXR usado na primeira auditoria. Existem `/quem-cuida-de-voce/`, `/v-i-a/`, `/artigos-sotoma/` e `/psicoterapia-online-para-intercambistas/`; a última contém os dois números de WhatsApp no HTML público. **As fotos da equipe foram recadastradas em `/wp-content/uploads/2026/11/`**; arquivos antigos de `/2026/03/` e algumas capas WXR retornaram 404. Foram corrigidas 50 referências de imagens nos candidatos da PR e criada a [auditoria ao vivo](AUDITORIA-LIVE-20261112.md). **Não houve acesso autenticado ao wp-admin nem alteração no WordPress.** Confirmação de titularidade e conteúdo pelos profissionais continua obrigatória.
+
 # SOTOMA 2.0 — WEBSITE V5 · CONTRATO DE PUBLICAÇÃO SEGURA
 **Data:** 2026-11-12 · **Status:** DRAFT / NÃO PUBLICADO · **Origem:** Mission Lock SOTOMA-FOUNDATION-20261107, exportação WXR 2026-11-10 e Home V5 fornecida.
 
@@ -57,7 +59,7 @@ Os links diretos utilizam `https://wa.me/...` com texto **pré-preenchido e edit
 | Saúde integrativa | `/wp-content/uploads/2026/03/Saude-PsicoIntegrada1.jpg` |
 
 Prefixo das URLs: `https://sotomasaudepsicointegrada.com.br`.
-O WXR contém apenas os metadados/URLs das imagens, não os bytes reais. **Não é prova de acessibilidade atual, direito de imagem nem integridade do arquivo.** No site em produção, fazer conferência da mídia antes da troca da Home.
+O WXR contém metadados históricos; a consulta live confirmou arquivos reimportados em /2026/11/ e 404 nas URLs antigas. A existência da URL da mídia não substitui aprovação visual e direito de imagem. **Não é prova de acessibilidade atual, direito de imagem nem integridade do arquivo.** No site em produção, fazer conferência da mídia antes da troca da Home.
 
 ## 5. Publicação segura — ordem obrigatória
 1. **Backup completo e restauração:** exportar site/banco, Elementor templates/kit, mídia, configurações de menu e formulários. Testar rollback em staging com dados sintéticos.
