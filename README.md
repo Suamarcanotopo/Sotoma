@@ -1,3 +1,19 @@
+# SOTOMA 2.0 — ARQUITETURA GLOBAL + DESCOBERTA POR IA (CÓDIGOS EM REVISÃO)
+
+**Abrir primeiro:** [**MEGA INDEX WEBSITE**](dependencies/sotoma-website/MEGA-INDEX.md) — acesso a todos os códigos, assets e auditorias.
+
+- [Header global Elementor — logo, navegação e WhatsApps dinâmicos](dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html)
+- [Footer global Elementor — SEO semântico sem duplicar Rank Math](dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html)
+- [Template Single Post — categorias, tags, leitura e profissionais](dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html)
+- [llms.txt curado — 7 páginas + 13 artigos Markdown 20/20 verificados](dependencies/sotoma-website/ai-discovery/llms.txt)
+- [Plugin instalável SOTOMA Agent Discovery v1.0.0 ZIP](dependencies/sotoma-website/ai-discovery/releases/sotoma-ai-discovery-v1.0.0.zip)
+- [Assets originais 2026/11 com proveniência, 19 arquivos](dependencies/sotoma-website/assets/README.md)
+- [Auditoria ECP + COLISEUM / Red Team](dependencies/sotoma-website/ai-discovery/COLISEUM-REDTEAM.md)
+
+**Estado:** todos os arquivos são candidatos para validação. Sem instalação no WordPress, merge ou alteração nas páginas publicadas. A conversão Markdown .md já funciona no site; não instalar conversor concorrente.
+
+---
+
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
 ## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
