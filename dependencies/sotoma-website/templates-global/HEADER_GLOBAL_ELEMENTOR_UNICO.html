@@ -73,9 +73,9 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
    <a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Cláudia Fernanda Sotoma</a>
    <a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Yasmin Sotoma Muzilli</a>
   </div></details>
-  <a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos/" data-sotoma-nav="/como-cuidamos/">Como cuidamos</a>
+  <a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/" data-sotoma-nav="/como-cuidamos-2/">Como cuidamos</a>
   <a href="https://sotomasaudepsicointegrada.com.br/duvidas/" data-sotoma-nav="/duvidas/">Dúvidas</a>
-  <a href="https://sotomasaudepsicointegrada.com.br/blog/" data-sotoma-nav="/blog/">Blog</a>
+  <a href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/" data-sotoma-nav="/artigos-sotoma/">Blog</a>
  </nav>
  <button type="button" class="sth-menu-toggle" aria-controls="sth-nav-main" aria-expanded="false" aria-label="Abrir menu" data-menu-toggle><span class="sth-bars" aria-hidden="true"></span> Menu</button>
  <div class="sth-contact">
@@ -109,7 +109,7 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
  window.SOTOMA_PUBLIC_PROFESSIONALS=people;
  const list=root.querySelector('[data-professionals-list]'),contactButton=root.querySelector('[data-contact-toggle]'),contactPanel=root.querySelector('[data-contact-panel]');
  const menuButton=root.querySelector('[data-menu-toggle]'),navigation=root.querySelector('[data-navigation]');
- const routes={'/':'inicio','/quem-cuida/':'quem-cuida','/claudia-sotoma/':'profissional','/yasmin-sotoma-muzilli/':'profissional','/como-cuidamos/':'servicos','/duvidas/':'duvidas','/blog/':'blog','/contato/':'contato'};
+ const routes={'/':'inicio','/quem-cuida/':'quem-cuida','/claudia-sotoma/':'profissional','/yasmin-sotoma-muzilli/':'profissional','/como-cuidamos-2/':'servicos','/duvidas/':'duvidas','/artigos-sotoma/':'blog','/contato/':'contato'};
  const current=location.pathname.replace(/\/+$/,'/')||'/';
  const sourceCode=routes[current]||'conteudo-editorial'; // Nunca inserir slug clínico ou termo buscado na mensagem.
  const linkFor=p=>'https://wa.me/'+p.phone+'?text='+encodeURIComponent('Olá, '+p.name.split(' ')[0]+'! Vim pelo site SOTOMA (origem: '+sourceCode+'; seção: header global). Gostaria de informações gerais sobre atendimento e disponibilidade.');
