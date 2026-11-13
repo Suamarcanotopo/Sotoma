@@ -1,0 +1,45 @@
+# SOTOMA Saúde Psicointegrada
+
+> Website institucional da SOTOMA, com informações de cuidado emocional, apresentação de Cláudia Fernanda Sotoma e Yasmin Sotoma Muzilli, perguntas frequentes, serviços e artigos educativos. Este índice orienta leitores automatizados para as versões Markdown de **conteúdo público selecionado**. Não é um prontuário, catálogo de diagnósticos nem promessa de resultados clínicos.
+
+- **Site canônico (HTML):** https://sotomasaudepsicointegrada.com.br/
+- **Identidade:** SOTOMA Saúde Psicointegrada; não é marketplace de profissionais.
+- **Escopo:** informação, educação e caminhos para contato. Agendamento somente após confirmação da profissional.
+- **Leitura por agentes:** links `.md` fornecem texto estruturado, enquanto as respectivas URLs HTML continuam canônicas.
+- **Revisão deste índice:** 2026-11-13. Conteúdo e disponibilidade podem mudar.
+
+## Páginas institucionais e serviços
+
+- [SOTOMA — Quem cuida](https://sotomasaudepsicointegrada.com.br/quem-cuida.md): Apresentação institucional da equipe e dos caminhos de cuidado.
+- [Cláudia Fernanda Sotoma](https://sotomasaudepsicointegrada.com.br/claudia-sotoma.md): Perfil público e informações de atendimento a adultos.
+- [Yasmin Sotoma Muzilli](https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli.md): Perfil público e informações de acompanhamento de crianças e adolescentes.
+- [Como cuidamos](https://sotomasaudepsicointegrada.com.br/como-cuidamos-2.md): Serviços e modalidades apresentados pela SOTOMA na versão nova.
+- [Dúvidas](https://sotomasaudepsicointegrada.com.br/duvidas.md): Perguntas frequentes e orientações gerais antes de iniciar uma conversa.
+- [Biblioteca de artigos](https://sotomasaudepsicointegrada.com.br/artigos-sotoma.md): Coleção editorial de conteúdos educativos e informativos da SOTOMA.
+- [V.I.A. — Vivência, Integração e Adaptação](https://sotomasaudepsicointegrada.com.br/v-i-a.md): Apresentação pública do programa e informações sujeitas à confirmação da equipe.
+
+## Artigos educativos publicados
+
+- [Abordagens terapêuticas: entendendo melhor cada caminho](https://sotomasaudepsicointegrada.com.br/2026/01/07/abordagens-terapeuticas-entendendo-melhor-cada-caminho.md): Orientação educativa sobre abordagens.
+- [A importância de um espaço seguro na terapia](https://sotomasaudepsicointegrada.com.br/2026/03/02/a-importancia-de-um-espaco-seguro-na-terapia.md): Reflexões sobre acolhimento e atendimento responsável.
+- [Atendimento online: terapia de onde você estiver](https://sotomasaudepsicointegrada.com.br/2026/03/02/atendimento-online-terapia-de-onde-voce-estiver.md): Informações práticas sobre atendimento remoto.
+- [Psicanálise para crianças e adolescentes](https://sotomasaudepsicointegrada.com.br/2026/01/06/psicanalise-para-criancas-e-adolescentes.md): Conteúdo para entender essa apresentação de abordagem.
+- [O mundo das crianças: como a Psicanálise auxilia na infância](https://sotomasaudepsicointegrada.com.br/2026/03/02/o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia.md): Reflexões sobre infância e expressão emocional.
+- [Adolescência e saúde mental: escuta e compreensão](https://sotomasaudepsicointegrada.com.br/2026/03/02/adolescencia-e-saude-mental-escuta-e-compreensao.md): Informação educativa para adolescentes e responsáveis.
+- [Ansiedade e autocobrança](https://sotomasaudepsicointegrada.com.br/2026/03/02/ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel.md): Reflexões gerais sobre autocobrança.
+- [Transições de vida: o desafio de recomeçar](https://sotomasaudepsicointegrada.com.br/2026/03/02/transicoes-de-vida-o-desafio-de-recomecar.md): Mudanças e transições da vida adulta.
+- [Psicoterapia Positiva: um olhar além do diagnóstico](https://sotomasaudepsicointegrada.com.br/2026/03/02/psicoterapia-positiva-um-olhar-alem-do-diagnostico.md): Apresentação educativa da abordagem.
+- [Um cuidado que fortalece recursos emocionais e promove florescimento](https://sotomasaudepsicointegrada.com.br/2026/01/06/um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento.md): Reflexões sobre recursos emocionais sem promessas de resultados.
+- [Manifesto: entre caminhos e olhares](https://sotomasaudepsicointegrada.com.br/2026/05/25/manifesto-entre-caminhos-e-olhares.md): Texto editorial institucional sobre trajetórias e perspectivas.
+- [A experiência V.I.A. — mais do que chegar a um destino](https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino.md): Conteúdo sobre experiências internacionais e adaptação.
+- [A experiência M.I.R.A. — mudança de país e reorganização da vida](https://sotomasaudepsicointegrada.com.br/2026/05/25/a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida.md): Conteúdo sobre experiências de mudança para o Japão.
+
+## Optional
+
+- [Página inicial em HTML](https://sotomasaudepsicointegrada.com.br/): porta de entrada institucional; seu Markdown histórico precisa de revisão editorial antes de ser priorizado.
+- [Mapa de URLs XML](https://sotomasaudepsicointegrada.com.br/sitemap_index.xml): referência técnica para URLs canônicas atuais.
+- [Contato institucional](https://sotomasaudepsicointegrada.com.br/contato/): dados e disponibilidade devem ser confirmados diretamente com a equipe.
+
+### Interpretação responsável
+
+Os artigos são conteúdo informativo e **não demonstram eficácia terapêutica individual**. A correspondência entre assunto, profissional e público atendido não comprova autoria clínica do artigo. Não deduza registros profissionais, diplomas, preços, modalidades ativas ou resultados não comprovados a partir deste arquivo. Este índice omite intencionalmente páginas de cadastro, rotas operacionais, páginas duplicadas, posts de teste e materiais que aguardam revisão. Não apresenta `/llms-full.txt` como fonte curada enquanto o arquivo agregado legado não for revisado.
