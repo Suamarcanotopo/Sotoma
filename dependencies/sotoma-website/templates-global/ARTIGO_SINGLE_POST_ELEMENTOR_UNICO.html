@@ -1,5 +1,5 @@
 <!-- SOTOMA · TEMPLATE EDITORIAL GLOBAL · um único código HTML/CSS/JS
-INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget Elementor nativo Post Content no MESMO template (exigência oficial Elementor).
+INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget Elementor nativo Post Content (obrigatório) + UM widget Post Title em H1 (SEO server-rendered) no MESMO template.
 O Post Content é renderizado pelo servidor WordPress; este script o encaixa no slot visual, sem substituí-lo por conteúdo fetch(JS).
 Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste HTML. -->
 <style>
@@ -82,6 +82,8 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
 @media(max-width:700px){#sotoma-article-template .sta-hero-grid{grid-template-columns:1fr}#sotoma-article-template .sta-cover{max-height:360px}#sotoma-article-template .sta-aside{grid-template-columns:1fr}#sotoma-article-template .sta-related{grid-template-columns:1fr}}
 @media(max-width:460px){#sotoma-article-template .sta-wrap{width:calc(100% - 30px)}#sotoma-article-template .sta-hero{padding:44px 0}#sotoma-article-template .sta-categories{gap:7px}#sotoma-article-template .sta-content{padding:22px}#sotoma-article-template .sta-meta{gap:7px 14px}}
 @media(prefers-reduced-motion:reduce){#sotoma-article-template *,#sotoma-article-template *:before,#sotoma-article-template *:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+#sotoma-article-template .sta-title-host .elementor-widget-theme-post-title{margin:0}#sotoma-article-template .sta-title-loading{font:650 clamp(2.3rem,4.6vw,4.5rem)/1.15 "Poppins",system-ui,sans-serif;color:#FFF}
 </style>
 <section id="sotoma-article-template" aria-label="Layout do artigo SOTOMA">
  <div class="sta-progress" aria-hidden="true"><span data-progress></span></div>
@@ -90,7 +92,7 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
    <nav class="sta-crumbs" aria-label="Caminho de navegação"><a href="https://sotomasaudepsicointegrada.com.br/">Início</a><span aria-hidden="true">›</span><a href="https://sotomasaudepsicointegrada.com.br/blog/">Blog</a><span aria-hidden="true">›</span><span data-breadcrumb-title>Artigo</span></nav>
    <div class="sta-hero-grid"><div>
     <span class="sta-kicker">SOTOMA · Educação e informação</span>
-    <h1 id="sta-post-title" data-post-title>Artigo SOTOMA</h1>
+    <div class="sta-title-host" data-title-host><span class="sta-title-loading" aria-hidden="true">Artigo SOTOMA</span></div>
     <p class="sta-excerpt" data-post-excerpt hidden></p>
     <div class="sta-meta"><time data-post-date>Data de publicação</time><time data-modified hidden></time><span data-readtime>Tempo de leitura estimado</span></div>
     <nav class="sta-categories" aria-label="Categorias deste artigo" data-categories></nav>
@@ -146,6 +148,8 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
  function embedNative(){
   // Nunca retirar Post Content do DOM gerado pelo servidor em produção: move o widget, não recria o texto via JS.
   if(document.body.classList.contains('elementor-editor-active'))return;
+  const nativeTitle=Array.from(document.querySelectorAll('.elementor-widget-theme-post-title')).find(el=>!root.contains(el)&&el.querySelector('h1'));
+  if(nativeTitle){const titleHost=root.querySelector('[data-title-host]');titleHost.replaceChildren(nativeTitle);const h=titleHost.querySelector('h1');h.id='sta-post-title';}
   const candidates=Array.from(document.querySelectorAll('.elementor-widget-theme-post-content'));
   const widget=candidates.find(el=>!root.contains(el)&&el.querySelector('.elementor-widget-container'));
   if(!widget)return;
@@ -192,7 +196,7 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
    const items=await fetchJSON('posts?slug='+encodeURIComponent(currentSlug)+'&_embed=1');
    if(!Array.isArray(items)||items.length!==1)throw Error('Post não encontrado pelo slug');
    const p=items[0],title=escapeText(p.title?.rendered||'Artigo SOTOMA');
-   root.querySelector('[data-post-title]').textContent=title;
+   if(!root.querySelector('[data-title-host] h1')){const host=root.querySelector('[data-title-host]'),h=document.createElement('h1');h.id='sta-post-title';h.textContent=title;host.replaceChildren(h)}
    root.querySelector('[data-breadcrumb-title]').textContent=title;
    const text=escapeText(p.excerpt?.rendered||'');if(text){const el=root.querySelector('[data-post-excerpt]');el.textContent=text.slice(0,320);el.hidden=false}
    const d=root.querySelector('[data-post-date]');if(p.date){d.textContent='Publicado em '+dateBR(p.date);d.dateTime=p.date}
