@@ -7,6 +7,7 @@
 - [Template Single Post — categorias, tags, leitura e profissionais](dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html)
 - [llms.txt curado — 7 páginas + 13 artigos Markdown 20/20 verificados](dependencies/sotoma-website/ai-discovery/llms.txt)
 - [Plugin instalável SOTOMA Agent Discovery v1.0.0 ZIP](dependencies/sotoma-website/ai-discovery/releases/sotoma-ai-discovery-v1.0.0.zip)
+- [Guard Rank Math para incluir somente páginas/posts revisados](dependencies/sotoma-website/ai-discovery/rankmath-guard/sotoma-rankmath-llms-allowlist.php)
 - [Assets originais 2026/11 com proveniência, 19 arquivos](dependencies/sotoma-website/assets/README.md)
 - [Auditoria ECP + COLISEUM / Red Team](dependencies/sotoma-website/ai-discovery/COLISEUM-REDTEAM.md)
 
