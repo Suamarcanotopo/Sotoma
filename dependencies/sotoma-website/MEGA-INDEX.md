@@ -1,44 +1,97 @@
-# SOTOMA 2.0 — MEGA INDEX CANÔNICO WEBSITE (13/11/2026)
+# SOTOMA 2.0 — ÍNDICE OPERACIONAL DOS CÓDIGOS (16/11/2026)
 
-**Contrato visual:** Header/Footer globais Elementor; um único HTML contendo STYLE, corpo visual e SCRIPT por template; edição dos artigos via widgets nativos **Post Title (H1) e Post Content** no Single Post para garantir HTML renderizado no servidor. `main` não modificada.
+**COMECE AQUI.** Este é o ponto único para encontrar, abrir, copiar e integrar os códigos do website SOTOMA no WordPress/Elementor. **Status: código em duas PRs Draft, ainda não integrado à `main` e NÃO publicado pelo repositório.** Não confundir código preparado com versão instalada ou aprovada.
 
-## 1. Três códigos globais, prontos para inspeção
-| Componente | Código único | Local de aplicação |
-|---|---|---|
-| Header global | [HEADER_GLOBAL_ELEMENTOR_UNICO.html](templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html) | Elementor Theme Builder → Header. Logo original, menus das **páginas novas publicadas** e botão **Falar com SOTOMA** que abre Cláudia/Yasmin e suporta novos profissionais aprovados |
-| Footer global | [FOOTER_GLOBAL_ELEMENTOR_UNICO.html](templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html) | Theme Builder → Footer. Logo, semântica institucional, navegação, contatos, privacidade responsável, sem schema duplicado |
-| Single Post | [ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html](templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html) | Theme Builder → Single Post, **com Post Title e Post Content nativos**. Leitura estimada, categorias/tags reais, TOC, correlatos, WhatsApps por tema |
+- [PR #10 — Home V5 e Blog autônomo](https://github.com/Suamarcanotopo/Sotoma/pull/10) · branch `feat/home-v5-modular-index-20261112`.
+- [PR #13 — Header, Footer, Single Post, mídia e SEO](https://github.com/Suamarcanotopo/Sotoma/pull/13) · branch `feat/global-header-footer-article-assets-20261112`.
+- [Mission Lock](../../docs/MISSION-LOCK.md) · [Handoff geral](../../docs/HANDOFF.md) · [Governança e evidências Home/Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/ASSETS-E-PENDENCIAS.md) · [Inventário de imagens](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/assets/MANIFESTO-ASSETS-2026-11.json).
 
-## 2. Biblioteca de assets
-- [Biblioteca em pastas por profissional e logo](assets/README.md).
-- [MANIFESTO-ASSETS-2026-11.json](assets/MANIFESTO-ASSETS-2026-11.json): URLs WordPress atuais, Git blob SHA, descrição, bytes, estado de consentimento.
-- 19 arquivos binários originais — **1 logo, 9 Yasmin, 8 Cláudia, 1 dupla** — já salvos em Git, com proveniência. GitHub preserva histórico; WordPress continua servindo as fotos públicas.
+## 1. COPIAR O CÓDIGO CERTO — CATÁLOGO COMPLETO
 
-## 3. AI Discovery — Markdown, Rank Math e indexação
-- [llms.txt curado](ai-discovery/llms.txt): **7 páginas novas / 13 posts efetivamente publicados**, excluídos testes e páginas operacionais.
-- [Estratégia e guias](ai-discovery/README.md): preferir Rank Math instalado ou plugin fallback, **nunca ambos para llms.txt**.
-- [ZIP WordPress pronto para staging](ai-discovery/releases/sotoma-ai-discovery-v1.0.0.zip): plugin mínimo + cópia **exata** do índice.
-- [Guard MU-plugin para Rank Math](ai-discovery/rankmath-guard/sotoma-rankmath-llms-allowlist.php): bloqueia páginas operacionais, posts legados e tags do gerador automático.
-- [Código PHP do plugin](ai-discovery/wordpress-plugin/sotoma-ai-discovery/sotoma-ai-discovery.php).
-- [Rotas, slugs e plano de 301](ai-discovery/ROTAS-SEO-AGENTES.md).
-- [Coliseum / segurança / QA](ai-discovery/COLISEUM-REDTEAM.md).
+| ID | Código copiável | Onde instalar | HTML / corpo visual | CSS / estilo | JavaScript / comportamento |
+| --- | --- | --- | --- | --- | --- |
+| **C01** | **[HOME V5 — arquivo único](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)** | Elementor → página inicial → **1 widget HTML** | [HTML começa](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L343) | [CSS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L5) | [JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L460) |
+| **C02** | **[BLOG V1 — arquivo único](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)** | Elementor → página de artigos, rota a homologar → **1 widget HTML** | [HTML começa](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L66) | [CSS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L7) | [JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L189) |
+| **C03** | **[HEADER global — arquivo único](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html)** | Theme Builder → Header → widget HTML | [HTML](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L63) | [CSS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L4) | [JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L95) |
+| **C04** | **[FOOTER global — arquivo único](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html)** | Theme Builder → Footer → widget HTML | [HTML](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html#L44) | [CSS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html#L4) | [JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html#L94) |
+| **C05** | **[SINGLE POST — arquivo único](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html)** | Theme Builder → Single Post → **HTML + 2 widgets nativos** | [HTML](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L88) | [CSS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L5) | [JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L120) |
 
-## 4. Estado do website publicado (observação de 13/11/2026)
-- **26 páginas WordPress publicadas**, com principais rotas novas `/quem-cuida/`, `/claudia-sotoma/`, `/yasmin-sotoma-muzilli/`, `/como-cuidamos-2/`, `/duvidas/`, `/artigos-sotoma/`, `/v-i-a/`.
-- 13 artigos editoriais + 1 post `Hello world!` técnico; publicações devem ser filtradas por revisão editorial.
-- `/llms-full.txt` atual **não está curado**; não apontar agentes para ele até corrigir o sistema legado.
-- `/llms.txt` atual no site **404**, embora a fonte de código esteja pronta.
-- **20/20** URLs Markdown do índice curado retornaram HTTP 200 `text/markdown` em testes remotos.
-- Rank Math já insere metadados SEO; HTML humano segue canônico. Markdown alternativo retorna `noindex`.
+**Como copiar:** abra o **arquivo único** do ID escolhido, use o botão **Raw** do GitHub para obter o texto integral e cole no widget HTML correspondente. Os links HTML/CSS/JS acima são **atalhos para trechos do mesmo arquivo**, não componentes independentes. Isso evita colar apenas CSS ou JS e perder funcionalidades. Não usar `<!doctype>`, `<html>`, `<head>` ou `<body>` dentro de widgets. O Single Post **também** precisa dos widgets Elementor nativos **Post Title (H1)** e **Post Content** para manter título e conteúdo renderizados pelo WordPress.
 
-## 5. Gates antes de implantar
-1. Snapshot WordPress completo, Elementor Theme Builder, banco, mídia, cache e plano de rollback.
-2. Confirmar menu e permissões das duas profissionais; a expansão requer registro interno aprovado (Mission Lock).
-3. Testar header/footer com templates globais sem duplicação e verificar mobile/teclado/FOUC.
-4. Instalar Single Post com widgets nativos e testar artigo completo no HTML sem depender de JS.
-5. Escolher Rank Math **ou** plugin SOTOMA como proprietário de `/llms.txt`. Não instalar conversor de Markdown paralelo.
-6. Excluir/corrigir material indevido `Hello world!`, `llms-full.txt`, rotas técnicas e Home Markdown anterior.
-7. Aprovar conteúdo clínico e autoria, títulos/descrições, imagem, comportamento dos contatos, canonical e 301 em missão de URL posterior.
-8. Nenhum deploy sem staging, aprovação e rollback comprovado.
+### Ordem segura de implantação em staging
 
-[Mission Lock da SOTOMA](../../docs/MISSION-LOCK.md).
+1. Backup completo da página atual, tema, templates Elementor, mídias e banco; documentar rollback.
+2. C03 Header e C04 Footer **uma única vez no Theme Builder**, nunca dentro da C01 ou C02. Conferir ausência de cabeçalho/rodapé duplicado.
+3. C01 Home V5 na página inicial e C02 Blog na página WordPress correta, em ambiente de homologação.
+4. C05 no template Single Post junto dos widgets nativos; testar sumário, título, conteúdo, tags reais e relacionados.
+5. Testar responsividade, navegação com teclado, scripts, imagens, links, segurança, conformidade de conteúdo, cache, `noindex` de staging e rollback. Só depois de aprovação formal considerar publicação.
+
+## 2. NAVEGAÇÃO — SEIS DESTINOS PEDIDOS
+
+| Nome mostrado | Código/âncora para editar | Destino atualmente configurado no Header | Observação |
+| --- | --- | --- | --- |
+| **Início** | [Header — menu](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L69) · [Home V5](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L343) | `/` | Hero alternado Cláudia/Yasmin |
+| **Quem cuida de você** | [Header — submenu da equipe](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L71) · [Equipe na Home](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L435) | `/quem-cuida/` | Páginas específicas da Cláudia/Yasmin existem no WordPress, mas não há arquivos de widget individual para elas nestas duas PRs |
+| **Como cuidamos** | [Header — menu](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L76) · [Serviços e programas](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L397) | `/como-cuidamos-2/` | Não trocar para `/como-cuidamos/` sem plano de canonical/301 |
+| **Dúvidas** | [Header — menu](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L77) · [FAQ da Home](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L444) | `/duvidas/` | Há FAQ resumida na Home |
+| **Blog** | [Header — menu](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L78) · [Blog independente](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L66) | **`/artigos-sotoma/`** | O código da PR #10 foi descrito originalmente como `/blog/`; checar a página/canonical antes de colar |
+| **Contato** | [Header — menu](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L79) · [Contato da Home](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L453) · [Footer](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html#L44) | `/contato/` | Adicionado explicitamente ao Header da PR #13; CTA “Falar com SOTOMA” continua separado |
+
+**ATENÇÃO ÀS ROTAS:** existem URLs legadas e novas em coexistência. O código do Blog pode ser instalado em uma página cujo *slug* não é `/blog/`. Não criar nova página duplicada, mudar menus, instalar redirecionamentos 301 nem alterar canonical sem inventário, aprovação e teste.
+
+## 3. JORNADA DE ATENDIMENTO — HOME V5
+
+| Passo | Onde editar | Localizar no CSS/JS | Estado |
+| --- | --- | --- | --- |
+| Defina sua área | [Seção #jornada](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L413) | `.step-card` | Integrado à Home |
+| Escolha seu plano | [Seção #jornada](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L413) · [Seção #planos](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L423) | `.step-card`, `.plan-card` | Integrado; oferta depende de aprovação |
+| Primeira sessão | [Seção #jornada](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L413) · [Contato](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L453) | `.step-card`, `[data-whatsapp]` | **Não** afirmar agendamento automático por clique |
+
+## 4. MODALIDADES — HOME V5
+
+| Modalidade do planejamento | Onde encontrar | Gate |
+| --- | --- | --- |
+| Consulta avulsa | [Planos e modalidades](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L423) | Confirmar nomenclatura, duração e política comercial |
+| Multidisciplinar | [Planos e modalidades](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L423) | Confirmar equipe disponível e oferta efetiva |
+| Pacote profissional único | [Planos e modalidades](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L423) | Verificar regras de sessões, oferta e condições, sem criar preços inventados |
+
+## 5. ÁREAS E PROGRAMAS — HOME V5
+
+| Item | Onde encontrar | Outra referência |
+| --- | --- | --- |
+| Adultos | [Caminhos de cuidado](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L382) | [Equipe](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L435) |
+| Crianças e adolescentes | [Caminhos de cuidado](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L382) | [Equipe](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L435) |
+| Psicoterapia Positiva | [Serviços](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L397) | [Filtro do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L77) |
+| Psicanálise | [Serviços](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L397) | [Artigos do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L75) |
+| V.I.A. | [Programas](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L397) | [Artigos do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L75) |
+| M.I.R.A. | [Programas](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L397) | [Artigos do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L75) |
+
+## 6. CONHECIMENTO — BLOG, ARTIGO E PESQUISA
+
+| Item | Onde editar | O que NÃO confundir |
+| --- | --- | --- |
+| Pesquisas e estudos | [Nota editorial do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L185) · [Governança científica](../sotoma-editorial/PESQUISAS-ESTUDOS-GOVERNANCA.md) | Pesquisa citada não é comprovação de eficácia clínica de programas |
+| Artigo | [Single Post](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L88) | O texto e H1 dependem de widgets **Post Content/Post Title** nativos |
+| Leituras relacionadas | [Bloco Continue aprendendo](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L118) · [JS de relacionados](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L222) | Verificar critério de seleção e links reais |
+| Correlação | [Relacionados no artigo](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L118) · [Matriz estudos × pautas](../sotoma-editorial/PESQUISAS-ESTUDOS-GOVERNANCA.md) | É **relação editorial de assuntos e fontes**, não diagnóstico ou relação causal; módulo exclusivo “Correlação” não está implementado |
+| Biblioteca de artigos | [13 cards no Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L75) | São 13 posts extraídos do WXR de 10/11; checar disponibilidade e imagens no servidor |
+| Filtros e busca | [HTML dos controles](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L77) · [Lógica JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L189) | Assuntos dos chips não são tags WordPress persistidas |
+
+## 7. UTILITÁRIOS — ONDE ESTÃO OU O QUE FALTA
+
+| Item | Código / rota | Status verificável |
+| --- | --- | --- |
+| Privacidade | [Texto e links de apoio do Footer](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/FOOTER_GLOBAL_ELEMENTOR_UNICO.html#L82) | **PENDENTE:** há orientação de contato, mas **não** link de política de privacidade pública validada; não inventar documento/URL |
+| Encontrar atendimento | [Contato/seleção de profissional](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L453) · [Botão Falar com SOTOMA](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html#L81) | Fluxo de contato; não implica reserva confirmada |
+| Filtros do Blog | [Controles HTML](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L77) · [JavaScript](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L189) | Busca, categorias, assunto e ordenação |
+| Explorar | [Biblioteca do Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html#L75) · [Explorar todos os artigos](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html#L118) | Roteiros de leitura e links para posts, sujeitos a teste |
+| Hero e imagens | [Hero](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L347) · [Configuração JS](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html#L474) · [Manifesto de fotos](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/assets/MANIFESTO-ASSETS-2026-11.json) | Aprovar fidelidade, direitos e consentimento |
+
+## 8. CRITÉRIOS E LIMITES DESTA ENTREGA
+
+- **Existe:** C01/C02 na PR #10; C03/C04/C05 na PR #13; artefatos HTML com CSS e JS incorporados; índice e navegação por localização.
+- **Não existe nas PRs:** HTML Elementor individual versionado para todas as páginas internas, painel clínico, agendamento confirmado, política de privacidade comprovada, integração dinâmica completa com WordPress.
+- **Pendente:** homologação Elementor/tema real, teste de rotas e imagens, profissionais/WhatsApp/modalidades, revisão clínica, acessibilidade, SEO (Search Engine Optimization — otimização para mecanismos de busca), privacidade, backup/restauração e aprovação.
+- **Fail Closed:** sem merge, sem deploy, sem publicar nem gerar URLs canônicas fictícias. As duas PRs podem evoluir separadas e serão integradas somente após revisão e resolução de conflitos.
+
+**Handoff da missão:** manter estas duas PRs como fonte verificável; cada novo código deve receber um ID C06+, URL da branch, marcador HTML/CSS/JS, página alvo, status `PROPOSTO → CODIFICADO → TESTADO LOCAL → HOMOLOGADO STAGING → APROVADO → PUBLICADO` e evidência do gate. Não marcar os estágios finais sem prova.
