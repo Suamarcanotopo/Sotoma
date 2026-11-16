@@ -1,5 +1,5 @@
 <!-- SOTOMA · TEMPLATE EDITORIAL GLOBAL · um único código HTML/CSS/JS
-INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget Elementor nativo Post Content (obrigatório) + UM widget Post Title em H1 (SEO server-rendered) no MESMO template.
+INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget nativo Post Content (obrigatório) e UM Post Title H1 no mesmo template. As categorias reais WordPress 'Claudia' e/ou 'Yasmin' ativam automaticamente foto + CTA individual. Três seções sempre presentes: correlacionados, recentes, profissionais. Imagens mantêm proporção original.
 O Post Content é renderizado pelo servidor WordPress; este script o encaixa no slot visual, sem substituí-lo por conteúdo fetch(JS).
 Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste HTML. -->
 <style>
@@ -205,23 +205,6 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
  const safeUrl=(url)=>{try{const u=new URL(url,location.origin);return u.origin===location.origin&&['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
  const fetchJSON=async(endpoint)=>{const r=await fetch(BASE+endpoint,{credentials:'omit',headers:{'Accept':'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);return r.json()};
  const dateBR=s=>{if(!s)return '';const d=String(s).slice(0,10).split('-');return d.length===3?d.reverse().join('/'):' '};
- const postMap={
- 'psicanalise-para-criancas-e-adolescentes':['yasmin'],
- 'o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia':['yasmin'],
- 'adolescencia-e-saude-mental-escuta-e-compreensao':['yasmin'],
- 'ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel':['claudia'],
- 'transicoes-de-vida-o-desafio-de-recomecar':['claudia'],
- 'psicoterapia-positiva-um-olhar-alem-do-diagnostico':['claudia'],
- 'um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento':['claudia'],
- 'a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino':['claudia'],
- 'a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida':['claudia']
- }; // Correlação temática proposta para CTAs; a direção deve aprovar. Não constitui autoria clínica.
- const defaultPeople=[
- {id:'claudia',name:'Cláudia Fernanda Sotoma',area:'Atendimento a adultos',phone:'556791847679',active:true},
- {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças e adolescentes',phone:'5567991858129',active:true}
- ];
- const registry=Array.isArray(window.SOTOMA_PUBLIC_PROFESSIONALS)?window.SOTOMA_PUBLIC_PROFESSIONALS:defaultPeople;
- const people=registry.filter(p=>p&&p.active!==false&&typeof p.name==='string'&&/^\d{12,13}$/.test(String(p.phone||'')));
  let contentElement=null;
  function embedNative(){
   // Nunca retirar Post Content do DOM gerado pelo servidor em produção: move o widget, não recria o texto via JS.
