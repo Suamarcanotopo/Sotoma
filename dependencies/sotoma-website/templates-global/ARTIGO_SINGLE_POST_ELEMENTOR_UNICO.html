@@ -1,0 +1,243 @@
+<!-- SOTOMA · TEMPLATE EDITORIAL GLOBAL · um único código HTML/CSS/JS
+INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget Elementor nativo Post Content (obrigatório) + UM widget Post Title em H1 (SEO server-rendered) no MESMO template.
+O Post Content é renderizado pelo servidor WordPress; este script o encaixa no slot visual, sem substituí-lo por conteúdo fetch(JS).
+Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste HTML. -->
+<style>
+#sotoma-article-template{--pine:#22524A;--deep:#183E37;--sage:#91AFA1;--olive:#8BA146;--ink:#243E36;--mute:#5D7167;--paper:#F8FAF6;--edge:#DAE6DD;--claudia:#486D55;--yasmin:#176873;--shadow:0 20px 50px rgba(26,66,48,.09);width:100%;max-width:100%;font:400 16px/1.8 "Mulish",system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--paper);isolation:isolate;overflow-wrap:anywhere}
+#sotoma-article-template *,#sotoma-article-template *:before,#sotoma-article-template *:after{box-sizing:border-box}
+#sotoma-article-template a{color:inherit;text-decoration:none}
+#sotoma-article-template img{max-width:100%;height:auto}
+#sotoma-article-template button{font:inherit;cursor:pointer}
+#sotoma-article-template [hidden]{display:none!important}
+#sotoma-article-template :is(a,button):focus-visible{outline:3px solid var(--olive);outline-offset:4px}
+#sotoma-article-template h1,#sotoma-article-template h2,#sotoma-article-template h3{font-family:"Poppins",system-ui,sans-serif;letter-spacing:-.035em;line-height:1.2;margin:0}
+#sotoma-article-template .sta-wrap{width:min(1160px,calc(100% - 42px));margin-inline:auto}
+#sotoma-article-template .sta-hero{background:linear-gradient(139deg,#204E43,#15382F);color:#fff;padding:clamp(50px,6vw,95px) 0 65px;position:relative;overflow:hidden}
+#sotoma-article-template .sta-hero:after{content:"";position:absolute;right:-10%;top:-58%;height:560px;width:560px;border:1px solid rgba(245,252,243,.17);border-radius:50%;pointer-events:none}
+#sotoma-article-template .sta-crumbs{display:flex;align-items:center;gap:11px;font:750 .78rem "Poppins",system-ui,sans-serif;color:#D4E9DB;margin-bottom:32px;flex-wrap:wrap}
+#sotoma-article-template .sta-crumbs a:hover{text-decoration:underline;text-underline-offset:5px}
+#sotoma-article-template .sta-hero-grid{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(250px,.78fr);gap:45px;align-items:center}
+#sotoma-article-template .sta-kicker{font:850 .74rem/1.5 "Poppins",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#CBE1C4}
+#sotoma-article-template .sta-hero h1{font-size:clamp(2.3rem,4.6vw,4.5rem);line-height:1.12;margin:15px 0 18px;max-width:840px}
+#sotoma-article-template .sta-excerpt{max-width:720px;color:#DFEBE1;font-size:1rem;line-height:1.75}
+#sotoma-article-template .sta-meta{display:flex;gap:12px 20px;flex-wrap:wrap;color:#DCEBDE;font-size:.82rem;margin-top:24px}
+#sotoma-article-template .sta-categories{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+#sotoma-article-template .sta-category{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.35);padding:7px 12px;border-radius:100px;font:750 .75rem/1.45 "Poppins",system-ui,sans-serif}
+#sotoma-article-template .sta-category:hover{background:#E9F3E7;color:var(--pine)}
+#sotoma-article-template .sta-cover{border-radius:21px;overflow:hidden;aspect-ratio:4/3;background:linear-gradient(135deg,#9BBBAB,#C5DACC);position:relative;box-shadow:0 21px 60px rgba(6,27,19,.24)}
+#sotoma-article-template .sta-cover img{width:100%;height:100%;object-fit:cover;display:block}
+#sotoma-article-template .sta-cover:not(:has(img:not([hidden]))):after{content:"SOTOMA · Leitura e reflexão";display:grid;place-items:center;position:absolute;inset:0;color:#295343;font:750 1.1rem "Poppins",system-ui,sans-serif;padding:25px;text-align:center}
+#sotoma-article-template .sta-progress{height:4px;background:#DFEBDD;position:sticky;top:0;z-index:6}
+#sotoma-article-template .sta-progress>span{display:block;width:100%;height:100%;background:var(--olive);transform:scaleX(0);transform-origin:left center}
+#sotoma-article-template .sta-grid{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(235px,.65fr);gap:clamp(26px,5vw,72px);padding:clamp(38px,6vw,82px) 0}
+#sotoma-article-template .sta-article{min-width:0}
+#sotoma-article-template .sta-content{background:#fff;border:1px solid #E1EAE0;box-shadow:var(--shadow);border-radius:22px;padding:clamp(23px,4vw,54px);min-height:240px;overflow-wrap:anywhere}
+#sotoma-article-template .sta-content :is(h2,h3,h4){color:#244B3C;margin:1.4em 0 .55em;scroll-margin-top:120px}
+#sotoma-article-template .sta-content h2{font-size:clamp(1.5rem,2.3vw,2.1rem)}
+#sotoma-article-template .sta-content h3{font-size:clamp(1.25rem,2vw,1.6rem)}
+#sotoma-article-template .sta-content :is(p,ul,ol,blockquote){margin-top:0;margin-bottom:1.25em}
+#sotoma-article-template .sta-content :is(ul,ol){padding-left:1.35em}
+#sotoma-article-template .sta-content a:not(.elementor-button){color:#22524A;text-decoration:underline;text-underline-offset:3px}
+#sotoma-article-template .sta-content img{border-radius:12px}
+#sotoma-article-template .sta-content blockquote{border-left:4px solid var(--olive);padding:12px 20px;background:#F3F8F1;border-radius:6px}
+#sotoma-article-template .sta-content figure{max-width:100%;margin:25px auto}
+#sotoma-article-template .sta-content figcaption{color:#6B806F;font-size:.82rem;text-align:center}
+#sotoma-article-template .sta-content table{display:block;max-width:100%;overflow-x:auto}
+#sotoma-article-template .sta-content .elementor-widget-theme-post-content{margin:0}
+#sotoma-article-template .sta-missing{border:1px dashed #96B39B;border-radius:13px;background:#F3F7F1;padding:18px;color:#466351;font-size:.88rem}
+#sotoma-article-template .sta-aside{min-width:0}
+#sotoma-article-template .sta-sidebox{background:#fff;border:1px solid var(--edge);border-radius:19px;padding:24px;box-shadow:0 10px 24px rgba(33,71,45,.05);margin-bottom:18px}
+#sotoma-article-template .sta-sidebox h2{font-size:1.13rem;color:#224B3D;margin-bottom:13px}
+#sotoma-article-template .sta-sidebox p{color:var(--mute);font-size:.85rem}
+#sotoma-article-template .sta-toc{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+#sotoma-article-template .sta-toc a{color:#365F4B;font-size:.86rem;line-height:1.45;display:block;border-left:2px solid #D3E3D5;padding:6px 9px}
+#sotoma-article-template .sta-toc a:hover{border-left-color:var(--olive);background:#F3F7F1}
+#sotoma-article-template .sta-contact-list{display:grid;gap:11px}
+#sotoma-article-template .sta-professional{border-left:4px solid #91AFA1;background:#F7FAF5;border-radius:12px;padding:13px 14px}
+#sotoma-article-template .sta-professional[data-professional="claudia"]{border-left-color:var(--claudia)}
+#sotoma-article-template .sta-professional[data-professional="yasmin"]{border-left-color:var(--yasmin)}
+#sotoma-article-template .sta-professional strong{display:block;font:750 .84rem "Poppins",system-ui,sans-serif}
+#sotoma-article-template .sta-professional small{display:block;font-size:.75rem;color:var(--mute);margin-top:3px}
+#sotoma-article-template .sta-professional a{display:inline-flex;margin-top:11px;border:1px solid #B5CBBB;border-radius:9px;padding:7px 11px;font-size:.78rem;font-weight:850;color:#22524A}
+#sotoma-article-template .sta-professional a:hover{background:#22524A;color:#fff}
+#sotoma-article-template .sta-tags-row{margin-top:28px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#sotoma-article-template .sta-tags-row strong{font-size:.84rem;color:#416A50}
+#sotoma-article-template .sta-tag{padding:6px 11px;background:#EAF1E9;border-radius:9px;color:#2C5648;font-size:.77rem;font-weight:750}
+#sotoma-article-template .sta-tag:hover{text-decoration:underline}
+#sotoma-article-template .sta-share{margin-top:28px;display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+#sotoma-article-template .sta-share button{border:1px solid #B6CDBB;border-radius:11px;padding:10px 15px;background:#F6FAF4;color:#295243;font-weight:850;font-size:.82rem}
+#sotoma-article-template .sta-share button:hover{background:#E5F0E4}
+#sotoma-article-template .sta-share-status{font-size:.79rem;color:#426F57}
+#sotoma-article-template .sta-rel-section{background:#ECF4EC;padding:70px 0}
+#sotoma-article-template .sta-rel-section h2{font-size:clamp(1.6rem,2.9vw,2.55rem);margin-bottom:26px;color:#22524A}
+#sotoma-article-template .sta-related{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+#sotoma-article-template .sta-rel-card{background:#fff;border:1px solid var(--edge);border-radius:17px;padding:24px;display:flex;flex-direction:column;min-height:200px;gap:12px}
+#sotoma-article-template .sta-rel-card span{font-size:.73rem;text-transform:uppercase;letter-spacing:.08em;color:#66856B;font-weight:800}
+#sotoma-article-template .sta-rel-card h3{font-size:1.04rem;line-height:1.35;color:#244B3C}
+#sotoma-article-template .sta-rel-card a{color:#22524A;font-size:.84rem;font-weight:850;margin-top:auto}
+#sotoma-article-template .sta-rel-card a:hover{text-decoration:underline}
+#sotoma-article-template .sta-more{display:inline-flex;margin-top:25px;color:#22524A;font-size:.85rem;font-weight:850;text-decoration:underline;text-underline-offset:5px}
+#sotoma-article-template .sta-disclaimer{color:#617567;font-size:.8rem;max-width:850px;margin:24px 0 0}
+@media(max-width:990px){#sotoma-article-template .sta-grid{grid-template-columns:minmax(0,1fr)}#sotoma-article-template .sta-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}#sotoma-article-template .sta-sidebox{margin:0}#sotoma-article-template .sta-hero-grid{gap:23px}}
+@media(max-width:700px){#sotoma-article-template .sta-hero-grid{grid-template-columns:1fr}#sotoma-article-template .sta-cover{max-height:360px}#sotoma-article-template .sta-aside{grid-template-columns:1fr}#sotoma-article-template .sta-related{grid-template-columns:1fr}}
+@media(max-width:460px){#sotoma-article-template .sta-wrap{width:calc(100% - 30px)}#sotoma-article-template .sta-hero{padding:44px 0}#sotoma-article-template .sta-categories{gap:7px}#sotoma-article-template .sta-content{padding:22px}#sotoma-article-template .sta-meta{gap:7px 14px}}
+@media(prefers-reduced-motion:reduce){#sotoma-article-template *,#sotoma-article-template *:before,#sotoma-article-template *:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+#sotoma-article-template .sta-title-host .elementor-widget-theme-post-title{margin:0}#sotoma-article-template .sta-title-loading{font:650 clamp(2.3rem,4.6vw,4.5rem)/1.15 "Poppins",system-ui,sans-serif;color:#FFF}
+</style>
+<section id="sotoma-article-template" aria-label="Layout do artigo SOTOMA">
+ <div class="sta-progress" aria-hidden="true"><span data-progress></span></div>
+ <header class="sta-hero" aria-labelledby="sta-post-title">
+  <div class="sta-wrap">
+   <nav class="sta-crumbs" aria-label="Caminho de navegação"><a href="https://sotomasaudepsicointegrada.com.br/">Início</a><span aria-hidden="true">›</span><a href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Blog</a><span aria-hidden="true">›</span><span data-breadcrumb-title>Artigo</span></nav>
+   <div class="sta-hero-grid"><div>
+    <span class="sta-kicker">SOTOMA · Educação e informação</span>
+    <div class="sta-title-host" data-title-host><span class="sta-title-loading" aria-hidden="true">Artigo SOTOMA</span></div>
+    <p class="sta-excerpt" data-post-excerpt hidden></p>
+    <div class="sta-meta"><time data-post-date>Data de publicação</time><time data-modified hidden></time><span data-readtime>Tempo de leitura estimado</span></div>
+    <nav class="sta-categories" aria-label="Categorias deste artigo" data-categories></nav>
+   </div><figure class="sta-cover" data-cover><img data-featured alt="" hidden loading="eager" decoding="async"></figure></div>
+  </div>
+ </header>
+ <div class="sta-wrap sta-grid">
+  <article class="sta-article" aria-label="Texto principal do artigo">
+   <div class="sta-content" data-native-content-slot>
+    <div class="sta-missing" data-missing>O texto é carregado pelo widget nativo <strong>Post Content</strong> do WordPress. Instale exatamente um widget Post Content neste mesmo modelo de artigo; o conteúdo deve ser renderizado pelo servidor para preservar a indexação.</div>
+   </div>
+   <nav class="sta-tags-row" aria-label="Tags deste artigo" data-tag-section hidden><strong>Assuntos relacionados:</strong><span data-tags></span></nav>
+   <div class="sta-share"><button type="button" data-copy>Copiar link do artigo</button><span class="sta-share-status" role="status" aria-live="polite" data-copy-status></span></div>
+  </article>
+  <aside class="sta-aside" aria-label="Navegação e contato relativos à leitura">
+   <section class="sta-sidebox" data-tocbox hidden><h2>Nesta leitura</h2><ol class="sta-toc" data-toc></ol></section>
+   <section class="sta-sidebox"><h2>Deseja conversar?</h2><p>Informações gerais sobre as possibilidades de atendimento. Esta leitura não substitui orientação individual.</p><div class="sta-contact-list" data-contacts>
+    <div class="sta-professional" data-professional="claudia"><strong>Cláudia</strong><small>Atendimento a adultos</small><a href="https://wa.me/556791847679" target="_blank" rel="noopener noreferrer">Conversar ↗</a></div>
+    <div class="sta-professional" data-professional="yasmin"><strong>Yasmin</strong><small>Crianças e adolescentes</small><a href="https://wa.me/5567991858129" target="_blank" rel="noopener noreferrer">Conversar ↗</a></div>
+   </div></section>
+  </aside>
+ </div>
+ <section class="sta-rel-section" aria-labelledby="sta-related-title"><div class="sta-wrap"><h2 id="sta-related-title">Continue aprendendo</h2><div class="sta-related" data-related></div><a class="sta-more" href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Explorar todos os artigos da SOTOMA ↗</a><p class="sta-disclaimer">As categorias e tags vêm das taxonomias reais do WordPress. Assuntos relacionados não implicam diagnóstico e a profissional exibida para contato não é necessariamente a autora do artigo.</p></div></section>
+</section>
+<script>
+(function(){
+ 'use strict';
+ const root=document.getElementById('sotoma-article-template');if(!root||root.dataset.initialized==='1')return;root.dataset.initialized='1';
+ const BASE=location.origin+'/wp-json/wp/v2/';
+ const currentSlug=decodeURIComponent(location.pathname.replace(/\/+$/,'').split('/').filter(Boolean).pop()||'');
+ const escapeText=html=>new DOMParser().parseFromString(String(html||''),'text/html').body.textContent.trim();
+ const safeUrl=(url)=>{try{const u=new URL(url,location.origin);return u.origin===location.origin&&['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
+ const fetchJSON=async(endpoint)=>{const r=await fetch(BASE+endpoint,{credentials:'omit',headers:{'Accept':'application/json'}});if(!r.ok)throw Error('HTTP '+r.status);return r.json()};
+ const dateBR=s=>{if(!s)return '';const d=String(s).slice(0,10).split('-');return d.length===3?d.reverse().join('/'):' '};
+ const postMap={
+ 'psicanalise-para-criancas-e-adolescentes':['yasmin'],
+ 'o-mundo-das-criancas-como-a-psicanalise-auxilia-na-infancia':['yasmin'],
+ 'adolescencia-e-saude-mental-escuta-e-compreensao':['yasmin'],
+ 'ansiedade-e-autocobranca-quando-o-peso-se-torna-insuportavel':['claudia'],
+ 'transicoes-de-vida-o-desafio-de-recomecar':['claudia'],
+ 'psicoterapia-positiva-um-olhar-alem-do-diagnostico':['claudia'],
+ 'um-cuidado-que-fortalece-recursos-emocionais-e-promove-florescimento':['claudia'],
+ 'a-experiencia-v-i-a-mais-do-que-chegar-a-um-destino':['claudia'],
+ 'a-experiencia-m-i-r-a-quando-mudar-de-pais-tambem-significa-reorganizar-a-vida':['claudia']
+ }; // Correlação temática proposta para CTAs; a direção deve aprovar. Não constitui autoria clínica.
+ const defaultPeople=[
+ {id:'claudia',name:'Cláudia Fernanda Sotoma',area:'Atendimento a adultos',phone:'556791847679',active:true},
+ {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças e adolescentes',phone:'5567991858129',active:true}
+ ];
+ const registry=Array.isArray(window.SOTOMA_PUBLIC_PROFESSIONALS)?window.SOTOMA_PUBLIC_PROFESSIONALS:defaultPeople;
+ const people=registry.filter(p=>p&&p.active!==false&&typeof p.name==='string'&&/^\d{12,13}$/.test(String(p.phone||'')));
+ let contentElement=null;
+ function embedNative(){
+  // Nunca retirar Post Content do DOM gerado pelo servidor em produção: move o widget, não recria o texto via JS.
+  if(document.body.classList.contains('elementor-editor-active'))return;
+  const nativeTitle=Array.from(document.querySelectorAll('.elementor-widget-theme-post-title')).find(el=>!root.contains(el)&&el.querySelector('h1'));
+  if(nativeTitle){const titleHost=root.querySelector('[data-title-host]');titleHost.replaceChildren(nativeTitle);const h=titleHost.querySelector('h1');h.id='sta-post-title';}
+  const candidates=Array.from(document.querySelectorAll('.elementor-widget-theme-post-content'));
+  const widget=candidates.find(el=>!root.contains(el)&&el.querySelector('.elementor-widget-container'));
+  if(!widget)return;
+  const host=root.querySelector('[data-native-content-slot]');
+  host.appendChild(widget);const missing=host.querySelector('[data-missing]');if(missing)missing.hidden=true;
+  contentElement=widget;
+  const words=widget.textContent.trim().split(/\s+/).filter(Boolean).length;
+  root.querySelector('[data-readtime]').textContent=Math.max(1,Math.ceil(words/220))+' min de leitura estimada';
+  buildTOC(widget);
+ }
+ function buildTOC(content){
+  const toc=root.querySelector('[data-toc]'),heads=[...content.querySelectorAll('h2,h3')].filter(h=>h.textContent.trim()&&h.getClientRects().length>0);
+  if(!heads.length)return;const used=new Set();
+  heads.slice(0,18).forEach((h,i)=>{
+   let slug=h.id||h.textContent.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,64)||'secao';
+   if(!h.id){let name=slug,n=1;while(used.has(name)||document.getElementById(name)){name=slug+'-'+(++n)}slug=name;h.id=slug}
+   used.add(h.id);const li=document.createElement('li'),a=document.createElement('a');a.href='#'+encodeURIComponent(h.id);a.textContent=h.textContent.trim().slice(0,100);if(h.tagName==='H3')a.style.paddingLeft='19px';li.append(a);toc.append(li)
+  });root.querySelector('[data-tocbox]').hidden=false;
+ }
+ function contactFor(slug,catSlugs){
+  const ids=postMap[slug]||(catSlugs.includes('psicoterapia-positiva')?['claudia']:catSlugs.includes('psicanalise')?['yasmin']:people.map(p=>p.id));
+  const targets=people.filter(p=>ids.includes(p.id));return targets.length?targets:people;
+ }
+ function renderContact(slug,categories){
+  const box=root.querySelector('[data-contacts]');box.replaceChildren();
+  contactFor(slug,categories).forEach(p=>{
+   const article=document.createElement('div'),name=document.createElement('strong'),description=document.createElement('small'),a=document.createElement('a');
+   article.className='sta-professional';article.dataset.professional=String(p.id||'outro').replace(/[^a-z0-9-]/gi,'');
+   name.textContent=String(p.name);description.textContent=String(p.area||'Informações sobre atendimento');
+   a.textContent='WhatsApp ↗';a.href='https://wa.me/'+p.phone+'?text='+encodeURIComponent('Olá, '+p.name.split(' ')[0]+'! Vim pelo site SOTOMA (origem: artigo editorial; seção: contato). Gostaria de informações gerais sobre atendimento e disponibilidade.');a.target='_blank';a.rel='noopener noreferrer';
+   article.append(name,description,a);box.append(article)
+  });
+ }
+ function renderTerms(terms,container,cls){
+  const dest=root.querySelector(container);dest.replaceChildren();
+  terms.forEach(t=>{
+   const href=safeUrl(t.link);if(!href)return;const a=document.createElement('a');a.className=cls;a.href=href;a.textContent=t.name;a.rel='tag';dest.append(a)
+  });
+ }
+ async function initialize(){
+  embedNative();
+  if(!currentSlug){renderContact('',[]);return}
+  try{
+   const items=await fetchJSON('posts?slug='+encodeURIComponent(currentSlug)+'&_embed=1');
+   if(!Array.isArray(items)||items.length!==1)throw Error('Post não encontrado pelo slug');
+   const p=items[0],title=escapeText(p.title?.rendered||'Artigo SOTOMA');
+   if(!root.querySelector('[data-title-host] h1')){const host=root.querySelector('[data-title-host]'),h=document.createElement('h1');h.id='sta-post-title';h.textContent=title;host.replaceChildren(h)}
+   root.querySelector('[data-breadcrumb-title]').textContent=title;
+   const text=escapeText(p.excerpt?.rendered||'');if(text){const el=root.querySelector('[data-post-excerpt]');el.textContent=text.slice(0,320);el.hidden=false}
+   const d=root.querySelector('[data-post-date]');if(p.date){d.textContent='Publicado em '+dateBR(p.date);d.dateTime=p.date}
+   if(p.modified&&p.modified!==p.date){const u=root.querySelector('[data-modified]');u.hidden=false;u.textContent='Atualizado em '+dateBR(p.modified);u.dateTime=p.modified}
+   const media=p._embedded?.['wp:featuredmedia']?.[0];if(media?.source_url){const img=root.querySelector('[data-featured]');const src=safeUrl(media.source_url);if(src){img.src=src;img.alt=escapeText(media.alt_text||'Imagem ilustrativa do artigo: '+title);img.hidden=false;img.addEventListener('error',()=>{img.hidden=true})}}
+   if(!contentElement&&p.content?.rendered){
+    // Só estimativa do tamanho via texto API; NÃO renderizar o corpo por JavaScript em substituição ao Post Content.
+    const n=escapeText(p.content.rendered).split(/\s+/).filter(Boolean).length;root.querySelector('[data-readtime]').textContent=Math.max(1,Math.ceil(n/220))+' min de leitura estimada';
+   }
+   const catIds=Array.isArray(p.categories)?p.categories:[],tagIds=Array.isArray(p.tags)?p.tags:[];
+   const [cats,tags]=await Promise.all([
+    catIds.length?fetchJSON('categories?include='+catIds.join(',')+'&per_page=100'):Promise.resolve([]),
+    tagIds.length?fetchJSON('tags?include='+tagIds.join(',')+'&per_page=100'):Promise.resolve([])
+   ]);
+   renderTerms(cats,'[data-categories]','sta-category');
+   renderTerms(tags,'[data-tags]','sta-tag');
+   if(tags.length)root.querySelector('[data-tag-section]').hidden=false;
+   renderContact(p.slug,cats.map(c=>c.slug));
+   const params=new URLSearchParams({per_page:'4',exclude:String(p.id),_fields:'id,slug,title,link,categories,tags,status'});
+   if(catIds.length)params.set('categories',catIds.join(','));
+   let related=await fetchJSON('posts?'+params.toString());
+   related=Array.isArray(related)?related.filter(x=>x.slug!=='hello-world'&&x.id!==p.id):[];
+   const dest=root.querySelector('[data-related]');dest.replaceChildren();
+   related.slice(0,3).forEach((item,i)=>{
+    const url=safeUrl(item.link);if(!url)return;const card=document.createElement('article'),small=document.createElement('span'),h=document.createElement('h3'),a=document.createElement('a');card.className='sta-rel-card';small.textContent='Leitura relacionada '+String(i+1).padStart(2,'0');h.textContent=escapeText(item.title?.rendered||'Artigo');a.href=url;a.textContent='Ler artigo ↗';card.append(small,h,a);dest.append(card)
+   });
+  }catch(err){
+   renderContact('',[]);
+   // Sem acusações ao servidor, sem remover o conteúdo nativo; log não contém dados clínicos.
+   if(!contentElement)root.querySelector('[data-missing]').hidden=false;
+  }
+ }
+ root.querySelector('[data-copy]').addEventListener('click',async()=>{
+  const status=root.querySelector('[data-copy-status]');
+  try{await navigator.clipboard.writeText(location.href);status.textContent='Link copiado.'}catch{status.textContent='Não foi possível copiar automaticamente; use a barra de endereço.'}
+ });
+ function progress(){
+  if(!contentElement)return;const box=contentElement.getBoundingClientRect(),start=window.scrollY+box.top,span=Math.max(1,contentElement.offsetHeight-window.innerHeight*.2);
+  const fraction=Math.max(0,Math.min(1,(window.scrollY-start+window.innerHeight*.25)/span));root.querySelector('[data-progress]').style.transform='scaleX('+fraction+')';
+ }
+ let queued=false;window.addEventListener('scroll',()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;progress()})},{passive:true});
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{initialize().then(progress)},{once:true});else initialize().then(progress);
+})();
+</script>
