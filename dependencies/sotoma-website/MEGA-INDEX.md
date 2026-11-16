@@ -1,5 +1,12 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+## PSICANÁLISE V7 — CÓDIGO ÚNICO, YASMIN, FOTO INTEIRA (16/11/2026)
+
+**[ABRIR HTML + CSS + JS da página Psicanálise para copiar no Elementor](v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** · [Auditoria e instalação segura](v6-ecp-coliseum/PSICANALISE-V7-ECP-COLISEUM-20261116.md).
+
+O corpo completo V7 substitui o conteúdo antigo da página `/psicanalise/` **após backup e homologação**: não combinar com o bloco aditivo V6 de Psicanálise. Foto `Ya-11.jpeg` exibida sem cortes; copy original respeitada e ampliada até jovens adultos de 24 anos; WhatsApp exclusivo Yasmin `5567991858129` com origem por seção. O ZIP V6 anterior não contempla esta página. **Sem publicação na produção.**
+
+
 ## BLOG REAL 16/11/2026 — LINK DIRETO PARA COPIAR NO ELEMENTOR
 
 [**Abrir HTML único do Blog corrigido (13 posts WordPress publicados)**](v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
