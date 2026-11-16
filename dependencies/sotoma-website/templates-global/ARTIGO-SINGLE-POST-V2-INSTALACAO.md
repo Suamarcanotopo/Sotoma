@@ -17,6 +17,6 @@
 9. Validar no mínimo: imagens originais (600×337, 4:5, 9:16), 320/390/768/1024/1440px, foco de teclado, H1 único, Post Content nativo, busca da API WP, links relacionados/recentes, duas profissionais quando ambas categorias, CTA genérico sem categoria, visual sem JS, aprovação da direção.
 10. Não adicionar Schema/JSON-LD duplicado com Rank Math. Em falha na API, o artigo nativo fica disponível, e nenhuma publicação falsa é inventada.
 
-**Importante:** a thumbnail original da primeira produção está [preservada no Drive](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) e [indexada no catálogo](../../sotoma-editorial/producoes/SOT-PROD-001.md). Sem upload dessa mídia ao WordPress e associação à imagem destacada do post correto, ela não aparecerá automaticamente na capa.
+**Importante:** a thumbnail original da primeira produção está [preservada no GitHub](../../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png) e no [Drive privado](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) e [indexada no catálogo](../../sotoma-editorial/producoes/SOT-PROD-001.md). Sem upload dessa mídia ao WordPress e associação à imagem destacada do post correto, ela não aparecerá automaticamente na capa.
 
 **Estado ECP/Coliseum:** aguardando teste em staging/Elementor; PR Draft, sem deploy ou alteração WP.
