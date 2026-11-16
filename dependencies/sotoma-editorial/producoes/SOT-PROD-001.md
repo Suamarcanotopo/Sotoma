@@ -1,49 +1,47 @@
-# SOT-PROD-001 — Mudar de país com tranquilidade: conheça o M.I.R.A.
+# SOT-PROD-001 — Mudar de país com tranquilidade, conheça o M.I.R.A.
 
-## Registro do material efetivamente recebido — 16/11/2026
+## Produção identificada e comprovada em 16/11/2026
+
+**Estado atual:** ARTIGO PÚBLICO CONFIRMADO no WordPress #2262. A thumbnail original foi recebida diretamente do usuário e arquivada sem alteração no GitHub. A redação integral foi **recuperada do WordPress público**, não dos arquivos de código anexados.
 
 | Campo | Evidência |
 |---|---|
-| ID | `SOT-PROD-001` (produção visual recebida; **não** `SOT-ED-001`) |
-| Natureza | Thumbnail original, sem manuscrito do artigo anexado |
-| Texto principal da thumbnail | “Mudar de país com tranquilidade, conheça o M.I.R.A.” |
-| Chamada complementar visível | “Veja como mudar de país não precisa ser uma dor de cabeça, com a metodologia M.I.R.A. você aprende da forma mais segura possível.” |
-| Proporção | 600 × 337 pixels (600:337, aproximadamente 16:9) |
-| Nome de origem do anexo | `Mudar de País com Tranquilidade(1).png` |
-| Formato | PNG original |
-| SHA-256 da imagem de origem | `1384b83e6208e8f9973e56d9cec2fe816cdb6af8eb447be1888436a96538c853` |
-| Original binário versionado no GitHub | [Thumbnail PNG 600×337 original](assets/SOT-PROD-001-thumb-mira-original.png) · Git Blob `2ad1d50010233f543a7d0fd49fba8f11a61c1f6e` |
-| Cópia de segurança no Drive | [Thumbnail privada](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) |
-| Autoria do artigo | Não fornecida — não atribuir a Cláudia/Yasmin automaticamente |
-| Categorias WordPress | Não comprovadas para ESTA produção |
-| Publicação WordPress | Não comprovada para ESTA produção; não confundir com a postagem M.I.R.A. já existente |
-| Status | `THUMBNAIL_RECEBIDA / TEXTO_INTEGRAL_PENDENTE / APROVAÇÃO_PENDENTE / NÃO PUBLICADO NESTE FLUXO` |
+| ID interno da produção | `SOT-PROD-001`, independente dos 60 `SOT-ED-001..060` rascunhos |
+| Título WordPress | Mudar de país com tranquilidade, conheça o M.I.R.A. |
+| URL oficial pública | https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/ |
+| WP post ID | `2262`, `type=post`, `status=publish` |
+| Data original do post | `2026-05-25T12:59:42` |
+| Data de modificação confirmada | `2026-11-16T10:41:36` |
+| Categoria profissional cadastrada | `Claudia Fernanda Sotoma` (slug `claudia-fernanda-sotoma`, ID 20) |
+| Categorias temáticas | `Intercâmbio no Japão` (ID 2), `Qualidade de vida` (ID 7) |
+| Autor técnico do WP | Conta ID 2; **não equivale à homologação da autoria profissional ou revisão clínica** |
+| Imagem destacada associada no WP | Mídia `2532`: https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/05/Mudar-de-Pais-com-Tranquilidade.png |
+| Thumbnail ORIGINAL recebida | `600 × 337` (proporção exata `600:337`, aproximadamente 16:9), PNG RGBA |
+| PNG original no Git | [Arquivo binário sem alterações](assets/SOT-PROD-001-thumb-mira-original.png) |
+| Git blob original | `2ad1d50010233f543a7d0fd49fba8f11a61c1f6e`, 481824 bytes |
+| SHA-256 **real do PNG recebido** | `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80` |
+| Cópia privada de segurança | https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view |
+| Snapshot integral da publicação | [SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json](SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json) — corpo renderizado: 21582 caracteres |
+| Situação da validação editorial | Publicado de fato no WordPress; aprovação clínica, ética, fontes e promessas comerciais **não foi demonstrada** |
 
-**Nota de integridade:** O PNG original 600×337 foi salvo como blob binário no GitHub (link acima), além da cópia privada no Google Drive. O SHA-256 local da imagem de origem foi registrado para checagens futuras. Não alterar pixels, corte ou proporção.
+### Referência de thumbnail e narrativa
 
-## Direção visual estabelecida pela referência
+Arte cinematográfica de viagem, protagonista feminina com passaporte e bagagem, terminal de aeroporto, diferentes destinos, luzes e linhas narrativas, verde institucional da SOTOMA, logo e destaque para a sigla **M.I.R.A.**. A imagem publicada no WordPress e o PNG fornecido têm título e assunto correspondentes, mas não foi realizada comparação pixel a pixel para afirmar identidade binária.
 
-- Composição cinematográfica e de deslocamento internacional: protagonista com passaporte e bagagem, aeroporto, aeronave, destino e feixes visuais de conexão.
-- Verde institucional SOTOMA + azul/teal e pontos luminosos; título de alto contraste; sigla M.I.R.A. destacada.
-- Logo da SOTOMA e assinatura institucional posicionados em área de respiro.
-- Copy promocional positiva, mas promessas como “tranquilidade” e “forma mais segura possível” exigem revisão da direção antes de utilização como afirmação de eficácia. Evitar garantia de resultado.
-- **Proporção nativa:** nunca esticar, cortar ou fixar qualquer formato em 4:3; a visualização deve acompanhar 16:9, 9:16, 4:5, 1:1 ou proporção não convencional.
-- Usar a thumbnail como inspiração, não impor personagens/cenários idênticos para todos os artigos.
+**Texto da arte original:** “Mudar de país com tranquilidade, conheça o M.I.R.A.” e chamada sobre adaptação e segurança. Alegações como “da forma mais segura possível” não constituem evidência de eficácia ou garantia de resultado; revisão editorial é necessária.
 
-## Texto/estilo de escrita
+### Estilo de escrita do artigo WordPress verificado
 
-O anexo é imagem de divulgação, não texto integral. A futura escrita deve seguir o [Mission Lock Editorial](../MISSION-LOCK-EDITORIAL.md), [ARTIGOS-60-INDEX](../ARTIGOS-60-INDEX.md), revisão de autoria, evidências e diretrizes da SOTOMA. Este documento não inventa corpo, referências, autor ou URL pública.
+O artigo público faz uma abertura baseada em perguntas, ilustra o contexto emocional de mudança de país, usa parágrafos curtos, títulos e subtítulos, explica o M.I.R.A. como Movimento, Identidade, Recursos e Autonomia, apresenta situações Brasil–Japão, perguntas frequentes e referências no final, entre elas Organização Mundial da Saúde, Embaixada do Japão e Ministério das Relações Exteriores. Esta descrição é da **publicação observada**, não de texto inventado nem de um novo manuscrito.
 
-## Templates e automação
+**Problema técnico de HTML a verificar:** no corpo `content.rendered` da API WordPress foi observada uma diferença entre tags: há encerramentos de `</h1>`, `</h2>`, `</h3>`, `</p>` e `</a>` sem as respectivas aberturas na resposta inspecionada. O conteúdo continua íntegro no snapshot JSON, mas a estrutura do markup do post publicado precisa de auditoria no editor WordPress antes de afirmar conformidade semântica e acessibilidade. Este registro não altera o WP.
 
-- [Single Post HTML/CSS/JS canônico](../../sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html).
-- [Instruções e gates de instalação](../../sotoma-website/templates-global/ARTIGO-SINGLE-POST-V2-INSTALACAO.md).
-- Automação de especialistas exige a categoria nativa WordPress `claudia` e/ou `yasmin`, atribuída no post. Não associa por tema.
-- Cada post publicado apresenta seções autônomas: relacionados por categorias, recentes e CTA de profissionais.
-- A imagem destacada deve ser associada no WP ao artigo correto após aprovação. A presença no Git/Drive não equivale a mídia publicada no WordPress.
+### Automação no Single Post
 
-## Registro em planilha
+[Template Elementor revisado](../../sotoma-website/templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html): imagens sem recorte, relacionados pela categoria, recentes e CTA por categoria profissional. Para este post `2262`, a categoria profissional `claudia-fernanda-sotoma` já está cadastrada; o CTA da Cláudia deve aparecer quando o template corrigido estiver ativo no WordPress e a API responder.
 
-[PRODUCOES_REAIS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935), linha 2. [PADRAO_EDITORIAL_VISUAL](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=688887721) documenta a referência estética e as regras técnicas.
+[Planilha de produções](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935) — linha 2.
 
-**Gates:** não criar/postar artigo WordPress, não atribuir categoria/autoria e não declarar publicação sem provas e aprovação.
+### Gate ECP + Coliseum
+
+**Post público comprovado** não equivale a aprovação do novo template nem dos claims clínicos. Requer staging, verificação de imagem destacada, título H1 único, links/CTA, responsividade, contraste, HTML original, fonte/autoria e autorização da direção. Não há publicação ou edição remota do WordPress realizada por esta PR.
