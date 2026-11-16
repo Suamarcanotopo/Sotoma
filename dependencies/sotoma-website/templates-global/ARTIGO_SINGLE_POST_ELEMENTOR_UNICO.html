@@ -247,19 +247,61 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
    used.add(h.id);const li=document.createElement('li'),a=document.createElement('a');a.href='#'+encodeURIComponent(h.id);a.textContent=h.textContent.trim().slice(0,100);if(h.tagName==='H3')a.style.paddingLeft='19px';li.append(a);toc.append(li)
   });root.querySelector('[data-tocbox]').hidden=false;
  }
- function contactFor(slug,catSlugs){
-  const ids=postMap[slug]||(catSlugs.includes('psicoterapia-positiva')?['claudia']:catSlugs.includes('psicanalise')?['yasmin']:people.map(p=>p.id));
-  const targets=people.filter(p=>ids.includes(p.id));return targets.length?targets:people;
+ // Somente categorias explícitas do WordPress ("Claudia" e "Yasmin") vinculam CTA.
+ // Nunca inferir profissional pela temática ou atribuir autoria pela categoria.
+ const professionalCategories={
+  'claudia':['claudia'],'claudia-sotoma':['claudia'],
+  'yasmin':['yasmin'],'yasmin-sotoma':['yasmin'],'yasmin-sotoma-muzilli':['yasmin']
+ };
+ const profiles=[
+  {id:'claudia',name:'Cláudia Fernanda Sotoma',area:'Atendimento a adultos',phone:'556791847679',photo:'/wp-content/uploads/2026/11/Clau-9.jpeg',page:'/claudia-sotoma/'},
+  {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças e adolescentes',phone:'5567991858129',photo:'/wp-content/uploads/2026/11/Ya-11.jpeg',page:'/yasmin-sotoma-muzilli/'}
+ ];
+ function renderContact(slugs){
+  const host=root.querySelector('[data-category-contacts]');
+  const generic=root.querySelector('[data-general-contacts]');host.replaceChildren();
+  const ids=new Set(slugs.flatMap(c=>professionalCategories[String(c||'').toLowerCase()]||[]));
+  const chosen=profiles.filter(p=>ids.has(p.id));generic.hidden=chosen.length>0;
+  for(const p of chosen){
+   const card=document.createElement('article');card.className='sta-cta-card';card.dataset.professional=p.id;
+   const photo=document.createElement('figure');photo.className='sta-cta-photo';
+   const img=document.createElement('img');img.src=location.origin+p.photo;img.alt='Fotografia de '+p.name;img.loading='lazy';img.decoding='async';
+   img.addEventListener('error',()=>photo.remove(),{once:true});photo.append(img);
+   const body=document.createElement('div');body.className='sta-cta-body';
+   const h=document.createElement('h3');h.textContent=p.name;
+   const area=document.createElement('p');area.textContent=p.area;
+   const desc=document.createElement('p');desc.textContent='Converse sobre informações gerais, disponibilidade e próximos passos do atendimento.';
+   const actions=document.createElement('div');actions.className='sta-cta-actions';
+   const msg='Olá, '+p.name.split(' ')[0]+'! Li um artigo no Blog SOTOMA e gostaria de informações gerais sobre atendimento e disponibilidade.';
+   const wa=document.createElement('a');wa.className='sta-cta-button';
+   wa.href='https://wa.me/'+p.phone+'?text='+encodeURIComponent(msg);wa.target='_blank';wa.rel='noopener noreferrer';wa.textContent='WhatsApp ↗';
+   const about=document.createElement('a');about.className='sta-cta-link';about.href=p.page;about.textContent='Conhecer profissional';
+   actions.append(wa,about);body.append(h,area,desc,actions);card.append(photo,body);host.append(card);
+  }
  }
- function renderContact(slug,categories){
-  const box=root.querySelector('[data-contacts]');box.replaceChildren();
-  contactFor(slug,categories).forEach(p=>{
-   const article=document.createElement('div'),name=document.createElement('strong'),description=document.createElement('small'),a=document.createElement('a');
-   article.className='sta-professional';article.dataset.professional=String(p.id||'outro').replace(/[^a-z0-9-]/gi,'');
-   name.textContent=String(p.name);description.textContent=String(p.area||'Informações sobre atendimento');
-   a.textContent='WhatsApp ↗';a.href='https://wa.me/'+p.phone+'?text='+encodeURIComponent('Olá, '+p.name.split(' ')[0]+'! Vim pelo site SOTOMA (origem: artigo editorial; seção: contato). Gostaria de informações gerais sobre atendimento e disponibilidade.');a.target='_blank';a.rel='noopener noreferrer';
-   article.append(name,description,a);box.append(article)
-  });
+ function drawCards(selector,items,label,currentId,excludeIds){
+  const host=root.querySelector(selector);host.replaceChildren();
+  const shown=new Set();
+  for(const p of items){
+   if(!p||p.id===currentId||p.slug==='hello-world'||shown.has(p.id)||excludeIds?.has(p.id))continue;
+   const href=safeUrl(p.link),title=escapeText(p.title?.rendered||'');if(!href||!title)continue;
+   const card=document.createElement('article');card.className='sta-rel-card';
+   const media=p._embedded?.['wp:featuredmedia']?.[0];if(media?.source_url){
+    const url=safeUrl(media.source_url);if(url){
+     const fig=document.createElement('figure');fig.className='sta-article-thumb';
+     const img=document.createElement('img');img.src=url;img.alt=escapeText(media.alt_text||'');img.loading='lazy';img.decoding='async';
+     img.addEventListener('error',()=>fig.remove(),{once:true});fig.append(img);card.append(fig);
+    }
+   }
+   const eyebrow=document.createElement('span');eyebrow.textContent=label;
+   const heading=document.createElement('h3'),link=document.createElement('a');
+   link.href=href;link.textContent=title;heading.append(link);
+   const date=document.createElement('time');date.dateTime=(p.date||'').slice(0,10);date.textContent=dateBR(p.date);
+   const read=document.createElement('a');read.href=href;read.textContent='Ler artigo ↗';
+   card.append(eyebrow,heading,date,read);host.append(card);shown.add(p.id);
+   if(shown.size===3)break;
+  }
+  return shown;
  }
  function renderTerms(terms,container,cls){
   const dest=root.querySelector(container);dest.replaceChildren();
@@ -268,44 +310,56 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
   });
  }
  async function initialize(){
-  embedNative();
-  if(!currentSlug){renderContact('',[]);return}
-  try{
-   const items=await fetchJSON('posts?slug='+encodeURIComponent(currentSlug)+'&_embed=1');
-   if(!Array.isArray(items)||items.length!==1)throw Error('Post não encontrado pelo slug');
-   const p=items[0],title=escapeText(p.title?.rendered||'Artigo SOTOMA');
-   if(!root.querySelector('[data-title-host] h1')){const host=root.querySelector('[data-title-host]'),h=document.createElement('h1');h.id='sta-post-title';h.textContent=title;host.replaceChildren(h)}
-   root.querySelector('[data-breadcrumb-title]').textContent=title;
-   const text=escapeText(p.excerpt?.rendered||'');if(text){const el=root.querySelector('[data-post-excerpt]');el.textContent=text.slice(0,320);el.hidden=false}
-   const d=root.querySelector('[data-post-date]');if(p.date){d.textContent='Publicado em '+dateBR(p.date);d.dateTime=p.date}
-   if(p.modified&&p.modified!==p.date){const u=root.querySelector('[data-modified]');u.hidden=false;u.textContent='Atualizado em '+dateBR(p.modified);u.dateTime=p.modified}
-   const media=p._embedded?.['wp:featuredmedia']?.[0];if(media?.source_url){const img=root.querySelector('[data-featured]');const src=safeUrl(media.source_url);if(src){img.src=src;img.alt=escapeText(media.alt_text||'Imagem ilustrativa do artigo: '+title);img.hidden=false;img.addEventListener('error',()=>{img.hidden=true})}}
-   if(!contentElement&&p.content?.rendered){
-    // Só estimativa do tamanho via texto API; NÃO renderizar o corpo por JavaScript em substituição ao Post Content.
-    const n=escapeText(p.content.rendered).split(/\s+/).filter(Boolean).length;root.querySelector('[data-readtime]').textContent=Math.max(1,Math.ceil(n/220))+' min de leitura estimada';
-   }
-   const catIds=Array.isArray(p.categories)?p.categories:[],tagIds=Array.isArray(p.tags)?p.tags:[];
-   const [cats,tags]=await Promise.all([
-    catIds.length?fetchJSON('categories?include='+catIds.join(',')+'&per_page=100'):Promise.resolve([]),
-    tagIds.length?fetchJSON('tags?include='+tagIds.join(',')+'&per_page=100'):Promise.resolve([])
-   ]);
-   renderTerms(cats,'[data-categories]','sta-category');
-   renderTerms(tags,'[data-tags]','sta-tag');
-   if(tags.length)root.querySelector('[data-tag-section]').hidden=false;
-   renderContact(p.slug,cats.map(c=>c.slug));
-   const params=new URLSearchParams({per_page:'4',exclude:String(p.id),_fields:'id,slug,title,link,categories,tags,status'});
-   if(catIds.length)params.set('categories',catIds.join(','));
-   let related=await fetchJSON('posts?'+params.toString());
-   related=Array.isArray(related)?related.filter(x=>x.slug!=='hello-world'&&x.id!==p.id):[];
-   const dest=root.querySelector('[data-related]');dest.replaceChildren();
-   related.slice(0,3).forEach((item,i)=>{
-    const url=safeUrl(item.link);if(!url)return;const card=document.createElement('article'),small=document.createElement('span'),h=document.createElement('h3'),a=document.createElement('a');card.className='sta-rel-card';small.textContent='Leitura relacionada '+String(i+1).padStart(2,'0');h.textContent=escapeText(item.title?.rendered||'Artigo');a.href=url;a.textContent='Ler artigo ↗';card.append(small,h,a);dest.append(card)
-   });
-  }catch(err){
-   renderContact('',[]);
-   // Sem acusações ao servidor, sem remover o conteúdo nativo; log não contém dados clínicos.
-   if(!contentElement)root.querySelector('[data-missing]').hidden=false;
+  embedNative();renderContact([]);
+  if(!currentSlug)return;
+  let posts;try{posts=await fetchJSON('posts?slug='+encodeURIComponent(currentSlug)+'&_embed=1')}catch(_){return}
+  if(!Array.isArray(posts)||posts.length!==1)return;
+  const p=posts[0],title=escapeText(p.title?.rendered||'Artigo SOTOMA');
+  if(p.type&&p.type!=='post')return;
+  if(!root.querySelector('[data-title-host] h1')){
+   const host=root.querySelector('[data-title-host]'),h=document.createElement('h1');
+   h.id='sta-post-title';h.textContent=title;host.replaceChildren(h);
   }
+  root.querySelector('[data-breadcrumb-title]').textContent=title;
+  const text=escapeText(p.excerpt?.rendered||'');
+  if(text){const el=root.querySelector('[data-post-excerpt]');el.textContent=text.slice(0,320);el.hidden=false}
+  const date=root.querySelector('[data-post-date]');
+  if(p.date){date.textContent='Publicado em '+dateBR(p.date);date.dateTime=p.date}
+  if(p.modified&&p.modified!==p.date){
+   const el=root.querySelector('[data-modified]');el.hidden=false;el.textContent='Atualizado em '+dateBR(p.modified);el.dateTime=p.modified
+  }
+  const media=p._embedded?.['wp:featuredmedia']?.[0];
+  if(media?.source_url){
+   const img=root.querySelector('[data-featured]'),figure=root.querySelector('[data-cover]'),src=safeUrl(media.source_url);
+   if(src){img.src=src;img.alt=escapeText(media.alt_text||'Imagem de destaque do artigo');
+    img.hidden=false;figure.hidden=false;
+    img.addEventListener('error',()=>{figure.hidden=true;img.removeAttribute('src')},{once:true});
+   }
+  }
+  if(!contentElement&&p.content?.rendered){
+   const n=escapeText(p.content.rendered).split(/\s+/).filter(Boolean).length;
+   root.querySelector('[data-readtime]').textContent=Math.max(1,Math.ceil(n/220))+' min de leitura estimada';
+  }
+  const catIds=Array.isArray(p.categories)?p.categories:[],tagIds=Array.isArray(p.tags)?p.tags:[];
+  const [cats,tags]=await Promise.all([
+   catIds.length?fetchJSON('categories?include='+catIds.join(',')+'&per_page=100').catch(()=>[]):Promise.resolve([]),
+   tagIds.length?fetchJSON('tags?include='+tagIds.join(',')+'&per_page=100').catch(()=>[]):Promise.resolve([])
+  ]);
+  renderTerms(cats,'[data-categories]','sta-category');renderTerms(tags,'[data-tags]','sta-tag');
+  root.querySelector('[data-tag-section]').hidden=!tags.length;
+  renderContact(cats.map(c=>c.slug));
+  const common={per_page:'12',status:'publish',exclude:String(p.id),_embed:'1'};
+  let related=[];
+  if(catIds.length){
+   const param=new URLSearchParams(common);param.set('categories',catIds.join(','));
+   related=await fetchJSON('posts?'+param).catch(()=>[]);
+  }
+  const relatedIds=drawCards('[data-related]',related,'Mesma categoria',p.id);
+  const recentParam=new URLSearchParams({...common,orderby:'date',order:'desc'});
+  const recent=await fetchJSON('posts?'+recentParam).catch(()=>[]);
+  let fresh=recent.filter(x=>!relatedIds.has(x.id));
+  if(fresh.length<3)fresh=fresh.concat(recent.filter(x=>relatedIds.has(x.id)));
+  drawCards('[data-recent]',fresh,'Publicação recente',p.id);
  }
  root.querySelector('[data-copy]').addEventListener('click',async()=>{
   const status=root.querySelector('[data-copy-status]');
