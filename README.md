@@ -1,5 +1,12 @@
 # SOTOMA — MISSÃO V6 ECP + COLISEUM (13/11/2026): APENAS CÓDIGO, SEM PLUGINS
 
+## HEADER GLOBAL V1.1 — menu Como cuidamos (16/11/2026)
+
+**[Abrir código único HTML + CSS + JS do Header global](dependencies/sotoma-website/templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html)** · [Mega Index](dependencies/sotoma-website/MEGA-INDEX.md) · [ECP/COLISEUM de navegação](dependencies/sotoma-website/v6-ecp-coliseum/HEADER-COMO-CUIDAMOS-20261116.md).
+
+O menu **Como cuidamos** agora abre um dropdown como **Quem cuida**, com links diretos: Psicanálise (Yasmin), Psicoterapia Positiva, V.I.A. e M.I.R.A. (Cláudia). As quatro páginas responderam HTTP 200 em 16/11/2026, inclusive M.I.R.A. após a criação do endereço. Código versionado na branch Draft, ainda não aplicado no WordPress. Manter header/footer globais únicos no Elementor.
+
+
 ## Psicanálise V7 — página completa Elementor (16/11/2026)
 
 **[Abrir código único HTML + CSS + JavaScript — Psicanálise / Yasmin](dependencies/sotoma-website/v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** · [Mega Index](dependencies/sotoma-website/MEGA-INDEX.md) · [Gates ECP + COLISEUM](dependencies/sotoma-website/v6-ecp-coliseum/PSICANALISE-V7-ECP-COLISEUM-20261116.md).

@@ -1,5 +1,12 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+## HEADER V1.1 — MENU COMO CUIDAMOS (16/11/2026)
+
+**[ABRIR CÓDIGO ÚNICO DO HEADER GLOBAL — HTML + CSS + JS](templates-global/HEADER_GLOBAL_ELEMENTOR_UNICO.html)** · [Auditoria e rollback](v6-ecp-coliseum/HEADER-COMO-CUIDAMOS-20261116.md).
+
+Dropdown `Como cuidamos` seguindo `Quem cuida`: **Psicanálise — Yasmin**, **Psicoterapia Positiva — Cláudia**, **V.I.A. — Cláudia**, **M.I.R.A. — Cláudia**; item `Conheça todos os serviços` preservado. Quatro URLs com HTTP 200 confirmado em 16/11/2026. Navegação responsiva, indicador da rota ativa, acessibilidade do dropdown, CTA global de profissionais preservado. **Header de revisão no repositório, sem deploy nem plugin.**
+
+
 ## PSICANÁLISE V7 — CÓDIGO ÚNICO, YASMIN, FOTO INTEIRA (16/11/2026)
 
 **[ABRIR HTML + CSS + JS da página Psicanálise para copiar no Elementor](v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** · [Auditoria e instalação segura](v6-ecp-coliseum/PSICANALISE-V7-ECP-COLISEUM-20261116.md).
