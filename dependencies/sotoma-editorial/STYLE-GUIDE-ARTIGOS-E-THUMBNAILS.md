@@ -1,5 +1,8 @@
 # SOTOMA — Guia de estilo para artigos e thumbnails
 
+**Atualização de verificação (16/11/2026):** [post #2262 publicado](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) confirmado, corpo integral salvo no [snapshot WordPress](producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json), categoria Cláudia id 20 e imagem destacada id 2532. A imagem PNG enviada possui SHA-256 `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80`. A publicação pré-existia; este GitHub não a publicou. Revisão de autoria/claims e HTML original permanece necessária.
+
+
 **Atualização de confiabilidade da capa:** incluir preferencialmente um widget nativo **Post Featured Image** no mesmo Single Post Elementor. O template reposiciona a imagem do servidor sem recriar/cortar; se o widget nativo não estiver instalado, tenta a imagem da API REST. Sem imagem destacada válida no WordPress, não existe capa automática. Não usar a thumbnail M.I.R.A. em outros posts.
 
 
