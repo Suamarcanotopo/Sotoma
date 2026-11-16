@@ -1,4 +1,8 @@
 # BIBLIOTECA DE ASSETS — SOTOMA 2.0 | IMAGENS ORIGINAIS (2026-11)
+
+## Thumb editoriais (nova dependência editorial)
+
+As novas thumbnails de **artigos** devem ser indexadas em [sotoma-editorial/producoes](../../sotoma-editorial/producoes/README.md), evitando duplicação com os 19 assets institucionais de profissionais/branding aqui guardados. Primeira referência: [SOT-PROD-001 — PNG original](../../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png).
 Os **19 arquivos binários originais** foram obtidos diretamente das URLs já presentes no WordPress da SOTOMA e armazenados neste repositório (pasta `assets/2026-11/`). Não são imagens recriadas por IA; são cópias dos assets já divulgados pelo site, para controle de versão e proveniência.
 
 - [Manifesto completo: nome, URL de origem, Git blob SHA-1, bytes, finalidade e consentimento](MANIFESTO-ASSETS-2026-11.json)
