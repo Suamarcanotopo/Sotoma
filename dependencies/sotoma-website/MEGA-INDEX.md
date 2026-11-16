@@ -1,5 +1,11 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+## SINGLE POST V2 — TEMPLATE GLOBAL CORRIGIDO (16/11/2026)
+
+[**Código HTML+CSS+JS único para copiar no Elementor**](templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html) · [Como instalar e testar](templates-global/ARTIGO-SINGLE-POST-V2-INSTALACAO.md) · [Primeira produção editorial registrada](../sotoma-editorial/producoes/SOT-PROD-001.md) · [Thumbnail PNG original](../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png).
+
+**Três blocos independentes e automáticos em todos os Single Posts:** artigos da mesma categoria real, artigos publicados mais recentes, e CTA/foto/WhatsApp para Cláudia e/ou Yasmin conforme categorias explícitas `claudia`/`yasmin` no WP. Sem categoria de especialista: contatos gerais, nunca associação temática presumida. Hero e imagens internas conservam proporção nativa (16:9, 9:16, 4:5...). **HTML registrado para revisão; sem merge/deploy no WordPress.**
+
 ## BLOG REAL 16/11/2026 — LINK DIRETO PARA COPIAR NO ELEMENTOR
 
 [**Abrir HTML único do Blog corrigido (13 posts WordPress publicados)**](v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
