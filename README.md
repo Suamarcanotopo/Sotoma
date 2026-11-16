@@ -1,3 +1,22 @@
+<!-- SOTOMA-WEBSITE-V5-INDICE-OPERACIONAL-20261116 -->
+## 📍 ÍNDICE GERAL DE IMPLEMENTAÇÃO — SOTOMA HOME V5
+
+**[ABRIR MEGA INDEX — C01 Home · C02 Blog · C03 Header · C04 Footer · C05 Artigo](dependencies/sotoma-website/MEGA-INDEX.md)**
+
+Encontre os arquivos HTML completos e os atalhos de **CSS e JavaScript no mesmo arquivo**, com os mapas: Navegação, Jornada de atendimento, Modalidades, Áreas e programas, Conhecimento e Utilitários. **PRs #10 e #13 em Draft, sem merge e sem publicação por este trabalho**. Acesse os arquivos de ambas as branches pelo próprio índice.
+
+---
+
+# SOTOMA — ACESSO AOS CÓDIGOS ELEMENTOR (BRANCH DE REVISÃO)
+
+- [**HOME V5 — HTML ÚNICO com CSS e JavaScript, SEM seção Blog/Pesquisa**](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
+- [**BLOG V1 — HTML ÚNICO com CSS e JavaScript, 13 artigos reais e categorias do WordPress**](dependencies/sotoma-website/blog-v1/SOTOMA_BLOG_V1_ELEMENTOR_UNICO.html)
+- [**MEGA INDEX — localização de códigos, seções e filtros**](dependencies/sotoma-website/MEGA-INDEX.md)
+
+**Contrato:** um widget HTML para cada página, apenas corpo. Header/footer globais via Elementor Theme Builder. PR em Draft, sem publicação no WordPress; assuntos no Blog são etiquetas editoriais, não tags cadastradas na base WordPress.
+
+---
+
 # SOTOMA 2.0 — Ecossistema privado de gestão e cuidado
 
 ## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
