@@ -1,5 +1,8 @@
 # SOTOMA — Single Post V2: instalação segura no Elementor
 
+**Atualização de verificação (16/11/2026):** [post #2262 publicado](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) confirmado, corpo integral salvo no [snapshot WordPress](../../sotoma-editorial/producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json), categoria Cláudia id 20 e imagem destacada id 2532. A imagem PNG enviada possui SHA-256 `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80`. A publicação pré-existia; este GitHub não a publicou. Revisão de autoria/claims e HTML original permanece necessária.
+
+
 **Atualização de confiabilidade da capa:** incluir preferencialmente um widget nativo **Post Featured Image** no mesmo Single Post Elementor. O template reposiciona a imagem do servidor sem recriar/cortar; se o widget nativo não estiver instalado, tenta a imagem da API REST. Sem imagem destacada válida no WordPress, não existe capa automática. Não usar a thumbnail M.I.R.A. em outros posts.
 
 
@@ -20,6 +23,6 @@
 9. Validar no mínimo: imagens originais (600×337, 4:5, 9:16), 320/390/768/1024/1440px, foco de teclado, H1 único, Post Content nativo, busca da API WP, links relacionados/recentes, duas profissionais quando ambas categorias, CTA genérico sem categoria, visual sem JS, aprovação da direção.
 10. Não adicionar Schema/JSON-LD duplicado com Rank Math. Em falha na API, o artigo nativo fica disponível, e nenhuma publicação falsa é inventada.
 
-**Importante:** a thumbnail original da primeira produção está [preservada no GitHub](../../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png) e no [Drive privado](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) e [indexada no catálogo](../../sotoma-editorial/producoes/SOT-PROD-001.md). Sem upload dessa mídia ao WordPress e associação à imagem destacada do post correto, ela não aparecerá automaticamente na capa.
+**Importante:** a thumbnail original da primeira produção está [preservada no GitHub](../../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png) e no [Drive privado](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) e [indexada no catálogo](../../sotoma-editorial/producoes/SOT-PROD-001.md). A postagem pública WordPress [#2262](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) já usa imagem destacada (mídia ID 2532); não repetir upload dessa imagem sem necessidade. O template deve ler o campo Post Featured Image da própria postagem; produção GitHub não faz deploy.
 
 **Estado ECP/Coliseum:** aguardando teste em staging/Elementor; PR Draft, sem deploy ou alteração WP.
