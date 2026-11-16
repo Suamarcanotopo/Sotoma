@@ -1,5 +1,9 @@
 # SOTOMA — 60 artigos em rascunho editorial
 
+## Produções efetivamente recebidas — registro separado (16/11/2026)
+
+**NÃO confundir com os 60 rascunhos abaixo:** [SOT-PROD-001 — Thumbnail M.I.R.A. preservada no GitHub](producoes/SOT-PROD-001.md) · [PNG original 600×337](producoes/assets/SOT-PROD-001-thumb-mira-original.png) · [Catálogo de produções](producoes/README.md) · [Planilha PRODUCOES_REAIS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935). **O texto integral do artigo não foi fornecido, a autoria/categoria não foram confirmadas e não há publicação comprovada desta peça.**
+
 **Data 07/11/2026.** São 60 textos integrais de trabalho, dos quais 2 pilotos preexistentes foram preservados. Nenhum foi homologado, publicado ou revisado clinicamente. A maior parte deriva de uma estrutura editorial comum e exige revisão substancial de linguagem, singularidade e fontes específicas. **A criação desses arquivos não os torna artigos prontos para o WordPress.**
 
 | ID | Autora prevista | Funil | Título | Arquivo |
