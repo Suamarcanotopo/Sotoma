@@ -1,5 +1,9 @@
 # SOTOMA 2.0 — MEGA INDEX V6 | ECP + COLISEUM | SOMENTE CÓDIGO
 
+## TEMPLATE SINGLE POST V2 — links diretos (16/11/2026)
+
+[**Abrir código global corrigido**](../templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html) · [Procedimento de instalação](../templates-global/ARTIGO-SINGLE-POST-V2-INSTALACAO.md) · [Registro da thumbnail inicial](../../sotoma-editorial/producoes/SOT-PROD-001.md). Evita crop 4:3, preserva 16:9 / 9:16 / 4:5, separa artigos relacionados, recentes e CTA categórico de especialistas. Sem publicação direta.
+
 ## BLOG — CORREÇÃO DE 16/11/2026
 
 **Código revisado e atualizado nesta branch:** [BODY_ELEMENTOR_UNICO_V6.html — 13 posts reais, atualização via WordPress REST, hero Clau-Ya](../v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
