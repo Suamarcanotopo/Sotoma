@@ -1,4 +1,8 @@
 ## Atualização V2 vigente — 60 pautas, estudos e marca (07/11/2026)
+
+## Controle de produções recebidas (16/11/2026)
+
+A planilha privada existente agora contém [PRODUCOES_REAIS (ID de produção, thumb, status, prova)](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935) e [PADRAO_EDITORIAL_VISUAL (diretrizes de leitura e imagem)](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=688887721). Registro inicial: [SOT-PROD-001](../dependencies/sotoma-editorial/producoes/SOT-PROD-001.md) com [PNG de origem versionado](../dependencies/sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png), sem texto integral ou status de publicação inventados. Não mistura com as 60 pautas SOT-ED.
 Para novas tarefas, usar [README editorial V2](../dependencies/sotoma-editorial/README.md), [FUNIL IET](../dependencies/sotoma-editorial/FUNIL-INFORMACAO-EDUCACAO-TRANSFORMACAO.md), [política de estudos](../dependencies/sotoma-editorial/PESQUISAS-ESTUDOS-GOVERNANCA.md) e [identidade SOTOMA](../dependencies/sotoma-editorial/IDENTIDADE-VISUAL-MARCA.md). Planilha: https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit. As abas `_20` são registros legados preservados; `PAUTAS_60`, `ESTUDOS_CIENTIFICOS`, `FUNIL_IET_60`, `IDENTIDADE_VISUAL`, `GATES_PUBLICACAO` e `ARTIGOS_REVISAO_58` compõem o fluxo atual. 58 reescritas candidatas na [PR #6](https://github.com/Suamarcanotopo/Sotoma/pull/6) aguardam revisão. Todos os artigos continuam não publicados.
 
 # SOTOMA Editorial — planejamento + Google Sheets nativo
