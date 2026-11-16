@@ -1,5 +1,9 @@
 ### Revisão de 58 artigos — sem merge
 
+## Produções realmente entregues e estilo (16/11/2026)
+
+Novo registro canônico de peças realmente recebidas: [producoes/README.md](producoes/README.md) → [SOT-PROD-001](producoes/SOT-PROD-001.md) + [thumbnail original versionada no GitHub](producoes/assets/SOT-PROD-001-thumb-mira-original.png). [Registro JSON](dados/PRODUCOES-REGISTRO.json) + [Guia de estilo de thumbnails, escrita e proporções](STYLE-GUIDE-ARTIGOS-E-THUMBNAILS.md). A planilha canônica possui as novas abas [PRODUCOES_REAIS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935) e [PADRAO_EDITORIAL_VISUAL](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=688887721). As 60 pautas pré-existentes continuam em rascunho e não foram reclassificadas.
+
 ## FONTES CANÔNICAS — INVESTIGAÇÃO INTERNACIONAL 07/11/2026
 
 **Versão ativa do catálogo de fontes:** [Google Sheets FONTES — 76 referências distintas](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=498273490) · [PAINEL_FONTES — 39 páginas oficiais/editoriais conferidas, 17 estudos/resumos PubMed conferidos, 19 candidatos e 1 em quarentena](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=313551946) · [POLITICA_FONTES — 13 gates adversariais](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1276106181).
