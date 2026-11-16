@@ -1,5 +1,5 @@
 <!-- SOTOMA · TEMPLATE EDITORIAL GLOBAL · um único código HTML/CSS/JS
-INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget nativo Post Content (obrigatório) e UM Post Title H1 no mesmo template. As categorias reais WordPress 'Claudia Fernanda Sotoma' e/ou 'Yasmin Sotoma Muzilli' ativam automaticamente foto + CTA individual. Três seções sempre presentes: correlacionados, recentes, profissionais. Imagens mantêm proporção original.
+INSTALAÇÃO: Elementor Theme Builder > Single Post > widget HTML deste arquivo + UM widget nativo Post Content (obrigatório), UM Post Title H1 e (recomendado) UM Post Featured Image no mesmo template. As categorias reais WordPress 'Claudia Fernanda Sotoma' e/ou 'Yasmin Sotoma Muzilli' ativam automaticamente foto + CTA individual. Três seções sempre presentes: correlacionados, recentes, profissionais. Imagens mantêm proporção original.
 O Post Content é renderizado pelo servidor WordPress; este script o encaixa no slot visual, sem substituí-lo por conteúdo fetch(JS).
 Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste HTML. -->
 <style>
@@ -143,6 +143,11 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
 @media(max-width:760px){#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent,#sotoma-article-template .sta-cta-grid{grid-template-columns:1fr}#sotoma-article-template .sta-hero :is(h1,.elementor-heading-title){font-size:clamp(1.85rem,6vw,2.8rem)!important}}
 @container(max-width:720px){#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent,#sotoma-article-template .sta-cta-grid,#sotoma-article-template .sta-grid,#sotoma-article-template .sta-aside{grid-template-columns:1fr}}
 @container(max-width:460px){#sotoma-article-template .sta-hero :is(h1,.elementor-heading-title){font-size:clamp(1.72rem,7cqw,2.23rem)!important}#sotoma-article-template .sta-cta-card{grid-template-columns:1fr}#sotoma-article-template .sta-cta-body{padding:19px}}
+
+/* Imagem destacada nativa do Elementor: não fixar proporção ou altura. */
+#sotoma-article-template .sta-cover .elementor-widget-theme-post-featured-image,
+#sotoma-article-template .sta-cover .elementor-widget-theme-post-featured-image .elementor-widget-container{display:block;width:100%;max-width:100%;height:auto}
+#sotoma-article-template .sta-cover .elementor-widget-theme-post-featured-image img{display:block;width:100%!important;max-width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
 </style>
 <section id="sotoma-article-template" aria-label="Layout do artigo SOTOMA">
  <div class="sta-progress" aria-hidden="true"><span data-progress></span></div>
@@ -213,6 +218,18 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
   if(nativeTitle){const titleHost=root.querySelector('[data-title-host]');titleHost.replaceChildren(nativeTitle);const h=titleHost.querySelector('h1');h.id='sta-post-title';}
   const candidates=Array.from(document.querySelectorAll('.elementor-widget-theme-post-content'));
   const widget=candidates.find(el=>!root.contains(el)&&el.querySelector('.elementor-widget-container'));
+  // A imagem destacada pode ser renderizada pelo Elementor no servidor.
+  // Isso mantém a capa mesmo se a REST API ou endpoint de mídia estiver indisponível.
+  const featured=Array.from(document.querySelectorAll('.elementor-widget-theme-post-featured-image'))
+    .find(el=>!root.contains(el)&&el.querySelector('img'));
+  if(featured){
+    const figure=root.querySelector('[data-cover]');
+    const placeholder=figure.querySelector('[data-featured]');
+    if(placeholder)placeholder.hidden=true;
+    figure.appendChild(featured);
+    figure.dataset.nativeFeatured='1';
+    figure.hidden=false;
+  }
   if(!widget)return;
   const host=root.querySelector('[data-native-content-slot]');
   host.appendChild(widget);const missing=host.querySelector('[data-missing]');if(missing)missing.hidden=true;
@@ -314,7 +331,7 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
   const media=p._embedded?.['wp:featuredmedia']?.[0];
   if(media?.source_url){
    const img=root.querySelector('[data-featured]'),figure=root.querySelector('[data-cover]'),src=safeUrl(media.source_url);
-   if(src){img.src=src;img.alt=escapeText(media.alt_text||'Imagem de destaque do artigo');
+   if(src&&!figure.dataset.nativeFeatured){img.src=src;img.alt=escapeText(media.alt_text||'Imagem de destaque do artigo');
     img.hidden=false;figure.hidden=false;
     img.addEventListener('error',()=>{figure.hidden=true;img.removeAttribute('src')},{once:true});
    }
