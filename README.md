@@ -1,5 +1,12 @@
 # SOTOMA — MISSÃO V6 ECP + COLISEUM (13/11/2026): APENAS CÓDIGO, SEM PLUGINS
 
+## Psicanálise V7 — página completa Elementor (16/11/2026)
+
+**[Abrir código único HTML + CSS + JavaScript — Psicanálise / Yasmin](dependencies/sotoma-website/v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** · [Mega Index](dependencies/sotoma-website/MEGA-INDEX.md) · [Gates ECP + COLISEUM](dependencies/sotoma-website/v6-ecp-coliseum/PSICANALISE-V7-ECP-COLISEUM-20261116.md).
+
+Recriação completa da página `/psicanalise/` baseada no texto atualmente publicado: identidade da SOTOMA, foto Yasmin `Ya-11.jpeg` na hero com proporções naturais (sem cortes), público crianças–jovens adultos até 24 anos, dez CTAs com WhatsApp exclusivo `5567991858129` e mensagens por seção. **Candidato em branch/PR Draft: NÃO publicado, não homologado, não usar junto com bloco V6 aditivo.** Antes de colocar no Elementor: backup, revisão Yasmin/Cláudia, staging e rollback.
+
+
 **[Abrir o Mega Index V6 completo](dependencies/sotoma-website/v6-ecp-coliseum/INDEX-V6.md)** · [ZIP 7 páginas completas](dependencies/sotoma-website/v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) · [ZIP 10 melhorias aditivas](dependencies/sotoma-website/v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip).
 
 Decisão da Cláudia: duas formas de atendimento, sem valores e sem oferta de atendimento integrado. Artigo 2187 com texto aprovado para substituição pontual no WordPress original. Sem deploy, sem plugin, sem remoção de páginas ou textos antigos nesta missão.

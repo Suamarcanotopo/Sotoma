@@ -1,0 +1,150 @@
+<!-- SOTOMA 2.0 / Psicanálise | substituição integral do BODY no Elementor | V7 DRAFT | 2026-11-16 | header e footer permanecem globais | NÃO publicado -->
+<style>
+#sotoma-psy-v7{--pine:#22524A;--forest:#17434c;--yasmin:#176873;--aqua:#b7e2dc;--olive:#8BA146;--paper:#f7f8f3;--mint:#eaf2ee;--ink:#263b36;--muted:#536960;--edge:#d8e6df;--display:"Poppins",system-ui,sans-serif;--body:"Mulish",system-ui,sans-serif;display:block;isolation:isolate;max-width:100%;width:100%;overflow-x:clip;background:var(--paper);color:var(--ink);font:400 16px/1.7 var(--body);overflow-wrap:break-word}
+#sotoma-psy-v7 *,#sotoma-psy-v7 *::before,#sotoma-psy-v7 *::after{box-sizing:border-box}
+#sotoma-psy-v7 a{text-decoration:none;color:inherit}#sotoma-psy-v7 img{display:block;max-width:100%}
+#sotoma-psy-v7 :is(a,summary):focus-visible{outline:3px solid var(--olive);outline-offset:4px}
+#sotoma-psy-v7 :is(h1,h2,h3){font-family:var(--display);letter-spacing:-.035em;line-height:1.2;margin:0;text-wrap:balance}
+#sotoma-psy-v7 h1{font-size:clamp(2.35rem,5vw,4.65rem);font-weight:700}
+#sotoma-psy-v7 h2{font-size:clamp(1.8rem,3vw,3.1rem);font-weight:700}
+#sotoma-psy-v7 h3{font-size:clamp(1.05rem,1.7vw,1.32rem);font-weight:700}
+#sotoma-psy-v7 p{margin:13px 0 0}#sotoma-psy-v7 .psy-wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}
+#sotoma-psy-v7 .psy-skip{position:absolute;left:-9999px;top:0;background:#fff;color:#142f29;padding:11px;z-index:10}
+#sotoma-psy-v7 .psy-skip:focus{left:12px}
+#sotoma-psy-v7 .psy-hero{background:radial-gradient(ellipse at 80% 25%,#276c71 0%,#17434c 54%,#12343d 100%);color:#fff}
+#sotoma-psy-v7 .psy-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(30px,4vw,74px);align-items:center;padding-block:clamp(44px,6vw,94px)}
+#sotoma-psy-v7 .psy-hero-copy{min-width:0}#sotoma-psy-v7 .psy-eyebrow{font:800 .76rem/1.5 var(--display);letter-spacing:.13em;text-transform:uppercase;color:#a3cbc7}
+#sotoma-psy-v7 .psy-hero h1{margin-top:19px}
+#sotoma-psy-v7 .psy-lead{font-size:clamp(1.04rem,1.65vw,1.2rem);line-height:1.6;color:#e3f0ef}
+#sotoma-psy-v7 .psy-hero p:not(.psy-photo-caption){max-width:620px}
+#sotoma-psy-v7 .psy-hero-photo{margin:0;min-width:0;padding:clamp(9px,1.5vw,17px);border:1px solid #a8d7d044;border-radius:22px;background:linear-gradient(160deg,#d1e7e0,#f4f4ec);box-shadow:0 18px 60px #0d25284d}
+#sotoma-psy-v7 .psy-hero-photo img{position:static;display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;aspect-ratio:auto;border-radius:13px}
+#sotoma-psy-v7 .psy-photo-caption{font-size:.75rem;color:#204d4d;text-align:center;padding:7px 4px 1px;margin:0}
+#sotoma-psy-v7 .psy-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:25px}
+#sotoma-psy-v7 .psy-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:11px 20px;border-radius:12px;font:800 .85rem/1.4 var(--display);transition:transform .18s ease,box-shadow .18s ease;text-align:center}
+#sotoma-psy-v7 .psy-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px #122f2830}
+#sotoma-psy-v7 .psy-primary{background:var(--yasmin);color:#fff!important;border:1px solid #6ca3a4}
+#sotoma-psy-v7 .psy-hero .psy-primary{background:#d4efeb;color:#174952!important}
+#sotoma-psy-v7 .psy-outline{background:transparent;border:1px solid #a5ceca;color:#fff!important}
+#sotoma-psy-v7 .psy-subtle{background:#eff7f3;border:1px solid #bed9ce;color:var(--pine)!important}
+#sotoma-psy-v7 .psy-small{font-size:.78rem;color:var(--muted)}
+#sotoma-psy-v7 .psy-hero .psy-small{color:#d3e6e4}
+#sotoma-psy-v7 .psy-section{padding-block:clamp(58px,7vw,96px)}
+#sotoma-psy-v7 .psy-section.psy-tint{background:var(--mint)}
+#sotoma-psy-v7 .psy-section-head{max-width:790px;margin-bottom:30px}
+#sotoma-psy-v7 .psy-section-head h2{margin-top:12px}
+#sotoma-psy-v7 .psy-section-head>p{color:var(--muted)}
+#sotoma-psy-v7 .psy-quote{max-width:910px;border-left:4px solid var(--olive);background:#fff;padding:25px 30px;border-radius:0 18px 18px 0;margin-top:27px;font:600 clamp(1.05rem,1.9vw,1.3rem)/1.55 var(--display)}
+#sotoma-psy-v7 .psy-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#sotoma-psy-v7 .psy-card{background:#fff;border:1px solid var(--edge);border-radius:20px;padding:clamp(22px,3vw,31px);box-shadow:0 15px 35px #1b413214}
+#sotoma-psy-v7 .psy-card p{color:var(--muted);font-size:.96rem}
+#sotoma-psy-v7 .psy-no{font:900 .75rem var(--display);color:var(--yasmin);letter-spacing:.1em;display:block;margin-bottom:12px}
+#sotoma-psy-v7 .psy-age-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+#sotoma-psy-v7 .psy-age{display:flex;flex-direction:column;gap:13px}
+#sotoma-psy-v7 .psy-age .psy-tag{color:var(--yasmin);font:800 .73rem/1.3 var(--display);letter-spacing:.11em;text-transform:uppercase}
+#sotoma-psy-v7 .psy-age p{margin:0}
+#sotoma-psy-v7 .psy-age .psy-note{font-size:.82rem;color:#52736a;margin-top:auto}
+#sotoma-psy-v7 .psy-age .psy-actions{margin-top:8px}
+#sotoma-psy-v7 .psy-two{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(30px,5vw,66px);align-items:start}
+#sotoma-psy-v7 .psy-steps{display:grid;gap:12px;margin-top:19px}
+#sotoma-psy-v7 .psy-step{background:#fff;border:1px solid var(--edge);padding:17px 20px;border-radius:14px}
+#sotoma-psy-v7 .psy-step b{color:var(--pine)}
+#sotoma-psy-v7 .psy-step p{margin-top:5px;color:var(--muted)}
+#sotoma-psy-v7 .psy-qa details{border-bottom:1px solid #c8dcd3}
+#sotoma-psy-v7 .psy-qa summary{cursor:pointer;list-style:none;display:flex;gap:15px;align-items:center;justify-content:space-between;font:750 1rem/1.55 var(--display);padding:19px 4px}
+#sotoma-psy-v7 .psy-qa summary::-webkit-details-marker{display:none}
+#sotoma-psy-v7 .psy-qa summary::after{content:"+";font-size:1.45rem;color:var(--yasmin)}
+#sotoma-psy-v7 .psy-qa details[open] summary::after{content:"−"}
+#sotoma-psy-v7 .psy-qa details p{margin:0 4px 19px;color:var(--muted)}
+#sotoma-psy-v7 .psy-related{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+#sotoma-psy-v7 .psy-related a{border:1px solid #bfd8cd;border-radius:10px;padding:10px 14px;color:var(--pine);font-weight:750;background:#fff}
+#sotoma-psy-v7 .psy-related a:hover{background:#e9f4ee}
+#sotoma-psy-v7 .psy-last{background:#15434a;color:#fff;border-radius:24px;padding:clamp(28px,5vw,58px)}
+#sotoma-psy-v7 .psy-last p{color:#e0edeb;max-width:790px}
+#sotoma-psy-v7 .psy-last h2{max-width:720px;margin-top:12px}
+#sotoma-psy-v7 .psy-last .psy-small{color:#d7e6e3}
+#sotoma-psy-v7 [id]{scroll-margin-top:95px}
+@media(max-width:900px){#sotoma-psy-v7 .psy-age-grid{grid-template-columns:1fr 1fr}#sotoma-psy-v7 .psy-hero-grid{gap:28px}#sotoma-psy-v7 h1{font-size:clamp(2rem,5.4vw,3.6rem)}}
+@media(max-width:760px){#sotoma-psy-v7 .psy-hero-grid,#sotoma-psy-v7 .psy-two{grid-template-columns:1fr}#sotoma-psy-v7 .psy-hero-grid{padding-block:38px 52px}#sotoma-psy-v7 .psy-hero-photo{width:min(520px,100%);margin-inline:auto}#sotoma-psy-v7 .psy-grid,#sotoma-psy-v7 .psy-age-grid{grid-template-columns:1fr}}
+@media(max-width:520px){#sotoma-psy-v7 .psy-wrap{width:calc(100% - 28px)}#sotoma-psy-v7 .psy-btn{width:100%}#sotoma-psy-v7 .psy-actions{flex-direction:column;align-items:stretch}#sotoma-psy-v7 .psy-hero h1{font-size:clamp(2rem,9.4vw,3rem)}#sotoma-psy-v7 .psy-section{padding-block:50px}#sotoma-psy-v7 .psy-card{padding:20px}}
+@media(prefers-reduced-motion:reduce){#sotoma-psy-v7 *,#sotoma-psy-v7 *::before,#sotoma-psy-v7 *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<div id="sotoma-psy-v7" data-professional="yasmin" data-page="psicanalise">
+<a href="#psy-conteudo" class="psy-skip">Ir ao conteúdo de Psicanálise</a>
+<section class="psy-hero" aria-labelledby="psy-h1">
+ <div class="psy-wrap psy-hero-grid">
+  <div class="psy-hero-copy">
+   <span class="psy-eyebrow">SOTOMA · Psicanálise · Yasmin Sotoma Muzilli</span>
+   <h1 id="psy-h1">Psicanálise: um cuidado que escuta o que o comportamento quer dizer</h1>
+   <p class="psy-lead">Um espaço de escuta sensível, cuidadosa e respeitosa para compreender experiências emocionais na infância, na adolescência e no início da vida adulta — até 24 anos.</p>
+   <p>Nem sempre é possível colocar em palavras o que se sente. A Psicanálise busca acolher essas expressões e compreender o que elas podem comunicar, respeitando cada história.</p>
+   <div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Apresenta%C3%A7%C3%A3o.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20a%20proposta%20de%20Psican%C3%A1lise%20e%20a%20primeira%20conversa%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Apresentação" aria-label="Falar com Yasmin pelo WhatsApp">Falar com Yasmin <span aria-hidden="true">↗</span></a><a class="psy-btn psy-outline" href="#psy-como">Como funciona o cuidado ↓</a></div>
+   <p class="psy-small">Contato direto com Yasmin. A mensagem solicita apenas informações administrativas; não confirma sessão.</p>
+  </div>
+  <figure class="psy-hero-photo">
+   <img src="https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/11/Ya-11.jpeg" alt="Fotografia de Yasmin Sotoma Muzilli, profissional da SOTOMA" loading="eager" decoding="async" fetchpriority="high">
+   <figcaption class="psy-photo-caption">Yasmin Sotoma Muzilli · SOTOMA Saúde Psicointegrada</figcaption>
+  </figure>
+ </div>
+</section>
+<div id="psy-conteudo">
+<section class="psy-section" aria-labelledby="psy-intro">
+ <div class="psy-wrap"><div class="psy-section-head"><span class="psy-eyebrow" style="color:#176873">O sentido da escuta</span><h2 id="psy-intro">Quando o comportamento se torna uma forma de expressão</h2></div>
+ <p>A Psicanálise é uma abordagem terapêutica que oferece um espaço de escuta sensível, cuidadosa e respeitosa para compreender o sofrimento emocional de crianças e adolescentes em cada fase do desenvolvimento. Esse olhar também pode acompanhar jovens adultos, considerando suas experiências e necessidades.</p>
+ <p>Na Psicanálise, entendemos que muitos comportamentos — como ansiedade, agressividade, isolamento, dificuldades escolares, medos intensos ou mudanças de humor — podem ser formas de expressão emocional. Nem sempre a criança ou o adolescente consegue colocar em palavras o que sente, e o comportamento se torna a linguagem possível naquele momento.</p>
+ <p>O trabalho terapêutico busca dar sentido a essas expressões, ajudando a elaborar emoções, conflitos internos e vivências que ainda não conseguem ser nomeadas. Cada história é única: a presença de um comportamento, por si só, não permite concluir que exista um transtorno.</p>
+ <div class="psy-quote">“Antes de tentar corrigir o comportamento, é importante abrir espaço para compreender o que ele pode estar comunicando.”</div>
+<div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20A%20escuta%20e%20a%20express%C3%A3o%20emocional.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20a%20abordagem%20e%20o%20formato%20da%20primeira%20conversa%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="A escuta e a expressão emocional" aria-label="Conversar com Yasmin sobre a Psicanálise pelo WhatsApp">Conversar sobre a Psicanálise <span aria-hidden="true">↗</span></a></div>
+</div></section>
+<section class="psy-section psy-tint" id="psy-como" aria-labelledby="psy-como-title"><div class="psy-wrap">
+ <div class="psy-section-head"><span class="psy-eyebrow" style="color:#176873">O que buscamos compreender</span><h2 id="psy-como-title">O cuidado vai além do sintoma</h2><p>A Psicanálise parte da compreensão de que emoções, experiências vividas e vínculos importantes influenciam a maneira como a criança, o adolescente ou o jovem se relaciona consigo, com a família e com o mundo.</p></div>
+ <div class="psy-grid"><article class="psy-card"><span class="psy-no">01</span><h3>Compreender além do comportamento</h3><p>Ansiedade, agressividade, isolamento, dificuldades escolares, medos intensos ou mudanças de humor podem expressar experiências diferentes. A escuta considera o contexto e não transforma um comportamento isolado em diagnóstico.</p></article>
+<article class="psy-card"><span class="psy-no">02</span><h3>Dar espaço ao que ainda não tem palavras</h3><p>O acompanhamento oferece tempo e cuidado para que sentimentos, conflitos internos e vivências possam ser expressos e elaborados, respeitando o momento e a singularidade de cada pessoa.</p></article>
+<article class="psy-card"><span class="psy-no">03</span><h3>Reconhecer vínculos e experiências</h3><p>Relações familiares, ambiente emocional, acontecimentos importantes e padrões que se repetem podem fazer parte da compreensão do sofrimento, sem procurar culpados.</p></article>
+<article class="psy-card"><span class="psy-no">04</span><h3>Construir compreensão no próprio ritmo</h3><p>O cuidado não se limita a procurar alívio imediato de sintomas. Ele busca compreender os sentidos das experiências, sem prometer resultados ou prazos iguais para todos.</p></article></div>
+ <div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20O%20que%20a%20Psican%C3%A1lise%20busca%20compreender.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20o%20funcionamento%20da%20abordagem%20e%20a%20disponibilidade%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="O que a Psicanálise busca compreender" aria-label="Esclarecer dúvidas com Yasmin pelo WhatsApp">Esclarecer dúvidas com Yasmin <span aria-hidden="true">↗</span></a></div>
+</div></section>
+<section class="psy-section" id="psy-publicos" aria-labelledby="psy-publicos-title"><div class="psy-wrap">
+ <div class="psy-section-head"><span class="psy-eyebrow" style="color:#176873">Faixas da vida</span><h2 id="psy-publicos-title">Para quem a Psicanálise é indicada?</h2><p>O atendimento apresentado pela SOTOMA com Yasmin contempla crianças, adolescentes e jovens adultos até 24 anos. A forma de escuta considera as características de cada etapa da vida.</p></div>
+ <div class="psy-age-grid"><article class="psy-card psy-age"><span class="psy-tag">Infância</span><h3>Com crianças</h3><p>Na infância, nem sempre é possível explicar em palavras o que está acontecendo. O brincar, os desenhos, os jogos e as histórias podem abrir caminhos para a expressão emocional, sem pressão para que a criança diga algo antes de estar pronta.</p><p class="psy-note">A participação dos responsáveis é considerada de acordo com a idade e a situação.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Inf%C3%A2ncia.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20o%20formato%20do%20atendimento%20de%20crian%C3%A7as%20e%20a%20orienta%C3%A7%C3%A3o%20aos%20respons%C3%A1veis%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Infância" aria-label="Consultar atendimento pelo WhatsApp">Consultar atendimento <span aria-hidden="true">↗</span></a></div></article>
+<article class="psy-card psy-age"><span class="psy-tag">Adolescência</span><h3>Com adolescentes</h3><p>A adolescência reúne transformações nas relações, na identidade e na maneira de viver emoções. Um espaço de escuta sem julgamentos permite conversar sobre conflitos, inseguranças, medos e mudanças, respeitando a individualidade do adolescente.</p><p class="psy-note">Os limites de confidencialidade e a participação da família são esclarecidos pela profissional.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Adolesc%C3%AAncia.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20o%20formato%20do%20atendimento%20de%20adolescentes%20e%20a%20primeira%20conversa%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Adolescência" aria-label="Consultar atendimento pelo WhatsApp">Consultar atendimento <span aria-hidden="true">↗</span></a></div></article>
+<article class="psy-card psy-age"><span class="psy-tag">18 a 24 anos</span><h3>Com jovens adultos</h3><p>O início da vida adulta também pode trazer dúvidas sobre escolhas, autonomia, relacionamentos, estudos, trabalho e identidade. A escuta psicanalítica pode acolher essas experiências sem reduzir o jovem a um rótulo ou a uma expectativa de desempenho.</p><p class="psy-note">A SOTOMA poderá confirmar com Yasmin a adequação da proposta às necessidades de cada jovem.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Jovens%20adultos.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20o%20atendimento%20para%20jovens%20adultos%20de%20at%C3%A9%2024%20anos%20e%20seus%20formatos%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Jovens adultos" aria-label="Consultar atendimento pelo WhatsApp">Consultar atendimento <span aria-hidden="true">↗</span></a></div></article></div>
+</div></section>
+<section class="psy-section psy-tint" id="psy-familia" aria-labelledby="psy-familia-title"><div class="psy-wrap psy-two">
+ <div><span class="psy-eyebrow" style="color:#176873">Acolhimento sem culpabilização</span><h2 id="psy-familia-title">O papel da família no processo</h2><p>Na Psicanálise, os pais e responsáveis não são vistos como culpados, mas como parte fundamental do cuidado, quando sua participação é pertinente.</p><p>O acompanhamento pode incluir devolutivas claras e cuidadosas à família, ajudando a compreender o que está acontecendo e a fortalecer os vínculos familiares. A participação de responsáveis deve respeitar as necessidades, a idade e a confidencialidade de cada processo.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Fam%C3%ADlia%20e%20respons%C3%A1veis.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20como%20s%C3%A3o%20feitas%20as%20orienta%C3%A7%C3%B5es%20e%20devolutivas%20%C3%A0%20fam%C3%ADlia%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Família e responsáveis" aria-label="Tirar dúvidas sobre a família pelo WhatsApp">Tirar dúvidas sobre a família <span aria-hidden="true">↗</span></a></div></div>
+ <div class="psy-steps">
+  <div class="psy-step"><b>Comunicação mais cuidadosa</b><p>Escutar o que a criança ou adolescente consegue expressar, sem reduzir toda a experiência a um comportamento.</p></div>
+  <div class="psy-step"><b>Fortalecimento de vínculos</b><p>Construir possibilidades de diálogo e compreensão no ambiente familiar, respeitando os limites de cada pessoa.</p></div>
+  <div class="psy-step"><b>Participação com responsabilidade</b><p>Esclarecer como e quando pais ou responsáveis participam, sem supor que todas as famílias ou fases da vida tenham as mesmas necessidades.</p></div>
+ </div>
+</div></section>
+<section class="psy-section" id="psy-profissional" aria-labelledby="psy-pro-title"><div class="psy-wrap psy-two">
+ <div><span class="psy-eyebrow" style="color:#176873">Quem realiza o atendimento</span><h2 id="psy-pro-title">Yasmin Sotoma Muzilli</h2><p>O acompanhamento em Psicanálise é realizado por Yasmin Sotoma Muzilli, apresentada pela SOTOMA como psicanalista, com atuação voltada a crianças, adolescentes e, conforme a faixa de atendimento informada, jovens adultos até 24 anos.</p><p>Seu trabalho valoriza a escuta sem julgamentos, os recursos de expressão adequados a cada fase e as orientações cuidadosas à família quando pertinentes.</p><div class="psy-actions"><a class="psy-btn psy-subtle" href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Conhecer Yasmin ↗</a><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Quem%20atende.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20as%20modalidades%20de%20atendimento%20e%20os%20pr%C3%B3ximos%20passos%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Quem atende" aria-label="WhatsApp de Yasmin pelo WhatsApp">WhatsApp de Yasmin <span aria-hidden="true">↗</span></a></div></div>
+ <div class="psy-card"><h3>Como pode começar essa conversa?</h3><p>Antes de qualquer decisão, vale esclarecer o formato de atendimento, a disponibilidade, a participação de responsáveis quando aplicável e como ocorre o primeiro contato.</p><p>Se você é responsável por uma criança ou adolescente, não precisa compartilhar detalhes íntimos em uma mensagem inicial. Questões pessoais podem ser abordadas pelo canal e no momento apropriados.</p><p class="psy-small">Esta página não faz triagem, diagnóstico ou agendamento automático.</p></div>
+</div></section>
+<section class="psy-section psy-tint" id="psy-duvidas" aria-labelledby="psy-duvidas-title"><div class="psy-wrap psy-two">
+ <div><span class="psy-eyebrow" style="color:#176873">Perguntas frequentes</span><h2 id="psy-duvidas-title">Dúvidas que merecem respostas cuidadosas</h2><p>Entender uma abordagem também significa conhecer seus limites e saber o que perguntar antes de iniciar qualquer acompanhamento.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20D%C3%BAvidas%20frequentes.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20perguntas%20gerais%20sobre%20Psican%C3%A1lise%20e%20primeiro%20atendimento%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Dúvidas frequentes" aria-label="Perguntar à Yasmin pelo WhatsApp">Perguntar à Yasmin <span aria-hidden="true">↗</span></a></div></div>
+ <div class="psy-qa"><details open><summary>Psicanálise é só para crianças que apresentam dificuldades na escola?</summary><p>Não. A escuta pode considerar vivências emocionais, vínculos familiares, medos, conflitos, mudanças de comportamento e outras questões que mereçam compreensão. Nenhum sinal isolado define a necessidade de acompanhamento.</p></details>
+<details><summary>Como acontece o atendimento psicanalítico infantil?</summary><p>Com crianças, brincar, desenhos, jogos e histórias podem funcionar como meios de expressão. A forma concreta de cada encontro é definida pela profissional segundo idade, necessidades e contexto.</p></details>
+<details><summary>Adolescentes podem falar sem julgamento?</summary><p>O espaço terapêutico procura oferecer escuta respeitosa. A confidencialidade, seus limites legais e a participação de responsáveis devem ser esclarecidos antes do acompanhamento.</p></details>
+<details><summary>Yasmin atende jovens adultos de até 24 anos?</summary><p>Sim, essa é a faixa etária indicada para esta página: crianças, adolescentes e jovens adultos até 24 anos. A adequação do atendimento, a modalidade e a disponibilidade devem ser confirmadas diretamente com Yasmin.</p></details>
+<details><summary>Pais e responsáveis participam do processo?</summary><p>A família pode participar por meio de orientações e devolutivas cuidadosas, quando pertinentes. Esse envolvimento não significa atribuir culpa aos responsáveis nem revelar indiscriminadamente o conteúdo das sessões.</p></details>
+<details><summary>É necessário um diagnóstico para procurar informações?</summary><p>Não. O primeiro contato pode servir apenas para esclarecer se a proposta é adequada, como funciona e quais são os próximos passos. Diagnósticos não são realizados por botões, formulários ou leitura do site.</p></details>
+<details><summary>O atendimento é presencial ou online?</summary><p>As modalidades, faixa etária, condições de participação de responsáveis e disponibilidade precisam ser confirmadas diretamente com Yasmin. O site não confirma um formato específico para todos os casos.</p></details>
+<details><summary>Como faço para conversar com a Yasmin?</summary><p>Use um dos botões desta página. A mensagem abre o WhatsApp da profissional com a origem da seção; não solicita detalhes sensíveis de saúde. Enviar mensagem não confirma agendamento.</p></details></div>
+</div></section>
+<section class="psy-section" id="psy-leituras" aria-labelledby="psy-leituras-title"><div class="psy-wrap">
+ <div class="psy-section-head"><span class="psy-eyebrow" style="color:#176873">Conhecimento</span><h2 id="psy-leituras-title">Continue explorando o tema</h2><p>Leituras que ajudam a compreender a escuta e as fases de desenvolvimento, sem substituir uma avaliação individual.</p></div>
+ <nav class="psy-related" aria-label="Leituras e páginas relacionadas"><a href="https://sotomasaudepsicointegrada.com.br/psicanalise-para-criancas-e-adolescentes/">Psicanálise para crianças e adolescentes ↗</a><a href="https://sotomasaudepsicointegrada.com.br/adolescencia-e-saude-mental-escuta-e-compreensao/">Adolescência e saúde mental ↗</a><a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/">Como cuidamos ↗</a><a href="https://sotomasaudepsicointegrada.com.br/duvidas/">Mais dúvidas ↗</a></nav>
+</div></section>
+<section class="psy-section" id="psy-contato" aria-labelledby="psy-cta-title"><div class="psy-wrap">
+ <div class="psy-last"><span class="psy-eyebrow">Primeiro contato · Yasmin</span><h2 id="psy-cta-title">Um espaço para escutar e compreender, no seu tempo</h2><p>Se você procura informações sobre acompanhamento psicanalítico para crianças, adolescentes ou jovens adultos até 24 anos, converse diretamente com Yasmin para entender as possibilidades, condições de atendimento e próximos passos.</p><div class="psy-actions"><a class="psy-btn psy-primary" href="https://wa.me/5567991858129?text=Ol%C3%A1%2C%20Yasmin!%20Encontrei%20a%20SOTOMA%20pela%20p%C3%A1gina%20Psican%C3%A1lise.%20Se%C3%A7%C3%A3o%3A%20Contato%20final.%20Gostaria%20de%20informa%C3%A7%C3%B5es%20gerais%20sobre%20o%20primeiro%20contato%2C%20a%20disponibilidade%20e%20as%20modalidades%2C%20disponibilidade%20e%20como%20funciona%20o%20primeiro%20contato." target="_blank" rel="noopener noreferrer" data-cta-section="Contato final" aria-label="Conversar com Yasmin no WhatsApp pelo WhatsApp">Conversar com Yasmin no WhatsApp <span aria-hidden="true">↗</span></a></div><p class="psy-small">WhatsApp Yasmin: (67) 99185-8129. O clique abre uma mensagem, mas não confirma agendamento. Em situações urgentes, procure serviços locais de emergência ou assistência adequada.</p></div>
+ </div></section>
+</div></div>
+<script>
+(function(){'use strict';
+var root=document.getElementById('sotoma-psy-v7');if(!root||root.dataset.ready==='1')return;root.dataset.ready='1';
+var links=root.querySelectorAll('a[data-cta-section]');links.forEach(function(a){a.rel='noopener noreferrer';a.target='_blank';});
+var faq=root.querySelectorAll('.psy-qa details');faq.forEach(function(d){d.addEventListener('toggle',function(){if(!d.open)return;faq.forEach(function(other){if(other!==d)other.open=false;});});});
+})();
+</script>
