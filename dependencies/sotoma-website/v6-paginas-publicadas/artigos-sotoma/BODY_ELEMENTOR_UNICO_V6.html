@@ -38,6 +38,39 @@
 @media(max-width:750px){#sotoma-blog-reais .sb-wrap{width:calc(100% - 30px)}#sotoma-blog-reais .sb-hero-box{grid-template-columns:1fr}#sotoma-blog-reais .sb-hero-copy{padding:35px 27px}#sotoma-blog-reais .sb-photo{min-height:285px}#sotoma-blog-reais .sb-persons{grid-template-columns:1fr}}
 @media(max-width:550px){#sotoma-blog-reais .sb-grid,#sotoma-blog-reais .sb-filters{grid-template-columns:1fr}#sotoma-blog-reais .sb-filters label:first-child{grid-column:auto}#sotoma-blog-reais .sb-hero{padding:12px 0 50px}#sotoma-blog-reais .sb-hero-copy{padding:30px 22px}#sotoma-blog-reais .sb-photo{min-height:240px}#sotoma-blog-reais .sb-person{grid-template-columns:39% 1fr}#sotoma-blog-reais .sb-person img{min-height:245px}#sotoma-blog-reais .sb-person-body{padding:17px 12px}}
 @media(prefers-reduced-motion:reduce){#sotoma-blog-reais *{transition:none!important;animation:none!important}}
+
+/* HOTFIX 2026-11-16 — título legível em coluna/Elementor, sem cortar palavras. */
+#sotoma-blog-reais {container-type:inline-size;}
+#sotoma-blog-reais .sb-hero-box {min-width:0;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);}
+#sotoma-blog-reais .sb-hero-copy {min-width:0;}
+#sotoma-blog-reais .sb-hero-copy h1 {
+  font-size:clamp(2.05rem,3.2vw,3.5rem)!important;
+  line-height:1.12!important;
+  letter-spacing:-.025em;
+  max-width:100%;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  hyphens:none!important;
+  white-space:normal!important;
+  text-wrap:balance;
+}
+#sotoma-blog-reais .sb-hero-copy h1 em {display:inline;color:#d7e7bb;}
+@media(max-width:1050px) {
+  #sotoma-blog-reais .sb-hero-box {grid-template-columns:minmax(0,1fr);}
+  #sotoma-blog-reais .sb-photo {min-height:310px;}
+  #sotoma-blog-reais .sb-hero-copy h1 {font-size:clamp(2.1rem,5.1vw,3.25rem)!important;max-width:750px;}
+}
+@container(max-width:950px) {
+  #sotoma-blog-reais .sb-hero-box {grid-template-columns:minmax(0,1fr);}
+  #sotoma-blog-reais .sb-hero-copy {padding:clamp(24px,5cqw,50px);}
+  #sotoma-blog-reais .sb-hero-copy h1 {font-size:clamp(2.05rem,5.5cqw,3.2rem)!important;}
+  #sotoma-blog-reais .sb-photo {min-height:285px;}
+}
+@container(max-width:480px) {
+  #sotoma-blog-reais .sb-hero-copy {padding:27px 20px;}
+  #sotoma-blog-reais .sb-hero-copy h1 {font-size:clamp(1.8rem,7.1cqw,2.3rem)!important;line-height:1.16!important;}
+  #sotoma-blog-reais .sb-photo {min-height:230px;}
+}
 </style>
 <div id="sotoma-blog-reais" aria-label="Blog da SOTOMA Saúde Psicointegrada">
 <section class="sb-hero" aria-labelledby="sb-title"><div class="sb-wrap"><div class="sb-hero-box">
@@ -171,33 +204,43 @@ function createCard(p){
 async function sync(){
  const url=new URL('/wp-json/wp/v2/posts?status=publish&per_page=100&page=1&_fields=id,date,type,status,slug,title,link,excerpt,categories',location.origin);
  const categoriesUrl=new URL('/wp-json/wp/v2/categories?per_page=100&_fields=id,name',location.origin);
- const [res,categoryRes]=await Promise.all([fetch(url,{credentials:'same-origin'}),fetch(categoriesUrl,{credentials:'same-origin'})]);
- if(!res.ok||!categoryRes.ok)throw Error('Não foi possível carregar artigos');
- const first=await res.json(),cats=await categoryRes.json();
- if(!Array.isArray(first)||!Array.isArray(cats))throw Error('Resposta inválida');
+ const res=await fetch(url,{credentials:'same-origin'});
+ if(!res.ok)throw Error('WordPress Posts HTTP '+res.status);
+ const first=await res.json();
+ if(!Array.isArray(first))throw Error('Resposta dos posts inválida');
+ // Categorias são melhoria opcional: não podem derrubar os artigos.
+ let cats=[];
+ try{
+   const categoryRes=await fetch(categoriesUrl,{credentials:'same-origin'});
+   if(categoryRes.ok){const data=await categoryRes.json();if(Array.isArray(data))cats=data;}
+ }catch(_){/* Preserva categorias do HTML revisado. */}
  const all=first.slice(),pages=Math.min(20,Math.max(1,Number(res.headers.get('X-WP-TotalPages'))||1));
  for(let page=2;page<=pages;page++){
   url.searchParams.set('page',String(page));
   const next=await fetch(url,{credentials:'same-origin'});if(!next.ok)throw Error('Falha na paginação');
   const part=await next.json();if(!Array.isArray(part))throw Error('Formato inválido');all.push(...part);
  }
- const names=new Map(cats.map(x=>[Number(x.id),String(x.name||'Artigo')]));
+ const fallbackNames=new Map(items.map(x=>[x.catId,x.catName]));
+ const names=new Map([...fallbackNames,...cats.map(x=>[Number(x.id),plain(x.name||'Artigo')])]);
  const found=new Map();
  for(const p of all){
-  if(!p||p.type!=='post'||p.status!=='publish'||!Number.isInteger(p.id)||p.slug==='hello-world')continue;
+  if(!p||!Number.isInteger(p.id)||p.type&&p.type!=='post'||p.status&&p.status!=='publish'||p.slug==='hello-world')continue;
   const link=validLink(p.link);if(!link)continue;
   const title=plain(p.title?.rendered);if(!title)continue;
   const catId=Number(p.categories?.[0]||0),excerpt=plain(p.excerpt?.rendered);
   const item={id:p.id,title,link,date:String(p.date||'').slice(0,10),catId,catName:names.get(catId)||'Artigo',excerpt:excerpt.slice(0,163)+(excerpt.length>163?'…':'')};
   item.node=createCard(item);found.set(item.id,item);
  }
+ // Só substitui o catálogo quando houver validação suficiente;
+ // evitar apagar o snapshot por API parcialmente bloqueada ou resposta vazia inesperada.
+ if(!found.size&&items.length)throw Error('WordPress retornou catálogo vazio; snapshot preservado');
  items=[...found.values()];categories();refresh();
 }
 categories();draw();
-sync().catch(()=>{
- if(location.hostname==='sotomasaudepsicointegrada.com.br'){
-  items=[];categories();draw();empty.textContent='Os artigos estão temporariamente indisponíveis. Tente novamente em instantes.';empty.hidden=false;
- }
+sync().catch((error)=>{
+ // Fallback seguro: MANTER os posts verificados no HTML em vez de apagá-los.
+ // Essa página continua funcional se a REST API, WAF ou categorias falharem.
+ console.warn('SOTOMA Blog: sincronização temporariamente indisponível; mantendo catálogo HTML.',error?.message||error);
 });
 })();
 </script>
