@@ -1,5 +1,8 @@
 ### Revisão de 58 artigos — sem merge
 
+**Atualização de verificação (16/11/2026):** [post #2262 publicado](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) confirmado, corpo integral salvo no [snapshot WordPress](producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json), categoria Cláudia id 20 e imagem destacada id 2532. A imagem PNG enviada possui SHA-256 `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80`. A publicação pré-existia; este GitHub não a publicou. Revisão de autoria/claims e HTML original permanece necessária.
+
+
 ## Produções realmente entregues e estilo (16/11/2026)
 
 Novo registro canônico de peças realmente recebidas: [producoes/README.md](producoes/README.md) → [SOT-PROD-001](producoes/SOT-PROD-001.md) + [thumbnail original versionada no GitHub](producoes/assets/SOT-PROD-001-thumb-mira-original.png). [Registro JSON](dados/PRODUCOES-REGISTRO.json) + [Guia de estilo de thumbnails, escrita e proporções](STYLE-GUIDE-ARTIGOS-E-THUMBNAILS.md). A planilha canônica possui as novas abas [PRODUCOES_REAIS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935) e [PADRAO_EDITORIAL_VISUAL](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=688887721). As 60 pautas pré-existentes continuam em rascunho e não foram reclassificadas.
