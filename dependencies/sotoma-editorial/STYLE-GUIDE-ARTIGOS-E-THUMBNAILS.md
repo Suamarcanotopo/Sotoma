@@ -1,5 +1,8 @@
 # SOTOMA — Guia de estilo para artigos e thumbnails
 
+**Atualização de confiabilidade da capa:** incluir preferencialmente um widget nativo **Post Featured Image** no mesmo Single Post Elementor. O template reposiciona a imagem do servidor sem recriar/cortar; se o widget nativo não estiver instalado, tenta a imagem da API REST. Sem imagem destacada válida no WordPress, não existe capa automática. Não usar a thumbnail M.I.R.A. em outros posts.
+
+
 Referência visual inicial: [SOT-PROD-001](producoes/SOT-PROD-001.md), thumbnail M.I.R.A. 600 × 337 PNG. O guia diferencia **referência visual observada** de **normas editoriais a validar**.
 
 ## Padrão visual
