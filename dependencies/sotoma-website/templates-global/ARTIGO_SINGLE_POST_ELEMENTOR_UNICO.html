@@ -84,6 +84,65 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
 @media(prefers-reduced-motion:reduce){#sotoma-article-template *,#sotoma-article-template *:before,#sotoma-article-template *:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 #sotoma-article-template .sta-title-host .elementor-widget-theme-post-title{margin:0}#sotoma-article-template .sta-title-loading{font:650 clamp(2.3rem,4.6vw,4.5rem)/1.15 "Poppins",system-ui,sans-serif;color:#FFF}
+
+/* SINGLE POST V2 — preservar proporções naturais e evitar cortes */
+#sotoma-article-template{container-type:inline-size;overflow-wrap:normal}
+#sotoma-article-template .sta-hero-grid{display:block;min-width:0}
+#sotoma-article-template .sta-hero-grid>div{min-width:0;max-width:1000px}
+#sotoma-article-template .sta-hero :is(h1,.elementor-heading-title){
+  font-size:clamp(2rem,4.1vw,3.65rem)!important;line-height:1.17!important;
+  word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important;text-wrap:balance;max-width:100%;color:white
+}
+#sotoma-article-template .sta-cover{
+  position:static;display:block;width:100%;height:auto;max-height:none;min-height:0;
+  overflow:visible;aspect-ratio:auto!important;margin:34px 0 0;
+  box-shadow:none;border:0;border-radius:0;background:transparent
+}
+#sotoma-article-template .sta-cover[hidden],#sotoma-article-template .sta-cover img[hidden]{display:none!important}
+#sotoma-article-template .sta-cover:after{content:none!important;display:none!important}
+#sotoma-article-template .sta-cover img{
+  display:block;width:100%!important;max-width:100%;height:auto!important;max-height:none!important;
+  aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;
+  border-radius:clamp(8px,1.8vw,18px)
+}
+#sotoma-article-template .sta-content{overflow-wrap:break-word}
+#sotoma-article-template .sta-content :is(img,picture img,figure img,.wp-block-image img,.elementor-image img){
+  width:auto!important;max-width:100%!important;height:auto!important;max-height:none!important;
+  aspect-ratio:auto!important;object-fit:contain!important;display:block;margin-left:auto;margin-right:auto
+}
+#sotoma-article-template .sta-content :is(figure,.wp-block-image,picture,.wp-caption){max-width:100%!important;width:auto!important;height:auto!important;overflow:visible}
+#sotoma-article-template .sta-content :is(iframe,video,svg){max-width:100%}
+#sotoma-article-template .sta-content iframe[src*="youtube"],#sotoma-article-template .sta-content iframe[src*="vimeo"]{width:100%;height:auto;aspect-ratio:16/9}
+#sotoma-article-template .sta-content :is(pre,code,a){overflow-wrap:anywhere}
+#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+#sotoma-article-template .sta-recent-section{padding:70px 0;background:#f8faf6}
+#sotoma-article-template .sta-rel-section{padding:70px 0}
+#sotoma-article-template .sta-section-heading{font-size:clamp(1.65rem,3vw,2.5rem);color:#22524a;margin:0 0 14px}
+#sotoma-article-template .sta-section-intro{max-width:730px;color:#5d7167;margin:0 0 26px}
+#sotoma-article-template .sta-rel-card{min-width:0;min-height:175px}
+#sotoma-article-template .sta-rel-card h3 a{font-size:inherit;text-decoration:none}
+#sotoma-article-template .sta-rel-card h3 a:hover{text-decoration:underline}
+#sotoma-article-template .sta-rel-card time{font-size:.78rem;color:#627b6d}
+#sotoma-article-template .sta-article-thumb{margin:0 0 12px;max-width:100%}
+#sotoma-article-template .sta-article-thumb img{display:block;width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;border-radius:9px}
+#sotoma-article-template .sta-cta-section{padding:70px 0;background:#e7efe8}
+#sotoma-article-template .sta-cta-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+#sotoma-article-template .sta-cta-card{min-width:0;display:grid;grid-template-columns:minmax(0,.42fr) minmax(0,.58fr);border:1px solid #d1e1d5;border-radius:18px;overflow:hidden;background:white;box-shadow:0 13px 33px rgba(20,64,38,.07)}
+#sotoma-article-template .sta-cta-photo{margin:0!important;display:flex;align-items:center;justify-content:center;background:#eff5ed}
+#sotoma-article-template .sta-cta-photo img{display:block;width:100%;max-width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+#sotoma-article-template .sta-cta-body{padding:24px;display:flex;flex-direction:column;gap:12px}
+#sotoma-article-template .sta-cta-body h3{font-size:1.23rem;color:#235244}
+#sotoma-article-template .sta-cta-body p{font-size:.86rem;color:#597365;margin:0}
+#sotoma-article-template .sta-cta-actions{display:flex;flex-wrap:wrap;align-items:center;gap:13px;margin-top:auto}
+#sotoma-article-template .sta-cta-button{background:#22524a;color:#fff!important;border-radius:100px;padding:11px 16px;font-size:.83rem;font-weight:800;display:inline-flex}
+#sotoma-article-template .sta-cta-link{color:#22524a!important;font-size:.81rem;text-decoration:underline!important}
+#sotoma-article-template .sta-generic{background:white;border:1px solid #d7e7dc;padding:26px;border-radius:17px}
+#sotoma-article-template .sta-generic a{color:#22524a;text-decoration:underline;margin-right:17px;font-weight:750}
+#sotoma-article-template .sta-note{color:#6b7e70;font-size:.81rem;margin:24px 0 0;max-width:850px}
+@media(max-width:990px){#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent,#sotoma-article-template .sta-cta-grid{grid-template-columns:1fr}#sotoma-article-template .sta-hero :is(h1,.elementor-heading-title){font-size:clamp(1.85rem,6vw,2.8rem)!important}}
+@container(max-width:720px){#sotoma-article-template .sta-related,#sotoma-article-template .sta-recent,#sotoma-article-template .sta-cta-grid,#sotoma-article-template .sta-grid,#sotoma-article-template .sta-aside{grid-template-columns:1fr}}
+@container(max-width:460px){#sotoma-article-template .sta-hero :is(h1,.elementor-heading-title){font-size:clamp(1.72rem,7cqw,2.23rem)!important}#sotoma-article-template .sta-cta-card{grid-template-columns:1fr}#sotoma-article-template .sta-cta-body{padding:19px}}
 </style>
 <section id="sotoma-article-template" aria-label="Layout do artigo SOTOMA">
  <div class="sta-progress" aria-hidden="true"><span data-progress></span></div>
@@ -96,26 +155,45 @@ Rank Math já gera title/canonical/Article JSON-LD: NÃO duplicar Schema neste H
     <p class="sta-excerpt" data-post-excerpt hidden></p>
     <div class="sta-meta"><time data-post-date>Data de publicação</time><time data-modified hidden></time><span data-readtime>Tempo de leitura estimado</span></div>
     <nav class="sta-categories" aria-label="Categorias deste artigo" data-categories></nav>
-   </div><figure class="sta-cover" data-cover><img data-featured alt="" hidden loading="eager" decoding="async"></figure></div>
+   </div><figure class="sta-cover" data-cover hidden><img data-featured alt="" loading="eager" decoding="async"></figure></div>
   </div>
  </header>
  <div class="sta-wrap sta-grid">
   <article class="sta-article" aria-label="Texto principal do artigo">
    <div class="sta-content" data-native-content-slot>
-    <div class="sta-missing" data-missing>O texto é carregado pelo widget nativo <strong>Post Content</strong> do WordPress. Instale exatamente um widget Post Content neste mesmo modelo de artigo; o conteúdo deve ser renderizado pelo servidor para preservar a indexação.</div>
+    <div class="sta-missing" data-missing hidden>O conteúdo deste artigo não está disponível. Consulte outras leituras do Blog.</div>
    </div>
    <nav class="sta-tags-row" aria-label="Tags deste artigo" data-tag-section hidden><strong>Assuntos relacionados:</strong><span data-tags></span></nav>
    <div class="sta-share"><button type="button" data-copy>Copiar link do artigo</button><span class="sta-share-status" role="status" aria-live="polite" data-copy-status></span></div>
   </article>
   <aside class="sta-aside" aria-label="Navegação e contato relativos à leitura">
    <section class="sta-sidebox" data-tocbox hidden><h2>Nesta leitura</h2><ol class="sta-toc" data-toc></ol></section>
-   <section class="sta-sidebox"><h2>Deseja conversar?</h2><p>Informações gerais sobre as possibilidades de atendimento. Esta leitura não substitui orientação individual.</p><div class="sta-contact-list" data-contacts>
-    <div class="sta-professional" data-professional="claudia"><strong>Cláudia</strong><small>Atendimento a adultos</small><a href="https://wa.me/556791847679" target="_blank" rel="noopener noreferrer">Conversar ↗</a></div>
-    <div class="sta-professional" data-professional="yasmin"><strong>Yasmin</strong><small>Crianças e adolescentes</small><a href="https://wa.me/5567991858129" target="_blank" rel="noopener noreferrer">Conversar ↗</a></div>
-   </div></section>
+   <section class="sta-sidebox"><h2>Explore outros temas</h2><p>Leia mais conteúdos da SOTOMA e conheça nossas profissionais.</p><a href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Explorar o Blog ↗</a></section>
   </aside>
  </div>
- <section class="sta-rel-section" aria-labelledby="sta-related-title"><div class="sta-wrap"><h2 id="sta-related-title">Continue aprendendo</h2><div class="sta-related" data-related></div><a class="sta-more" href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Explorar todos os artigos da SOTOMA ↗</a><p class="sta-disclaimer">As categorias e tags vêm das taxonomias reais do WordPress. Assuntos relacionados não implicam diagnóstico e a profissional exibida para contato não é necessariamente a autora do artigo.</p></div></section>
+ <section class="sta-rel-section" aria-labelledby="sta-related-title"><div class="sta-wrap">
+  <h2 class="sta-section-heading" id="sta-related-title">Artigos relacionados</h2>
+  <p class="sta-section-intro">Continue explorando publicações da mesma categoria.</p>
+  <div class="sta-related" data-related></div>
+  <a class="sta-more" href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Explorar a biblioteca SOTOMA ↗</a>
+ </div></section>
+ <section class="sta-recent-section" aria-labelledby="sta-recent-title"><div class="sta-wrap">
+  <h2 class="sta-section-heading" id="sta-recent-title">Artigos mais recentes</h2>
+  <p class="sta-section-intro">Confira as últimas leituras publicadas.</p>
+  <div class="sta-recent" data-recent></div>
+  <a class="sta-more" href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/">Ver todos os artigos ↗</a>
+ </div></section>
+ <section class="sta-cta-section" aria-labelledby="sta-cta-title"><div class="sta-wrap">
+  <h2 class="sta-section-heading" id="sta-cta-title">Conheça as profissionais SOTOMA</h2>
+  <p class="sta-section-intro">Escolha seu contato e saiba mais sobre atendimento e disponibilidade.</p>
+  <div class="sta-cta-grid" data-category-contacts></div>
+  <div class="sta-generic" data-general-contacts hidden>
+   <p>Conheça as profissionais da SOTOMA e escolha com quem conversar.</p>
+   <a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Cláudia Sotoma</a>
+   <a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Yasmin Sotoma Muzilli</a>
+  </div>
+  <p class="sta-note">Os artigos são informativos e não substituem atendimento individual. A profissional destacada depende da categoria atribuída ao artigo no WordPress.</p>
+ </div></section>
 </section>
 <script>
 (function(){
