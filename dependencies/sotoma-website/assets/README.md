@@ -1,5 +1,8 @@
 # BIBLIOTECA DE ASSETS — SOTOMA 2.0 | IMAGENS ORIGINAIS (2026-11)
 
+**Atualização de verificação (16/11/2026):** [post #2262 publicado](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) confirmado, corpo integral salvo no [snapshot WordPress](../../sotoma-editorial/producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json), categoria Cláudia id 20 e imagem destacada id 2532. A imagem PNG enviada possui SHA-256 `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80`. A publicação pré-existia; este GitHub não a publicou. Revisão de autoria/claims e HTML original permanece necessária.
+
+
 ## Thumb editoriais (nova dependência editorial)
 
 As novas thumbnails de **artigos** devem ser indexadas em [sotoma-editorial/producoes](../../sotoma-editorial/producoes/README.md), evitando duplicação com os 19 assets institucionais de profissionais/branding aqui guardados. Primeira referência: [SOT-PROD-001 — PNG original](../../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png).
