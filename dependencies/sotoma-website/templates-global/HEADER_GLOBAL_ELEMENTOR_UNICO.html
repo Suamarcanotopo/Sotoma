@@ -1,5 +1,5 @@
 <!-- SOTOMA V5 · HEADER GLOBAL · widget HTML único (Elementor Theme Builder / Header).
-Versão 1.0 · sem analytics, sem dados clínicos, sem duplicação de menu do tema.
+Versão 1.1 · dropdown Como cuidamos e Quem cuida · sem analytics, sem dados clínicos, sem menu duplicado.
 Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLICO revisado em missão futura. -->
 <style>
 #sotoma-global-header{--pine:#22524A;--deep:#183E37;--paper:#F7F8F3;--olive:#8BA146;--yasmin:#176873;--claudia:#486D55;--edge:#DDE8DE;--shadow:0 13px 35px rgba(26,73,54,.11);font:500 15px/1.55 "Mulish",system-ui,-apple-system,sans-serif;color:#213E35;background:rgba(250,252,247,.97);border-bottom:1px solid var(--edge);position:relative;z-index:1000;isolation:isolate}
@@ -23,6 +23,13 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
 #sotoma-global-header .sth-sub{position:absolute;top:100%;left:-18px;min-width:240px;background:#fff;border:1px solid var(--edge);border-radius:15px;padding:9px;box-shadow:var(--shadow);display:grid;gap:3px;z-index:3}
 #sotoma-global-header .sth-sub a{display:block;padding:11px 12px;border-radius:9px;font-weight:750;font-size:.86rem}
 #sotoma-global-header .sth-sub a:hover,#sotoma-global-header .sth-sub a:focus-visible{background:#EDF4EE}
+#sotoma-global-header .sth-sub.sth-services{min-width:min(305px,calc(100vw - 32px))}
+#sotoma-global-header .sth-sub .sth-service-link{border-left:3px solid transparent;padding-left:12px}
+#sotoma-global-header .sth-sub .sth-service-link[data-professional="yasmin"]{border-left-color:var(--yasmin)}
+#sotoma-global-header .sth-sub .sth-service-link[data-professional="claudia"]{border-left-color:var(--claudia)}
+#sotoma-global-header .sth-sub .sth-service-link small{display:block;font:500 .76rem/1.5 "Mulish",system-ui,sans-serif;color:#5b726a;margin-top:2px}
+#sotoma-global-header .sth-sub .sth-all-services{color:var(--pine);border-bottom:1px solid var(--edge);border-radius:0 0 9px 9px}
+#sotoma-global-header .sth-nav summary.sth-current{color:var(--yasmin);text-decoration:underline;text-decoration-color:var(--olive);text-decoration-thickness:2px;text-underline-offset:7px}
 #sotoma-global-header .sth-contact{position:relative;flex-shrink:0}
 #sotoma-global-header .sth-cta{min-height:45px;border:0;border-radius:13px;padding:11px 17px;background:var(--pine);color:#fff;display:inline-flex;align-items:center;justify-content:space-between;gap:14px;font:750 .82rem "Poppins",system-ui,sans-serif}
 #sotoma-global-header .sth-cta:hover{background:#337162}
@@ -73,7 +80,13 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
    <a href="https://sotomasaudepsicointegrada.com.br/claudia-sotoma/">Cláudia Fernanda Sotoma</a>
    <a href="https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/">Yasmin Sotoma Muzilli</a>
   </div></details>
-  <a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/" data-sotoma-nav="/como-cuidamos-2/">Como cuidamos</a>
+  <details data-nav-group="servicos"><summary>Como cuidamos</summary><div class="sth-sub sth-services">
+   <a href="https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/" class="sth-all-services" data-sotoma-nav="/como-cuidamos-2/">Conheça todos os serviços</a>
+   <a href="https://sotomasaudepsicointegrada.com.br/psicanalise/" class="sth-service-link" data-professional="yasmin" data-sotoma-nav="/psicanalise/">Psicanálise <small>Yasmin</small></a>
+   <a href="https://sotomasaudepsicointegrada.com.br/psicoterapia-positiva/" class="sth-service-link" data-professional="claudia" data-sotoma-nav="/psicoterapia-positiva/">Psicoterapia Positiva <small>Cláudia</small></a>
+   <a href="https://sotomasaudepsicointegrada.com.br/v-i-a/" class="sth-service-link" data-professional="claudia" data-sotoma-nav="/v-i-a/">V.I.A. <small>Cláudia</small></a>
+   <a href="https://sotomasaudepsicointegrada.com.br/m-i-r-a/" class="sth-service-link" data-professional="claudia" data-sotoma-nav="/m-i-r-a/">M.I.R.A. <small>Cláudia</small></a>
+  </div></details>
   <a href="https://sotomasaudepsicointegrada.com.br/duvidas/" data-sotoma-nav="/duvidas/">Dúvidas</a>
   <a href="https://sotomasaudepsicointegrada.com.br/artigos-sotoma/" data-sotoma-nav="/artigos-sotoma/">Blog</a>
  </nav>
@@ -85,7 +98,7 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
    <p>Escolha a profissional para solicitar informações. O WhatsApp não realiza agendamento automático.</p>
    <ul class="sth-professionals" data-professionals-list>
     <li><a data-professional="claudia" href="https://wa.me/556791847679" target="_blank" rel="noopener noreferrer"><span>Cláudia<small>Atendimento a adultos</small></span><span aria-hidden="true">↗</span></a></li>
-    <li><a data-professional="yasmin" href="https://wa.me/5567991858129" target="_blank" rel="noopener noreferrer"><span>Yasmin<small>Crianças e adolescentes</small></span><span aria-hidden="true">↗</span></a></li>
+    <li><a data-professional="yasmin" href="https://wa.me/5567991858129" target="_blank" rel="noopener noreferrer"><span>Yasmin<small>Crianças, adolescentes e jovens até 24 anos</small></span><span aria-hidden="true">↗</span></a></li>
    </ul>
    <p class="sth-smallnote">Mensagem editável, sem informações clínicas pré-preenchidas.</p>
   </div>
@@ -99,7 +112,7 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
  // REGISTRY: somente profissionais com publicação autorizada; novas entradas entram aqui ou em uma fonte pública aprovada.
  const REGISTRY=[
   {id:'claudia',name:'Cláudia Fernanda Sotoma',area:'Atendimento a adultos',phone:'556791847679',profile:'/claudia-sotoma/',active:true},
-  {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças e adolescentes',phone:'5567991858129',profile:'/yasmin-sotoma-muzilli/',active:true}
+  {id:'yasmin',name:'Yasmin Sotoma Muzilli',area:'Crianças, adolescentes e jovens até 24 anos',phone:'5567991858129',profile:'/yasmin-sotoma-muzilli/',active:true}
  ];
  const allowed=/^\d{12,13}$/;
  const sanitize=(p)=>p&&typeof p.name==='string'&&p.name.trim()&&allowed.test(String(p.phone||''))&&p.active!==false;
@@ -109,7 +122,7 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
  window.SOTOMA_PUBLIC_PROFESSIONALS=people;
  const list=root.querySelector('[data-professionals-list]'),contactButton=root.querySelector('[data-contact-toggle]'),contactPanel=root.querySelector('[data-contact-panel]');
  const menuButton=root.querySelector('[data-menu-toggle]'),navigation=root.querySelector('[data-navigation]');
- const routes={'/':'inicio','/quem-cuida/':'quem-cuida','/claudia-sotoma/':'profissional','/yasmin-sotoma-muzilli/':'profissional','/como-cuidamos-2/':'servicos','/duvidas/':'duvidas','/artigos-sotoma/':'blog','/contato/':'contato'};
+ const routes={'/':'inicio','/quem-cuida/':'quem-cuida','/claudia-sotoma/':'profissional','/yasmin-sotoma-muzilli/':'profissional','/como-cuidamos-2/':'servicos','/psicanalise/':'servicos','/psicoterapia-positiva/':'servicos','/v-i-a/':'servicos','/m-i-r-a/':'servicos','/duvidas/':'duvidas','/artigos-sotoma/':'blog','/contato/':'contato'};
  const current=location.pathname.replace(/\/+$/,'/')||'/';
  const sourceCode=routes[current]||'conteudo-editorial'; // Nunca inserir slug clínico ou termo buscado na mensagem.
  const linkFor=p=>'https://wa.me/'+p.phone+'?text='+encodeURIComponent('Olá, '+p.name.split(' ')[0]+'! Vim pelo site SOTOMA (origem: '+sourceCode+'; seção: header global). Gostaria de informações gerais sobre atendimento e disponibilidade.');
@@ -122,8 +135,22 @@ Para adicionar profissional: editar REGISTRY abaixo ou integrar endpoint PÚBLIC
  contactButton.addEventListener('click',()=>{const open=contactPanel.hidden;contactPanel.hidden=!open;contactButton.setAttribute('aria-expanded',String(open));if(open)navigation.querySelectorAll('details[open]').forEach(x=>x.open=false)});
  menuButton.addEventListener('click',()=>{const open=navigation.dataset.open!=='true';navigation.dataset.open=String(open);menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Fechar menu':'Abrir menu')});
  document.addEventListener('pointerdown',ev=>{if(!root.contains(ev.target)){closeContacts();navigation.querySelectorAll('details[open]').forEach(x=>x.open=false);return;}if(!ev.target.closest('.sth-contact'))closeContacts();});
- document.addEventListener('keydown',ev=>{if(ev.key==='Escape'){closeContacts();navigation.querySelectorAll('details[open]').forEach(x=>x.open=false);menuButton.focus()}});
+ document.addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;
+  const contactWasOpen=!contactPanel.hidden,opened=Array.from(navigation.querySelectorAll('details[open]'));
+  closeContacts();opened.forEach(x=>x.open=false);
+  if(contactWasOpen)contactButton.focus();else if(opened.length)opened[0].querySelector('summary').focus();
+ });
  root.querySelectorAll('[data-sotoma-nav]').forEach(a=>{if(a.dataset.sotomaNav===current)a.setAttribute('aria-current','page')});
+ navigation.querySelectorAll('details').forEach(group=>{
+  if(Array.from(group.querySelectorAll('a[data-sotoma-nav]')).some(a=>a.dataset.sotomaNav===current)){
+   group.querySelector('summary').classList.add('sth-current');
+  }
+  group.addEventListener('toggle',()=>{
+   if(!group.open)return;
+   navigation.querySelectorAll('details').forEach(other=>{if(other!==group)other.open=false});
+   closeContacts();
+  });
+ });
  const media=window.matchMedia('(min-width:921px)');const onWide=()=>{if(media.matches){navigation.dataset.open='false';menuButton.setAttribute('aria-expanded','false')}};if(media.addEventListener)media.addEventListener('change',onWide);onWide();
 })();
 </script>
