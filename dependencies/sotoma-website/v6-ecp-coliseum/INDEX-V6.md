@@ -1,12 +1,25 @@
 # SOTOMA 2.0 — MEGA INDEX V6 | ECP + COLISEUM | SOMENTE CÓDIGO
 
+## BLOG — CORREÇÃO DE 16/11/2026
+
+**Código revisado e atualizado nesta branch:** [BODY_ELEMENTOR_UNICO_V6.html — 13 posts reais, atualização via WordPress REST, hero Clau-Ya](../v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
+
+- Fonte de verificação: `/wp-json/wp/v2/posts?per_page=100&_embed=1` (HTTP 200 em 16/11/2026; 13 posts publicados).
+- Os títulos, categorias, trechos, datas e permalinks da listagem são derivados de publicações originais, não de pautas do Grimório.
+- O HTML incorpora 13 posts reais como base indexável; no browser do WordPress, a REST API atualiza a lista automaticamente, sem plugin adicional.
+- Hero com `/wp-content/uploads/2026/11/Clau-Ya-1.jpeg`; antigas capas quebradas não são recriadas.
+- A página não exibe notas operacionais, datas de exportação, supostas tags ou roteiros editoriais artificiais.
+- **Não publicado:** requires backup, comparação com Elementor e homologação em staging.
+- **Aviso:** o ZIP V6 de sete páginas gerado anteriormente NÃO contém esta revisão do Blog; usar o arquivo HTML acima, não o ZIP antigo, para avaliar a versão corrigida.
+
+
 **Estado:** candidatos GitHub para revisão, sem WordPress/plugin, sem merge, sem deploy. Escopo: 26 páginas públicas do snapshot 13/11/2026. Preservação de conteúdo prioritária.
 
 
 ## Pacotes ZIP somente HTML (sem instalação de plugin)
 
-- [**SOTOMA V6 — 7 páginas completas**](v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) — sete HTML completos, índice e orientação de correção editorial.
-- [**SOTOMA V6 — 10 blocos de conexão não destrutivos**](v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip) — dois blocos para páginas novas e oito para páginas legadas, mais gates ECP + COLISEUM.
+- [**SOTOMA V6 — 7 páginas completas**](releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) — sete HTML completos, índice e orientação de correção editorial.
+- [**SOTOMA V6 — 10 blocos de conexão não destrutivos**](releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip) — dois blocos para páginas novas e oito para páginas legadas, mais gates ECP + COLISEUM.
 
 **Atenção:** os arquivos ZIP são para **extrair, avaliar e copiar o HTML no Elementor**; NÃO são plugins WordPress. Em ambos os casos, backup e staging antes de qualquer troca.
 

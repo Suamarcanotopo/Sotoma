@@ -1,5 +1,14 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+## BLOG REAL 16/11/2026 — LINK DIRETO PARA COPIAR NO ELEMENTOR
+
+[**Abrir HTML único do Blog corrigido (13 posts WordPress publicados)**](v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
+
+**Fonte exclusiva:** publicações do WordPress, com conferência via API REST em 16/11/2026. Retiradas notas técnicas e temas editoriais inventados. Hero alterada para Clau-Ya-1.jpeg, links de Cláudia/Yasmin atualizados. Listagem reflete posts ao vivo ao carregar pelo navegador. **Arquivo no GitHub, sem deploy.**
+
+**Atenção:** ZIP consolidado V6 anterior não incorpora esta revisão; não utilizá-lo como origem do novo Blog.
+
+
 [ZIP das 7 páginas completas](v6-ecp-coliseum/releases/SOTOMA-V6-7-PAGINAS-COMPLETAS.zip) · [ZIP dos 10 blocos aditivos, sem apagar textos](v6-ecp-coliseum/releases/SOTOMA-V6-10-BLOCOS-CONEXAO-SEM-APAGAR.zip)
 
 **Comece pelo [MEGA INDEX V6 — 7 páginas completas e 10 conexões preservando textos antigos](v6-ecp-coliseum/INDEX-V6.md).**
