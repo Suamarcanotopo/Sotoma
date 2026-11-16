@@ -1,3 +1,12 @@
+<!-- SOTOMA-WEBSITE-V5-INDICE-OPERACIONAL-20261116 -->
+## 📍 ÍNDICE GERAL DE IMPLEMENTAÇÃO — SOTOMA HOME V5
+
+**[ABRIR MEGA INDEX — C01 Home · C02 Blog · C03 Header · C04 Footer · C05 Artigo](dependencies/sotoma-website/MEGA-INDEX.md)**
+
+Encontre os arquivos HTML completos e os atalhos de **CSS e JavaScript no mesmo arquivo**, com os mapas: Navegação, Jornada de atendimento, Modalidades, Áreas e programas, Conhecimento e Utilitários. **PRs #10 e #13 em Draft, sem merge e sem publicação por este trabalho**. Acesse os arquivos de ambas as branches pelo próprio índice.
+
+---
+
 # SOTOMA — ACESSO AOS CÓDIGOS ELEMENTOR (BRANCH DE REVISÃO)
 
 - [**HOME V5 — HTML ÚNICO com CSS e JavaScript, SEM seção Blog/Pesquisa**](dependencies/sotoma-website/home-v5/SOTOMA_HOME_V5_ELEMENTOR_UNICO.html)
