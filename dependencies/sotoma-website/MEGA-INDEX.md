@@ -1,5 +1,8 @@
 # SOTOMA V6 — CÓDIGOS APROVADOS PARA REVISÃO (ECP + COLISEUM)
 
+**Atualização de confiabilidade da capa:** incluir preferencialmente um widget nativo **Post Featured Image** no mesmo Single Post Elementor. O template reposiciona a imagem do servidor sem recriar/cortar; se o widget nativo não estiver instalado, tenta a imagem da API REST. Sem imagem destacada válida no WordPress, não existe capa automática. Não usar a thumbnail M.I.R.A. em outros posts.
+
+
 ## SINGLE POST V2 — TEMPLATE GLOBAL CORRIGIDO (16/11/2026)
 
 [**Código HTML+CSS+JS único para copiar no Elementor**](templates-global/ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html) · [Como instalar e testar](templates-global/ARTIGO-SINGLE-POST-V2-INSTALACAO.md) · [Primeira produção editorial registrada](../sotoma-editorial/producoes/SOT-PROD-001.md) · [Thumbnail PNG original](../sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png).
