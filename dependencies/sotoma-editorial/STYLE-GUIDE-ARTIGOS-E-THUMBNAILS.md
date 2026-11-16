@@ -25,7 +25,7 @@ Referência visual inicial: [SOT-PROD-001](producoes/SOT-PROD-001.md), thumbnail
 
 A ordem é: hero (H1, resumo, categorias e imagem original) → conteúdo WordPress renderizado no servidor → **artigos relacionados por categorias** → **artigos mais recentes** → **seção de profissionais com imagens e WhatsApp**. O template conserva as três seções mesmo quando a API falha, sem posts artificiais.
 
-Profissionais: criar categorias nativas `Claudia` (slug `claudia`) e `Yasmin` (slug `yasmin`) no WordPress quando autorizadas. Se forem atribuídas ambas, os dois cartões aparecem. Se nenhuma for atribuída, aparecem contatos genéricos sem identificação falsa. Não confundir categoria de responsável pelo contato com autor formal.
+Profissionais: atribuir categorias nativas já existentes `Claudia Fernanda Sotoma` (slug `claudia-fernanda-sotoma`) e `Yasmin` (slug `yasmin-sotoma-muzilli`) no WordPress quando autorizadas. Se forem atribuídas ambas, os dois cartões aparecem. Se nenhuma for atribuída, aparecem contatos genéricos sem identificação falsa. Não confundir categoria de responsável pelo contato com autor formal.
 
 ## Gate do Coliseum
 
