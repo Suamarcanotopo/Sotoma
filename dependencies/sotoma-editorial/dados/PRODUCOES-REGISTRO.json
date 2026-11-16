@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-16",
+  "contract": "Registro somente de peças editoriais realmente entregues; distinto dos 60 rascunhos SOT-ED.",
+  "publications_are_not_inferred": true,
+  "items": [
+    {
+      "id": "SOT-PROD-001",
+      "title": "Mudar de país com tranquilidade — conheça o M.I.R.A.",
+      "theme": "M.I.R.A. / transição internacional",
+      "source": "Anexo fornecido pelo usuário no ChatGPT em 2026-11-16",
+      "asset_type": "article_thumbnail_png",
+      "image": {
+        "repository_path": "dependencies/sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png",
+        "mime_type": "image/png",
+        "width_px": 600,
+        "height_px": 337,
+        "aspect_ratio": "600:337",
+        "sha256": "1384b83e6208e8f9973e56d9cec2fe816cdb6af8eb447be1888436a96538c853",
+        "git_blob_sha": "2ad1d50010233f543a7d0fd49fba8f11a61c1f6e",
+        "private_drive_backup": "https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view"
+      },
+      "article_body_supplied": false,
+      "article_author_approved": false,
+      "wordpress_post_id": null,
+      "wordpress_public_url": null,
+      "professional_categories": [],
+      "status": "THUMBNAIL_RECEIVED_BODY_PENDING",
+      "publication_approved": false,
+      "editorial_doc": "dependencies/sotoma-editorial/producoes/SOT-PROD-001.md",
+      "visual_style_doc": "dependencies/sotoma-editorial/STYLE-GUIDE-ARTIGOS-E-THUMBNAILS.md",
+      "sheet": {
+        "spreadsheet_id": "1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA",
+        "tab": "PRODUCOES_REAIS",
+        "row": 2
+      }
+    }
+  ]
+}
