@@ -4,7 +4,7 @@
 
 - [PR #10 — Home V5 e Blog autônomo](https://github.com/Suamarcanotopo/Sotoma/pull/10) · branch `feat/home-v5-modular-index-20261112`.
 - [PR #13 — Header, Footer, Single Post, mídia e SEO](https://github.com/Suamarcanotopo/Sotoma/pull/13) · branch `feat/global-header-footer-article-assets-20261112`.
-- [Mission Lock](../../docs/MISSION-LOCK.md) · [Handoff geral](../../docs/HANDOFF.md) · [Governança e evidências Home/Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/ASSETS-E-PENDENCIAS.md) · [Inventário de imagens](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/assets/MANIFESTO-ASSETS-2026-11.json).
+- [Mission Lock](../../docs/MISSION-LOCK.md) · [Handoff geral](../../docs/HANDOFF.md) · [Checkpoint WEBSITE V5](HANDOFF-WEBSITE-V5-20261116.md) · [Governança e evidências Home/Blog](https://github.com/Suamarcanotopo/Sotoma/blob/feat/home-v5-modular-index-20261112/dependencies/sotoma-website/ASSETS-E-PENDENCIAS.md) · [Inventário de imagens](https://github.com/Suamarcanotopo/Sotoma/blob/feat/global-header-footer-article-assets-20261112/dependencies/sotoma-website/assets/MANIFESTO-ASSETS-2026-11.json).
 
 ## 1. COPIAR O CÓDIGO CERTO — CATÁLOGO COMPLETO
 
