@@ -34,7 +34,7 @@
 
 **Atenção:** os arquivos ZIP são para **extrair, avaliar e copiar o HTML no Elementor**; NÃO são plugins WordPress. Em ambos os casos, backup e staging antes de qualquer troca.
 
-## A. Novas páginas / estrutura V6 COMPLETA (7 códigos únicos)
+## A. Novas páginas / estrutura completa V6 + Psicanálise V7 (8 códigos únicos)
 
 | URL em produção | Código HTML + CSS + JS juntos | Situação |
 |---|---|---|
@@ -42,6 +42,7 @@
 | [/quem-cuida/](https://sotomasaudepsicointegrada.com.br/quem-cuida/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/quem-cuida/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
 | [/claudia-sotoma/](https://sotomasaudepsicointegrada.com.br/claudia-sotoma/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/claudia-sotoma/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
 | [/yasmin-sotoma-muzilli/](https://sotomasaudepsicointegrada.com.br/yasmin-sotoma-muzilli/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/yasmin-sotoma-muzilli/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
+| [/psicanalise/](https://sotomasaudepsicointegrada.com.br/psicanalise/) | **[BODY_ELEMENTOR_UNICO_V7.html](../v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** | **Corpo completo V7**, baseado na página atual; foto íntegra, 10 CTAs Yasmin; substituir widget legado apenas após staging |
 | [/como-cuidamos-2/](https://sotomasaudepsicointegrada.com.br/como-cuidamos-2/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/como-cuidamos-2/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
 | [/duvidas/](https://sotomasaudepsicointegrada.com.br/duvidas/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/duvidas/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
 | [/artigos-sotoma/](https://sotomasaudepsicointegrada.com.br/artigos-sotoma/) | [BODY_ELEMENTOR_UNICO_V6.html](../v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html) | Candidato de substituição da seção visual, revisar textos e widgets em staging |
@@ -55,14 +56,14 @@
 | [/v-i-a/](https://sotomasaudepsicointegrada.com.br/v-i-a/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/novas-aditivas/v-i-a/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/psicoterapia-online-para-intercambistas/](https://sotomasaudepsicointegrada.com.br/psicoterapia-online-para-intercambistas/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/novas-aditivas/psicoterapia-online-para-intercambistas/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 
-## C. Páginas antigas ainda relacionadas — melhorias ADITIVAS, sem eliminar texto (8)
+## C. Páginas antigas ainda relacionadas — 7 blocos ADITIVOS vigentes (Psicanálise migrou para corpo completo V7)
 
 | URL legada / de serviço | Bloco único para acrescentar |
 |---|---|
 | [/atendimentos-em-psicoterapia/](https://sotomasaudepsicointegrada.com.br/atendimentos-em-psicoterapia/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/atendimentos-em-psicoterapia/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/agendar-atendimento/](https://sotomasaudepsicointegrada.com.br/agendar-atendimento/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/agendar-atendimento/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/psicoterapia-positiva/](https://sotomasaudepsicointegrada.com.br/psicoterapia-positiva/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/psicoterapia-positiva/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
-| [/psicanalise/](https://sotomasaudepsicointegrada.com.br/psicanalise/) | **[CORPO COMPLETO V7](../v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** — **substitui**, não soma ao widget legado |
+
 | [/criancas-e-adolescentes/](https://sotomasaudepsicointegrada.com.br/criancas-e-adolescentes/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/criancas-e-adolescentes/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/terapia-online/](https://sotomasaudepsicointegrada.com.br/terapia-online/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/terapia-online/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/autoconhecimento/](https://sotomasaudepsicointegrada.com.br/autoconhecimento/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/autoconhecimento/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
