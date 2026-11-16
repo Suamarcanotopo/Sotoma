@@ -1,3 +1,9 @@
+<!-- SOTOMA-WEBSITE-V5-INDICE-OPERACIONAL-20261116 -->
+## [📍 ABRIR ÍNDICE COMPLETO — C01 A C05, HTML / CSS / JS](MEGA-INDEX.md)
+
+**Navegação:** Início · Quem cuida de você · Como cuidamos · Dúvidas · Blog · Contato.
+**Blocos mapeados:** jornada, modalidades, áreas/programas, conhecimento e utilitários. A Home V5 e o Blog ficam na **PR #10**; Header, Footer e Single Post ficam na **PR #13**. São propostas ainda não instaladas.
+
 # SOTOMA WEBSITE — WIDGET ÚNICO POR PÁGINA
 
 ## Entregas em avaliação
