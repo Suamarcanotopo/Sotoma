@@ -1,5 +1,8 @@
 # SOTOMA — Single Post V2: instalação segura no Elementor
 
+**Atualização de confiabilidade da capa:** incluir preferencialmente um widget nativo **Post Featured Image** no mesmo Single Post Elementor. O template reposiciona a imagem do servidor sem recriar/cortar; se o widget nativo não estiver instalado, tenta a imagem da API REST. Sem imagem destacada válida no WordPress, não existe capa automática. Não usar a thumbnail M.I.R.A. em outros posts.
+
+
 ## Arquivo único
 
 [ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html](ARTIGO_SINGLE_POST_ELEMENTOR_UNICO.html) é **um único HTML com CSS e JavaScript incorporados**. Não é plugin. Código em PR Draft; não publicado pelo GitHub.
