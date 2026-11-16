@@ -12,13 +12,14 @@
 | Nome de origem do anexo | `Mudar de País com Tranquilidade(1).png` |
 | Formato | PNG original |
 | SHA-256 da imagem de origem | `1384b83e6208e8f9973e56d9cec2fe816cdb6af8eb447be1888436a96538c853` |
-| Cópia privada do arquivo original | [Thumbnail M.I.R.A. no Drive](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) |
+| Original binário versionado no GitHub | [Thumbnail PNG 600×337 original](assets/SOT-PROD-001-thumb-mira-original.png) · Git Blob `2ad1d50010233f543a7d0fd49fba8f11a61c1f6e` |
+| Cópia de segurança no Drive | [Thumbnail privada](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) |
 | Autoria do artigo | Não fornecida — não atribuir a Cláudia/Yasmin automaticamente |
 | Categorias WordPress | Não comprovadas para ESTA produção |
 | Publicação WordPress | Não comprovada para ESTA produção; não confundir com a postagem M.I.R.A. já existente |
 | Status | `THUMBNAIL_RECEBIDA / TEXTO_INTEGRAL_PENDENTE / APROVAÇÃO_PENDENTE / NÃO PUBLICADO NESTE FLUXO` |
 
-**Nota de integridade:** O PNG original foi preservado no Google Drive privado. Este repositório contém o controle de versão textual/URL e o contrato de mídia; o arquivo binário não foi incorporado ao Git. Não declarar que a imagem está armazenada fisicamente no GitHub.
+**Nota de integridade:** O PNG original 600×337 foi salvo como blob binário no GitHub (link acima), além da cópia privada no Google Drive. O SHA-256 local da imagem de origem foi registrado para checagens futuras. Não alterar pixels, corte ou proporção.
 
 ## Direção visual estabelecida pela referência
 
@@ -39,7 +40,7 @@ O anexo é imagem de divulgação, não texto integral. A futura escrita deve se
 - [Instruções e gates de instalação](../../sotoma-website/templates-global/ARTIGO-SINGLE-POST-V2-INSTALACAO.md).
 - Automação de especialistas exige a categoria nativa WordPress `claudia` e/ou `yasmin`, atribuída no post. Não associa por tema.
 - Cada post publicado apresenta seções autônomas: relacionados por categorias, recentes e CTA de profissionais.
-- A imagem destacada deve ser associada no WP ao artigo correto após aprovação. O Drive privado não equivale a mídia publicada.
+- A imagem destacada deve ser associada no WP ao artigo correto após aprovação. A presença no Git/Drive não equivale a mídia publicada no WordPress.
 
 ## Registro em planilha
 
