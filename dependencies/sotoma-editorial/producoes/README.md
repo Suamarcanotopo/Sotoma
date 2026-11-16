@@ -4,7 +4,7 @@
 
 | ID | Material | Prova | Conteúdo escrito | Aprovação | WordPress |
 |---|---|---|---|---|---|
-| [SOT-PROD-001](SOT-PROD-001.md) | Mudar de país com tranquilidade — conheça o M.I.R.A. | [Thumbnail original 600×337 privada no Drive](https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view) | Ausente dos anexos | Pendente | Não comprovar publicação desta peça |
+| [SOT-PROD-001](SOT-PROD-001.md) | Mudar de país com tranquilidade — conheça o M.I.R.A. | [Thumbnail original 600×337 no GitHub](assets/SOT-PROD-001-thumb-mira-original.png) | Ausente dos anexos | Pendente | Não comprovar publicação desta peça |
 
 ## Contrato operacional
 
