@@ -1,5 +1,12 @@
 # SOTOMA — 60 artigos em rascunho editorial
 
+**Atualização de verificação (16/11/2026):** [post #2262 publicado](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/) confirmado, corpo integral salvo no [snapshot WordPress](producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json), categoria Cláudia id 20 e imagem destacada id 2532. A imagem PNG enviada possui SHA-256 `3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80`. A publicação pré-existia; este GitHub não a publicou. Revisão de autoria/claims e HTML original permanece necessária.
+
+
+## Produções efetivamente recebidas — registro separado (16/11/2026)
+
+**NÃO confundir com os 60 rascunhos abaixo:** [SOT-PROD-001 — Thumbnail M.I.R.A. preservada no GitHub](producoes/SOT-PROD-001.md) · [PNG original 600×337](producoes/assets/SOT-PROD-001-thumb-mira-original.png) · [Catálogo de produções](producoes/README.md) · [Planilha PRODUCOES_REAIS](https://docs.google.com/spreadsheets/d/1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA/edit#gid=1751820935). **Post público já confirmado no WordPress: [#2262 — Mudar de país com tranquilidade, conheça o M.I.R.A.](https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/); o texto integral foi arquivado em [snapshot WordPress](producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json). A autoria/revisão clínica ainda exige aprovação.**
+
 **Data 07/11/2026.** São 60 textos integrais de trabalho, dos quais 2 pilotos preexistentes foram preservados. Nenhum foi homologado, publicado ou revisado clinicamente. A maior parte deriva de uma estrutura editorial comum e exige revisão substancial de linguagem, singularidade e fontes específicas. **A criação desses arquivos não os torna artigos prontos para o WordPress.**
 
 | ID | Autora prevista | Funil | Título | Arquivo |

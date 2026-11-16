@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-16",
+  "contract": "Registro somente de peças editoriais realmente entregues; distinto dos 60 rascunhos SOT-ED.",
+  "publications_are_not_inferred": true,
+  "items": [
+    {
+      "id": "SOT-PROD-001",
+      "title": "Mudar de país com tranquilidade — conheça o M.I.R.A.",
+      "theme": "M.I.R.A. / transição internacional",
+      "source": "Anexo fornecido pelo usuário no ChatGPT em 2026-11-16",
+      "asset_type": "article_thumbnail_png",
+      "image": {
+        "repository_path": "dependencies/sotoma-editorial/producoes/assets/SOT-PROD-001-thumb-mira-original.png",
+        "mime_type": "image/png",
+        "width_px": 600,
+        "height_px": 337,
+        "aspect_ratio": "600:337",
+        "sha256": "3e9c83a4b6766ba2e6fb58ac08735a9ba754754dda266ab60c58f5fb92813f80",
+        "git_blob_sha": "2ad1d50010233f543a7d0fd49fba8f11a61c1f6e",
+        "private_drive_backup": "https://drive.google.com/file/d/1C6tjax16o5L50kx1ZDcsl_Jae2GKO5Pj/view"
+      },
+      "article_body_supplied": false,
+      "article_author_approved": false,
+      "wordpress_post_id": 2262,
+      "wordpress_public_url": "https://sotomasaudepsicointegrada.com.br/como-mudar-de-pais-tranquilamente/",
+      "professional_categories": [
+        "claudia-fernanda-sotoma"
+      ],
+      "status": "PUBLISHED_IN_WORDPRESS_CONFIRMED",
+      "publication_approved": false,
+      "editorial_doc": "dependencies/sotoma-editorial/producoes/SOT-PROD-001.md",
+      "visual_style_doc": "dependencies/sotoma-editorial/STYLE-GUIDE-ARTIGOS-E-THUMBNAILS.md",
+      "sheet": {
+        "spreadsheet_id": "1AK9WaMtbCyis3gVOdxZm4RHbxCJplhZDgvNNbNidzBA",
+        "tab": "PRODUCOES_REAIS",
+        "row": 2
+      },
+      "article_body_archived_from_public_wp": true,
+      "wp_snapshot_path": "dependencies/sotoma-editorial/producoes/SOT-PROD-001-ARTIGO-WP-SNAPSHOT.json",
+      "topic_categories": [
+        "intercambio-no-japao",
+        "qualidade-de-vida"
+      ],
+      "wordpress_categories_verified_at": "2026-11-16",
+      "wordpress_featured_media_id": 2532,
+      "wordpress_featured_media_url": "https://sotomasaudepsicointegrada.com.br/wp-content/uploads/2026/05/Mudar-de-Pais-com-Tranquilidade.png",
+      "wordpress_author_user_id": 2,
+      "wordpress_post_modified": "2026-11-16T10:41:36",
+      "editorial_approval_note": "WordPress public status verified; approval of clinical wording/claims and formal author not inferred.",
+      "article_wordpress_body_chars": 21582
+    }
+  ]
+}
