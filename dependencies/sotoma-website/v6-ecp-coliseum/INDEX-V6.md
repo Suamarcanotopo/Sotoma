@@ -1,5 +1,16 @@
 # SOTOMA 2.0 — MEGA INDEX V6 | ECP + COLISEUM | SOMENTE CÓDIGO
 
+## PSICANÁLISE — PÁGINA COMPLETA V7 | 16/11/2026
+
+**[ABRIR CÓDIGO ÚNICO HTML + CSS + JS: PSICANÁLISE V7](../v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** — substituição integral do corpo no Elementor, **não** o bloco V6 aditivo.
+- Foto oficial Yasmin: `/wp-content/uploads/2026/11/Ya-11.jpeg` (HTTP 200 verificado), renderização com `width:100%;height:auto;object-fit:contain`, sem recorte no desktop nem no celular.
+- Texto preserva o sentido e a voz do original; amplia infância, adolescência e jovens adultos até 24 anos; corrigido título incorreto que mencionava Psicoterapia Positiva.
+- Todos os dez CTAs enviam para **Yasmin: 5567991858129**, com mensagens administrativas diferentes por seção, sem dados clínicos.
+- Código candidato à revisão em **PR empilhada sobre a branch do Blog V6**, sem publicação no WordPress.
+- **Atenção:** o bloco V6 em `v6-conexoes-sem-substituicao/legadas-preservadas/psicanalise/` é legado aditivo; **não inserir junto com V7 completa**. O ZIP V6 anterior não inclui este HTML V7.
+- [Critérios de validação da página](./PSICANALISE-V7-ECP-COLISEUM-20261116.md).
+
+
 ## BLOG — CORREÇÃO DE 16/11/2026
 
 **Código revisado e atualizado nesta branch:** [BODY_ELEMENTOR_UNICO_V6.html — 13 posts reais, atualização via WordPress REST, hero Clau-Ya](../v6-paginas-publicadas/artigos-sotoma/BODY_ELEMENTOR_UNICO_V6.html).
@@ -51,7 +62,7 @@
 | [/atendimentos-em-psicoterapia/](https://sotomasaudepsicointegrada.com.br/atendimentos-em-psicoterapia/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/atendimentos-em-psicoterapia/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/agendar-atendimento/](https://sotomasaudepsicointegrada.com.br/agendar-atendimento/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/agendar-atendimento/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/psicoterapia-positiva/](https://sotomasaudepsicointegrada.com.br/psicoterapia-positiva/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/psicoterapia-positiva/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
-| [/psicanalise/](https://sotomasaudepsicointegrada.com.br/psicanalise/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/psicanalise/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
+| [/psicanalise/](https://sotomasaudepsicointegrada.com.br/psicanalise/) | **[CORPO COMPLETO V7](../v6-paginas-publicadas/psicanalise/BODY_ELEMENTOR_UNICO_V7.html)** — **substitui**, não soma ao widget legado |
 | [/criancas-e-adolescentes/](https://sotomasaudepsicointegrada.com.br/criancas-e-adolescentes/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/criancas-e-adolescentes/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/terapia-online/](https://sotomasaudepsicointegrada.com.br/terapia-online/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/terapia-online/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
 | [/autoconhecimento/](https://sotomasaudepsicointegrada.com.br/autoconhecimento/) | [BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html](../v6-conexoes-sem-substituicao/legadas-preservadas/autoconhecimento/BLOCO_CONEXAO_ELEMENTOR_UNICO_V6.html) |
