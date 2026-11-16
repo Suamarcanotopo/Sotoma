@@ -34,3 +34,26 @@
 **Coliseum:** `RETEST` até teste funcional e visual em staging.
 
 **Rollback:** reverter o commit específico do Blog ou restaurar o widget Elementor de backup; PR Draft baseada na branch V6 e sem alteração da main.
+
+## Hotfix de exibição e responsividade — 16/11/2026
+
+**Sintoma observado:** /artigos-sotoma/ exibia 0 artigos, enquanto /blog/ e a API WordPress listavam 13 posts. A captura enviada mostra quebra indevida do termo 'Conhecimento' no hero.
+
+**Causa comprovada no código:** sync().catch() executava items=[] e apagava até os 13 posts verificados que estavam no HTML. O gatilho HTTP/JavaScript que gerou o erro no navegador não foi isolado; a inspeção remota em navegador expirou. Não atribuir sem prova a cache, CORS ou WAF.
+
+**Correção:**
+- Preservar os 13 cards do HTML em qualquer falha temporária de sincronização (fallback não destrutivo).
+- Leitura de categorias independente e opcional. Uma falha em categorias não derruba os artigos.
+- Resposta vazia inesperada não substitui o snapshot; registros com inconsistências são filtrados.
+- Hero com tamanhos menores e adequação a larguras menores por media e container queries; sem quebrar palavras.
+- Preservados 13 URLs datadas, imagem do hero Clau-Ya-1.jpeg e links das profissionais.
+
+**Provas na revisão do GitHub:**
+- Endpoint público WP posts HTTP 200, com 13 posts publish.
+- Comparação dos 13 IDs do HTML com os 13 IDs da API: 0 faltantes e 0 extras.
+- JavaScript válido em teste de sintaxe V8.
+- Sem chamada destrutiva items=[]; com consulta independente de categorias.
+
+**Pendente:** homologação visual e interações no Elementor com larguras 320/390/768/1024/1440 px, verificação do console, do WP REST no navegador final e de backup/rollback. O hotfix não altera a produção automaticamente.
+
+**Coliseum:** RETEST até evidência de navegador após implantação.
